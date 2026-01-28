@@ -1,0 +1,61 @@
+# Memory
+
+## 快速使用
+
+### 配置环境
+
+```
+conda create -n yourenv python=3.13
+pip install -r requirements.txt
+```
+
+### 数据转换
+
+1. 需要将`./locomo_transfer.py`中第五行的`PROTAGONIST`修改成你的User名
+2. 务必将原始数据中`phone_data`相关和`QA`相关的`json`文件置入`./raw_data`目录中
+3. 执行命令`sh ./transfer.sh`
+4. 一切正常的话你会看到`./our.json`出现到根目录
+
+### 系统使用
+
+1. 将`out.json`复制入对应的记忆系统目录，保持命名为`our.json`
+
+   1. MemOS: `EverMemOS-main/evaluation/data/our/our.json`
+   2. Hindsight: `memory/hindsight/benchmarks/our/datasets/our.json`
+   3. MemU: `memory/memU-experiment-main/data/our.json`
+
+2. 修改记忆系统环境
+
+   1. MemOS: 
+      1. 修改`EverMemOS-main/.env`中的`LLM_API_KEY`、`LLM_MODEL`、`LLM_BASE_URL`为自己的模型和Key
+      2. 修改`EverMemOS-main/evaluation/config/systems/memos.yaml`中的`api_key`为自己的MemOS Key
+   2. Hindsight:
+      1. 修改`memory/hindsight/.env`中的`HINDSIGHT_API_LLM_API_KEY`、`HINDSIGHT_API_LLM_BASE_URL`、`HINDSIGHT_API_LLM_MODEL`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_API_KEY`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_BASE_URL`和`HINDSIGHT_API_EMBEDDINGS_OPENAI_MODEL`为自己的模型和Key
+   3. MemU:
+      1. 在`memory/memU-experiment-main/.env`中配置自己的`OPENAI_API_KEY`和`OPENAI_BASE_URL`
+      2. 在`memory/memU-experiment-main/memu/memory/embeddings.py`中将所有的`text-embedding-v4`替换为自己的embedding模型
+
+3. 执行评测
+
+   1. MemOS：
+
+      ```
+      cd EverMemOS-main
+      python -m evaluation.cli --dataset our --system memos
+      ```
+
+   2. Hindsight:
+
+      ```
+      cd hindsight
+      ./run-our.sh
+      ```
+
+   3. MemU:
+
+      ```
+      cd memU-experiment-main
+      python locomo_test.py --data-file data/our.json --chat-deployment qwen3-max
+      ```
+
+      

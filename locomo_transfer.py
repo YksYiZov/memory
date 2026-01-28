@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 PROTAGONIST = "徐静"
-OTHER_SPEAKER = "Assistant"
+OTHER_SPEAKER = PROTAGONIST + "的Assistant"
 
 
 def convert_to_locomo(src: dict, sample_id: str) -> list:
@@ -112,4 +112,4 @@ def main(input_path: str, output_path: str):
 
 
 if __name__ == "__main__":
-    main("sorted_data/final_data.json", "locomo_output_0128.json")
+    main("sorted_data/final_data.json", "our.json")
