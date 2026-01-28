@@ -39,9 +39,9 @@ pip install -r requirements.txt
 
 以下为三个记忆系统重要记忆结果文件位置：
 
-   1. MemOS: `memory/EverMemOS-main/evaluation/results/our-memos`
-   2. Hindsight: `memory/hindsight/benchmarks/our/results`
-   3. MemU: `memory/memU-experiment-main/memory`
+   1. MemOS: `EverMemOS-main/evaluation/results/our-memos`
+   2. Hindsight: `hindsight/benchmarks/our/results`
+   3. MemU: `memU-experiment-main/memory`
 
 如果你是第一次运行：
 
