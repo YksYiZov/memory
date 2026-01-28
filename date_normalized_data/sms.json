@@ -641,26 +641,6 @@
   },
   {
     "type": "sms",
-    "event_id": "119",
-    "message_content": "刘伟，上午晨会提到的下午补货，大概几点能到店？我这边好安排陈列调整。",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-01-08",
-    "message_type": "发送",
-    "phone_id": "65"
-  },
-  {
-    "type": "sms",
-    "event_id": "119",
-    "message_content": "徐静姐，仓储那边回复说补货大概下午2点半到，我已经把库位清出来了。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-01-08",
-    "message_type": "接收",
-    "phone_id": "66"
-  },
-  {
-    "type": "sms",
     "event_id": "124",
     "message_content": "我：丽丽，我下班了，在地铁上，今天中午那顿沙拉吃得我毫无幸福感，周末必须得去大吃一顿补偿回来！",
     "contactName": "王丽",
@@ -2551,16 +2531,6 @@
   },
   {
     "type": "sms",
-    "event_id": "504",
-    "message_content": "刘伟，不好意思这么晚联系。客户张总有个紧急订单，需要两套经典款衬衫西裤，尺码是43和175/96A。麻烦你现在远程查一下仓库库存，看是否有现货？",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-02-01",
-    "message_type": "发送",
-    "phone_id": "258"
-  },
-  {
-    "type": "sms",
     "event_id": "506_unrelated_call",
     "message_content": "妈妈：静儿，早餐给你热好了，小米粥和鸡蛋，快下来吃吧。",
     "contactName": "李芳",
@@ -2568,26 +2538,6 @@
     "date": "2025-02-02",
     "message_type": "接收",
     "phone_id": "259"
-  },
-  {
-    "type": "sms",
-    "event_id": "507",
-    "message_content": "刘伟，昨晚的紧急订单（订单号：EM20250202001）仓库这边安排发出了吗？客户在催，请尽快确认发货状态。",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-02-02",
-    "message_type": "发送",
-    "phone_id": "260"
-  },
-  {
-    "type": "sms",
-    "event_id": "507",
-    "message_content": "已通过闪送发出，单号：SS123456789，预计半小时内送达。",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-02-02",
-    "message_type": "接收",
-    "phone_id": "261"
   },
   {
     "type": "sms",
@@ -2658,16 +2608,6 @@
     "date": "2025-02-02",
     "message_type": "发送",
     "phone_id": "268"
-  },
-  {
-    "type": "sms",
-    "event_id": "525",
-    "message_content": "【上海银行】尊敬的客户，您尾号8912的储蓄卡已成功开通，并已开通手机银行服务。账户别名“创业小金库”设置成功。新客专享理财优惠已生效，详情请登录手机银行查看。",
-    "contactName": "上海银行",
-    "contact_phone_number": "106900009558",
-    "date": "2025-02-03",
-    "message_type": "接收",
-    "phone_id": "269"
   },
   {
     "type": "sms",
@@ -3971,36 +3911,6 @@
   },
   {
     "type": "sms",
-    "event_id": "776",
-    "message_content": "陈丽，我大概8:35到店，麻烦你先检查一下灯光和音乐系统是否正常，收银机也预热一下。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-02-19",
-    "message_type": "发送",
-    "phone_id": "404"
-  },
-  {
-    "type": "sms",
-    "event_id": "777",
-    "message_content": "周经理您好，关于周末快闪店的物料清单和位置图，我已经发到您邮箱了，请您查收确认。",
-    "contactName": "周经理",
-    "contact_phone_number": "+8613817896789",
-    "date": "2025-02-19",
-    "message_type": "发送",
-    "phone_id": "405"
-  },
-  {
-    "type": "sms",
-    "event_id": "777",
-    "message_content": "刘伟，上午新库存查询路径用得怎么样？有问题随时问我，下午我再带你过一遍。",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-02-19",
-    "message_type": "发送",
-    "phone_id": "406"
-  },
-  {
-    "type": "sms",
     "event_id": "778_unrelated_call",
     "message_content": "妈妈，午饭吃啦，你做的糖醋小排特别好吃！今天店里新流程试运行挺顺利的，放心。",
     "contactName": "李芳",
@@ -4068,16 +3978,6 @@
     "date": "2025-02-20",
     "message_type": "发送",
     "phone_id": "413"
-  },
-  {
-    "type": "sms",
-    "event_id": "795",
-    "message_content": "【LAWSON罗森】尊敬的会员，您于2月20日12:35在东亚银行金融大厦店消费18.5元，获得10积分。积分可兑换商品，详情回复LL。",
-    "contactName": "LAWSON罗森",
-    "contact_phone_number": "+8610690001234",
-    "date": "2025-02-20",
-    "message_type": "接收",
-    "phone_id": "414"
   },
   {
     "type": "sms",
@@ -4951,16 +4851,6 @@
   },
   {
     "type": "sms",
-    "event_id": "968",
-    "message_content": "孙总，刘哥，关于连衣裙补货方案，我们晚上7点半开个线上会议定一下吧。我拉个语音群聊。",
-    "contactName": "孙老板",
-    "contact_phone_number": "+8613902345678",
-    "date": "2025-03-03",
-    "message_type": "发送",
-    "phone_id": "502"
-  },
-  {
-    "type": "sms",
     "event_id": "974_unrelated_sms",
     "message_content": "我：老爸，奖金到账了，刚转了一笔钱到你卡上，是给家里换热水器的，你查收一下。",
     "contactName": "徐明",
@@ -5268,16 +5158,6 @@
     "date": "2025-03-08",
     "message_type": "发送",
     "phone_id": "533"
-  },
-  {
-    "type": "sms",
-    "event_id": "1036",
-    "message_content": "李老师，我是今天下午缝纫课的学员徐静。想问一下，如果我想自己准备一些布料练习，有什么材质推荐吗？",
-    "contactName": "李老师",
-    "contact_phone_number": "+8613901234567",
-    "date": "2025-03-08",
-    "message_type": "发送",
-    "phone_id": "534"
   },
   {
     "type": "sms",
@@ -6138,26 +6018,6 @@
     "date": "2025-03-18",
     "message_type": "发送",
     "phone_id": "621"
-  },
-  {
-    "type": "sms",
-    "event_id": "1193",
-    "message_content": "赵敏，我大概17:45到Manner Coffee，已经梳理好今晚要讨论的几个重点，我们争取高效沟通。",
-    "contactName": "赵敏",
-    "contact_phone_number": "+8613681793456",
-    "date": "2025-03-18",
-    "message_type": "发送",
-    "phone_id": "622"
-  },
-  {
-    "type": "sms",
-    "event_id": "1193",
-    "message_content": "好的，我已经到了，帮你点了杯澳白。",
-    "contactName": "赵敏",
-    "contact_phone_number": "+8613681793456",
-    "date": "2025-03-18",
-    "message_type": "接收",
-    "phone_id": "623"
   },
   {
     "type": "sms",
@@ -8741,16 +8601,6 @@
   },
   {
     "type": "sms",
-    "event_id": "1635",
-    "message_content": "【织愈】尊敬的徐静女士，我是品牌创始人李女士。已收到您的合作意向，今晚20:00的Zoom会议链接为：https://zoom.us/j/xxxxxx，期待与您交流。",
-    "contactName": "织愈",
-    "contact_phone_number": "+8610690000123",
-    "date": "2025-04-15",
-    "message_type": "接收",
-    "phone_id": "884"
-  },
-  {
-    "type": "sms",
     "event_id": "1643_unrelated_sms",
     "message_content": "【XX银行】尊敬的客户，您尾号8890的信用卡本期账单已出，应还金额为5，236.80元，还款日为05月05日。登录手机银行可一键还款。",
     "contactName": "XX银行",
@@ -8878,16 +8728,6 @@
     "date": "2025-04-17",
     "message_type": "接收",
     "phone_id": "897"
-  },
-  {
-    "type": "sms",
-    "event_id": "1672",
-    "message_content": "妈，我出门去店里了，晚上航班是8点，我大概5点半从家里出发去机场，你们别担心。",
-    "contactName": "李芳",
-    "contact_phone_number": "+8613817892547",
-    "date": "2025-04-18",
-    "message_type": "发送",
-    "phone_id": "898"
   },
   {
     "type": "sms",
@@ -9208,26 +9048,6 @@
     "date": "2025-04-20",
     "message_type": "发送",
     "phone_id": "930"
-  },
-  {
-    "type": "sms",
-    "event_id": "1711",
-    "message_content": "丽丽，今天洱海的日落绝了！发你照片看看。另外，我收藏的纪念币涨了25%，感觉是个好兆头。",
-    "contactName": "王丽",
-    "contact_phone_number": "+8613681792345",
-    "date": "2025-04-20",
-    "message_type": "发送",
-    "phone_id": "931"
-  },
-  {
-    "type": "sms",
-    "event_id": "1711",
-    "message_content": "哇！这日落也太美了吧！像画一样。纪念币涨这么多，恭喜啊！看来你的财运和眼光都很好。",
-    "contactName": "王丽",
-    "contact_phone_number": "+8613681792345",
-    "date": "2025-04-20",
-    "message_type": "接收",
-    "phone_id": "932"
   },
   {
     "type": "sms",
@@ -10181,16 +10001,6 @@
   },
   {
     "type": "sms",
-    "event_id": "1886",
-    "message_content": "【平安保险】尊敬的客户，您报案的车险事故（报案号：PA202505021742）已受理，定损员将在1个工作日内联系您，请保持电话畅通。如需紧急协助，请致电95511。",
-    "contactName": "平安保险",
-    "contact_phone_number": "1069000095511",
-    "date": "2025-05-02",
-    "message_type": "接收",
-    "phone_id": "1029"
-  },
-  {
-    "type": "sms",
     "event_id": "1890",
     "message_content": "哥，晚上有空吗？想跟你视频聊会儿天，今天有点郁闷。",
     "contactName": "徐强",
@@ -10278,16 +10088,6 @@
     "date": "2025-05-04",
     "message_type": "发送",
     "phone_id": "1038"
-  },
-  {
-    "type": "sms",
-    "event_id": "1910",
-    "message_content": "王哥，照片发您了，麻烦帮忙看看这几枚生肖币现在的行情，给估个价，谢谢！",
-    "contactName": "王明远",
-    "contact_phone_number": "+8613901234567",
-    "date": "2025-05-04",
-    "message_type": "发送",
-    "phone_id": "1039"
   },
   {
     "type": "sms",
@@ -11911,16 +11711,6 @@
   },
   {
     "type": "sms",
-    "event_id": "2228",
-    "message_content": "【招商银行】您尾号8899的账户于05月25日18:42入账工资人民币18，650.00元，当前余额为32，187.36元。【薪资明细】",
-    "contactName": "招商银行",
-    "contact_phone_number": "95555",
-    "date": "2025-05-25",
-    "message_type": "接收",
-    "phone_id": "1207"
-  },
-  {
-    "type": "sms",
     "event_id": "2229",
     "message_content": "丽丽，我到家啦！这次静修收获特别大，学到了好多健康管理的方法，迫不及待想跟你分享！对了，还有个好消息，晚点跟你说~",
     "contactName": "王丽",
@@ -13071,26 +12861,6 @@
   },
   {
     "type": "sms",
-    "event_id": "2446",
-    "message_content": "【XX商场】尊敬的会员，您关注的ZARA、UR等品牌夏季新品已全面上新，欢迎到店选购。回复TD退订",
-    "contactName": "XX商场",
-    "contact_phone_number": "106900001234",
-    "date": "2025-06-08",
-    "message_type": "接收",
-    "phone_id": "1323"
-  },
-  {
-    "type": "sms",
-    "event_id": "2445",
-    "message_content": "老爸，衬衫买好啦！浅蓝色精纺棉的，款式经典，你肯定喜欢。晚上回家给你看。",
-    "contactName": "徐明",
-    "contact_phone_number": "+8613917895623",
-    "date": "2025-06-08",
-    "message_type": "发送",
-    "phone_id": "1324"
-  },
-  {
-    "type": "sms",
     "event_id": "2449_unrelated_sms",
     "message_content": "妈，我快到家了，晚上想吃啥？我顺路带点水果回去。",
     "contactName": "李芳",
@@ -13138,16 +12908,6 @@
     "date": "2025-06-09",
     "message_type": "接收",
     "phone_id": "1330"
-  },
-  {
-    "type": "sms",
-    "event_id": "2462",
-    "message_content": "我：丽丽，我有点低血糖，去巴黎贝甜买点吃的，十分钟就回来，卖场麻烦你照看一下。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-06-09",
-    "message_type": "发送",
-    "phone_id": "1331"
   },
   {
     "type": "sms",
@@ -13398,26 +13158,6 @@
     "date": "2025-06-12",
     "message_type": "发送",
     "phone_id": "1356"
-  },
-  {
-    "type": "sms",
-    "event_id": "2514",
-    "message_content": "王丽，周六静安寺嘉里中心见，具体时间你定，我都可以。最近太累了，正好放松一下。",
-    "contactName": "王丽",
-    "contact_phone_number": "+8613681792345",
-    "date": "2025-06-13",
-    "message_type": "发送",
-    "phone_id": "1357"
-  },
-  {
-    "type": "sms",
-    "event_id": "2514",
-    "message_content": "陈丽，昨天VIP客户的销售数据我发你邮箱了，你核对一下，下午开会要用。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-06-13",
-    "message_type": "发送",
-    "phone_id": "1358"
   },
   {
     "type": "sms",
@@ -14421,16 +14161,6 @@
   },
   {
     "type": "sms",
-    "event_id": "2697",
-    "message_content": "爸，妈，会议马上开始。议题主要是您的健康管理方案和店铺交接计划，我们一家人好好商量。",
-    "contactName": "徐明",
-    "contact_phone_number": "+8613917895623",
-    "date": "2025-06-25",
-    "message_type": "发送",
-    "phone_id": "1461"
-  },
-  {
-    "type": "sms",
     "event_id": "2697_unrelated_sms",
     "message_content": "【XX保险】尊敬的客户，您为徐明先生投保的补充医疗保险已生效，保单号SH20250625XM，保障详情可登录APP查看。",
     "contactName": "XX保险",
@@ -14438,16 +14168,6 @@
     "date": "2025-06-25",
     "message_type": "接收",
     "phone_id": "1462"
-  },
-  {
-    "type": "sms",
-    "event_id": "2697",
-    "message_content": "小静，会议决议我记下了。关于电商和实体联动，我有个新想法，会后我们单独聊下。",
-    "contactName": "徐强",
-    "contact_phone_number": "+8613905712345",
-    "date": "2025-06-25",
-    "message_type": "接收",
-    "phone_id": "1463"
   },
   {
     "type": "sms",
@@ -14478,16 +14198,6 @@
     "date": "2025-06-26",
     "message_type": "发送",
     "phone_id": "1466"
-  },
-  {
-    "type": "sms",
-    "event_id": "2713",
-    "message_content": "老爸，今晚我和妈准备了地中海风味晚餐，有香煎三文鱼和希腊沙拉，很清淡健康，你下班早点回来尝尝看！",
-    "contactName": "徐明",
-    "contact_phone_number": "+8613917895623",
-    "date": "2025-06-26",
-    "message_type": "发送",
-    "phone_id": "1467"
   },
   {
     "type": "sms",
@@ -14768,16 +14478,6 @@
     "date": "2025-06-30",
     "message_type": "发送",
     "phone_id": "1495"
-  },
-  {
-    "type": "sms",
-    "event_id": "2792",
-    "message_content": "哥，我刚订阅了几个讲零售线上引流的播客，比如《零售新观察》，感觉里面讲私域流量运营的思路对我们店挺有启发的。你公司那边现在线上渠道主要靠什么引流？有空聊聊。",
-    "contactName": "徐强",
-    "contact_phone_number": "+8613905712345",
-    "date": "2025-07-01",
-    "message_type": "发送",
-    "phone_id": "1496"
   },
   {
     "type": "sms",
@@ -15271,16 +14971,6 @@
   },
   {
     "type": "sms",
-    "event_id": "2890",
-    "message_content": "我：丽丽，我课程作业搞定了，就是那个清仓直播策划案。你上次说的那个顾客反馈，具体是觉得价格高还是款式问题？",
-    "contactName": "王丽",
-    "contact_phone_number": "+8613681792345",
-    "date": "2025-07-07",
-    "message_type": "发送",
-    "phone_id": "1546"
-  },
-  {
-    "type": "sms",
     "event_id": "2891",
     "message_content": "我：刘伟，下午1点半小会议室开快闪店动员会，记得带上你负责的库存盘点表。",
     "contactName": "刘伟",
@@ -15438,36 +15128,6 @@
     "date": "2025-07-08",
     "message_type": "发送",
     "phone_id": "1562"
-  },
-  {
-    "type": "sms",
-    "event_id": "2922",
-    "message_content": "我：陈丽，晨会我视频参加，销售数据和客诉进展报告请准备好，9点准时开始。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-07-09",
-    "message_type": "发送",
-    "phone_id": "1563"
-  },
-  {
-    "type": "sms",
-    "event_id": "2922",
-    "message_content": "我：妈，医生说你恢复得很好，石膏固定没问题。你先在病房休息，我处理点工作就在外面，有事随时叫我。",
-    "contactName": "李芳",
-    "contact_phone_number": "+8613817892547",
-    "date": "2025-07-09",
-    "message_type": "发送",
-    "phone_id": "1564"
-  },
-  {
-    "type": "sms",
-    "event_id": "2922",
-    "message_content": "陈丽：徐静，晨会纪要已发群，重点事项已按你要求部署。阿姨情况还好吗？",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-07-09",
-    "message_type": "接收",
-    "phone_id": "1565"
   },
   {
     "type": "sms",
@@ -16111,26 +15771,6 @@
   },
   {
     "type": "sms",
-    "event_id": "3077",
-    "message_content": "刘伟，快闪店的道具清单我核对好了，一共12件，已全部打包完毕。你那边入库记录做好了吗？",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-07-18",
-    "message_type": "发送",
-    "phone_id": "1631"
-  },
-  {
-    "type": "sms",
-    "event_id": "3077",
-    "message_content": "徐静，入库记录已完成，编号从KF-0711到KF-0722。顾客反馈表也汇总好了，电子版发你邮箱了。",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-07-18",
-    "message_type": "接收",
-    "phone_id": "1632"
-  },
-  {
-    "type": "sms",
     "event_id": "3079",
     "message_content": "老爸，今天下班晚了，路上有点堵，估计还要半小时到家。",
     "contactName": "徐明",
@@ -16651,36 +16291,6 @@
   },
   {
     "type": "sms",
-    "event_id": "3188",
-    "message_content": "刘伟，上午那款米色针织开衫和藏青色休闲裤卖得很快，库存告急，请优先补货到店铺，下午高峰前要上架。",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-07-25",
-    "message_type": "发送",
-    "phone_id": "1686"
-  },
-  {
-    "type": "sms",
-    "event_id": "3188",
-    "message_content": "周经理，上午客流不错，我们店铺入口的促销立牌被顾客碰歪了，麻烦您让保洁或安保同事经过时帮忙扶正一下，谢谢！",
-    "contactName": "周经理",
-    "contact_phone_number": "+8613817896789",
-    "date": "2025-07-25",
-    "message_type": "发送",
-    "phone_id": "1687"
-  },
-  {
-    "type": "sms",
-    "event_id": "3188",
-    "message_content": "陈丽，收银台的扫码枪好像有点不灵敏了，你那边备用的是好的吗？如果没问题，下午高峰我们换着用。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-07-25",
-    "message_type": "发送",
-    "phone_id": "1688"
-  },
-  {
-    "type": "sms",
     "event_id": "3190",
     "message_content": "王丽，谢谢你的加油！今天忙疯了，但战绩不错，晚上有空的话跟你吐槽今天的奇葩顾客，哈哈。",
     "contactName": "王丽",
@@ -16701,16 +16311,6 @@
   },
   {
     "type": "sms",
-    "event_id": "3191",
-    "message_content": "赵敏，入口C位已经换成爆款连衣裙和休闲裤组合了，你接待顾客时可以重点推这个搭配，客单价能拉高。",
-    "contactName": "赵敏",
-    "contact_phone_number": "+8613681793456",
-    "date": "2025-07-25",
-    "message_type": "发送",
-    "phone_id": "1691"
-  },
-  {
-    "type": "sms",
     "event_id": "3199_unrelated_sms",
     "message_content": "丽丽，最近皮肤有点干，你上次推荐的那个精华用着怎么样？我快用完了在考虑回购。",
     "contactName": "王丽",
@@ -16718,16 +16318,6 @@
     "date": "2025-07-25",
     "message_type": "发送",
     "phone_id": "1692"
-  },
-  {
-    "type": "sms",
-    "event_id": "3191",
-    "message_content": "刘伟，补货已收到，辛苦了。另外，下午那批新到的衬衫，M码好像比上一批偏小，顾客反馈有点紧，你那边入库记录有备注吗？",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-07-25",
-    "message_type": "发送",
-    "phone_id": "1693"
   },
   {
     "type": "sms",
@@ -17558,16 +17148,6 @@
     "date": "2025-08-08",
     "message_type": "发送",
     "phone_id": "1778"
-  },
-  {
-    "type": "sms",
-    "event_id": "3417",
-    "message_content": "刘伟，我刚更新了杭州项目的财务预测模型，核心数据已发你邮箱，方便时帮我看下现金流部分。",
-    "contactName": "刘伟",
-    "contact_phone_number": "13817895678",
-    "date": "2025-08-08",
-    "message_type": "发送",
-    "phone_id": "1779"
   },
   {
     "type": "sms",
@@ -19181,16 +18761,6 @@
   },
   {
     "type": "sms",
-    "event_id": "3763",
-    "message_content": "徐静，我们这边活动快开始了，你到哪了？我们在滨江大道靠近其昌栈渡口的那个小广场集合。",
-    "contactName": "孙秀英",
-    "contact_phone_number": "+8613817897890",
-    "date": "2025-08-30",
-    "message_type": "接收",
-    "phone_id": "1946"
-  },
-  {
-    "type": "sms",
     "event_id": "3765",
     "message_content": "丽丽，上午去滨江参加环保徒步了，挺有意思的，还认识了几个新邻居。下周有空吗？一起喝个下午茶聊聊？",
     "contactName": "王丽",
@@ -19478,16 +19048,6 @@
     "date": "2025-09-02",
     "message_type": "发送",
     "phone_id": "1975"
-  },
-  {
-    "type": "sms",
-    "event_id": "3819",
-    "message_content": "娜娜，我这边刚和老爸从建材市场分开，路上有点堵，大概晚十分钟到世纪公园1号门，咱们待会儿见！",
-    "contactName": "李娜",
-    "contact_phone_number": "+8613817898901",
-    "date": "2025-09-02",
-    "message_type": "发送",
-    "phone_id": "1976"
   },
   {
     "type": "sms",
@@ -20071,16 +19631,6 @@
   },
   {
     "type": "sms",
-    "event_id": "3913",
-    "message_content": "郑教练，不好意思，今天下午店里临时有突发接待，现在感觉也比较疲惫，赶不上晚上的力量训练课了，想申请取消今晚的课程。",
-    "contactName": "郑明辉",
-    "contact_phone_number": "+8613817890123",
-    "date": "2025-09-09",
-    "message_type": "发送",
-    "phone_id": "2035"
-  },
-  {
-    "type": "sms",
     "event_id": "3917",
     "message_content": "老爸，我到家了，刚帮妈妈洗好菜。今天店里那个供应商孙总又来了，还是老样子，不过新款他倒是挺感兴趣。你晚上想吃啥？我买了阳光玫瑰葡萄。",
     "contactName": "徐明",
@@ -20128,16 +19678,6 @@
     "date": "2025-09-10",
     "message_type": "发送",
     "phone_id": "2040"
-  },
-  {
-    "type": "sms",
-    "event_id": "3932",
-    "message_content": "我：丽丽，我已经到国金了，在商场里逛着呢。你大概什么时候到？我找好咖啡馆等你。",
-    "contactName": "王丽",
-    "contact_phone_number": "+8613681792345",
-    "date": "2025-09-10",
-    "message_type": "发送",
-    "phone_id": "2041"
   },
   {
     "type": "sms",
@@ -20218,26 +19758,6 @@
     "date": "2025-09-11",
     "message_type": "发送",
     "phone_id": "2049"
-  },
-  {
-    "type": "sms",
-    "event_id": "3951",
-    "message_content": "孙总您好，我是徐静。关于今晚试吃的茶歇样品，我们全家品尝后对那款抹茶慕斯和水果塔评价很高，特别是水果塔的挞皮很酥脆。想跟您确认一下这两款能否作为我们活动的主打，以及大货的口感和品控是否能保持一致？",
-    "contactName": "孙老板",
-    "contact_phone_number": "+8613902345678",
-    "date": "2025-09-11",
-    "message_type": "发送",
-    "phone_id": "2050"
-  },
-  {
-    "type": "sms",
-    "event_id": "3951",
-    "message_content": "徐小姐您好，感谢您的反馈。抹茶慕斯和水果塔是我们的招牌产品，大货由中央厨房统一制作，品控有保障。我稍后把这两款产品的详细规格和报价单发您邮箱，您看可以吗？",
-    "contactName": "孙老板",
-    "contact_phone_number": "+8613902345678",
-    "date": "2025-09-11",
-    "message_type": "接收",
-    "phone_id": "2051"
   },
   {
     "type": "sms",
@@ -20848,16 +20368,6 @@
     "date": "2025-09-19",
     "message_type": "发送",
     "phone_id": "2116"
-  },
-  {
-    "type": "sms",
-    "event_id": "4082",
-    "message_content": "李雪梅：静，今天在苏州餐厅偶遇一个本地设计师团队，聊得很投机，他们邀请我明天去参观合作设计师的工作室。感觉这次出差运气真好，总能遇到有意思的人和事。",
-    "contactName": "李雪梅",
-    "contact_phone_number": "+8613905716789",
-    "date": "2025-09-19",
-    "message_type": "发送",
-    "phone_id": "2117"
   },
   {
     "type": "sms",
@@ -21711,16 +21221,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4252",
-    "message_content": "老王，国庆快乐！刚整理纪念币，拍了几张微距，发群里了，你看看那枚建国35周年的品相如何？",
-    "contactName": "王明远",
-    "contact_phone_number": "+8613901234567",
-    "date": "2025-10-01",
-    "message_type": "发送",
-    "phone_id": "2203"
-  },
-  {
-    "type": "sms",
     "event_id": "4255",
     "message_content": "强哥，国庆快乐！中午吃饭爸妈说你和苏晴4号回来，太期待了！家里菜单和采购我包了，你们有啥特别想吃的菜不？",
     "contactName": "徐强",
@@ -21868,16 +21368,6 @@
     "date": "2025-10-03",
     "message_type": "接收",
     "phone_id": "2218"
-  },
-  {
-    "type": "sms",
-    "event_id": "4283",
-    "message_content": "妈，我检查了给苏晴的丝巾礼盒，包装和颜色都完美，已经放我包里了。我们准备出发吧？",
-    "contactName": "李芳",
-    "contact_phone_number": "+8613817892547",
-    "date": "2025-10-03",
-    "message_type": "发送",
-    "phone_id": "2219"
   },
   {
     "type": "sms",
@@ -22311,36 +21801,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4381",
-    "message_content": "【石辰商场】尊敬的商户，商场将于今日10点进行消防设施月度检查，请各商户配合，谢谢。",
-    "contactName": "石辰商场",
-    "contact_phone_number": "+8610690000123",
-    "date": "2025-10-09",
-    "message_type": "接收",
-    "phone_id": "2266"
-  },
-  {
-    "type": "sms",
-    "event_id": "4382",
-    "message_content": "陈丽，国庆期间那款米白色针织衫的销售小票和系统库存对不上，差了3件，你方便再核对一下吗？",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-10-09",
-    "message_type": "发送",
-    "phone_id": "2267"
-  },
-  {
-    "type": "sms",
-    "event_id": "4382",
-    "message_content": "婷婷，我复工第一天忙死了，晚上要不要一起吃饭吐槽一下？",
-    "contactName": "张婷",
-    "contact_phone_number": "+8613905718901",
-    "date": "2025-10-09",
-    "message_type": "发送",
-    "phone_id": "2268"
-  },
-  {
-    "type": "sms",
     "event_id": "4383",
     "message_content": "周经理，关于周三橱窗更新的方案初稿我发您邮箱了，您有空时帮忙看看，下午我过去找您当面沟通？",
     "contactName": "周经理",
@@ -22671,26 +22131,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4441",
-    "message_content": "【上海市场监管】尊敬的商户，您名下的个体户营业执照（统一社会信用代码：XXXXXXXXXXXXXX）即将到期，请于2025年11月30日前登录“一网通办”平台完成年度报告公示。详情可咨询12315。",
-    "contactName": "上海市场监管",
-    "contact_phone_number": "+8610690000123",
-    "date": "2025-10-13",
-    "message_type": "接收",
-    "phone_id": "2302"
-  },
-  {
-    "type": "sms",
-    "event_id": "4441",
-    "message_content": "我：老爸，我刚收到年审提醒短信了。你早上电话里说的材料清单我记下了：执照正副本、公章、身份证。网上填报的网址是‘一网通办’对吧？我下午就弄。",
-    "contactName": "徐明",
-    "contact_phone_number": "+8613917895623",
-    "date": "2025-10-13",
-    "message_type": "发送",
-    "phone_id": "2303"
-  },
-  {
-    "type": "sms",
     "event_id": "4445_unrelated_sms",
     "message_content": "陈丽，下午那批新到的风衣，我调整到中岛区主推了，你晚班接待时多留意一下顾客反馈。",
     "contactName": "陈丽",
@@ -23018,16 +22458,6 @@
     "date": "2025-10-18",
     "message_type": "发送",
     "phone_id": "2337"
-  },
-  {
-    "type": "sms",
-    "event_id": "4529",
-    "message_content": "【力健健身】尊敬的徐静会员，您已成功购买普拉提私教课10次包，课程有效期至2026-01-18。您已预约的首节课程时间为10月22日（周三）19:00，教练周晓雯。如需调整请致电400-123-4567。",
-    "contactName": "力健健身",
-    "contact_phone_number": "+864001234567",
-    "date": "2025-10-18",
-    "message_type": "接收",
-    "phone_id": "2338"
   },
   {
     "type": "sms",
@@ -23641,16 +23071,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4640",
-    "message_content": "陈薇，今天下午分论坛的分享很受启发，特别是关于社区运营的案例。这是我的联系方式，期待后续交流。",
-    "contactName": "陈薇",
-    "contact_phone_number": "+8613900000000",
-    "date": "2025-10-25",
-    "message_type": "发送",
-    "phone_id": "2400"
-  },
-  {
-    "type": "sms",
     "event_id": "4645",
     "message_content": "【华大基因】尊敬的客户，您的个人基因检测报告已生成，电子版已发送至您预留的邮箱，请注意查收。报告编号：HG202510250123。如需解读服务，请回复“解读”或致电400-123-4567。",
     "contactName": "华大基因",
@@ -24131,16 +23551,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4737",
-    "message_content": "老爸，我明天徒步的清单列好了，新鞋也买好了，放心吧。你和妈妈明天在家注意休息。",
-    "contactName": "徐明",
-    "contact_phone_number": "+8613917895623",
-    "date": "2025-11-01",
-    "message_type": "发送",
-    "phone_id": "2449"
-  },
-  {
-    "type": "sms",
     "event_id": "4737_unrelated_call",
     "message_content": "丽丽，周末好呀！我刚吃完早餐，你这两天有什么安排吗？",
     "contactName": "王丽",
@@ -24171,16 +23581,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4746",
-    "message_content": "老爸，我体检报告出来了，各项指标都很好，晚上咱们好好庆祝一下！",
-    "contactName": "徐明",
-    "contact_phone_number": "+8613917895623",
-    "date": "2025-11-01",
-    "message_type": "发送",
-    "phone_id": "2453"
-  },
-  {
-    "type": "sms",
     "event_id": "4747",
     "message_content": "妈，腌笃鲜太好吃了！我待会来帮你洗碗。对了，我爸说的那个面料供应商的联系方式，你方便发我一下吗？",
     "contactName": "李芳",
@@ -24201,16 +23601,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4753",
-    "message_content": "孙阿姨，我们捡的垃圾已经分类好交给工作人员了，今天天气真好，和您一起活动很开心！",
-    "contactName": "孙秀英",
-    "contact_phone_number": "+8613817897890",
-    "date": "2025-11-02",
-    "message_type": "发送",
-    "phone_id": "2456"
-  },
-  {
-    "type": "sms",
     "event_id": "4755_unrelated_sms",
     "message_content": "强哥，我上午去参加环保徒步了，刚结束。你最近怎么样？周末有空一起吃饭吗？",
     "contactName": "徐强",
@@ -24228,16 +23618,6 @@
     "date": "2025-11-02",
     "message_type": "发送",
     "phone_id": "2458"
-  },
-  {
-    "type": "sms",
-    "event_id": "4758",
-    "message_content": "妈，我快到家了，今天上午徒步走了一大圈，下午工作也挺顺利，有点累但很开心。",
-    "contactName": "李芳",
-    "contact_phone_number": "+8613817892547",
-    "date": "2025-11-02",
-    "message_type": "发送",
-    "phone_id": "2459"
   },
   {
     "type": "sms",
@@ -25301,16 +24681,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4935",
-    "message_content": "娜娜：明天比赛别紧张，就当一次长距离拉练。我上次赛前就是深呼吸，然后告诉自己‘享受过程’，效果很好。",
-    "contactName": "李娜",
-    "contact_phone_number": "+8613817898901",
-    "date": "2025-11-14",
-    "message_type": "接收",
-    "phone_id": "2570"
-  },
-  {
-    "type": "sms",
     "event_id": "4937_unrelated_sms",
     "message_content": "老王，上次在云洲看到的那枚澳门生肖币，我清理好了，品相确实不错。你最近有淘到什么好东西吗？",
     "contactName": "王明远",
@@ -25321,36 +24691,6 @@
   },
   {
     "type": "sms",
-    "event_id": "4939",
-    "message_content": "孙总，关于昨天供应链中断的总结报告初稿已完成，重点分析了风险点和应急预案框架，方便时请审阅，后续计划草案也一并附上。",
-    "contactName": "孙老板",
-    "contact_phone_number": "+8613902345678",
-    "date": "2025-11-14",
-    "message_type": "发送",
-    "phone_id": "2572"
-  },
-  {
-    "type": "sms",
-    "event_id": "4939",
-    "message_content": "刘伟，供应链事件的应对措施总结已发你工作邮箱，其中关于多源供应商备选的建议，想听听你的看法。",
-    "contactName": "刘伟",
-    "contact_phone_number": "+8613817895678",
-    "date": "2025-11-14",
-    "message_type": "发送",
-    "phone_id": "2573"
-  },
-  {
-    "type": "sms",
-    "event_id": "4939",
-    "message_content": "陈丽，后续计划里涉及你们部门的供应商评估流程优化，草案已发，明天上午我们碰一下细节？",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-11-14",
-    "message_type": "发送",
-    "phone_id": "2574"
-  },
-  {
-    "type": "sms",
     "event_id": "4939_unrelated_sms",
     "message_content": "妈，晚上需要我带点什么回来吗？比如水果或者酸奶。",
     "contactName": "李芳",
@@ -25358,16 +24698,6 @@
     "date": "2025-11-14",
     "message_type": "发送",
     "phone_id": "2575"
-  },
-  {
-    "type": "sms",
-    "event_id": "4943",
-    "message_content": "婷婷，我明天马拉松的装备都收拾好了，号码布别针你那边有多的吗？我的好像不够牢。",
-    "contactName": "张婷",
-    "contact_phone_number": "+8613905718901",
-    "date": "2025-11-14",
-    "message_type": "发送",
-    "phone_id": "2576"
   },
   {
     "type": "sms",
@@ -25688,16 +25018,6 @@
     "date": "2025-11-18",
     "message_type": "发送",
     "phone_id": "2608"
-  },
-  {
-    "type": "sms",
-    "event_id": "5006",
-    "message_content": "妈，我出门了，早餐很好吃。上午去谈圣诞活动的合作，中午吃你准备的便当。",
-    "contactName": "李芳",
-    "contact_phone_number": "+8613817892547",
-    "date": "2025-11-19",
-    "message_type": "发送",
-    "phone_id": "2609"
   },
   {
     "type": "sms",
@@ -26761,16 +26081,6 @@
   },
   {
     "type": "sms",
-    "event_id": "5222",
-    "message_content": "静，谢谢你的生日祝福和红包！太有心了！最近怎么样，工作忙吗？",
-    "contactName": "钱多多",
-    "contact_phone_number": "+8613923456789",
-    "date": "2025-12-03",
-    "message_type": "接收",
-    "phone_id": "2716"
-  },
-  {
-    "type": "sms",
     "event_id": "5228",
     "message_content": "孙总，上午好。冬款大衣的补货预计今天下午能到吗？周末活动前需要确保库存。",
     "contactName": "孙老板",
@@ -26998,16 +26308,6 @@
     "date": "2025-12-07",
     "message_type": "接收",
     "phone_id": "2740"
-  },
-  {
-    "type": "sms",
-    "event_id": "5287",
-    "message_content": "哥，我列了几个要点，视频时我们重点讨论预算和餐厅沟通细节。",
-    "contactName": "徐强",
-    "contact_phone_number": "+8613905712345",
-    "date": "2025-12-07",
-    "message_type": "发送",
-    "phone_id": "2741"
   },
   {
     "type": "sms",
@@ -28131,16 +27431,6 @@
   },
   {
     "type": "sms",
-    "event_id": "5546",
-    "message_content": "陈丽，我大概8点55到店，圣诞装饰的材料都准备好了吗？",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613817894567",
-    "date": "2025-12-24",
-    "message_type": "发送",
-    "phone_id": "2854"
-  },
-  {
-    "type": "sms",
     "event_id": "5546_unrelated_sms",
     "message_content": "【XX银行】尊敬的客户，您尾号8890的信用卡本月账单已出，金额2380.50元，还款日1月10日。点击链接查看详情。",
     "contactName": "XX银行",
@@ -28801,26 +28091,6 @@
   },
   {
     "type": "sms",
-    "event_id": "1053",
-    "message_content": "我：爸，我的需求清单框架搭好了，今晚细化。你联系的装修公司有反馈了吗？我们得拿着清单和他们谈。",
-    "contactName": "徐明",
-    "contact_phone_number": "+8613917895623",
-    "date": "2025-03-11",
-    "message_type": "发送",
-    "phone_id": "2921"
-  },
-  {
-    "type": "sms",
-    "event_id": "4840",
-    "message_content": "哥，今天聊的很有收获！你提到的那个‘从公域引流到私域的关键动作拆解’的线上课，名字或者平台能再发我一下吗？我记一下。另外，关于分店启动的现金流测算模型，你方便时也分享个模板参考吧？谢谢！",
-    "contactName": "徐强",
-    "contact_phone_number": "+8613900123456",
-    "date": "2025-11-08",
-    "message_type": "发送",
-    "phone_id": "2922"
-  },
-  {
-    "type": "sms",
     "event_id": "5231",
     "message_content": "徐静：陈丽，明天下午仓库见。你主要负责清点海报、易拉宝和折扣标签的数量，赵敏检查印刷质量，刘伟核对存放位置。我们争取高效完成周末活动的物料准备工作。",
     "contactName": "陈丽",
@@ -29012,26 +28282,6 @@
   },
   {
     "type": "sms",
-    "event_id": "3474",
-    "message_content": "张经理，您好。感谢今天下午的沟通。为方便后续流程，我在此书面确认一下我们最终达成的核心条款：1. 年租金递增率定为6.5%；2. 在原装修期基础上，额外增加5天免租期。请您确认。徐静",
-    "contactName": "张经理",
-    "contact_phone_number": "+8613912345678",
-    "date": "2025-08-12",
-    "message_type": "发送",
-    "phone_id": "2942"
-  },
-  {
-    "type": "sms",
-    "event_id": "3474",
-    "message_content": "徐小姐，确认收到。条款无误：递增率6.5%，额外5天免租装修期。我会据此准备合同初稿，预计本周内发您。张经理",
-    "contactName": "张经理",
-    "contact_phone_number": "+8613912345678",
-    "date": "2025-08-12",
-    "message_type": "接收",
-    "phone_id": "2943"
-  },
-  {
-    "type": "sms",
     "event_id": "698",
     "message_content": "徐静：@所有人 晨会补充：关于今天强调的售前检查，请大家务必执行到位。重点检查项目包括：1. 衣物线头、脱线、纽扣牢固度；2. 洗涤标签、成分标是否清晰完好；3. 有无明显污渍或破损。这是硬性要求，每件出库商品都要过一遍，不能再出现像昨天针织衫那样的质量问题。收到请回复。",
     "contactName": "工作群组（陈丽、赵敏等）",
@@ -29102,16 +28352,6 @@
   },
   {
     "type": "sms",
-    "event_id": "719",
-    "message_content": "【博物馆志愿者培训系统】尊敬的徐静志愿者，您在2025-02-15 15:45提交的'讲解礼仪要点考核'已批阅完成，得分：95/100。考核通过，感谢您的参与！",
-    "contactName": "博物馆志愿者培训系统",
-    "contact_phone_number": "106900000000",
-    "date": "2025-02-15",
-    "message_type": "接收",
-    "phone_id": "2951"
-  },
-  {
-    "type": "sms",
     "event_id": "2058",
     "message_content": "刚开完会，过程比预想的要紧张一些，结果要等通知。我先在楼下坐会儿，等会儿就回店里。",
     "contactName": "赵敏",
@@ -29119,16 +28359,6 @@
     "date": "2025-05-14",
     "message_type": "发送",
     "phone_id": "2952"
-  },
-  {
-    "type": "sms",
-    "event_id": "226",
-    "message_content": "【招商银行】尊敬的客户，您尾号8899的储蓄卡于2025-01-14 12:45完成一笔业务：设置定期转账至账户尾号**76（创业基金），转账金额3000.00元，执行周期为每月。",
-    "contactName": "招商银行",
-    "contact_phone_number": "95555",
-    "date": "2025-01-14",
-    "message_type": "接收",
-    "phone_id": "2953"
   },
   {
     "type": "sms",
@@ -29180,26 +28410,6 @@
     "date": "2025-10-22",
     "message_type": "接收",
     "phone_id": "2958"
-  },
-  {
-    "type": "sms",
-    "event_id": "1249",
-    "message_content": "陈丽：静姐，我到美食广场了。你要的粥还要吗？还是换点别的？",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613812345678",
-    "date": "2025-03-22",
-    "message_type": "接收",
-    "phone_id": "2959"
-  },
-  {
-    "type": "sms",
-    "event_id": "1249",
-    "message_content": "我：要的，就要那个粥，别的没胃口。麻烦你了。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613812345678",
-    "date": "2025-03-22",
-    "message_type": "发送",
-    "phone_id": "2960"
   },
   {
     "type": "sms",
@@ -29273,16 +28483,6 @@
   },
   {
     "type": "sms",
-    "event_id": "3089",
-    "message_content": "【百果园】尊敬的会员，您的订单(BG2025071910473281)已打包完成。果篮内容：香蕉、火龙果、蓝莓。已按您的要求进行精美包装，感谢您的惠顾！",
-    "contactName": "百果园",
-    "contact_phone_number": "1069XXXXXXX",
-    "date": "2025-07-19",
-    "message_type": "接收",
-    "phone_id": "2968"
-  },
-  {
-    "type": "sms",
     "event_id": "810",
     "message_content": "我：妈，刚上完瑜伽月评课，累但开心！教练今天夸我了，说我那个单腿站着、手向前伸的体式（就是上次视频里我晃晃悠悠那个）现在稳多了，核心有力量了！",
     "contactName": "妈妈",
@@ -29300,26 +28500,6 @@
     "date": "2025-08-23",
     "message_type": "接收",
     "phone_id": "2970"
-  },
-  {
-    "type": "sms",
-    "event_id": "1716",
-    "message_content": "我：王丽，给你从大理带了份小礼物，一条手工做的长巾，是他们这边很有名的扎染，颜色特别正，是那种很经典的靛蓝色。希望你喜欢！",
-    "contactName": "王丽",
-    "contact_phone_number": "+8613912345678",
-    "date": "2025-04-22",
-    "message_type": "发送",
-    "phone_id": "2971"
-  },
-  {
-    "type": "sms",
-    "event_id": "2611",
-    "message_content": "我：陈丽，会议PPT里提到的三个主要问题，麻烦你这周牵头拉个专项小组，先针对客服响应延迟和物流发货延迟出个初步优化方案，下周例会前我们碰一下。春款库存的方案我和赵敏再单独讨论。",
-    "contactName": "陈丽",
-    "contact_phone_number": "+8613912345678",
-    "date": "2025-06-20",
-    "message_type": "发送",
-    "phone_id": "2972"
   },
   {
     "type": "sms",
@@ -31810,5 +30990,5039 @@
     "date": "2025-07-20",
     "message_type": "接收",
     "phone_id": "3221"
+  },
+  {
+    "type": "sms",
+    "event_id": "509",
+    "message_content": "我刚刚把周末培训的收获和开店的想法都整理到那个文档里了，感觉思路清晰多了，回头发你看看。",
+    "contactName": "闺蜜小雅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-02-02",
+    "message_type": "发送",
+    "phone_id": "3222"
+  },
+  {
+    "type": "sms",
+    "event_id": "1439",
+    "message_content": "徐静：刚听完那期播客，里面说的‘情感联结’和‘社交分享’这两个点挺有启发，正好可以补充到我下午要做的市场分析报告里。",
+    "contactName": "王磊",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-04-03",
+    "message_type": "发送",
+    "phone_id": "3223"
+  },
+  {
+    "type": "sms",
+    "event_id": "3819",
+    "message_content": "娜娜，我快到了，大概还有五分钟。你到世纪公园1号门了吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-02",
+    "message_type": "发送",
+    "phone_id": "3224"
+  },
+  {
+    "type": "sms",
+    "event_id": "5210",
+    "message_content": "徐静：王店长，上午的数据分析做完了，有个重大发现！我们店里卖得最好的那个品类，销售额占比比我们之前预估的高了快一倍，具体数字我晚点整理好报告发您。",
+    "contactName": "王店长",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-03",
+    "message_type": "发送",
+    "phone_id": "3225"
+  },
+  {
+    "type": "sms",
+    "event_id": "4252",
+    "message_content": "王明远：小徐，你上午发的那组微距图拍得真不错！尤其是那枚蛇年彩色银币，细节拍得很到位。你是怎么布光的？",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-10-01",
+    "message_type": "接收",
+    "phone_id": "3226"
+  },
+  {
+    "type": "sms",
+    "event_id": "4252",
+    "message_content": "我：谢谢王哥！就是想在国庆节整理下我的那些小金属片，拍点照片发群里给大家看看，顺便请教下你们这些前辈，怎么能拍得更好。",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-10-01",
+    "message_type": "发送",
+    "phone_id": "3227"
+  },
+  {
+    "type": "sms",
+    "event_id": "2803",
+    "message_content": "我：今天早上通勤路上听的那个播客里提到的社区团购案例，和我们上周看的那个项目有点像，我把笔记发你共享文档了，有空看看。",
+    "contactName": "张伟",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-02",
+    "message_type": "发送",
+    "summarized_info": "徐静发短信给同事，提及早上通勤时收听了某个播客，并分享了相关笔记。",
+    "phone_id": "3228"
+  },
+  {
+    "type": "sms",
+    "event_id": "3313",
+    "message_content": "徐静：爸，早上看到你昨天买的那个新垃圾桶已经放好了，分类标识贴得整整齐齐的，辛苦啦！看着它就觉得家里更干净了，心里暖暖的。",
+    "contactName": "爸爸",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-08-02",
+    "message_type": "发送",
+    "phone_id": "3229"
+  },
+  {
+    "type": "sms",
+    "event_id": "525",
+    "message_content": "【上海银行】尊敬的客户，您尾号8890的储蓄卡账户“创业小金库”已成功开立并绑定手机银行。您可通过我行APP查看账户详情及专属理财优惠。",
+    "contactName": "上海银行",
+    "contact_phone_number": "95594",
+    "date": "2025-02-03",
+    "message_type": "接收",
+    "phone_id": "3230"
+  },
+  {
+    "type": "sms",
+    "event_id": "1910",
+    "message_content": "徐静：王老师，照片和说明都发您微信了。麻烦您抽空帮我看看现在市面上什么行情，再给个大概的估价范围。谢谢您！",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-05-04",
+    "message_type": "发送",
+    "phone_id": "3231"
+  },
+  {
+    "type": "sms",
+    "event_id": "4840",
+    "message_content": "徐静：哥，昨天聊的会员分层和私域转化的思路太棒了，不愧是资深电商运营总监，看问题就是透彻。我已经开始整理落地计划了。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-11-09",
+    "message_type": "发送",
+    "phone_id": "3232"
+  },
+  {
+    "type": "sms",
+    "event_id": "1458",
+    "message_content": "我：今天高铁上听我妈讲了好多我姨妈张秀英的事，以前只知道她人好，没想到她年轻时为家里付出那么多，真是我们家的顶梁柱。",
+    "contactName": "王莉",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-04",
+    "message_type": "发送",
+    "phone_id": "3233"
+  },
+  {
+    "type": "sms",
+    "event_id": "3369",
+    "message_content": "张师傅：徐小姐，您的车空调压缩机已订货，明天下午可以来取。维修定金已收到，尾款2200元取车时付清即可。",
+    "contactName": "张师傅",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-05",
+    "message_type": "接收",
+    "phone_id": "3234"
+  },
+  {
+    "type": "sms",
+    "event_id": "5265",
+    "message_content": "我：今天在市集认识的那个摄影师，叫林薇对吧？我把我们合影发你看看，她的作品真的很棒。",
+    "contactName": "闺蜜小雅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-07",
+    "message_type": "发送",
+    "phone_id": "3235"
+  },
+  {
+    "type": "sms",
+    "event_id": "119",
+    "message_content": "徐静：赵敏，晨会上提到的春季新品推介，你那边可以先准备一下话术和搭配建议，下午我们碰一下。另外，陈列区域记得随时整理。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-08",
+    "message_type": "发送",
+    "phone_id": "3236"
+  },
+  {
+    "type": "sms",
+    "event_id": "4283",
+    "message_content": "妈，我马上出门了。礼物我检查过了，包装很完美，丝巾的蓝色印花一点色差都没有，和我在店里看的一模一样。我们小区门口见！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-10-03",
+    "message_type": "发送",
+    "phone_id": "3237"
+  },
+  {
+    "type": "sms",
+    "event_id": "3932",
+    "message_content": "王丽：我到国金了，在商场一楼那家咖啡馆等你。今天咱们的‘无工作话题’约定可要遵守哦！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-10",
+    "message_type": "接收",
+    "phone_id": "3239"
+  },
+  {
+    "type": "sms",
+    "event_id": "1053",
+    "message_content": "爸，今天会议记录我发你邮箱了。关于预算，我们定的那个范围（35-40万）是包含了硬装和主要家具家电的吧？我再和妈妈确认下细节。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-03-09",
+    "message_type": "发送",
+    "phone_id": "3240"
+  },
+  {
+    "type": "sms",
+    "event_id": "1053",
+    "message_content": "静静，会议纪要收到了。预算范围是包含硬装和主要家具家电的，这是我们今天讨论确定的上限，后续报价和采购都要控制在这个框里。你妈妈也确认了。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-03-09",
+    "message_type": "接收",
+    "phone_id": "3241"
+  },
+  {
+    "type": "sms",
+    "event_id": "5335",
+    "message_content": "丽丽，看你今天心情不太好，别想那些烦心事了。这周六下午我们出去走走吧，就我们俩，找个地方散散心。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-11",
+    "message_type": "发送",
+    "phone_id": "3242"
+  },
+  {
+    "type": "sms",
+    "event_id": "142",
+    "message_content": "我：刚处理完一个特别难缠的客户投诉，感觉脑子嗡嗡的，特别累，情绪也有点乱。刚才差点就忍不住想去楼下那家甜品店了，还好忍住了。现在在走廊窗边站一会儿。",
+    "contactName": "闺蜜小雅",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-09",
+    "message_type": "发送",
+    "phone_id": "3243"
+  },
+  {
+    "type": "sms",
+    "event_id": "4923",
+    "message_content": "徐静：爸，我刚在咖啡馆把那个‘新锐设计师’项目的计划草案框架搭好了，主要想试试小批量运作的模式。草案里把背景、具体活动、找谁合作、花多少钱、怎么宣传还有可能出什么问题都列清楚了。晚点回去详细跟你说。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-11-13",
+    "message_type": "发送",
+    "phone_id": "3244"
+  },
+  {
+    "type": "sms",
+    "event_id": "3474",
+    "message_content": "张经理：徐小姐，根据今天下午的讨论，我们确认租赁合同的两个关键条款更新如下：1. 年租金递增率定为6.5%。2. 免租装修期在原基础上增加5天。请确认无误后，我们将据此修改合同草案。",
+    "contactName": "张经理",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-08-12",
+    "message_type": "接收",
+    "phone_id": "3245"
+  },
+  {
+    "type": "sms",
+    "event_id": "3474",
+    "message_content": "张经理：好的，两个条款确认无误。感谢今天的沟通，期待尽快收到修改后的合同。",
+    "contactName": "张经理",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-08-12",
+    "message_type": "发送",
+    "phone_id": "3246"
+  },
+  {
+    "type": "sms",
+    "event_id": "2462",
+    "message_content": "徐静：丽姐，我这边刚忙完，突然觉得心慌得厉害，头也有点晕，手有点抖，感觉是低血糖了，得马上去找点吃的。我先出去一下，有事你帮我盯一下。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-09",
+    "message_type": "发送",
+    "phone_id": "3247"
+  },
+  {
+    "type": "sms",
+    "event_id": "696",
+    "message_content": "徐静：妈，昨天工作上那个难搞的投诉终于被我摆平了，今早跟爸也说了，他还夸我来着。感觉松了一口气。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-02-14",
+    "message_type": "发送",
+    "phone_id": "3248"
+  },
+  {
+    "type": "sms",
+    "event_id": "2922",
+    "message_content": "爸，医生说我妈恢复得挺好。我今天在医院用手机看了几款浴室用的垫子，主要是防滑的，想着买回来放家里卫生间，这样妈洗澡的时候能安全点。晚上我选好了发链接给你看看。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-07-09",
+    "message_type": "发送",
+    "phone_id": "3249"
+  },
+  {
+    "type": "sms",
+    "event_id": "4441",
+    "message_content": "爸，刚才您电话里讲的年审线上流程和要准备的材料我都记下来了，很清楚。谢谢爸！",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-10-13",
+    "message_type": "发送",
+    "phone_id": "3250"
+  },
+  {
+    "type": "sms",
+    "event_id": "226",
+    "message_content": "【招商银行】尊敬的客户，您尾号8890的储蓄卡于2025-01-14 12:55通过手机银行成功预约定期转账。预约内容：自2025年1月起，每月15日向您名下的‘创业基金’账户（尾号7761）自动转入人民币3000.00元。您可登录手机银行‘转账计划’查看或修改。",
+    "contactName": "招商银行",
+    "contact_phone_number": "95555",
+    "date": "2025-01-14",
+    "message_type": "接收",
+    "summarized_info": "收到招商银行短信，确认一笔定期转账预约已成功。",
+    "phone_id": "3251"
+  },
+  {
+    "type": "sms",
+    "event_id": "1627",
+    "message_content": "我：早上听了个关于私域运营的播客，讲得挺好。里面提到的‘温度运营’概念，我觉得特别适合我们接下来要重点打造的线上会员社群。回头开会可以讨论一下具体怎么落地。",
+    "contactName": "王经理",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-15",
+    "message_type": "发送",
+    "phone_id": "3252"
+  },
+  {
+    "type": "sms",
+    "event_id": "5006",
+    "message_content": "我：妈，傍晚下雨，我晚上不去公园跑步了，改成在家练核心。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-11-19",
+    "message_type": "发送",
+    "phone_id": "3253"
+  },
+  {
+    "type": "sms",
+    "event_id": "4082",
+    "message_content": "我：今天在苏州考察运气真好！晚上吃饭时，邻桌正好是一个本地独立设计师买手店的团队在讨论业务。我主动过去聊了聊，还给他们看了我买的苏绣盘扣，结果大家聊得特别投机，从选品聊到运营。他们还邀请我明天上午去参观一个设计师工作室，我答应了。感觉这次考察的收获比预想的要大很多！",
+    "contactName": "闺蜜小雅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-19",
+    "message_type": "发送",
+    "phone_id": "3254"
+  },
+  {
+    "type": "sms",
+    "event_id": "1193",
+    "message_content": "赵敏：今天的讨论很有成效，分工和时间表都明确了。关于风险预案里提到的备用渠道，我这边会再细化一个列表，下次同步会我们过一下。团队协作顺畅最重要。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-03-18",
+    "message_type": "接收",
+    "phone_id": "3255"
+  },
+  {
+    "type": "sms",
+    "event_id": "3089",
+    "message_content": "【百果园】尊敬的会员，您购买的果篮（含香蕉、红心火龙果、蓝莓）已由店员完成精美包装，欢迎您再次光临。",
+    "contactName": "百果园",
+    "contact_phone_number": "1069XXXXXXX",
+    "date": "2025-07-19",
+    "message_type": "接收",
+    "phone_id": "3256"
+  },
+  {
+    "type": "sms",
+    "event_id": "5402",
+    "message_content": "张女士：徐小姐您好，这是今天提到的关于税务政策学习的资料链接。另外，请记得第一步是优先建立紧急备用金，这是所有后续规划的基础。祝您规划顺利！",
+    "contactName": "张女士",
+    "contact_phone_number": "+8618501234567",
+    "date": "2025-12-15",
+    "message_type": "接收",
+    "phone_id": "3257"
+  },
+  {
+    "type": "sms",
+    "event_id": "4539",
+    "message_content": "我：刚运动完，买了瓶水补充一下，感觉舒服多了。",
+    "contactName": "闺蜜小群",
+    "contact_phone_number": "群聊",
+    "date": "2025-10-19",
+    "message_type": "发送",
+    "phone_id": "3258"
+  },
+  {
+    "type": "sms",
+    "event_id": "795",
+    "message_content": "刚才在便利店随便吃了点，一个照烧鸡排饭团和一瓶茉莉清茶，简单对付一下。这边中午人好多，全是买便当和咖啡的，来去匆匆。",
+    "contactName": "王磊",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-02-20",
+    "message_type": "发送",
+    "phone_id": "3259"
+  },
+  {
+    "type": "sms",
+    "event_id": "2583",
+    "message_content": "我：王姐，今天下午那个熟客张明远先生来了，我给他推荐了那套新到的卡其色亚麻混纺西装，搭配了同色系的休闲裤和一件浅色衬衫，他觉得风格不错，但最后选了另一套浅灰色的。你明天记得把卡其色那套的库存再核对一下。",
+    "contactName": "王姐",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-06-18",
+    "message_type": "发送",
+    "phone_id": "3260"
+  },
+  {
+    "type": "sms",
+    "event_id": "2153",
+    "message_content": "我：早上在地铁上看了些行业资讯，感觉对下午的会议有帮助。你推荐的那个‘时尚商业观察’公众号内容确实挺前沿的。",
+    "contactName": "王莉",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-05-21",
+    "message_type": "发送",
+    "phone_id": "3261"
+  },
+  {
+    "type": "sms",
+    "event_id": "5041",
+    "message_content": "王丽：今天点的那个泡鲁达真不错，甜而不腻，和烤鱼是绝配！下次来还要点。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-21",
+    "message_type": "接收",
+    "phone_id": "3262"
+  },
+  {
+    "type": "sms",
+    "event_id": "3623",
+    "message_content": "徐静：王姐，下午梳理了分享会的内容，关于‘构建品牌私域社群’和‘利用线下体验创造情绪价值’这两个点，给了我很多启发，正好用在新店规划上。",
+    "contactName": "王莉",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-08-21",
+    "message_type": "发送",
+    "phone_id": "3263"
+  },
+  {
+    "type": "sms",
+    "event_id": "1716",
+    "message_content": "徐静：刚在洋人街这边一家叫‘锦绣坊’的小店买了两对刺绣杯垫，图案很精致。正好可以送给陈丽和赵敏，一人一对，她们应该会喜欢。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-21",
+    "message_type": "发送",
+    "phone_id": "3265"
+  },
+  {
+    "type": "sms",
+    "event_id": "4597",
+    "message_content": "我：爸，你下午提到的那些面料趋势信息，我记下来了，感觉对我们下一季选品很有帮助。谢谢老爸！",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-10-22",
+    "message_type": "发送",
+    "phone_id": "3266"
+  },
+  {
+    "type": "sms",
+    "event_id": "1266",
+    "message_content": "爸，今天您讲的案例太有启发了！特别是您早年为了拿到独家代理权，和那个商场经理周旋了三个月，最后用‘分期支付保证金’的方案达成合作，这个‘以退为进’的策略我记下了。还有和孙老板谈判时，您提前摸清了他库存积压的情况，所以在价格上占据了主动，信息收集的重要性我深刻体会到了。谢谢爸爸！",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-03-23",
+    "message_type": "发送",
+    "phone_id": "3267"
+  },
+  {
+    "type": "sms",
+    "event_id": "2611",
+    "message_content": "徐静：陈丽，明天会议PPT我重点讲了三个亮点数据，分别是总销售额、客单价和爆款商品。你负责的品类在爆款里表现很好，到时候可以补充一下。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-06-19",
+    "message_type": "发送",
+    "phone_id": "3269"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你听说了吗？多多那边好像出事了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-15",
+    "message_type": "接收",
+    "phone_id": "3270"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：啊？没听说啊，多多怎么了？她不是在深圳挺好的吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-15",
+    "message_type": "发送",
+    "phone_id": "3271"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：我也是刚在同学群里看到有人提了一句。好像是她们公司最近大裁员，多多不幸被裁掉了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-15",
+    "message_type": "接收",
+    "phone_id": "3272"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：天哪，这也太突然了。那她现在怎么样？工作找得顺利吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-15",
+    "message_type": "发送",
+    "phone_id": "3273"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：听小美说，多多最近情绪挺低落的，正在重新投简历找工作呢。深圳那边互联网行业今年好像都不太景气。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-15",
+    "message_type": "接收",
+    "phone_id": "3274"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静静，午休去楼下新开的那家咖啡店吗？我看他们宣传说豆子都是进口的。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-11-08",
+    "message_type": "接收",
+    "phone_id": "3275"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：今天不去了，我带了自制的抹茶拿铁。现在选喝的，我第一看热量不能太高，毕竟在控制体重嘛。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-11-08",
+    "message_type": "发送",
+    "phone_id": "3276"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：哈哈，理解。那你除了热量，还看重什么？味道？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-11-08",
+    "message_type": "接收",
+    "phone_id": "3277"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对，口感一定要顺滑，不能有渣感或者太涩。像有些便宜的速溶咖啡，我就完全喝不下去。热量低但好喝，才是我的首选。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-11-08",
+    "message_type": "发送",
+    "phone_id": "3278"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，最近和多多联系了吗？看她朋友圈好像有点焦虑。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-05",
+    "message_type": "接收",
+    "phone_id": "3279"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：昨晚刚和她视频聊了会儿。她最近工作上压力挺大的。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-05",
+    "message_type": "发送",
+    "phone_id": "3280"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：还是那个新APP的项目吗？我记得她提过。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-05",
+    "message_type": "接收",
+    "phone_id": "3281"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对。她说团队里PM和几个技术负责人对产品到底该主打社交还是工具属性吵得不可开交，现在卡在原型设计阶段，进度推不动，她这个产品经理夹在中间很难做。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-05",
+    "message_type": "发送",
+    "phone_id": "3282"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：唉，大公司也有大公司的烦恼。希望她能尽快协调好。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-05",
+    "message_type": "接收",
+    "phone_id": "3283"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静姐，快过年了，你觉得明年开春外套流行什么呀？店里要不要提前备点货？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-12-10",
+    "message_type": "接收",
+    "phone_id": "3284"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我觉得简约有质感的款式会持续流行。我自己最近买外套，都不太看花哨的设计了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-12-10",
+    "message_type": "发送",
+    "phone_id": "3285"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：那你现在挑外套最在意什么？版型还是颜色？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-12-10",
+    "message_type": "接收",
+    "phone_id": "3286"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：都不是第一位的。我现在第一眼看成分标，必须含羊毛或羊绒，哪怕比例不高也行。纯化纤的再好看，冬天穿起来也不暖和，质感也差一截。保暖和高级感是基础。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-12-10",
+    "message_type": "发送",
+    "phone_id": "3287"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：有道理！看来我们进货的时候也得把好面料关。谢谢静姐分享！",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-12-10",
+    "message_type": "接收",
+    "phone_id": "3288"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你最近和多多联系了吗？她好像心情不太好。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2024-10-12",
+    "message_type": "接收",
+    "phone_id": "3289"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：上周视频聊了会儿。她公司最近内部调整挺大的。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2024-10-12",
+    "message_type": "发送",
+    "phone_id": "3290"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：是啊，听她说新来了个领导，把她跟了很久的那个智能家居项目直接拿走了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2024-10-12",
+    "message_type": "接收",
+    "phone_id": "3291"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：嗯，她为这个项目付出很多心血，突然被接手，觉得特别受挫，对未来也有点迷茫。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2024-10-12",
+    "message_type": "发送",
+    "phone_id": "3292"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：我们多安慰安慰她吧，职场这种事难免。等她回上海，我们好好聚聚。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2024-10-12",
+    "message_type": "接收",
+    "phone_id": "3293"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，上次你说想买新的香薰放店里，选好了吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345679",
+    "date": "2024-10-18",
+    "message_type": "接收",
+    "phone_id": "3294"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：还没呢，选择困难。我发现我现在的喜好和以前完全不一样了。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345679",
+    "date": "2024-10-18",
+    "message_type": "发送",
+    "phone_id": "3295"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：怎么不一样了？你以前不是最喜欢那种甜甜的，像玫瑰、茉莉那种花香吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345679",
+    "date": "2024-10-18",
+    "message_type": "接收",
+    "phone_id": "3296"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对，但现在觉得那种太活泼了。最近试了几款，发现檀香、雪松这类木质调让我特别放松，有种沉静下来的感觉，很适合放在休息区。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345679",
+    "date": "2024-10-18",
+    "message_type": "发送",
+    "phone_id": "3297"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：哇，品味变了呢。看来开店后心态更沉稳了。木质调确实让人安心，我家里用的也是类似的味道。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345679",
+    "date": "2024-10-18",
+    "message_type": "接收",
+    "phone_id": "3298"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你看到高中群里钱多多发的消息了吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3299"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：还没呢，群里消息太多，刚下班。多多怎么了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "发送",
+    "phone_id": "3300"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她负责的那个互联网产品项目，在深圳总部那边大获成功，听说拿下了他们公司内部的年度创新大奖！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3301"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇！真为她高兴！她一直很有想法，在深圳发展得真好。我们上海这边还是按部就班，没什么波澜。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "发送",
+    "phone_id": "3302"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，最近天气干了，你平时喝什么茶比较多？想买点放办公室。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-10-20",
+    "message_type": "接收",
+    "phone_id": "3303"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我最近迷上桂花乌龙了！秋天喝特别应景，香气很治愈，而且不会太甜腻。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-10-20",
+    "message_type": "发送",
+    "phone_id": "3304"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：是吗？我记得你以前爱喝抹茶拿铁和茉莉绿茶。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-10-20",
+    "message_type": "接收",
+    "phone_id": "3305"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：口味会变的嘛。现在觉得桂花乌龙那种淡淡的甜香和回甘更对我的胃口，比蜜桃四季春那种果茶要雅致一些。红茶拿铁偶尔喝，但桂花乌龙现在是心头好。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-10-20",
+    "message_type": "发送",
+    "phone_id": "3306"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你看到高中群里消息了吗？钱多多好像又升职了！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-18",
+    "message_type": "接收",
+    "phone_id": "3307"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：看到了！她昨晚私聊我了，说在深圳那家科技公司刚升了产品总监，真为她高兴。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-18",
+    "message_type": "发送",
+    "phone_id": "3308"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：哇，总监！她是不是一直负责那个智能穿戴的项目？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-18",
+    "message_type": "接收",
+    "phone_id": "3309"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对，就是那个项目。她说团队因为这个项目拿了公司的年度创新大奖，所以这次晋升特别顺利。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-18",
+    "message_type": "发送",
+    "phone_id": "3310"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：太厉害了！感觉我们这届同学里，就数她在互联网行业发展得最快。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-18",
+    "message_type": "接收",
+    "phone_id": "3311"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静静，我看你最近穿的那套新瑜伽服挺好看的，在哪买的？我也想买一套。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "接收",
+    "phone_id": "3312"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：在网上一个专门做运动服饰的店买的。我挑瑜伽服现在特别在意面料，一定要含高比例莱卡的，弹性好又贴身，做动作才舒服。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "发送",
+    "phone_id": "3313"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：颜色呢？我看你好像不怎么穿鲜艳的。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "接收",
+    "phone_id": "3314"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对，我现在偏爱大地色系，像燕麦色、灰褐色这种，感觉比较沉静，适合瑜伽的氛围。而且剪裁很重要，一定要有收腰设计，能显出身形线条。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "发送",
+    "phone_id": "3315"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：明白了，你这套标准挺专业的，看来是资深瑜伽爱好者了。把店铺链接发我看看。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "接收",
+    "phone_id": "3316"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你听说了吗？多多最近好像升职了！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-15",
+    "message_type": "接收",
+    "phone_id": "3317"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：真的吗？她不是在深圳那家科技公司吗？具体什么情况？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-15",
+    "message_type": "发送",
+    "phone_id": "3318"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：对，就是她们公司内部搞了个竞聘。她成功晋升成高级产品经理了，工资涨了不少，以后负责的项目也更大。不过她说现在压力山大，天天加班。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-15",
+    "message_type": "接收",
+    "phone_id": "3319"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇，那真是恭喜她了！虽然我们都在各自的城市忙，但听到老同学发展得好，还是挺为她高兴的。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-05-15",
+    "message_type": "发送",
+    "phone_id": "3320"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，上次课后你说去喝的那家抹茶拿铁怎么样？我最近也想试试。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "接收",
+    "phone_id": "3321"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：还不错！我现在固定喝那家了。我一般点燕麦奶的，感觉比牛奶更香醇，而且对肠胃负担小一点。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "发送",
+    "phone_id": "3322"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：甜度呢？全糖会不会太腻？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "接收",
+    "phone_id": "3323"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我都要三分糖，刚刚好能带出抹茶的微苦和香气。练完瑜伽来一杯，再配一小块店里卖的那种黑巧克力，特别放松解压。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-05-22",
+    "message_type": "发送",
+    "phone_id": "3324"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你看高中同学群了吗？钱多多在深圳升职了！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3325"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我刚忙完，还没看呢。她升什么了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "发送",
+    "phone_id": "3326"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：从产品经理升到产品总监了！她发了个朋友圈，说在深圳总部刚开完任命会。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3327"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇，真厉害！她一直很有拼劲。不过她在深圳，我们这边也沾不上光，哈哈。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "发送",
+    "phone_id": "3328"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：是啊，离得远，除了恭喜一下，也帮不上什么忙。我们过好自己的小日子就行啦。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3329"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静静，最近睡眠不太好，想买点香薰放卧室，你有什么推荐吗？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-10-22",
+    "message_type": "接收",
+    "phone_id": "3330"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我最近也在挑。我比较看重两点：一是成分要天然，最好是植物精油，对身体没负担；二是要有舒缓放松、帮助睡眠的效果。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-10-22",
+    "message_type": "发送",
+    "phone_id": "3331"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：有道理，健康第一。那你找到符合要求的了吗？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-10-22",
+    "message_type": "接收",
+    "phone_id": "3332"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：看中了一款薰衣草和雪松混合的，说是纯植物精油，宣传能缓解焦虑助眠。还在犹豫，毕竟价格不便宜。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-10-22",
+    "message_type": "发送",
+    "phone_id": "3333"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：听起来不错，一分钱一分货嘛。你把链接发我看看，我也参考一下。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-10-22",
+    "message_type": "接收",
+    "phone_id": "3334"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你听说了吗？多多那边好像出事了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3335"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：啊？没听说啊，多多怎么了？她不是在深圳那家科技公司做产品经理吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "发送",
+    "phone_id": "3336"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：是啊，就是那家公司。听她说公司最近业务调整，她们那个做社交产品的整个产品线都被砍掉了，整个团队都要解散。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3337"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：天哪，那多多岂不是要失业了？她那么能干，应该很快能找到新工作吧？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "发送",
+    "phone_id": "3338"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：嗯，她正在积极投简历面试呢，说深圳机会还是多的，就是突然没了工作心里有点慌。我们多鼓励鼓励她吧。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-15",
+    "message_type": "接收",
+    "phone_id": "3339"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静姐，下午一起去楼下买咖啡吗？提提神。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-10-08",
+    "message_type": "接收",
+    "phone_id": "3340"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：好啊，正好想喝了。我最近发现一款新出的拿铁，超级对我胃口。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-10-08",
+    "message_type": "发送",
+    "phone_id": "3341"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：是吗？什么口味的？我还是老样子喝香草的。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-10-08",
+    "message_type": "接收",
+    "phone_id": "3342"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：是海盐芝士拿铁。我不太喜欢纯甜的，这个咸咸的芝士奶盖配上微苦的咖啡，口感特别丰富有层次，一点都不会腻。强烈推荐你试试！",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-10-08",
+    "message_type": "发送",
+    "phone_id": "3343"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：听着不错诶，被你种草了。那下午我也点这个尝尝！",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-10-08",
+    "message_type": "接收",
+    "phone_id": "3344"
+  },
+  {
+    "type": "sms",
+    "event_id": "5491",
+    "message_content": "徐静：李娜，我的新年健康计划定好了，里面有一条是每月至少约你或王丽运动一次，你可要支持我啊！计划还挺详细的，分了运动、正念、饮食和社交几个板块。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-12-21",
+    "message_type": "发送",
+    "phone_id": "3345"
+  },
+  {
+    "type": "sms",
+    "event_id": "2629",
+    "message_content": "我：妈，今天下午去西湖边走了走，特别舒服。我还把上次买的那枚纪念币带过去拍照了，效果很好！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-06-21",
+    "message_type": "发送",
+    "phone_id": "3346"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你最近跟多多联系了吗？她好像又干成了一件大事。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "接收",
+    "phone_id": "3347"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：还没呢，最近忙开店的事，焦头烂额。她怎么了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "发送",
+    "phone_id": "3348"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：我也是在同学群里看到的。她带的那个产品团队，搞的那个什么智能家居中控项目，好像特别成功，被他们公司评了个年度创新奖。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "接收",
+    "phone_id": "3349"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇，那太厉害了！她一直很有想法。有奖金吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "发送",
+    "phone_id": "3350"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：当然有啦，听说奖金挺丰厚的。她还说等春节回来要请我们吃饭呢。真为她高兴，在深圳打拼不容易。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "接收",
+    "phone_id": "3351"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静姐，看你最近通勤穿的几套衣服都挺好看的，又舒服又显气质。有什么秘诀吗？我老是觉得上班穿的衣服要么太正式拘束，要么太随便。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "接收",
+    "phone_id": "3352"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哈哈，秘诀谈不上。我现在选通勤衣服，第一看重的就是面料。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "发送",
+    "phone_id": "3353"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：像那种含棉量高、或者有弹力的混纺面料就很好，穿着舒服，坐一天也不会皱巴巴的。毕竟我们店里一站就是大半天，还要经常走动、整理货架，行动方便太重要了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "发送",
+    "phone_id": "3354"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：有道理！而且好打理，晚上扔洗衣机就行，不用天天熨烫。品牌和设计感倒是其次了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "接收",
+    "phone_id": "3355"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对，得体、舒服、方便，这三点对我来说最重要。颜色我反而喜欢基础色，好搭配，不容易出错。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "发送",
+    "phone_id": "3356"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你听说了吗？钱多多那边出事了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "接收",
+    "phone_id": "3357"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：啊？怎么了丽丽？多多怎么了？她不是在深圳好好的吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "发送",
+    "phone_id": "3358"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她公司最近业务调整，特别突然，她负责的那个产品线整个被砍掉了，整个团队都解散了，她这不就失业了嘛。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "接收",
+    "phone_id": "3359"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：天哪，这也太突然了。那她接下来打算怎么办？要回上海吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "发送",
+    "phone_id": "3360"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：我问她了，她说深圳机会还是多，想先在这边找找看，暂时不打算回来。唉，希望她能尽快找到合适的。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "接收",
+    "phone_id": "3361"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，早啊。看你今天这身新瑜伽服很好看，最近又买新的了？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "接收",
+    "phone_id": "3362"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：娜娜早！对呀，刚到的。我现在挑瑜伽服可挑了，第一要求就是面料，必须得是那种亲肤透气的，不然出汗了黏在身上太难受了。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "发送",
+    "phone_id": "3363"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：同意！面料太重要了。那你除了面料还看重什么？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "接收",
+    "phone_id": "3364"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：还有就是剪裁啦。你也知道我不是特别瘦，所以剪裁一定要好，能稍微修饰一下身形，显瘦一点。不能松松垮垮的。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "发送",
+    "phone_id": "3365"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：最后就是设计，我不喜欢太花哨的，简约一点最好，但最好能有一些小心思，比如后背有个交叉设计，或者腰侧有镂空，有点细节感。品牌倒不是最重要的，穿着舒服好看就行。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-08-22",
+    "message_type": "发送",
+    "phone_id": "3366"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你看高中同学群了吗？钱多多好像有好事发生。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-18",
+    "message_type": "接收",
+    "phone_id": "3367"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我刚忙完，还没看群。多多怎么了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-18",
+    "message_type": "发送",
+    "phone_id": "3368"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她在深圳那家科技公司升职了！之前是高级产品经理，现在成产品总监了。真为她高兴，虽然离得远，但感觉她一直很拼。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-18",
+    "message_type": "接收",
+    "phone_id": "3369"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇！太棒了！她能力一直很强，这个晋升实至名归。回头得在群里恭喜她一下。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-18",
+    "message_type": "发送",
+    "phone_id": "3370"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，最近有什么好听的歌推荐吗？我开车的时候总听那几个老歌单，腻了。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "接收",
+    "phone_id": "3371"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我最近啊，不太听带歌词的歌了。可能因为工作家庭事情多，心有点静不下来。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "发送",
+    "phone_id": "3372"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我现在晚上在家，或者开车通勤的时候，特别喜欢放一些轻音乐，尤其是纯钢琴曲。感觉特别能放松，帮助理清思路。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "发送",
+    "phone_id": "3373"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：这个主意好！感觉很适合你现在的状态。有推荐的专辑或者音乐家吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "接收",
+    "phone_id": "3374"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我最近常听一个叫“静谧时光”的歌单，里面很多日本和北欧作曲家的钢琴作品，特别舒缓。分享链接给你。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "发送",
+    "phone_id": "3375"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你最近和多多联系了吗？她好像情绪不太好。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-15",
+    "message_type": "接收",
+    "phone_id": "3376"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：上周视频聊了会儿。她说工作压力倒还好，主要是生活上有点烦。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-15",
+    "message_type": "发送",
+    "phone_id": "3377"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：具体怎么了？还是租房的事吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-15",
+    "message_type": "接收",
+    "phone_id": "3378"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对。她公司在南山科技园，但为了省租金住在龙华。每天地铁加公交要三个多小时在路上，她说快崩溃了，根本没时间做自己的事。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-15",
+    "message_type": "发送",
+    "phone_id": "3379"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：天啊，这么久！难怪她最近在群里总说累。深圳通勤真是个大问题。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-07-15",
+    "message_type": "接收",
+    "phone_id": "3380"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静静，我发现你最近自己买的衣服，好像都不是特别追爆款。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "接收",
+    "phone_id": "3381"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：是啊，现在买衣服想法变了。以前总想买设计特别扎眼的，现在觉得穿在身上舒服最重要。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "发送",
+    "phone_id": "3382"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：比如呢？看面料成分吗？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "接收",
+    "phone_id": "3383"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对，棉、麻、真丝这些天然材质的优先级最高。哪怕是基本款，只要贴身穿起来柔软、透气、不扎皮肤，我就愿意买单。牌子反而不那么重要了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "发送",
+    "phone_id": "3384"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：明白了，舒适度至上。看来我们下次进货也要多关注这类面料好的基础款。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-07-22",
+    "message_type": "接收",
+    "phone_id": "3385"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你看到高中群里钱多多发的消息了吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-15",
+    "message_type": "接收",
+    "phone_id": "3386"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：还没呢，群里消息太多，刚下班。多多怎么了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-15",
+    "message_type": "发送",
+    "phone_id": "3387"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她升职了！从产品经理升到产品总监了，就在深圳那家科技公司。真为她高兴！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-15",
+    "message_type": "接收",
+    "phone_id": "3388"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇！太棒了！多多一直很拼。不过她远在深圳，这消息对我来说就是替她开心，倒不影响我这边的工作生活。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-15",
+    "message_type": "发送",
+    "phone_id": "3389"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静静，最近店里要进一批夏装，你在选品上有什么新想法吗？感觉你最近挑衣服眼光变了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-04-22",
+    "message_type": "接收",
+    "phone_id": "3390"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：被你发现了！我最近自己买衣服，还有看我们店的货，都特别关注面料。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-04-22",
+    "message_type": "发送",
+    "phone_id": "3391"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：哦？具体说说，是喜欢有型的，还是垂坠的？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-04-22",
+    "message_type": "接收",
+    "phone_id": "3392"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：都不是第一位的。我现在最看重的是天然材质，比如棉、麻、真丝这些。穿起来舒服、透气，对皮肤也好，尤其是换季皮肤敏感的时候。款式和颜色反而可以稍微让位。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-04-22",
+    "message_type": "发送",
+    "phone_id": "3393"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，我昨天和多多视频了，她情绪有点低落。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "接收",
+    "phone_id": "3394"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：怎么了丽丽？多多在深圳那边工作不顺心吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "发送",
+    "phone_id": "3395"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：是啊，她说公司最近在调整业务线，她负责的那个社交电商项目可能要整个砍掉，团队人心惶惶的。她这个产品经理可能面临转岗或者...",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "接收",
+    "phone_id": "3396"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：唉，互联网行业变化是快。不过我觉得多多的能力在别处也能发光。她懂产品、懂用户，其实可以看看实体零售数字化这块，现在很多线下店都在做线上线下一体化，正需要她这种人才。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "发送",
+    "phone_id": "3397"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我在杭州认识一个做区域运营的朋友叫李雪梅，她们集团也在探索新零售。如果多多有兴趣，我可以帮忙牵个线，让她们聊聊，说不定有合作或者新的机会呢。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "发送",
+    "phone_id": "3398"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，最近瑜伽课前你都听什么歌热身呀？还是那些排行榜上的流行歌吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613918765432",
+    "date": "2025-04-18",
+    "message_type": "接收",
+    "phone_id": "3399"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哈哈，娜娜，我最近歌单大变样了！很少听榜单了，感觉有点腻。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613918765432",
+    "date": "2025-04-18",
+    "message_type": "发送",
+    "phone_id": "3400"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我现在会用一些音乐APP专门挖掘国内独立音乐人的作品，发现了好多宝藏！",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613918765432",
+    "date": "2025-04-18",
+    "message_type": "发送",
+    "phone_id": "3401"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：独立音乐？比如哪种风格的？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613918765432",
+    "date": "2025-04-18",
+    "message_type": "接收",
+    "phone_id": "3402"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：特别喜欢一些城市民谣和轻摇滚，歌词写的都是地铁、加班、租房、小确幸这些我们身边的事，特别有共鸣，比那些空洞的情歌有意思多了。听着感觉就是在唱自己的生活。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613918765432",
+    "date": "2025-04-18",
+    "message_type": "发送",
+    "phone_id": "3403"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你听说了吗？我们高中同学群里炸锅了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "接收",
+    "phone_id": "3404"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：啊？我刚忙完店里的事，还没来得及看群。发生什么了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3405"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：是钱多多！她不是在深圳那家挺有名的科技公司做产品经理吗？听说他们部门整个被裁掉了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "接收",
+    "phone_id": "3406"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：天哪，这么突然？那她打算回上海找工作吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3407"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：最让人想不到的就在这里！她说她受够了快节奏和加班，拿了赔偿金，准备去云南大理，说是在那边看中了一个小院子，要开民宿，打算长住了。群里好多人都惊掉了下巴。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "接收",
+    "phone_id": "3408"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我的天……这转变也太大了。从深圳的互联网公司到大理的民宿老板，完全没想到她会做这样的选择。确实挺让人惊讶的。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3409"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，早啊。周末去逛街吗？我想买两套新的瑜伽服，之前那套有点旧了。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912348765",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3410"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：好啊，我也正想看看。不过我现在挑瑜伽服跟以前想法不太一样了。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912348765",
+    "date": "2025-03-10",
+    "message_type": "发送",
+    "phone_id": "3411"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：哦？怎么说？你以前不是挺看重款式和颜色的吗，总买那些设计感强的。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912348765",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3412"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：是啊，但现在会更仔细看成分标签。上次听周教练聊到一些运动品牌用的面料生产过程污染挺大的。我现在会优先找那些用再生材料、有机棉或者环保工艺的品牌。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912348765",
+    "date": "2025-03-10",
+    "message_type": "发送",
+    "phone_id": "3413"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：原来是这样。被你一说，我也觉得有道理。那我们周末就去看看那些主打环保概念的品牌吧，我知道商场新开了两家。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912348765",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3414"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，周末有空吗？最近有部贾玲的新电影《热辣滚烫》好像口碑不错，讲减肥和打拳击的，要不要一起去看？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "接收",
+    "phone_id": "3415"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：丽丽，我上周和赵敏一起看过了。说实话，减肥的部分我倒觉得还好，但电影里女主角练拳击，从迷茫到一点点找回对自己生活掌控感的过程，特别戳我。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "发送",
+    "phone_id": "3416"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：哦？听起来你很有共鸣啊。是因为你自己也在坚持锻炼吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "接收",
+    "phone_id": "3417"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：有一点吧。但更多是觉得，那种不管外界怎么看，专注为自己做一件事，然后慢慢变强的感觉，特别有力量。《热辣滚烫》这个故事内核，比单纯的喜剧或减肥励志更打动我。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-12",
+    "message_type": "发送",
+    "phone_id": "3418"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王明远：小徐，最近钱币市场有批新发行的航天纪念币，品相不错，有兴趣看看吗？",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345679",
+    "date": "2025-04-05",
+    "message_type": "接收",
+    "phone_id": "3419"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：王老师好！谢谢推荐。不过我最近收藏兴趣有点变化，航天题材的暂时先不看了。",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345679",
+    "date": "2025-04-05",
+    "message_type": "发送",
+    "phone_id": "3420"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王明远：哦？转向哪个方向了？是开始玩外币了？",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345679",
+    "date": "2025-04-05",
+    "message_type": "接收",
+    "phone_id": "3421"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：不是外币。可能是年纪渐长，或者因为一直在筹备自己的店，对“根”的东西更有感情了。我现在更想收一些有“上海”元素，或者 broader一点，能体现我们江南文化特色的纪念币。比如之前收的那套“豫园”主题的，就觉得特别有味道。",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345679",
+    "date": "2025-04-05",
+    "message_type": "发送",
+    "phone_id": "3422"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王明远：明白了，文化情怀收藏。这个方向好，有故事性，也和你生活的环境契合。我帮你留意一下这类题材的精品。",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613912345679",
+    "date": "2025-04-05",
+    "message_type": "接收",
+    "phone_id": "3423"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，周末有空吗？新天地那边开了家不错的Brunch，想去试试。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "接收",
+    "phone_id": "3424"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：好啊！正好想跟你吐槽一下。我哥最近可郁闷了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3425"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：强哥怎么了？他不是在杭州做电商做得挺好的嘛。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "接收",
+    "phone_id": "3426"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：就是杭州那边的事。他们公司对接的那个大平台，突然改了618的促销规则，之前做的方案全废了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3427"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：他作为总监，带着团队已经连加一周班了，就为了赶新方案，压力山大，昨天跟我视频的时候看着特别累。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3428"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静姐，午休去楼下逛逛？听说Zara上了不少春款。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3429"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：好啊。不过我最近逛店，眼光好像变了，快成我们店某些货品的精准目标客户了，哈哈。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-03-10",
+    "message_type": "发送",
+    "phone_id": "3430"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：哦？说来听听，静姐现在好哪一口了？我也学习一下。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3431"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：特别迷那种带点中式味道，但又很日常的衣服。上周刚入了一件真丝衬衫，领口做了精致的盘扣设计，米白色，配西装裤或者半裙都好看，上班穿也不突兀。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-03-10",
+    "message_type": "发送",
+    "phone_id": "3432"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：感觉这种风格既有我们自己的文化韵味，又很显气质。我正琢磨着，以后我自己的店是不是也可以引进一些这类设计的品牌。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-03-10",
+    "message_type": "发送",
+    "phone_id": "3433"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：妈，我晚上回来吃饭，爸说今天要聊聊他以前裁缝铺的事。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3434"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李芳：好的，菜都准备好了。你爸今天兴致很高，说想起了他以前的一个师兄。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-03-15",
+    "message_type": "接收",
+    "phone_id": "3435"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：爸，你刚才说的那个陈建国叔叔，就是以前跟你一起学裁缝的师兄对吧？他现在在苏州具体做什么呢？",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3436"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐明：对，就是他，建国。他手艺一直很好，现在在苏州开了个工作室，专门做旗袍和改良的中式服装，听说生意挺红火，还带了两个小徒弟。他这是找到自己的路子了。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-03-15",
+    "message_type": "接收",
+    "phone_id": "3437"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：真不错，专注做细分市场。这对我以后开店也有启发。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-03-15",
+    "message_type": "发送",
+    "phone_id": "3438"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，最近有什么好歌推荐吗？我歌单听腻了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613712345678",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3439"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：丽丽，我最近发现一个宝藏歌手！她的歌把京剧、昆曲的调调和现代流行乐结合得特别好，比如那首《青花引》，我循环好几天了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613712345678",
+    "date": "2025-03-10",
+    "message_type": "发送",
+    "phone_id": "3440"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：啊？戏曲风？你以前不是最爱听那种甜甜的情歌吗？口味变化这么大？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613712345678",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3441"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哈哈，可能跟最近在博物馆做志愿者有关吧，接触传统文化多了，觉得这种融合了戏曲元素的流行歌特别有味道，既有古韵又不失时尚感。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613712345678",
+    "date": "2025-03-10",
+    "message_type": "发送",
+    "phone_id": "3442"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：懂了，文化熏陶！链接发我听听，我也提升下品味。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613712345678",
+    "date": "2025-03-10",
+    "message_type": "接收",
+    "phone_id": "3443"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，在忙吗？刚看到高中同学群里，钱多多发了个大红包！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3444"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：刚下班，正准备吃饭。多多发红包？什么喜事啊？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3445"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她公司最近不是拿了新一轮融资嘛，她升职了！从产品经理升到产品总监了，还拿了期权，可把她高兴坏了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3446"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇！真厉害！不愧是多多。深圳那边机会就是多。她之前还说想跳槽呢，这下稳了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3447"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：是啊，她说等忙完这阵子，春节回上海请我们吃饭庆祝。咱们也沾沾喜气！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3448"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静姐，下周春装到货，你看我们主推哪个系列的面料比较好？纯棉的还是真丝的？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-22",
+    "message_type": "接收",
+    "phone_id": "3449"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我个人最近特别迷天丝混纺的。就是莱赛尔那种。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-22",
+    "message_type": "发送",
+    "phone_id": "3450"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：天丝？是比纯棉更垂顺那种吗？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-22",
+    "message_type": "接收",
+    "phone_id": "3451"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：对，垂坠感特别好，穿上身很显瘦。而且它比真丝好打理，不容易皱，穿着又舒服。我觉得上班通勤或者周末休闲穿都很合适。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-22",
+    "message_type": "发送",
+    "phone_id": "3452"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：明白了！那我跟供应商沟通一下，看看天丝混纺的春装款式多不多。这个面料确实兼顾了舒适和质感。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-22",
+    "message_type": "接收",
+    "phone_id": "3453"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，午休呢？最近有什么新鲜事分享下？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3454"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：刚吃完饭。对了，我那个北京的纪念币藏友老王，前几天跟我视频，激动得不行。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3455"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：哦？怎么了，捡到宝了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3456"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：差不多！他整理老房子的旧箱子，居然翻出一枚2008年奥运会的纪念银币，发行量特别少那种。他一直以为十几年前搬家时弄丢了，懊恼了好久。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3457"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：他说失而复得的感觉太好了，这下说什么也不卖了，要放在收藏柜最中间当镇柜之宝。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3458"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静姐，我看你新买的那个通勤包挺好看的，皮质也不错。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-22",
+    "message_type": "接收",
+    "phone_id": "3459"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：谢谢敏敏。我挑通勤包可有自己的一套标准，毕竟每天都要背。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-22",
+    "message_type": "发送",
+    "phone_id": "3460"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：快说说，我也学习下。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-22",
+    "message_type": "接收",
+    "phone_id": "3461"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：第一，里面必须有个带拉链的暗袋，放钥匙、口红这些小东西，不会在包里乱滚，也安全。第二，包本身不能太重，不然加上东西，一天下来肩膀受不了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-22",
+    "message_type": "发送",
+    "phone_id": "3462"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：第三就是肩带要宽，有软垫。我可不追求什么最新潮流款，实用舒服最重要。你看我这个就是经典款，好几年都不会过时。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-22",
+    "message_type": "发送",
+    "phone_id": "3463"
+  },
+  {
+    "type": "sms",
+    "event_id": "5546",
+    "message_content": "徐静：敏姐，立柱上的彩带和圣诞球都固定好了吗？我这边收银台旁的糖果篮和手写贺卡也摆好了，就等丽姐确认整体效果了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-24",
+    "message_type": "发送",
+    "phone_id": "3464"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你看到多多在同学群里发的消息了吗？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "接收",
+    "phone_id": "3465"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：还没呢，刚忙完618，群里消息太多了。多多怎么了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "发送",
+    "phone_id": "3466"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她负责的那个大项目在深圳总部那边成功上线了！听说熬了好几个通宵，但成果很厉害。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "接收",
+    "phone_id": "3467"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇，真为她高兴！她一直很有拼劲。具体是什么项目啊？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "发送",
+    "phone_id": "3468"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：好像是一个新的企业级协同办公产品，她们团队还因为这个拿了公司的年度创新奖。虽然离我们远，但感觉她发展得真好。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "接收",
+    "phone_id": "3469"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：静姐，我想买套新的瑜伽服，看你平时穿的都挺舒服的，有什么推荐吗？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-06-22",
+    "message_type": "接收",
+    "phone_id": "3470"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我觉得选瑜伽服，第一要看面料是不是真的亲肤透气，出汗了也不会闷。我皮肤有点敏感，太糙的面料受不了。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-06-22",
+    "message_type": "发送",
+    "phone_id": "3471"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "赵敏：有道理！那版型呢？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-06-22",
+    "message_type": "接收",
+    "phone_id": "3472"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：第二就是剪裁要合身，不能太紧勒得慌，做动作不舒服，但也不能太松垮。最好是那种有弹性又贴合的。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-06-22",
+    "message_type": "发送",
+    "phone_id": "3473"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：第三，我个人不太喜欢花里胡哨的。设计简约大方的最耐看，也好搭配，上课、出门穿都行。颜色素一点，像灰色、藏青这种。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613911122233",
+    "date": "2025-06-22",
+    "message_type": "发送",
+    "phone_id": "3474"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你看高中同学群了吗？多多在深圳那边好像搞了个大事情！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "接收",
+    "phone_id": "3475"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我刚忙完，还没看。多多怎么了？她又跳槽了？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "发送",
+    "phone_id": "3476"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：不是跳槽。是她公司开了一个超大型的新品发布会，她作为产品经理核心成员，居然上台去做现场演示了！她刚在群里发了现场照片和视频，场面好大。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "接收",
+    "phone_id": "3477"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：哇！这么厉害！她肯定激动坏了吧？我记得她以前就喜欢在大家面前讲东西。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "发送",
+    "phone_id": "3478"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：可不是嘛！她在群里说，虽然准备过程压力巨大，但站在台上看到下面那么多人，感觉所有的辛苦都值了，特别自豪。她还说这是她职业生涯的一个高光时刻。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-18",
+    "message_type": "接收",
+    "phone_id": "3479"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，最近睡眠怎么样？我买了助眠喷雾好像没什么用。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-06-22",
+    "message_type": "接收",
+    "phone_id": "3480"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：我还好，可能跟我最近换的香薰有关。睡前点一会儿，感觉整个人都放松下来了。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-06-22",
+    "message_type": "发送",
+    "phone_id": "3481"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：什么香薰这么灵？快推荐给我！是那种甜甜的花香吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-06-22",
+    "message_type": "接收",
+    "phone_id": "3482"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：不是花果香，那个我觉得有点腻。我现在特别喜欢那种闻起来很安心、很沉静的味道。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-06-22",
+    "message_type": "发送",
+    "phone_id": "3483"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：比如雪松、檀香这一类的，有点木质的感觉，但又不冲，是暖暖的，好像能把一天的疲惫都包裹起来融化掉。我卧室和客厅现在都点的这种。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-06-22",
+    "message_type": "发送",
+    "phone_id": "3484"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，最近心情有点复杂。我们部门的小张，你知道的，就是那个很文静的女孩，她妈妈元旦后突发脑溢血，现在还在ICU。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3485"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静静：天啊，这么突然！现在情况稳定了吗？小张一定急坏了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3486"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：还在观察。她家经济条件一般，手术费一下子拿不出那么多。我看她实在困难，就借了她两万块先应急。虽然不多，但希望能帮上点忙。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3487"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静静：丽丽你真好。这种时候能伸出援手太重要了。希望阿姨能快点好起来。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3488"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐强：妹，最近杭州湿冷，家里开了地暖又觉得干。你那边用什么加湿或者香薰吗？",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-10",
+    "message_type": "接收",
+    "phone_id": "3489"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静静：哥，我最近迷上买香薰了。试了好多种，发现我现在最喜欢海洋调的。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-10",
+    "message_type": "发送",
+    "phone_id": "3490"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐强：海洋调？听起来很清爽。你放卧室？",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-10",
+    "message_type": "接收",
+    "phone_id": "3491"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静静：不，我放在客厅。那种带点海盐和清新空气感觉的味道，一进门就能闻到，感觉整个空间都开阔放松了，特别适合招待朋友或者自己晚上看书。卧室我还是用更舒缓助眠的。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-10",
+    "message_type": "发送",
+    "phone_id": "3492"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐强：有品位。回头把链接发我，我也买来试试。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345987",
+    "date": "2025-01-10",
+    "message_type": "接收",
+    "phone_id": "3493"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，你听说了吗？多多那边好像出事了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3494"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：啊？出什么事了？我最近忙店里的事，没怎么看群消息。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3495"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她公司年底裁员，她那个部门整个被优化掉了。她昨天在群里说的，感觉挺受打击的。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3496"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：天哪，怎么会这样…那她接下来打算怎么办？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "发送",
+    "phone_id": "3497"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：她说深圳压力太大了，想先回上海待一阵子，陪陪爸妈，也休息一下，年后再说。我们是不是该约她出来吃个饭安慰一下？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-01-15",
+    "message_type": "接收",
+    "phone_id": "3498"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静静，你上次穿的那套新瑜伽服很好看哎，在哪里买的？我也想去看看。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-10",
+    "message_type": "接收",
+    "phone_id": "3499"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：谢谢娜娜！是在一家主打环保概念的线上店买的。我现在挑瑜伽服，第一看面料是不是用了环保再生材料，比如回收塑料瓶做的纤维。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-10",
+    "message_type": "发送",
+    "phone_id": "3500"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：环保理念确实很重要。还有别的讲究吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-10",
+    "message_type": "接收",
+    "phone_id": "3501"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静：嗯，第二是剪裁，要能显瘦，特别是腰这里收得好，腿那里线条流畅。第三是颜色，我不太喜欢太鲜艳的，最近迷上了莫兰迪色，像雾霾蓝、豆沙粉这种，看着很舒服。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-10",
+    "message_type": "发送",
+    "phone_id": "3502"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：明白了，环保、修身、高级灰调色。品味越来越好了！把店铺链接推给我吧。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345098",
+    "date": "2025-01-10",
+    "message_type": "接收",
+    "phone_id": "3503"
+  },
+  {
+    "type": "sms",
+    "event_id": "2748",
+    "message_content": "我：今天启动了一个新计划，叫‘每日一照’。感觉每天忙忙碌碌的，对身边的美好越来越不敏感了。想用这个方式逼自己停下来，好好看看周围，把那些触动我的瞬间和心情都留下来。希望坚持下去能让我的感知力更强一些。",
+    "contactName": "闺蜜小雅",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-06-28",
+    "message_type": "发送",
+    "phone_id": "3504"
+  },
+  {
+    "type": "sms",
+    "event_id": "3951",
+    "message_content": "我：今天累瘫了，感觉脑子都不转了。晚上在家试吃那些开业用的茶点，本来只想尝几口，结果因为太疲惫，完全没控制住，吃了好多高热量的小蛋糕。现在有点罪恶感，但又觉得是今天唯一的放松时刻了。",
+    "contactName": "闺蜜",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-09-11",
+    "message_type": "发送",
+    "phone_id": "3505"
+  },
+  {
+    "type": "sms",
+    "event_id": "67",
+    "message_content": "我：今天上午在滨江这边走了5公里，空气很好，感觉特别舒畅。你周末有空也可以来试试。",
+    "contactName": "王莉",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-01-05",
+    "message_type": "发送",
+    "phone_id": "3506"
+  },
+  {
+    "type": "sms",
+    "event_id": "5543",
+    "message_content": "我：今天晨跑破纪录了！跑了4.2公里，感觉特别棒，一点都不累。APP里记了一下，感觉进入新阶段了。",
+    "contactName": "跑步搭子-小雅",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-24",
+    "message_type": "发送",
+    "phone_id": "3507"
+  },
+  {
+    "type": "sms",
+    "event_id": "1572",
+    "message_content": "我：遵医嘱，户外运动都停了。今天复查完，就在商场里稍微走了走，算是活动一下。医生说室内走走可以，但别去外面。",
+    "contactName": "妈妈",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-11",
+    "message_type": "发送",
+    "phone_id": "3508"
+  },
+  {
+    "type": "sms",
+    "event_id": "3906",
+    "message_content": "我：早啊，我已经出门了，准备去世纪公园跑步，清晨空气真好。",
+    "contactName": "跑步小组群",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-09",
+    "message_type": "发送",
+    "phone_id": "3509"
+  },
+  {
+    "type": "sms",
+    "event_id": "2778",
+    "message_content": "爸，方案我仔细对比研究过了，特药目录覆盖很全，免赔额也合适。周三晚上我帮您在线操作，您确认一下就行。这样安排可以吗？",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-06-30",
+    "message_type": "发送",
+    "phone_id": "3510"
+  },
+  {
+    "type": "sms",
+    "event_id": "2228",
+    "message_content": "（银行通知）您尾号8899的储蓄卡账户于05月25日20:05收入人民币（薪资）58,650.00元，交易后余额126,783.21元。【XX银行】",
+    "contactName": "XX银行",
+    "contact_phone_number": "955XX",
+    "date": "2025-05-25",
+    "message_type": "接收",
+    "phone_id": "3511"
+  },
+  {
+    "type": "sms",
+    "event_id": "1575",
+    "message_content": "妈，晚上就按我们电话里说的，做点清淡的。医生嘱咐了，饮食要特别注意。",
+    "contactName": "母亲",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-04-11",
+    "message_type": "发送",
+    "phone_id": "3512"
+  },
+  {
+    "type": "sms",
+    "event_id": "968",
+    "message_content": "徐静：妈，今晚临时加班开紧急会议，刚结束。晚饭就随便吃了点饼干，现在有点饿但没胃口。你们先睡吧，不用等我。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-03-03",
+    "message_type": "发送",
+    "phone_id": "3513"
+  },
+  {
+    "type": "sms",
+    "event_id": "2844",
+    "message_content": "徐静：今天工作压力太大了，感觉脑子要炸了。我决定了，下班后要去昌里路那家甜品店买块草莓蛋糕奖励一下自己，不然撑不住了。",
+    "contactName": "张婷",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-07-04",
+    "message_type": "发送",
+    "phone_id": "3514"
+  },
+  {
+    "type": "sms",
+    "event_id": "2844",
+    "message_content": "徐静：蛋糕到手！一小块草莓奶油蛋糕，看着就治愈。吃甜食果然是缓解压力的不二法门，感觉心情好多了。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-04",
+    "message_type": "发送",
+    "phone_id": "3515"
+  },
+  {
+    "type": "sms",
+    "event_id": "5287",
+    "message_content": "哥，关于你求婚的预算，我重新整理了几个方案，重点还是餐厅布置和戒指的分配，你看看哪个更可行？",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-08",
+    "message_type": "发送",
+    "phone_id": "3516"
+  },
+  {
+    "type": "sms",
+    "event_id": "1094",
+    "message_content": "我：妈，刚忙完。晚饭还没吃，没胃口。今天工作特别多，压力好大，感觉要撑不住了。明天一大早还有一堆事。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-03-11",
+    "message_type": "发送",
+    "phone_id": "3517"
+  },
+  {
+    "type": "sms",
+    "event_id": "2846",
+    "message_content": "我：刚和家人吃完饭，还一起吃了块蛋糕。聊了聊工作和家里的事，感觉心里轻松了不少，没那么紧绷了。",
+    "contactName": "张婷",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-07-04",
+    "message_type": "发送",
+    "phone_id": "3518"
+  },
+  {
+    "type": "sms",
+    "event_id": "562",
+    "message_content": "李娜：静，这周三（2月12号）晚上静心瑜伽的流瑜伽课你还去吗？我准备下班直接过去，大概七点半到。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-02-11",
+    "message_type": "接收",
+    "phone_id": "3519"
+  },
+  {
+    "type": "sms",
+    "event_id": "5329",
+    "message_content": "我：哥，链接和截图都发你了，重点看‘星空’和‘极光’那两个系列。苏晴姐的喜好我们之前分析过，简约又有设计感，这两个系列应该很对路。你再看看，我们尽快定下来。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-10",
+    "message_type": "发送",
+    "phone_id": "3520"
+  },
+  {
+    "type": "sms",
+    "event_id": "1249",
+    "message_content": "徐静：妈，我好像感冒了，头有点晕，鼻子也不通气。今天店里忙，中午就喝点粥对付一下。",
+    "contactName": "妈妈",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-03-22",
+    "message_type": "发送",
+    "phone_id": "3521"
+  },
+  {
+    "type": "sms",
+    "event_id": "3812",
+    "message_content": "爸，早上那个纸巾的小插曲别往心里去哈。我查了下，用过的纸巾因为沾了油污和细菌，确实属于‘其他垃圾’，不是‘可回收物’。以后我们全家都多留意一下，慢慢养成习惯就好啦！",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-09-02",
+    "message_type": "发送",
+    "phone_id": "3522"
+  },
+  {
+    "type": "sms",
+    "event_id": "3812",
+    "message_content": "妈，我宣布一个好消息！经过这半个月，我发现现在早餐后收拾时，大家都能很自然地把垃圾分门别类放好，完全不用我再提醒了。我们家的垃圾分类习惯，成功巩固啦！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-09-16",
+    "message_type": "发送",
+    "phone_id": "3523"
+  },
+  {
+    "type": "sms",
+    "event_id": "1948",
+    "message_content": "周晓雯：静，看到你恢复练习了，真好！今天早上（5月30日）的课程感觉如何？正念觉知的引导部分有帮到你吗？记得练习后多喝水。",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-05-30",
+    "message_type": "接收",
+    "summarized_info": "徐静收到了瑜伽教练周晓雯的短信，询问5月30日早上恢复练习的感受，并特别提到了正念觉知的部分。",
+    "phone_id": "3524"
+  },
+  {
+    "type": "sms",
+    "event_id": "4846",
+    "message_content": "我：最近养成了个好习惯，每晚睡前都会看会儿书，感觉睡眠质量都变好了。你最近有什么坚持做的事吗？",
+    "contactName": "张薇",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-11-09",
+    "message_type": "发送",
+    "phone_id": "3525"
+  },
+  {
+    "type": "sms",
+    "event_id": "1244",
+    "message_content": "我：妈，刚忙完。这周大促天天熬到半夜，饭都没好好吃，今天终于结束了，但好像累感冒了，准备吃颗药就睡。",
+    "contactName": "妈妈",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-03-21",
+    "message_type": "发送",
+    "phone_id": "3526"
+  },
+  {
+    "type": "sms",
+    "event_id": "4713",
+    "message_content": "郑教练：报告已收到，数据非常漂亮！力量增长和心率恢复的改善尤其显著，说明你的训练非常有效且科学。下周一（11月3日）晚上7点，我们安排一次体能测试，更精确地评估当前状态，为下一阶段计划做准备。地点老地方。",
+    "contactName": "郑明辉",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-10-30",
+    "message_type": "接收",
+    "phone_id": "3527"
+  },
+  {
+    "type": "sms",
+    "event_id": "5465",
+    "message_content": "徐静：@陈丽 @赵敏 两位，收到消息请立刻到办公室。冬装系列物流出了点状况，需要马上碰头商量对策，调整一下接下来的安排。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-12-19",
+    "message_type": "发送",
+    "phone_id": "3528"
+  },
+  {
+    "type": "sms",
+    "event_id": "3862",
+    "message_content": "我：爸，妈，报告一个好消息！刚才早餐时你们不是都自觉把鸡蛋壳扔进湿垃圾袋，把包装盒叠好放一边了吗？我宣布，咱们家的‘垃圾分类小项目’从今天起，正式从‘需要提醒’阶段毕业，进入‘全自动巡航’模式！成功巩固！",
+    "contactName": "家庭群（徐明，李芳）",
+    "contact_phone_number": "N/A",
+    "date": "2025-09-15",
+    "message_type": "发送",
+    "phone_id": "3529"
+  },
+  {
+    "type": "sms",
+    "event_id": "3186",
+    "message_content": "徐静：陈丽，我这边世纪汇店的晨检和氛围布置都搞定了，等你来一起最后过一遍模特。今天客流估计会很大，我们得打起精神。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-25",
+    "message_type": "发送",
+    "phone_id": "3530"
+  },
+  {
+    "type": "sms",
+    "event_id": "1538",
+    "message_content": "我：爸，关于下午您提到的市场差异化那几点，我又想了想，觉得特别关键。我打算围绕这个方向再深入做一下市场调研，把风险控制方案也细化一下。有初步想法了再跟您请教。",
+    "contactName": "徐父",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-10",
+    "message_type": "发送",
+    "phone_id": "3531"
+  },
+  {
+    "type": "sms",
+    "event_id": "1538",
+    "message_content": "徐父：好的，不急。创业是长跑，有压力随时说，我们一起分析。你妈让你记得涂药膏。",
+    "contactName": "徐父",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-10",
+    "message_type": "接收",
+    "phone_id": "3532"
+  },
+  {
+    "type": "sms",
+    "event_id": "4381",
+    "message_content": "徐静，明天国庆假期后第一天复工，请务必于9:30前到店，做好开门迎客准备。节后客流预计会增多，请提前检查货品陈列和库存。--【静·选】店长",
+    "contactName": "店长",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-10-08",
+    "message_type": "接收",
+    "phone_id": "3533"
+  },
+  {
+    "type": "sms",
+    "event_id": "3187",
+    "message_content": "陈丽：静姐，晨会材料我放在休息区的桌子上了，你到了直接拿就行。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-25",
+    "message_type": "接收",
+    "phone_id": "3534"
+  },
+  {
+    "type": "sms",
+    "event_id": "4382",
+    "message_content": "陈丽：静姐，早！我快到了。昨天店长在群里发的‘静选’国庆销售复盘报告你看了吗？有几个数据我想跟你当面再对一下。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-10-09",
+    "message_type": "接收",
+    "phone_id": "3535"
+  },
+  {
+    "type": "sms",
+    "event_id": "796",
+    "message_content": "我：妈，上午去陆家嘴看了几个商场，感觉高端商圈竞争激烈但机会也大。我下午把上午的观察和想法整理到笔记里了，感觉对店铺的定位清晰了一些。晚上回家再跟您详细说说我的财务计划调整，想听听您的意见。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-02-20",
+    "message_type": "发送",
+    "phone_id": "3536"
+  },
+  {
+    "type": "sms",
+    "event_id": "3188",
+    "message_content": "刘伟你好，我是徐静。今天清仓促销第一天，世纪汇广场L2我们店里客流很大，上午那几款热销单品库存告急，请务必优先安排补货到店，谢谢！",
+    "contactName": "刘伟",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-25",
+    "message_type": "发送",
+    "phone_id": "3537"
+  },
+  {
+    "type": "sms",
+    "event_id": "2182",
+    "message_content": "哥，我整理了几个关于618运营的问题，晚上视频时向你请教。主要是内容策划和引流到店这块，感觉我的方案还有优化空间。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-05-22",
+    "message_type": "发送",
+    "phone_id": "3538"
+  },
+  {
+    "type": "sms",
+    "event_id": "3191",
+    "message_content": "刘伟：徐静，补货的连衣裙和休闲裤已经送到世纪汇店铺入口C位了，你核对一下数量和尺码。",
+    "contactName": "刘伟",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-25",
+    "message_type": "接收",
+    "phone_id": "3539"
+  },
+  {
+    "type": "sms",
+    "event_id": "4737",
+    "message_content": "我：爸，明天的徒步我肯定去。清单我列好了，里面特意加了可降解的垃圾袋。我觉得这种活动特别有意义，自己动一动，环境也干净一点，心情都会变好。而且，我觉得这种‘从小事做起’的环保精神，和我们‘静·选’小店想传递的感觉很像，说不定能给我的小店带来点新灵感或者让老顾客们觉得更亲切。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-11-01",
+    "message_type": "发送",
+    "phone_id": "3540"
+  },
+  {
+    "type": "sms",
+    "event_id": "4753",
+    "message_content": "我：今天去滨江参加环保徒步了，捡了好多塑料瓶。感觉这种活动特别有意义，既锻炼了身体，又真的为社区环境做了点贡献。而且，我总觉得这种‘行动派’的环保理念，和我们‘静·选’小店想传递给顾客的那种‘精致但负责任’的生活态度是相通的。你觉得呢？",
+    "contactName": "陈薇",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-11-02",
+    "message_type": "发送",
+    "phone_id": "3541"
+  },
+  {
+    "type": "sms",
+    "event_id": "514",
+    "message_content": "我：丽丽，这周末有空吗？我最近发现世纪汇那边新开了一家主打健康轻食的餐厅，评价说三文鱼和牛油果系列做得特别好。感觉很适合我们上次聊完健康饮食后去试试。要不要一起去？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-01-30",
+    "message_type": "发送",
+    "phone_id": "3542"
+  },
+  {
+    "type": "sms",
+    "event_id": "514",
+    "message_content": "王丽：好呀静静！听起来很棒！我周六晚上有空。正好最近工作压力有点大，也想和你聊聊。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-01-30",
+    "message_type": "接收",
+    "phone_id": "3543"
+  },
+  {
+    "type": "sms",
+    "event_id": "4754",
+    "message_content": "我：妈，刚结束一个社区的环保徒步活动，又和邻居孙阿姨喝了杯咖啡。活动挺有意义的，既锻炼了身体，也为社区环境出了点力，心里感觉很踏实宁静。孙阿姨还给了我一些店铺经营上的建议，感觉收获不小。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-11-02",
+    "message_type": "发送",
+    "phone_id": "3544"
+  },
+  {
+    "type": "sms",
+    "event_id": "724",
+    "message_content": "我：晚餐吃得真舒服，感觉还没聊够。我知道附近有家清吧特别有氛围，很安静，适合聊天。要不要一起走过去坐坐？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-02-15",
+    "message_type": "发送",
+    "phone_id": "3545"
+  },
+  {
+    "type": "sms",
+    "event_id": "724",
+    "message_content": "王丽：好呀！我正有此意，刚才就想说呢。你带路，我跟着。正好想听听你最近工作上的那些烦心事。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-02-15",
+    "message_type": "接收",
+    "phone_id": "3546"
+  },
+  {
+    "type": "sms",
+    "event_id": "4925",
+    "message_content": "爸：静静，今天下午我去店里转了转，和老张、老王几个老伙计聊了聊，他们对我们新到的几款冬装评价不错。你上次调整的陈列方式效果很好。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-11-12",
+    "message_type": "接收",
+    "phone_id": "3547"
+  },
+  {
+    "type": "sms",
+    "event_id": "4925",
+    "message_content": "爸：静静，今天下午我去店里转了转，和老张、老王几个老伙计聊了聊，他们对我们新到的几款冬装评价不错。你上次调整的陈列方式效果很好。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-11-12",
+    "message_type": "接收",
+    "phone_id": "3547"
+  },
+  {
+    "type": "sms",
+    "event_id": "1446",
+    "message_content": "我：周经理，下午好。刚才在卖场和您简单聊过后，关于您提到的五一后商场联合促销的想法，我觉得和我们店铺计划在四月博览会上寻找的新品资源可以结合起来。等我从CHIC回来，拿到一些品牌方的具体合作意向，我们再详细碰一下方案？",
+    "contactName": "周经理",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-03",
+    "message_type": "发送",
+    "phone_id": "3548"
+  },
+  {
+    "type": "sms",
+    "event_id": "4746",
+    "message_content": "我：爸，上次您提到的那个面料供应商王总，我联系上了，对方很客气，说和‘明华服饰’合作多年，品质绝对放心。谢谢您牵线！",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-11-15",
+    "message_type": "发送",
+    "phone_id": "3549"
+  },
+  {
+    "type": "sms",
+    "event_id": "4926",
+    "message_content": "我：爸，你上次提到的那个有线下快闪经验的设计师联系方式，我找到了，叫林薇。她的作品风格和我们店铺定位很契合，我打算这周约她聊聊合作细节。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-11-15",
+    "message_type": "发送",
+    "phone_id": "3550"
+  },
+  {
+    "type": "sms",
+    "event_id": "4926",
+    "message_content": "徐明：好的。谈的时候，除了设计费，要明确她是否参与现场布置和客户沟通。另外，物流和现场人工的费用分摊方案也要在合同里写清楚，这是企业主必须把控的环节。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-11-15",
+    "message_type": "接收",
+    "phone_id": "3551"
+  },
+  {
+    "type": "sms",
+    "event_id": "1858",
+    "message_content": "我刚刚在薄荷健康上制定了一个为期三个月的计划，主要目标是控制体重在61公斤附近，同时保证精力和情绪都处于良好状态，为接下来的创业冲刺做准备。感觉更有方向了。",
+    "contactName": "王琳",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-30",
+    "message_type": "发送",
+    "phone_id": "3552"
+  },
+  {
+    "type": "sms",
+    "event_id": "3805",
+    "message_content": "郑教练您好，我是徐静。关于9月的训练计划，我想做一下调整。最近工作上的一个项目筹备进入了关键阶段，压力比较大，感觉身体和精神都比较疲惫。",
+    "contactName": "郑明辉",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-01",
+    "message_type": "发送",
+    "phone_id": "3553"
+  },
+  {
+    "type": "sms",
+    "event_id": "3805",
+    "message_content": "所以想跟您商量，能不能把9月上半月（大概到15号左右）的训练重点，从原来的高强度间歇训练，先调整为以维持体能和做一些柔韧性训练为主？等这个项目压力过去，再恢复高强度的部分。",
+    "contactName": "郑明辉",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-01",
+    "message_type": "发送",
+    "phone_id": "3554"
+  },
+  {
+    "type": "sms",
+    "event_id": "1886",
+    "message_content": "徐静：爸，车送修了，这几天上班不方便。我查了下，从咱家到公司坐地铁2号线转9号线，大概50分钟，比平时开车慢不了多少，我准备这几天先坐地铁了。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-05-02",
+    "message_type": "发送",
+    "phone_id": "3555"
+  },
+  {
+    "type": "sms",
+    "event_id": "1926",
+    "message_content": "徐静：妈，我车前几天蹭了，送4S店修了，这几天都得坐地铁上下班，估计得一周。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-05-04",
+    "message_type": "发送",
+    "phone_id": "3556"
+  },
+  {
+    "type": "sms",
+    "event_id": "5205",
+    "message_content": "吴医生：徐女士，关于您今天咨询的年度健康计划，我建议您尽快安排一次年底健康复盘，以便系统评估并制定明年的锻炼与保健方案。您可以通过健康APP或直接联系诊所预约。",
+    "contactName": "吴明远",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-02",
+    "message_type": "接收",
+    "phone_id": "3557"
+  },
+  {
+    "type": "sms",
+    "event_id": "504",
+    "message_content": "刘伟：徐静，张总那批衬衫已经全部打包好了，明天上午闪送会准时来取件。单号稍后发你。",
+    "contactName": "刘伟",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-02-01",
+    "message_type": "接收",
+    "phone_id": "3558"
+  },
+  {
+    "type": "sms",
+    "event_id": "504",
+    "message_content": "张明远：徐经理，衬衫收到了，很及时，非常感谢！合作愉快。",
+    "contactName": "张明远",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-02-02",
+    "message_type": "接收",
+    "phone_id": "3559"
+  },
+  {
+    "type": "sms",
+    "event_id": "1202",
+    "message_content": "阿Ken：静静，节目后期制作完成了，效果非常棒！你的分享特别真诚有力量，尤其是关于创业初心和面对家庭支持那部分，相信能引起很多听众共鸣。链接发你，可以先听听看。",
+    "contactName": "阿Ken",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-03-25",
+    "message_type": "接收",
+    "phone_id": "3560"
+  },
+  {
+    "type": "sms",
+    "event_id": "2880",
+    "message_content": "爸，我明天去买菜，准备给妈做点清淡的。除了鲈鱼，我再买点里脊肉做烂糊肉丝，再炒个青菜，你看怎么样？",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-07-05",
+    "message_type": "发送",
+    "phone_id": "3561"
+  },
+  {
+    "type": "sms",
+    "event_id": "3878",
+    "message_content": "我：娜娜，昨晚的星空深谈和后来的颂钵音疗真的太棒了。感觉把九月初那些乱七八糟的工作压力都清空了一大半。尤其是大家围坐在一起分享的时候，那种被接纳的感觉特别好。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613900000000",
+    "date": "2025-09-07",
+    "message_type": "发送",
+    "phone_id": "3562"
+  },
+  {
+    "type": "sms",
+    "event_id": "1615",
+    "message_content": "徐静：王姐，上次聊的品牌定位方案我发你邮箱了。核心就是环保、简约、可持续。我做了初步的用户画像分析，感觉这个定位特别契合上海那些25-35岁、有独立消费能力、追求品质与生活美学的白领女性。她们对可持续时尚的接受度很高。你觉得呢？",
+    "contactName": "王莉（创业顾问）",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-04-20",
+    "message_type": "发送",
+    "phone_id": "3563"
+  },
+  {
+    "type": "sms",
+    "event_id": "507",
+    "message_content": "刘伟：徐静，张明远先生的紧急衬衫订单（订单号：EM20250202001）已于今早08:55通过闪送发出，单号：SS202502021234567。预计上午送达。",
+    "contactName": "刘伟",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-02-02",
+    "message_type": "接收",
+    "phone_id": "3564"
+  },
+  {
+    "type": "sms",
+    "event_id": "507",
+    "message_content": "张明远：徐经理，衬衫已经收到了，非常及时，解决了我的燃眉之急！感谢你和团队的快速响应。",
+    "contactName": "张明远",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-02-02",
+    "message_type": "接收",
+    "phone_id": "3565"
+  },
+  {
+    "type": "sms",
+    "event_id": "3504",
+    "message_content": "王丽：静静，昨天模拟演示的照片我收到了，你拍得很有现场感，尤其是白板上的那些问题，非常清晰。期待你完善后的方案！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "接收",
+    "phone_id": "3566"
+  },
+  {
+    "type": "sms",
+    "event_id": "1126",
+    "message_content": "赵敏，你好。我是徐静。关于上周项目讨论会上的事情，我想了很久。可能我当时表达自己观点的方式有些过于直接，没能很好地倾听你的想法，对此我感到很抱歉。你的方案其实有很多值得我学习的地方。不知道你下班后是否有空？我想请你喝杯咖啡，我们私下再好好聊聊，看看有没有更好的合作方式。期待你的回复。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-03-14",
+    "message_type": "发送",
+    "phone_id": "3567"
+  },
+  {
+    "type": "sms",
+    "event_id": "3879",
+    "message_content": "我：妈，静修营第二天结束了。昨晚的集体活动特别棒，先是和大家在星空下聊了很久，把心里的烦闷都倒了出来。后来又参加了一个声音疗愈的活动，整个人都松下来了。感觉这次来对了，堆积的压力消解了不少。",
+    "contactName": "妈妈",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-09-07",
+    "message_type": "发送",
+    "phone_id": "3568"
+  },
+  {
+    "type": "sms",
+    "event_id": "4931",
+    "message_content": "孙老板：徐经理，非常抱歉！我们生产线突发故障，您公司的那批核心物料订单要延迟至少3天交付。情况紧急，望您尽快协调！",
+    "contactName": "孙老板",
+    "contact_phone_number": "+8613900000000",
+    "date": "2025-11-14",
+    "message_type": "接收",
+    "phone_id": "3569"
+  },
+  {
+    "type": "sms",
+    "event_id": "1645",
+    "message_content": "徐静：赵敏，谢谢中午的交流，很有启发。我刚把计划书第一部分‘市场分析’的草稿发你邮箱了，重点圈出了我们对核心客群的画像，就是那群在上海写字楼里忙碌但追求生活品质的姐妹们。你看看有没有需要补充的？",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-16",
+    "message_type": "发送",
+    "phone_id": "3570"
+  },
+  {
+    "type": "sms",
+    "event_id": "1645",
+    "message_content": "赵敏：收到，看完了。你对目标市场的界定很清晰——‘上海都市白领女性’，这个群体确实是我们‘静简’品牌最理想的起点。她们既有消费力，又有理念认同感。后续的营销策略可以围绕这个核心展开。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-04-16",
+    "message_type": "接收",
+    "phone_id": "3571"
+  },
+  {
+    "type": "sms",
+    "event_id": "895",
+    "message_content": "我：妈，刚把调整后的预算表发你邮箱了。按照晚上我们讨论的，把软装那块预算先压下来，优先保租金和货款。现金流安全垫的方案我觉得很关键，谢谢妈！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-02-26",
+    "message_type": "发送",
+    "phone_id": "3572"
+  },
+  {
+    "type": "sms",
+    "event_id": "2807",
+    "message_content": "赵敏：静静，我到家了。今天聊的直播项目我越想越觉得‘小众设计挖掘’那个主题有潜力，但选品逻辑还得再捋捋。你晚上别想太深了，小心又失眠影响明天状态。明天上班我们再对一下方案。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-07-02",
+    "message_type": "接收",
+    "phone_id": "3573"
+  },
+  {
+    "type": "sms",
+    "event_id": "2513",
+    "message_content": "妈妈：静静，看你昨晚又忙到很晚，618工作太辛苦了。早上起来背还疼吗？周六的按摩别忘了，好好放松一下。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-06-13",
+    "message_type": "接收",
+    "phone_id": "3574"
+  },
+  {
+    "type": "sms",
+    "event_id": "4935",
+    "message_content": "李娜：明天状态如何？放轻松！给你分享几个赛前心理调节的小技巧：1. 正念呼吸；2. 积极自我对话；3. 想象成功冲线。明天半马见！",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-14",
+    "message_type": "接收",
+    "phone_id": "3575"
+  },
+  {
+    "type": "sms",
+    "event_id": "3408",
+    "message_content": "徐静：瑜伽课刚结束。今天感觉身体特别沉，像灌了铅一样，上周做得很稳的树式和舞王式今天晃得厉害，老师还问我是不是没休息好。可能真是昨天太累了，一口气没缓过来。",
+    "contactName": "闺蜜小雅",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-08-09",
+    "message_type": "发送",
+    "phone_id": "3576"
+  },
+  {
+    "type": "sms",
+    "event_id": "3912",
+    "message_content": "徐静，刚才接待的供应商代表资料我放你桌上了。样品册里那几款新面料质感确实不错，但价格需要再谈。你晚上健身课还来得及吗？",
+    "contactName": "王店长",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-09",
+    "message_type": "接收",
+    "phone_id": "3577"
+  },
+  {
+    "type": "sms",
+    "event_id": "1988",
+    "message_content": "徐静：妈，我刚根据医生建议，初步给爸拟了个饮食方案，核心就是少盐少油。这周我先试着做，周末回去跟您详细说。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-05-09",
+    "message_type": "发送",
+    "phone_id": "3578"
+  },
+  {
+    "type": "sms",
+    "event_id": "2817",
+    "message_content": "（发送给同事小雅）睡了吗？我还在想直播的事，关于引流渠道那块，我突然有个新想法，明天到公司跟你细聊。抱歉这么晚打扰。",
+    "contactName": "小雅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-02",
+    "message_type": "发送",
+    "phone_id": "3579"
+  },
+  {
+    "type": "sms",
+    "event_id": "2514",
+    "message_content": "徐静：王姐，抱歉！这周晚上的瑜伽课我都得请假了，618项目进入最后冲刺，天天加班，实在抽不出时间。等忙完这阵子我再约你。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-06-14",
+    "message_type": "发送",
+    "phone_id": "3580"
+  },
+  {
+    "type": "sms",
+    "event_id": "4939",
+    "message_content": "终于把今天供应商延迟的烂摊子处理完了，还写了总结报告。感觉脑子要炸了，浑身酸痛，累得不行。",
+    "contactName": "闺蜜小雅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-11-14",
+    "message_type": "发送",
+    "phone_id": "3581"
+  },
+  {
+    "type": "sms",
+    "event_id": "5221",
+    "message_content": "李娜：静静，看到你问装备的事了。初跑者最重要的是选对跑鞋，能保护膝盖和脚踝。我建议你买一双缓震好、支撑强的专业跑鞋，别穿普通运动鞋。具体品牌和型号我晚点发你链接。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-03",
+    "message_type": "接收",
+    "phone_id": "3582"
+  },
+  {
+    "type": "sms",
+    "event_id": "3411",
+    "message_content": "发给瑜伽教练Lily：Lily老师早，今天的课上完了。感觉身体特别沉，像没睡醒，做树式和战士三式的时候晃得厉害，完全不如上周稳。看来昨天太累了，没恢复过来。",
+    "contactName": "Lily",
+    "contact_phone_number": "+8618501234567",
+    "date": "2025-08-09",
+    "message_type": "发送",
+    "phone_id": "3583"
+  },
+  {
+    "type": "sms",
+    "event_id": "3913",
+    "message_content": "郑教练，非常抱歉。下午店里临时来了位重要的面料供应商拜访，接待了很长时间，现在感觉有点疲惫，而且时间也来不及了。今晚的力量训练课我不得不取消了，实在不好意思，给您添麻烦了。",
+    "contactName": "郑教练",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-09-09",
+    "message_type": "发送",
+    "phone_id": "3584"
+  },
+  {
+    "type": "sms",
+    "event_id": "1711",
+    "message_content": "徐静：丽丽，睡了吗？刚发现我收藏的纪念币涨了不少！之前不是跟你说我在看那个临街的铺面想做买手店嘛，资金还差一点。这下好了，卖掉一部分币，启动资金就差不多能凑齐了。明天我先联系下之前加的那个币商问问行情。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-04-20",
+    "message_type": "发送",
+    "phone_id": "3585"
+  },
+  {
+    "type": "sms",
+    "event_id": "2818",
+    "message_content": "我：小雅，睡了吗？我还在想明天汇报直播项目的事，快闪店的视觉设计总觉得还可以再优化一下，尤其是那个主KV的配色方案，你觉得暖色调还是冷色调更吸引年轻人？",
+    "contactName": "陈雅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-03",
+    "message_type": "发送",
+    "phone_id": "3586"
+  },
+  {
+    "type": "sms",
+    "event_id": "4940",
+    "message_content": "我：妈，我晚上约了个SPA按摩，今天处理工作上的事太累了，头一直疼。而且明天要跑半马，得让身体彻底放松一下，不然明天跑不动。晚饭我回来帮你一起弄。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-11-14",
+    "message_type": "发送",
+    "phone_id": "3587"
+  },
+  {
+    "type": "sms",
+    "event_id": "5222",
+    "message_content": "李娜：静静，关于跑鞋，我强烈建议你入手一双专业的缓震跑鞋，比如亚瑟士的Gel-Nimbus系列或者索康尼的胜利系列。这能有效保护膝盖，对新手特别重要。别图便宜买普通运动鞋，体验和安全性差很多。等你买好了告诉我一声！",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-03",
+    "message_type": "接收",
+    "phone_id": "3588"
+  },
+  {
+    "type": "sms",
+    "event_id": "494",
+    "message_content": "徐静：张店长，明天上午的试运行按计划进行。大家务必参照我上周下发的新版《店铺标准化操作手册》执行，尤其是第三部分的视觉陈列规范。我们现场观察并收集反馈。",
+    "contactName": "张店长",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-02-18",
+    "message_type": "发送",
+    "phone_id": "3589"
+  },
+  {
+    "type": "sms",
+    "event_id": "2890",
+    "message_content": "陈丽：静静，直播脚本和流程我看完了，就是按照你之前那份作业策划案改的吧？逻辑很清晰，今晚首播肯定没问题！加油！",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-15",
+    "message_type": "接收",
+    "phone_id": "3590"
+  },
+  {
+    "type": "sms",
+    "event_id": "776",
+    "message_content": "徐静：陈丽，早！今天开始试运行的新流程手册，重点强调了客户接待的七步法、库存查询的实时更新以及搭配推荐的标准化话术。这是首次运行，麻烦你作为早班负责人，带头严格执行，有任何问题随时反馈给我。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-02-19",
+    "message_type": "发送",
+    "phone_id": "3591"
+  },
+  {
+    "type": "sms",
+    "event_id": "1772",
+    "message_content": "徐静：王老师您好，我是小徐。最近在整理收藏，看到您之前分享的行情信息很有帮助。我手头那套2015年羊年生肖币和航天纪念钞套装，如果近期考虑出手的话，大概什么价位比较合适？另外，您上次提到的‘分批出手’的建议，具体操作上有什么需要注意的吗？我这边在筹备一个新项目，资金方面想做一些规划。",
+    "contactName": "老王（藏友）",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-04-25",
+    "message_type": "发送",
+    "phone_id": "3592"
+  },
+  {
+    "type": "sms",
+    "event_id": "1772",
+    "message_content": "老王（藏友）：小徐你好。羊年币和航天钞最近行情确实不错，尤其是品相好的。单套的话，市场价分别在XXXX元和XXXX元左右浮动，具体要看品相和号码。分批出手是对的，可以降低风险。你先别急，我帮你问问几个靠谱的渠道。你那个新店筹备得怎么样了？资金压力大吗？",
+    "contactName": "老王（藏友）",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-04-25",
+    "message_type": "接收",
+    "phone_id": "3593"
+  },
+  {
+    "type": "sms",
+    "event_id": "5258",
+    "message_content": "李娜：静静，你刚开始跑步，一定要选一双好的缓震跑鞋，比如Nike的Pegasus系列，能保护膝盖。我那双Air Zoom Pegasus 39就很舒服，推荐给你。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-03",
+    "message_type": "接收",
+    "phone_id": "3594"
+  },
+  {
+    "type": "sms",
+    "event_id": "3115",
+    "message_content": "徐静：陈丽，直播前最后确认一下。今晚8点的抖音直播，主题就是‘静选夏季清仓’，流程和话术要点我发你微信文件了，就是基于我们上次讨论过的那份课程作业方案。后台操作和商品上架顺序就按那个来，辛苦啦！",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613900000000",
+    "date": "2025-07-20",
+    "message_type": "发送",
+    "phone_id": "3595"
+  },
+  {
+    "type": "sms",
+    "event_id": "1981",
+    "message_content": "我：妈，今天开始我们就要严格执行晚餐时定的那个饮食方案了。我下班后去买低钠盐和橄榄油，晚上我们研究一下下周的清淡食谱。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-05-09",
+    "message_type": "发送",
+    "phone_id": "3596"
+  },
+  {
+    "type": "sms",
+    "event_id": "1981",
+    "message_content": "李芳：好的静静，我下午已经把家里的酱油、蚝油都换成减盐的了。晚上等你回来一起定食谱。你爸今天很配合，主动说以后菜要少放盐。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-05-09",
+    "message_type": "接收",
+    "phone_id": "3597"
+  },
+  {
+    "type": "sms",
+    "event_id": "4758",
+    "message_content": "妈，我吃完了，碗也洗好了。现在去阳台把那双脏鞋子处理一下，不然干了更难弄。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-11-02",
+    "message_type": "发送",
+    "phone_id": "3598"
+  },
+  {
+    "type": "sms",
+    "event_id": "3336",
+    "message_content": "妈，我刚开车路过一家新开的烘焙坊，叫‘甜蜜时光’，闻着可香了，肚子都叫了。但我为了那个三天的轻食计划，硬是没停车！算是个小胜利吧！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-08-03",
+    "message_type": "发送",
+    "phone_id": "3599"
+  },
+  {
+    "type": "sms",
+    "event_id": "777",
+    "message_content": "徐静：赵敏，明天上午试运行新流程，请务必使用我发在群里的‘新版搭配推荐话术’卡片进行练习。这是新标准化手册里的关键部分，有任何问题随时找我。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-02-18",
+    "message_type": "发送",
+    "phone_id": "3600"
+  },
+  {
+    "type": "sms",
+    "event_id": "2010",
+    "message_content": "爸，从今天起我们家的饮食要严格按照低盐低脂的计划来。早餐的燕麦和鸡蛋都没放盐，你吃的时候酱油也少蘸点。这是为了你的血压，我们一起坚持。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-05-11",
+    "message_type": "发送",
+    "phone_id": "3601"
+  },
+  {
+    "type": "sms",
+    "event_id": "2798",
+    "message_content": "妈，这个月开始给你设了个‘健康调理’的专项基金，钱我这边按月留出来了，你该做的理疗和买补品别省着。另外，店里我打算试试线上卖货，也拨了一小笔‘启动资金’先探探路。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-07-01",
+    "message_type": "发送",
+    "phone_id": "3602"
+  },
+  {
+    "type": "sms",
+    "event_id": "3348",
+    "message_content": "妈，今天第二天吃沙拉，下午饿得肚子都叫了，同事还问我。不过我还是坚持住了，就说在控制饮食。希望明天最后一天能顺利。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-08-04",
+    "message_type": "发送",
+    "phone_id": "3603"
+  },
+  {
+    "type": "sms",
+    "event_id": "782",
+    "message_content": "徐静：陈丽，今天新流程试运行整体顺利。我下午用你上次培训时提到的‘场景化连带’思路，成功推了一套春装搭配，客单价提升了近40%。看来把培训知识整理成这份SOP手册是有效的。明天早会我们再复盘一下细节。",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-02-19",
+    "message_type": "发送",
+    "phone_id": "3604"
+  },
+  {
+    "type": "sms",
+    "event_id": "2446",
+    "message_content": "我：今天去南京路那几个快时尚品牌店转了一圈，拍了不少他们夏装的陈列和橱窗。感觉对我们下一季的视觉方案挺有启发的，尤其是分区和色彩这块。回头把照片和笔记整理一下发你。",
+    "contactName": "陈经理",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-06-08",
+    "message_type": "发送",
+    "phone_id": "3605"
+  },
+  {
+    "type": "sms",
+    "event_id": "2013",
+    "message_content": "徐静：妈，我查了资料，高血压饮食关键是控盐和控油。以后家里做饭我多负责，咱们一起帮爸把饮食调整过来。今天午餐就是第一次尝试，鱼和菜都没怎么放盐和油。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-05-10",
+    "message_type": "发送",
+    "phone_id": "3606"
+  },
+  {
+    "type": "sms",
+    "event_id": "2906",
+    "message_content": "周经理您好，我是徐静。家里有紧急情况，母亲意外骨折，需要我立即陪护。想跟您申请，未来几天能否灵活调整我在店的时间？我会通过手机远程处理紧急店务，确保工作不耽误。具体情况我稍后整理好发您。",
+    "contactName": "周经理",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-08",
+    "message_type": "发送",
+    "phone_id": "3607"
+  },
+  {
+    "type": "sms",
+    "event_id": "2906",
+    "message_content": "徐静，收到。情况了解了，母亲骨折需要陪护，这是大事，请先照顾好家人。你提出的未来几天灵活调整在店时间并线上处理紧急店务的方案，我批准了。具体安排你自行把握，保持沟通。祝阿姨早日康复。",
+    "contactName": "周经理",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-08",
+    "message_type": "接收",
+    "phone_id": "3608"
+  },
+  {
+    "type": "sms",
+    "event_id": "589",
+    "message_content": "徐静：王教练，不好意思，今天上午工作比较忙，现在感觉身体很累，肩颈也不太舒服，中午的课我暂时先取消了，谢谢。",
+    "contactName": "王教练（瑜伽）",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-02-07",
+    "message_type": "发送",
+    "phone_id": "3609"
+  },
+  {
+    "type": "sms",
+    "event_id": "3454",
+    "message_content": "爸，我刚制定了一个详细的车辆长期维护计划，把上次空调坏掉的教训变成实际行动了。计划已经发你一份，里面设置了定期的保养和检查提醒，这样以后就能避免大笔的意外维修费了。我们一起督促执行吧。",
+    "contactName": "父亲",
+    "contact_phone_number": "+8613900123456",
+    "date": "2025-08-11",
+    "message_type": "发送",
+    "phone_id": "3612"
+  },
+  {
+    "type": "sms",
+    "event_id": "3209",
+    "message_content": "雪梅，好久不见！最近生意怎么样？我这边计划8月初去杭州看看市场，想跟你当面请教学习一下，不知道你方不方便？",
+    "contactName": "李雪梅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-26",
+    "message_type": "发送",
+    "phone_id": "3613"
+  },
+  {
+    "type": "sms",
+    "event_id": "3209",
+    "message_content": "静姐，欢迎啊！随时来，我这边都方便。你定好具体时间提前告诉我就行，到时候我带你去几个有意思的店转转。",
+    "contactName": "李雪梅",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-26",
+    "message_type": "接收",
+    "phone_id": "3614"
+  },
+  {
+    "type": "sms",
+    "event_id": "4964",
+    "message_content": "我：妈，昨天有点不舒服，今天早上起来感觉好多了，喉咙和鼻子都通了。不用担心啦。",
+    "contactName": "妈妈",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-11-17",
+    "message_type": "发送",
+    "phone_id": "3615"
+  },
+  {
+    "type": "sms",
+    "event_id": "3242",
+    "message_content": "舅舅，我是静静。今天下午电话里说的事，非常感谢您能抽出时间！我这边初步计划是8月5号到杭州，具体时间地点等您方便的时候我们再定。期待向您请教！",
+    "contactName": "刘建国",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-07-28",
+    "message_type": "发送",
+    "phone_id": "3616"
+  },
+  {
+    "type": "sms",
+    "event_id": "2697",
+    "message_content": "我：哥，会议纪要发你了。关于店铺，爸同意把日常运营的担子先交给我了，我会按我们讨论的计划来。你那边也多支持。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-06-25",
+    "message_type": "发送",
+    "phone_id": "3617"
+  },
+  {
+    "type": "sms",
+    "event_id": "2697",
+    "message_content": "爸爸：静静，吴医生推荐的补充医疗保险资料我看了，就按昨天会上定的办吧。店铺的事，你多费心，我慢慢配合你交接。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-06-26",
+    "message_type": "接收",
+    "phone_id": "3618"
+  },
+  {
+    "type": "sms",
+    "event_id": "4978",
+    "message_content": "我：爸，妈，我昨晚睡得很好，今天早上起来感觉完全好了，头不晕鼻子也不塞了。你们放心吧。",
+    "contactName": "家庭群（徐明，李芳）",
+    "contact_phone_number": "群聊",
+    "date": "2025-11-17",
+    "message_type": "发送",
+    "phone_id": "3619"
+  },
+  {
+    "type": "sms",
+    "event_id": "3629",
+    "message_content": "静静，刚才扔垃圾，我拿起一个空塑料瓶，下意识就想它是可回收的，要放蓝桶。你爸也是，现在扔东西前都会先停一下想想。感觉这习惯慢慢就成自然了，都不用特意去记了。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-08-29",
+    "message_type": "接收",
+    "phone_id": "3620"
+  },
+  {
+    "type": "sms",
+    "event_id": "2775",
+    "message_content": "各位伙伴，晨会时提到的618团队奖金已经正式审批通过，具体金额和分配明细稍后发给大家确认，预计下个月随工资一起发放。感谢大家这段时间的辛苦付出！",
+    "contactName": "风尚服饰团队群",
+    "contact_phone_number": "N/A",
+    "date": "2025-06-30",
+    "message_type": "发送",
+    "phone_id": "3621"
+  },
+  {
+    "type": "sms",
+    "event_id": "2775",
+    "message_content": "王经理您好，我是徐静。关于我父亲的补充医疗保险，方案B我已经仔细看过了，保障内容更符合我们的需求。我决定就选方案B了，相关费用我刚才已经通过APP支付完成。后续的电子合同和生效事宜，就麻烦您跟进处理了。谢谢！",
+    "contactName": "王经理（保险顾问）",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-06-30",
+    "message_type": "发送",
+    "phone_id": "3622"
+  },
+  {
+    "type": "sms",
+    "event_id": "3747",
+    "message_content": "今天中午和我妈打电话，她特别高兴地跟我说，现在扔垃圾前都会先想一下分类，感觉已经成习惯了，还换了积分。看来我们家的环保小目标初步达成了！",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-08-29",
+    "message_type": "发送",
+    "summarized_info": "徐静给同事陈丽发送了一条短信，转述了母亲关于垃圾分类习惯养成的反馈。",
+    "phone_id": "3623"
+  },
+  {
+    "type": "sms",
+    "event_id": "4809",
+    "message_content": "我：爸，妈，刚拿到体检报告，结果特别好，全是绿灯！医生说心肺功能比去年还好，让我继续保持运动。这下跑起步来更有劲了！",
+    "contactName": "家庭群（徐明、李芳）",
+    "contact_phone_number": "群聊",
+    "date": "2025-11-05",
+    "message_type": "发送",
+    "phone_id": "3624"
+  },
+  {
+    "type": "sms",
+    "event_id": "2715",
+    "message_content": "我：周教练您好，我昨晚瑜伽课后右肩一直有点酸胀，不知道是不是动作没做到位，有点担心。\n周教练：收到。别担心，今晚课前我帮你看看。可能是某个体式发力点不对，我们调整一下就好。晚上见。",
+    "contactName": "周教练",
+    "contact_phone_number": "+8613900000000",
+    "date": "2025-06-26",
+    "message_type": "发送",
+    "phone_id": "3625"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "老爸：静静，广州孙总那边的新款女装要安排补货了，你看下库存，这两天联系一下。这次主推的那个系列反馈不错。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-04-08",
+    "message_type": "接收",
+    "phone_id": "3626"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：好的老爸，我看了，春款碎花连衣裙库存剩得不多，下午我就给孙总发消息问问。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-04-08",
+    "message_type": "发送",
+    "phone_id": "3627"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "孙老板：徐小姐，你8号问的那批春款碎花连衣裙今天发车了，估计后天能到上海。单号是SF1234567890。",
+    "contactName": "孙老板",
+    "contact_phone_number": "+8613902345678",
+    "date": "2025-04-10",
+    "message_type": "接收",
+    "phone_id": "3628"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：收到，孙总！麻烦您了，到货后我们立刻安排上架。",
+    "contactName": "孙老板",
+    "contact_phone_number": "+8613902345678",
+    "date": "2025-04-10",
+    "message_type": "发送",
+    "phone_id": "3629"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：哥，最近看到线上服装生意挺火的，我在想咱们店是不是也该开个网店试试？",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2025-05-03",
+    "message_type": "发送",
+    "phone_id": "3630"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐强：开网店想法不错，但现在竞争很大，运营、物流、推广都是成本。我建议你先稳定好线下的销售渠道，投资要谨慎，别急着做决定。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2025-05-03",
+    "message_type": "接收",
+    "phone_id": "3631"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：强哥，上次你说的对，网店的事我还是先放一放。老爸也说现在实体店客流还行，再观察观察市场。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2025-05-15",
+    "message_type": "发送",
+    "phone_id": "3632"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐强：嗯，稳扎稳打是对的。多关注市场动态，有机会再聊。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2025-05-15",
+    "message_type": "接收",
+    "phone_id": "3633"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：静静，太吓人了，今天公司突然宣布要裁员，人心惶惶的。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2025-05-22",
+    "message_type": "接收",
+    "phone_id": "3634"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：天哪！你们部门没事吧？最近市场环境确实不太好。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2025-05-22",
+    "message_type": "发送",
+    "phone_id": "3635"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "王丽：上个月跟你说的裁员，最后定了，主要是隔壁的市场部裁了一大半，我们设计部基本没动，算虚惊一场。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2025-06-01",
+    "message_type": "接收",
+    "phone_id": "3636"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：那还好，至少你这边稳住了。中午出来吃个饭压压惊？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2025-06-01",
+    "message_type": "发送",
+    "phone_id": "3637"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：静姐，最近总觉得累，同事推荐我开始吃点保健品，你平时会吃吗？",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613817898901",
+    "date": "2025-06-05",
+    "message_type": "接收",
+    "phone_id": "3638"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：我偶尔会吃点复合维生素。你具体缺什么？最好问问医生。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613817898901",
+    "date": "2025-06-05",
+    "message_type": "发送",
+    "phone_id": "3639"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "李娜：上次说的保健品，我去查了下，是缺维生素D。现在开始吃维生素D3了，医生说办公室人群普遍缺。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613817898901",
+    "date": "2025-06-18",
+    "message_type": "接收",
+    "phone_id": "3640"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：嗯嗯，听医生的准没错。我们也要多晒晒太阳。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613817898901",
+    "date": "2025-06-18",
+    "message_type": "发送",
+    "phone_id": "3641"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "陈明：姐，最近发现一个巨好用的APP，上面很多潮流穿搭和购物分享，感觉特别适合你这种做服装的。",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2025-07-02",
+    "message_type": "接收",
+    "phone_id": "3642"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：是吗？叫什么？我也下载看看，正好找找选款灵感。",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2025-07-02",
+    "message_type": "发送",
+    "phone_id": "3643"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "陈明：姐，上次跟你说的那个APP，就是小红书，你下了没？用我的邀请码注册，有新用户福利。",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2025-07-10",
+    "message_type": "接收",
+    "phone_id": "3644"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：已经下了，确实信息量很大，谢谢小明！",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2025-07-10",
+    "message_type": "发送",
+    "phone_id": "3645"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "张秀英：静静啊，你表妹最近工作定下来了，在南京这边一个外企，我这心总算放下了。她这专业找工作真不容易。",
+    "contactName": "张秀英",
+    "contact_phone_number": "+8613905124567",
+    "date": "2025-08-12",
+    "message_type": "接收",
+    "phone_id": "3646"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：那太好了，恭喜表妹！还是她学校牌子硬，找工作有优势。",
+    "contactName": "张秀英",
+    "contact_phone_number": "+8613905124567",
+    "date": "2025-08-12",
+    "message_type": "发送",
+    "phone_id": "3647"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "张秀英：是啊，当初考上南京大学，我们一家都高兴坏了。现在看她工作顺利，我也算完成任务了。",
+    "contactName": "张秀英",
+    "contact_phone_number": "+8613905124567",
+    "date": "2025-08-25",
+    "message_type": "接收",
+    "phone_id": "3648"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我：阿姨您教育得好！表妹以后肯定更有出息。",
+    "contactName": "张秀英",
+    "contact_phone_number": "+8613905124567",
+    "date": "2025-08-25",
+    "message_type": "发送",
+    "phone_id": "3649"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "爸，王明远那边我联系好了，钱也转过去了，就等他寄那枚罕见的纪念币过来了，好期待！",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2023-10-05",
+    "message_type": "发送",
+    "phone_id": "3650"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "老王，上次你帮我留意的那枚2008年奥运纪念金币终于找到卖家了？太好了！年份和品相都确定了对吧？",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613901234567",
+    "date": "2023-09-20",
+    "message_type": "发送",
+    "phone_id": "3651"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "小妹，这个季度忙死了，季度报告完成后我得好好庆祝一下，放松放松。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2024-06-09",
+    "message_type": "接收",
+    "phone_id": "3652"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "强哥，加油！季度报告明天（10号）就能搞定了吧？那你岂不是11号就能嗨皮了？",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2024-06-10",
+    "message_type": "发送",
+    "phone_id": "3653"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "徐静，针对你的核心力量训练，我推荐你在家可以多练习‘船式’和‘平板支撑’。",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613681794567",
+    "date": "2024-04-05",
+    "message_type": "接收",
+    "phone_id": "3654"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "周老师，上次您推荐的体式我练了感觉很好。还有其他的吗？",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613681794567",
+    "date": "2024-04-18",
+    "message_type": "发送",
+    "phone_id": "3655"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "可以加上‘侧板式’和‘仰卧抬腿’，这两个对侧腹和下腹刺激也很到位。",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613681794567",
+    "date": "2024-04-18",
+    "message_type": "接收",
+    "phone_id": "3656"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静静，我看你最近老加班，给你买了那款维生素，放你桌上了，记得吃。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2024-02-14",
+    "message_type": "接收",
+    "phone_id": "3657"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "妈，昨天去药店看到Swisse的维生素C在打折，你要不要也囤点？",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2024-02-13",
+    "message_type": "发送",
+    "phone_id": "3658"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "姐，我们团队搞的新产品马上要上线了，上线后我准备请大家吃顿好的，鼓励一下。",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2024-05-18",
+    "message_type": "接收",
+    "phone_id": "3659"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "小明，恭喜啊！你上次说产品计划5月20日上线，是确定了吗？",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2024-05-15",
+    "message_type": "发送",
+    "phone_id": "3660"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "确定了姐，就20号！所以庆功宴也定在那天晚上。",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2024-05-15",
+    "message_type": "接收",
+    "phone_id": "3661"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静静，最近看了两部超甜的爱情片，《真爱至上》和《时空恋旅人》，感觉是你的菜，推荐给你！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2024-03-08",
+    "message_type": "接收",
+    "phone_id": "3662"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "丽丽，你上次推荐的电影看完了，还有没有类似的推荐呀？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2024-03-15",
+    "message_type": "发送",
+    "phone_id": "3663"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "有啊！《怦然心动》、《一天》还有《诺丁山》，这三部也超经典，保证你喜欢。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2024-03-15",
+    "message_type": "接收",
+    "phone_id": "3664"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "老王，最近北京那边有什么纪念币的好展览或活动吗？我收藏遇到瓶颈了，想看看新东西。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613901234567",
+    "date": "2023-10-15",
+    "message_type": "发送",
+    "phone_id": "3665"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "小静，巧了！国家博物馆下周六有个‘近代机制币精品展’，持续一周，展品里有几枚珍稀的“袁大头”，你应该会感兴趣。",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613901234567",
+    "date": "2023-10-15",
+    "message_type": "接收",
+    "phone_id": "3666"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "妈妈，我下周六要去国家博物馆看一个纪念币展，晚上回来吃饭，不用准备我的晚饭了。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613817892547",
+    "date": "2023-10-20",
+    "message_type": "发送",
+    "phone_id": "3667"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "好的呀，路上注意安全。对了，上周你说的那个草莓蛋糕，我路过店里买了一个，晚上你回来吃。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2023-10-20",
+    "message_type": "接收",
+    "phone_id": "3668"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "老爸，我那个自己开店的想法又有进展了。最近考察了几个地方，觉得上海的新兴商业区潜力很大，想听听您的建议。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613917895623",
+    "date": "2023-08-03",
+    "message_type": "发送",
+    "phone_id": "3669"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "我看了你的商业计划书，选址思路是对的。可以考虑那些有政策扶持、年轻人聚集的新区，初期压力会小一些。周末我们细聊。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2023-08-03",
+    "message_type": "接收",
+    "phone_id": "3670"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "哥，我决定了！我的分店就选在临港新区！那边配套慢慢起来了，而且租金比市中心友好太多，符合我稳扎稳打的策略。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613905712345",
+    "date": "2023-09-10",
+    "message_type": "发送",
+    "phone_id": "3671"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "明智！临港未来可期，而且客户群体和你的时尚定位也能匹配。线上引流这块有什么需要我帮忙的随时说。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2023-09-10",
+    "message_type": "接收",
+    "phone_id": "3672"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "郑教练，我感觉最近力量训练遇到瓶颈了，腰腹没什么进步。下周的训练计划能调整一下吗？",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613817890123",
+    "date": "2023-09-05",
+    "message_type": "发送",
+    "phone_id": "3673"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "收到。很多会员都有这个问题。下周开始，我会在你的常规训练后加入核心力量的特训环节，重点加强一下。",
+    "contactName": "郑明辉",
+    "contact_phone_number": "+8613817890123",
+    "date": "2023-09-05",
+    "message_type": "接收",
+    "phone_id": "3674"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "娜娜，郑教练新给我加了个‘酷刑’，叫平板支撑，每次练完感觉肚子都不是自己的了。你练过这个吗？",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613817898901",
+    "date": "2023-09-12",
+    "message_type": "发送",
+    "phone_id": "3675"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "练过！刚开始特别痛苦，但坚持下来对核心力量真的超有用！慢慢来，从30秒开始坚持。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613817898901",
+    "date": "2023-09-12",
+    "message_type": "接收",
+    "phone_id": "3676"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "舅舅，我最近在筹划开店的事，感觉自己在财务和人员管理上知识不够。您有什么好的学习渠道推荐吗？",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613905715678",
+    "date": "2023-07-08",
+    "message_type": "发送",
+    "phone_id": "3677"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "有眼光！创业就要不断学习。杭州市商会下个月有个针对初创者的精品课程，讲师很有经验，我帮你问问还有没有名额。",
+    "contactName": "刘建国",
+    "contact_phone_number": "+8613905715678",
+    "date": "2023-07-08",
+    "message_type": "接收",
+    "phone_id": "3678"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "老爸，舅舅推荐的那个‘小微企业经营实战课’我报名成功了！八月中旬在杭州上课，正好可以去尝尝舅舅店里的新菜。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613917895623",
+    "date": "2023-07-25",
+    "message_type": "发送",
+    "phone_id": "3679"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "很好！你舅舅在经营上确实有一套，多跟他学学。路上注意安全，学习资料带齐全。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2023-07-25",
+    "message_type": "接收",
+    "phone_id": "3680"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静姐，今天心情超好！我表妹高考录取结果出来了，考上了她心心念念的学校！",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613681793456",
+    "date": "2023-08-10",
+    "message_type": "接收",
+    "phone_id": "3681"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "太好了！恭喜恭喜！是哪所大学呀？必须好好庆祝一下。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613681793456",
+    "date": "2023-08-10",
+    "message_type": "发送",
+    "phone_id": "3682"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "丽丽，我同事赵敏的表妹太厉害了，就是上个月我们聊到的那个高考生，录取结果出来了。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613681792345",
+    "date": "2023-08-11",
+    "message_type": "发送",
+    "phone_id": "3683"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "是吗？考的哪儿？我记得她目标是师范类院校。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2023-08-11",
+    "message_type": "接收",
+    "phone_id": "3684"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "对，就是华东师范大学！真为她高兴。",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613681792345",
+    "date": "2023-08-11",
+    "message_type": "发送",
+    "phone_id": "3685"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "周老师，最近工作压力有点大，感觉练瑜伽时都静不下心。有什么短期调整的方法吗？",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613681794567",
+    "date": "2023-11-02",
+    "message_type": "发送",
+    "phone_id": "3686"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "理解。我们工作室合作的山里静修营下个月有个周末班，沉浸式体验，对缓解压力、调整状态效果特别好。我把链接发你看看。",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613681794567",
+    "date": "2023-11-02",
+    "message_type": "接收",
+    "phone_id": "3687"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "娜娜，周老师推荐了一个山里的瑜伽静修营，我看了一下，是三天两夜的行程，感觉很不错。你有兴趣一起吗？",
+    "contactName": "徐静",
+    "contact_phone_number": "+8613817898901",
+    "date": "2023-11-05",
+    "message_type": "发送",
+    "phone_id": "3688"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "听起来很棒！三天时间也刚好。具体是什么时候？我们查一下排班。",
+    "contactName": "李娜",
+    "contact_phone_number": "+8613817898901",
+    "date": "2023-11-05",
+    "message_type": "接收",
+    "phone_id": "3689"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "老王，你说的那枚2015年羊年生肖彩银币，我昨天刚找到，品相确实一流。",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613901234567",
+    "date": "2024-07-12",
+    "message_type": "接收",
+    "phone_id": "3690"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静姐你眼光真好！那枚币我也是去年在陆家嘴钱币展上淘到的，当时就觉得你会喜欢。",
+    "contactName": "王明远",
+    "contact_phone_number": "+8613901234567",
+    "date": "2024-07-15",
+    "message_type": "接收",
+    "phone_id": "3691"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "丽丽，最近有啥好玩的地方推荐吗？想找个安静点的小店坐坐。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2024-08-03",
+    "message_type": "发送",
+    "phone_id": "3692"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "武康路那家网红店 Little Berry 的草莓蛋糕听说绝了！你不是最爱吃草莓蛋糕吗？下次一起去！",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613681792345",
+    "date": "2024-08-03",
+    "message_type": "接收",
+    "phone_id": "3693"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "姐，我负责的那个大项目昨天终于上线了！累瘫了，不过奖金可观，打算买点东西犒劳自己，也给你选个小礼物。",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2024-08-16",
+    "message_type": "接收",
+    "phone_id": "3694"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静姐，上周跟你说的那个项目，今天（8月15日）下午三点终于顺利上线了！整个团队都松了一口气。",
+    "contactName": "陈明",
+    "contact_phone_number": "+8613923457890",
+    "date": "2024-08-15",
+    "message_type": "接收",
+    "phone_id": "3695"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "静静，我从杭州回来了，给你带了点龙井茶和一条丝巾，妈说你喜欢抹茶，这茶应该合你口味。周末拿给你。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2024-06-11",
+    "message_type": "接收",
+    "phone_id": "3696"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "强哥，你这次去杭州出差大概几天？妈念叨你呢。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2024-06-05",
+    "message_type": "发送",
+    "phone_id": "3697"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "得一周左右，6月10号晚上能回上海。让妈别担心。",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613905712345",
+    "date": "2024-06-05",
+    "message_type": "接收",
+    "phone_id": "3698"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "周老师，你上次推荐的那款蛋白粉，我喝了感觉还不错，感觉运动后恢复快了点。能再告诉我下牌子吗？我记不清了。",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613681794567",
+    "date": "2024-09-20",
+    "message_type": "发送",
+    "phone_id": "3699"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "是MuscleTech的乳清蛋白，香草味那款。适合你现在加强核心力量训练的强度。",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613681794567",
+    "date": "2024-09-20",
+    "message_type": "接收",
+    "phone_id": "3700"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "敏敏，上次的供应商这次发来的货质量有点参差不齐，有几件线头都没处理干净，得跟他们反馈一下。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613681793456",
+    "date": "2024-10-18",
+    "message_type": "发送",
+    "phone_id": "3701"
+  },
+  {
+    "type": "sms",
+    "event_id": "0",
+    "message_content": "你说孙总那边吗？我也发现了。不过他们家新款设计确实好，卖得快。我们委婉点提，别影响后续合作。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613681793456",
+    "date": "2024-10-18",
+    "message_type": "接收",
+    "phone_id": "3702"
+  },
+  {
+    "type": "sms",
+    "event_id": "1672",
+    "message_content": "我：妈，我晚上的航班你别担心了。对了，告诉你个好消息，困扰我快三周的过敏今天早上起来发现彻底好了，脸上一点痕迹都没有了，也不痒了！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-04-18",
+    "message_type": "发送",
+    "phone_id": "3703"
+  },
+  {
+    "type": "sms",
+    "event_id": "2713",
+    "message_content": "徐静：爸，晚餐的香煎三文鱼和希腊沙拉您尝了吗？感觉怎么样？",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-06-26",
+    "message_type": "发送",
+    "phone_id": "3704"
+  },
+  {
+    "type": "sms",
+    "event_id": "2713",
+    "message_content": "徐明：一开始觉得太清淡了，没什么味道。不过你和妈妈都说好，我就试了试。鱼还行，沙拉里的蔬菜也比平时多吃了些。",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-06-26",
+    "message_type": "接收",
+    "phone_id": "3705"
+  },
+  {
+    "type": "sms",
+    "event_id": "5496",
+    "message_content": "徐静：丽丽，今天聊完感觉好点了吗？别想太多，周末的安福路之约别忘了哦，我们周六下午2点老地方见，就按我们中午说的，去那几家你喜欢的店逛逛，吃点好吃的，放松一下！等你回复。",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-12-11",
+    "message_type": "发送",
+    "phone_id": "3706"
+  },
+  {
+    "type": "sms",
+    "event_id": "2659",
+    "message_content": "妈，我刚从杭州回来，拍了好多照片和视频，西湖、灵隐寺、龙井村都特别美！我整理一下，晚上发到家庭群里给你们看！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-04-22",
+    "message_type": "发送",
+    "phone_id": "3707"
+  },
+  {
+    "type": "sms",
+    "event_id": "2659",
+    "message_content": "多多，上次听你分享的电商趋势太有用了！我最近店铺想尝试私域运营，有几个具体问题想再请教你，看你什么时候方便，我请你喝茶？",
+    "contactName": "钱多多",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-06-21",
+    "message_type": "发送",
+    "phone_id": "3708"
+  },
+  {
+    "type": "sms",
+    "event_id": "4529",
+    "message_content": "我：王教练，您好。关于您昨天提到的普拉提建议，我考虑了一下，觉得可以试试。请问最近有体验课可以安排吗？",
+    "contactName": "王教练",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-10-16",
+    "message_type": "发送",
+    "phone_id": "3709"
+  },
+  {
+    "type": "sms",
+    "event_id": "4529",
+    "message_content": "力健健身顾问：徐女士您好，您购买的10节普拉提私教课程包已生效。首次正式课已为您预约在2025-10-22周三晚。祝您训练愉快！",
+    "contactName": "力健健身顾问",
+    "contact_phone_number": "+862112345678",
+    "date": "2025-10-18",
+    "message_type": "接收",
+    "phone_id": "3710"
+  },
+  {
+    "type": "sms",
+    "event_id": "4482",
+    "message_content": "周教练，谢谢您今天的指导。您说我核心力量比较松散，运动表现还有提升空间，建议我结合普拉提精准训练，这个建议非常专业，让我很受启发。",
+    "contactName": "周晓雯",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-10-15",
+    "message_type": "发送",
+    "phone_id": "3711"
+  },
+  {
+    "type": "sms",
+    "event_id": "1142",
+    "message_content": "小美，餐厅我订好了，还是上次我们高中几个常聚的老地方，霞飞包间。时间就定在周五晚上，你那天应该没问题吧？",
+    "contactName": "赵小美",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-03-12",
+    "message_type": "发送",
+    "phone_id": "3712"
+  },
+  {
+    "type": "sms",
+    "event_id": "2089",
+    "message_content": "妈，我报名参加了一个零售管理的培训课程，想提升一下自己。晚上回家吃饭时再详细跟您和爸说。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-01-08",
+    "message_type": "发送",
+    "phone_id": "3714"
+  },
+  {
+    "type": "sms",
+    "event_id": "2792",
+    "message_content": "徐静：哥，今天通勤听了你推荐的《零售新观察》，里面提到的私域流量案例对我启发很大。我打算结合我们店的实际情况，做个线上引流方案，周末有空帮我看看？",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "date": "2025-07-01",
+    "message_type": "发送",
+    "phone_id": "3715"
+  },
+  {
+    "type": "sms",
+    "event_id": "1547",
+    "message_content": "【上海税务】您2024年度个人所得税汇算退税已完成，退税款已发放至您尾号xxxx的银行账户，请注意查收。",
+    "contactName": "上海税务",
+    "contact_phone_number": "12366",
+    "date": "2025-04-10",
+    "message_type": "接收",
+    "phone_id": "3716"
+  },
+  {
+    "type": "sms",
+    "event_id": "3363",
+    "message_content": "我：妈，我早上练完瑜伽开车去上班，路上车里热死了，空调好像不太管用了，风吹着不凉。周末我得去看看车。",
+    "contactName": "妈妈",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-08-05",
+    "message_type": "发送",
+    "phone_id": "3717"
+  },
+  {
+    "type": "sms",
+    "event_id": "4640",
+    "message_content": "徐静：陈薇你好，我是昨天午餐时坐你旁边的徐静，[静选]的主理人。很高兴认识你，昨天关于独立选品和社群运营的交流让我很有启发。这是我的微信二维码，方便的话可以加一下，保持联系！",
+    "contactName": "陈薇",
+    "contact_phone_number": "+8613700000000",
+    "date": "2025-10-25",
+    "message_type": "发送",
+    "phone_id": "3718"
+  },
+  {
+    "type": "sms",
+    "event_id": "1451",
+    "message_content": "妈妈，我刚刚提交了税务申报表，多亏了你上周三的远程指导，帮我理清了那些复杂的抵扣项，不然我肯定要搞错了。真的非常感谢你这位‘远程税务顾问’！",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-04-10",
+    "message_type": "发送",
+    "phone_id": "3719"
+  },
+  {
+    "type": "sms",
+    "event_id": "1451",
+    "message_content": "不客气，能帮上忙就好。上周三正好有空，看你为这事发愁，就赶紧跟你视频说了说。以后有不懂的随时问。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-04-10",
+    "message_type": "接收",
+    "phone_id": "3720"
+  },
+  {
+    "type": "sms",
+    "event_id": "3519",
+    "message_content": "妈，爸，我刚在手机上把咱们仨的高端医疗险续上了，一年21600，三个人都保了。截图发群里了，你们看看。以后看病更省心了。",
+    "contactName": "妈妈",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-15",
+    "message_type": "发送",
+    "phone_id": "3721"
+  },
+  {
+    "type": "sms",
+    "event_id": "4954",
+    "message_content": "妈妈：静静，跑完半马累坏了吧？好好睡个午觉恢复一下，下午才有精神。睡醒告诉我。",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "date": "2025-11-15",
+    "message_type": "接收",
+    "phone_id": "3722"
+  },
+  {
+    "type": "sms",
+    "event_id": "5461",
+    "message_content": "今天下午和吴医生复诊完，感觉轻松多了。他夸我今年坚持运动效果很明显，心肺功能好了不少。还建议我多和朋友一起运动，别老是一个人闷着练。",
+    "contactName": "张薇",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-12-20",
+    "message_type": "发送",
+    "phone_id": "3723"
+  },
+  {
+    "type": "sms",
+    "event_id": "3763",
+    "message_content": "孙阿姨：小静，这周六上午10点半，滨江大道靠近其昌栈渡口那边有个社区组织的环保徒步清洁活动，你有空来参加吗？",
+    "contactName": "孙秀英",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-28",
+    "message_type": "接收",
+    "phone_id": "3724"
+  },
+  {
+    "type": "sms",
+    "event_id": "3763",
+    "message_content": "好的孙阿姨，我还没参加过这种活动呢，听起来很有意义。周六上午10点半，滨江大道其昌栈渡口见！",
+    "contactName": "孙秀英",
+    "contact_phone_number": "+8613812345678",
+    "date": "2025-08-28",
+    "message_type": "发送",
+    "phone_id": "3725"
+  },
+  {
+    "type": "sms",
+    "event_id": "1036",
+    "message_content": "我：李老师您好，之前报名了咱们的缝纫课，想确认一下第二期课程的开课时间。第一期上得很开心，希望能继续学习。",
+    "contactName": "李老师",
+    "contact_phone_number": "+8613801234567",
+    "date": "2025-04-10",
+    "message_type": "发送",
+    "phone_id": "3726"
+  },
+  {
+    "type": "sms",
+    "event_id": "1036",
+    "message_content": "李老师：徐静你好！第二期课程预计五月中旬开课，具体时间确定后我会在群里通知。很高兴你对缝纫有兴趣，第一期是基础入门，第二期会教更多实用技巧。",
+    "contactName": "李老师",
+    "contact_phone_number": "+8613801234567",
+    "date": "2025-04-10",
+    "message_type": "接收",
+    "phone_id": "3727"
+  },
+  {
+    "type": "sms",
+    "event_id": "826",
+    "message_content": "我：丽丽，周六下午有空吗？我想去M50的艺术市集逛逛，给新店找找装饰画或者有意思的摆件，你眼光好，陪我一起去参谋参谋？",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613901234567",
+    "date": "2025-02-21",
+    "message_type": "发送",
+    "phone_id": "3728"
+  },
+  {
+    "type": "sms",
+    "event_id": "3077",
+    "message_content": "徐静：小赵，早班辛苦了！我到了，你快去休息吧。今天的销售目标和注意事项我已经看过了，会盯好的。",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613912345678",
+    "date": "2025-07-13",
+    "message_type": "发送",
+    "phone_id": "3729"
   }
 ]

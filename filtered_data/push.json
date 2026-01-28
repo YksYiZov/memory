@@ -950,12 +950,6 @@
   {
     "type": "push",
     "date": "2025-01-21",
-    "summarized_info": "我收到Keep的今日运动成就提醒，完成40分钟快走，消耗约180千卡",
-    "phone_id": "164"
-  },
-  {
-    "type": "push",
-    "date": "2025-01-21",
     "summarized_info": "我收到下厨房关于清蒸鲈鱼家常做法的推荐",
     "phone_id": "165"
   },
@@ -1502,12 +1496,6 @@
   {
     "type": "push",
     "date": "2025-02-01",
-    "summarized_info": "我收到微信推送的客户张明远先生紧急订单确认消息，包含款式、尺码、地址及处理安排。",
-    "phone_id": "259"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-01",
     "summarized_info": "我收到Keep推送的睡前放松冥想推荐。",
     "phone_id": "260"
   },
@@ -1552,12 +1540,6 @@
     "date": "2025-02-03",
     "summarized_info": "系统存储管理提醒手机存储空间已使用超过90%",
     "phone_id": "267"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-03",
-    "summarized_info": "我收到上海银行通知，从尾号8899卡向尾号1234账户转账50000元成功",
-    "phone_id": "268"
   },
   {
     "type": "push",
@@ -2258,12 +2240,6 @@
   {
     "type": "push",
     "date": "2025-02-19",
-    "summarized_info": "我收到小红书的推送，内容为春季职场穿搭灵感更新",
-    "phone_id": "388"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-19",
     "summarized_info": "我收到Keep的推送，内容为推荐肩颈放松瑜伽课程",
     "phone_id": "389"
   },
@@ -2272,12 +2248,6 @@
     "date": "2025-02-19",
     "summarized_info": "我收到支付宝支付便利店消费8.5元的通知",
     "phone_id": "390"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-19",
-    "summarized_info": "我收到淘宝的推送，内容为关注的店铺春装新款上架",
-    "phone_id": "391"
   },
   {
     "type": "push",
@@ -2296,12 +2266,6 @@
     "date": "2025-02-19",
     "summarized_info": "我收到高德地图的推送，内容为提醒为收藏地点规划明日出行路线",
     "phone_id": "394"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-20",
-    "summarized_info": "我收到小红书的陆家嘴商圈探店灵感推荐",
-    "phone_id": "395"
   },
   {
     "type": "push",
@@ -2380,12 +2344,6 @@
     "date": "2025-02-22",
     "summarized_info": "我收到小红书通知，收藏的M50周末市集攻略笔记已更新",
     "phone_id": "410"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-22",
-    "summarized_info": "我收到支付宝支付M50艺术市集油画订单，金额680元",
-    "phone_id": "411"
   },
   {
     "type": "push",
@@ -3046,12 +3004,6 @@
     "date": "2025-03-08",
     "summarized_info": "我收到美团鲜花预定成功通知，订单号#202503080942",
     "phone_id": "521"
-  },
-  {
-    "type": "push",
-    "date": "2025-03-08",
-    "summarized_info": "我收到微信课程提醒，缝纫课将于14:20开始",
-    "phone_id": "522"
   },
   {
     "type": "push",
@@ -4255,18 +4207,6 @@
   },
   {
     "type": "push",
-    "date": "2025-04-03",
-    "summarized_info": "我收到小宇宙播客《消费心理洞察》更新通知，主题为Z世代消费心理",
-    "phone_id": "729"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-03",
-    "summarized_info": "我收到小红书基于兴趣推荐的消费心理与营销内容",
-    "phone_id": "730"
-  },
-  {
-    "type": "push",
     "date": "2025-04-04",
     "summarized_info": "我收到支付宝支付网约车订单#CX202504040845，金额58元",
     "phone_id": "731"
@@ -4574,12 +4514,6 @@
   {
     "type": "push",
     "date": "2025-04-10",
-    "summarized_info": "我收到个人所得税APP通知，2024年度退税xxx元已到账。",
-    "phone_id": "782"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-10",
     "summarized_info": "我收到小红书的春季店铺陈列灵感推送，包含色彩与灯光技巧。",
     "phone_id": "783"
   },
@@ -4748,12 +4682,6 @@
   {
     "type": "push",
     "date": "2025-04-14",
-    "summarized_info": "我收到Tims天好咖啡订单#TS202504141230的确认通知，取餐码1234",
-    "phone_id": "813"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-14",
     "summarized_info": "我收到支付宝支付环保辅料样品订单的通知，金额268元",
     "phone_id": "814"
   },
@@ -4810,12 +4738,6 @@
     "date": "2025-04-16",
     "summarized_info": "我收到美团订单确认通知，成功预订沙拉怪兽餐厅堂食，订单号#20250416113245。",
     "phone_id": "823"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-16",
-    "summarized_info": "我收到小红书推送，推荐了可持续时尚品牌创业计划书撰写要点与模板。",
-    "phone_id": "824"
   },
   {
     "type": "push",
@@ -4898,12 +4820,6 @@
   {
     "type": "push",
     "date": "2025-04-18",
-    "summarized_info": "我收到小红书的春季职场穿搭推荐",
-    "phone_id": "838"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-18",
     "summarized_info": "Keep提醒我发布的健康心得收到了新评论",
     "phone_id": "839"
   },
@@ -4930,12 +4846,6 @@
     "date": "2025-04-18",
     "summarized_info": "我收到航旅纵横的航班MU5874登机提醒",
     "phone_id": "843"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-19",
-    "summarized_info": "我收到携程旅行酒店入住成功通知，订单号CT202504190015",
-    "phone_id": "844"
   },
   {
     "type": "push",
@@ -5050,18 +4960,6 @@
     "date": "2025-04-20",
     "summarized_info": "我收到淘宝推送的晚间护肤产品推荐和优惠信息。",
     "phone_id": "863"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-20",
-    "summarized_info": "我收到支付宝推送的纪念币收藏行情更新通知。",
-    "phone_id": "864"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-20",
-    "summarized_info": "我收到微信推送的公众号文章，关于上海最新面料趋势。",
-    "phone_id": "865"
   },
   {
     "type": "push",
@@ -5212,12 +5110,6 @@
     "date": "2025-04-24",
     "summarized_info": "我收到大麦推送，关注的育音堂音乐公园5月10日独立乐队专场已开票，票价180元起",
     "phone_id": "892"
-  },
-  {
-    "type": "push",
-    "date": "2025-04-24",
-    "summarized_info": "我收到支付宝推送，关注的2015年羊年纪念币市场参考价更新至128元/枚",
-    "phone_id": "893"
   },
   {
     "type": "push",
@@ -5437,12 +5329,6 @@
   },
   {
     "type": "push",
-    "date": "2025-04-30",
-    "summarized_info": "薄荷健康提醒我创业筹备期身心健康平衡计划创建成功",
-    "phone_id": "930"
-  },
-  {
-    "type": "push",
     "date": "2025-05-01",
     "summarized_info": "我收到小红书的五一假期穿搭灵感推荐",
     "phone_id": "931"
@@ -5512,12 +5398,6 @@
     "date": "2025-05-02",
     "summarized_info": "我收到微信读书关于收藏文章有更新的提醒",
     "phone_id": "942"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-02",
-    "summarized_info": "我收到支付宝车险报案进度提醒，报案号BX202505021742",
-    "phone_id": "943"
   },
   {
     "type": "push",
@@ -5750,18 +5630,6 @@
   {
     "type": "push",
     "date": "2025-05-06",
-    "summarized_info": "我收到微信的视频通话预约提醒，与瑜伽教练周晓雯的预约即将开始。",
-    "phone_id": "982"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-06",
-    "summarized_info": "我收到静心瑜伽的课程预定成功通知，预定码YZ20250506，从5月7日开始每周三次晨课。",
-    "phone_id": "983"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-06",
     "summarized_info": "我收到平安好车主的理赔进度通知，车辆定损完成，预计5月8日下午取车。",
     "phone_id": "984"
   },
@@ -5876,12 +5744,6 @@
   {
     "type": "push",
     "date": "2025-05-08",
-    "summarized_info": "我收到丁香医生关于高血压家庭护理要点的更新提醒",
-    "phone_id": "1003"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-08",
     "summarized_info": "我收到微信支付荣成社区卫生服务站药费，金额156.8元",
     "phone_id": "1004"
   },
@@ -5912,20 +5774,8 @@
   {
     "type": "push",
     "date": "2025-05-08",
-    "summarized_info": "我收到Keep推荐的家庭健康轻运动课程",
-    "phone_id": "1009"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-08",
     "summarized_info": "系统存储管理提醒存储空间不足10%",
     "phone_id": "1010"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-09",
-    "summarized_info": "我收到支付宝支付简餐轻食订单#202505091201，金额38元",
-    "phone_id": "1011"
   },
   {
     "type": "push",
@@ -6142,12 +5992,6 @@
     "date": "2025-05-15",
     "summarized_info": "我收到招商银行纪念币出售款项到账通知，金额50000元",
     "phone_id": "1047"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-15",
-    "summarized_info": "我收到招商银行转账成功通知，向静时装梦账户转账50000元",
-    "phone_id": "1048"
   },
   {
     "type": "push",
@@ -6674,12 +6518,6 @@
   {
     "type": "push",
     "date": "2025-05-25",
-    "summarized_info": "我收到招商银行薪资到账通知，金额12500.00元。",
-    "phone_id": "1140"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-25",
     "summarized_info": "我收到微信视频通话邀请，来自王丽。",
     "phone_id": "1141"
   },
@@ -6880,12 +6718,6 @@
     "date": "2025-05-30",
     "summarized_info": "我收到微信提醒，与闺蜜王丽约定明天下午3点前滩太古里地铁口见面",
     "phone_id": "1174"
-  },
-  {
-    "type": "push",
-    "date": "2025-05-30",
-    "summarized_info": "我收到静心瑜伽APP的课程签到通知，已成功签到周晓雯老师的瑜伽课",
-    "phone_id": "1175"
   },
   {
     "type": "push",
@@ -7232,12 +7064,6 @@
   {
     "type": "push",
     "date": "2025-06-08",
-    "summarized_info": "我收到品牌官方的衬衫订单确认通知，订单号CS202506081650。",
-    "phone_id": "1234"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-08",
     "summarized_info": "我收到Vogue关于夏季橱窗陈列趋势的内容更新提醒。",
     "phone_id": "1235"
   },
@@ -7258,12 +7084,6 @@
     "date": "2025-06-09",
     "summarized_info": "我收到小红书的618职场穿搭灵感推荐，内容为三套简约通勤风搭配。",
     "phone_id": "1238"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-09",
-    "summarized_info": "我收到支付宝支付巴黎贝甜订单的通知，金额38元，包含巧克力可颂和冰抹茶拿铁。",
-    "phone_id": "1239"
   },
   {
     "type": "push",
@@ -7364,12 +7184,6 @@
   {
     "type": "push",
     "date": "2025-06-13",
-    "summarized_info": "我收到高德地图的通勤路况提醒，路线畅通，预计55分钟，天气多云。",
-    "phone_id": "1259"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-13",
     "summarized_info": "我收到支付宝支付荣成社区卫生服务站按摩预约120元的通知，预约时间为6月14日10:30。",
     "phone_id": "1260"
   },
@@ -7388,18 +7202,6 @@
   {
     "type": "push",
     "date": "2025-06-13",
-    "summarized_info": "我收到闲鱼的纪念币收藏上新提醒，内容关于“乌镇”主题纪念币。",
-    "phone_id": "1263"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-13",
-    "summarized_info": "系统存储管理提醒存储空间已使用超过90%。",
-    "phone_id": "1264"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-13",
     "summarized_info": "我收到Keep的久坐拉伸跟练提醒，推荐8分钟肩颈腰背放松课程。",
     "phone_id": "1265"
   },
@@ -7414,18 +7216,6 @@
     "date": "2025-06-14",
     "summarized_info": "我收到小红书推送的618服装销售技巧分享。",
     "phone_id": "1267"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-14",
-    "summarized_info": "我收到支付宝支付荣成社区卫生服务站肩颈按摩理疗费用120元的通知。",
-    "phone_id": "1268"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-14",
-    "summarized_info": "我收到大众点评推送的附近肩颈理疗商家“舒心堂”推荐，新客8折。",
-    "phone_id": "1269"
   },
   {
     "type": "push",
@@ -7592,12 +7382,6 @@
   {
     "type": "push",
     "date": "2025-06-18",
-    "summarized_info": "我收到支付宝收款通知，金额5280元，来自张明远，备注为风尚衣橱西装套装。",
-    "phone_id": "1299"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-18",
     "summarized_info": "我收到企业微信消息，赵敏提醒折上折活动夏装S码连衣裙需补货。",
     "phone_id": "1300"
   },
@@ -7760,12 +7544,6 @@
   {
     "type": "push",
     "date": "2025-06-21",
-    "summarized_info": "我收到小红书关于“杭州西湖”纪念币同款实景地杨公堤观景平台的拍照攻略更新。",
-    "phone_id": "1329"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-21",
     "summarized_info": "我收到支付宝关于“十周年聚会”AA收款成功的通知，支付金额320元。",
     "phone_id": "1330"
   },
@@ -7904,12 +7682,6 @@
   {
     "type": "push",
     "date": "2025-06-25",
-    "summarized_info": "我收到丁香医生关于中老年人营养搭配与慢性病预防的指南推荐",
-    "phone_id": "1356"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-25",
     "summarized_info": "我收到支付宝支付新零售线上培训课程，金额899元",
     "phone_id": "1357"
   },
@@ -7942,12 +7714,6 @@
     "date": "2025-06-26",
     "summarized_info": "小红书推荐地中海风味晚餐食谱，香煎三文鱼配希腊沙拉",
     "phone_id": "1362"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-26",
-    "summarized_info": "Keep推荐肩颈修复与核心强化瑜伽课程，帮助缓解肩部酸胀",
-    "phone_id": "1363"
   },
   {
     "type": "push",
@@ -8042,12 +7808,6 @@
   {
     "type": "push",
     "date": "2025-06-28",
-    "summarized_info": "我收到瑞幸咖啡冰拿铁订单支付成功通知，金额19元，取餐码1234",
-    "phone_id": "1379"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-28",
     "summarized_info": "我收到美团外卖晚餐优惠券即将过期的提醒",
     "phone_id": "1380"
   },
@@ -8132,12 +7892,6 @@
   {
     "type": "push",
     "date": "2025-06-30",
-    "summarized_info": "我收到支付宝的推送，提醒补充医疗险方案已保存，可查看特药目录等细节。",
-    "phone_id": "1394"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-30",
     "summarized_info": "我收到剪映的推送，推荐新手剪辑入门教程，帮助制作店铺宣传视频。",
     "phone_id": "1395"
   },
@@ -8180,26 +7934,8 @@
   {
     "type": "push",
     "date": "2025-07-01",
-    "summarized_info": "我收到得到APP关于《零售新观察》播客更新的通知",
-    "phone_id": "1402"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-01",
     "summarized_info": "我收到淘宝的晚高峰通勤穿搭推荐",
     "phone_id": "1403"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-01",
-    "summarized_info": "我收到支付宝的6月账单汇总通知，总支出5689元",
-    "phone_id": "1404"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-01",
-    "summarized_info": "系统存储管理提醒存储空间已使用超过90%",
-    "phone_id": "1405"
   },
   {
     "type": "push",
@@ -8218,12 +7954,6 @@
     "date": "2025-07-01",
     "summarized_info": "我收到纪念币收藏论坛关于新帖推送的通知",
     "phone_id": "1408"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-02",
-    "summarized_info": "我收到得到APP的个性化课程推荐，推荐《零售新观察》播客最新一期。",
-    "phone_id": "1409"
   },
   {
     "type": "push",
@@ -8335,18 +8065,6 @@
   },
   {
     "type": "push",
-    "date": "2025-07-04",
-    "summarized_info": "我收到大众点评推荐的昌里路附近新开法式千层蛋糕店及优惠信息",
-    "phone_id": "1428"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-04",
-    "summarized_info": "我收到支付宝支付XX甜品店订单#A202507041848，金额38元",
-    "phone_id": "1429"
-  },
-  {
-    "type": "push",
     "date": "2025-07-05",
     "summarized_info": "系统存储管理提醒手机存储空间已使用超过90%",
     "phone_id": "1430"
@@ -8438,12 +8156,6 @@
   {
     "type": "push",
     "date": "2025-07-07",
-    "summarized_info": "我收到学堂在线课程作业提交成功的通知，作业为《“静选”夏季清仓专场直播策划案》。",
-    "phone_id": "1445"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-07",
     "summarized_info": "我收到菜鸟包裹送达提醒，清仓促销物料已签收，物流单号SF1234567890。",
     "phone_id": "1446"
   },
@@ -8470,18 +8182,6 @@
     "date": "2025-07-07",
     "summarized_info": "我收到小红书关注博主@零售运营笔记 关于清仓活动门店陈列细节的内容更新提醒。",
     "phone_id": "1450"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-08",
-    "summarized_info": "我收到支付宝支付同济大学附属东方医院急诊费用，金额386.5元",
-    "phone_id": "1451"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-08",
-    "summarized_info": "我收到丁香医生推送的骨折应急处理与护理指南",
-    "phone_id": "1452"
   },
   {
     "type": "push",
@@ -9050,12 +8750,6 @@
   {
     "type": "push",
     "date": "2025-07-20",
-    "summarized_info": "我收到抖音直播带货订单#202507201234的确认通知",
-    "phone_id": "1550"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-20",
     "summarized_info": "我收到小红书关于直播后复盘技巧的个性化推荐",
     "phone_id": "1551"
   },
@@ -9260,12 +8954,6 @@
   {
     "type": "push",
     "date": "2025-07-25",
-    "summarized_info": "我收到小红书推荐的秋季通勤穿搭灵感",
-    "phone_id": "1585"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-25",
     "summarized_info": "我收到淘宝收藏夹商品降价提醒",
     "phone_id": "1586"
   },
@@ -9304,12 +8992,6 @@
     "date": "2025-07-26",
     "summarized_info": "我收到支付宝支付苏小柳点心订单#SXL202507261230，金额98元",
     "phone_id": "1592"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-26",
-    "summarized_info": "我收到携程旅行关于杭州西湖区酒店的意向收藏提醒，建议提前预订",
-    "phone_id": "1593"
   },
   {
     "type": "push",
@@ -9424,12 +9106,6 @@
     "date": "2025-07-28",
     "summarized_info": "我收到饿了么的午餐优惠提醒，大米先生有满减优惠",
     "phone_id": "1612"
-  },
-  {
-    "type": "push",
-    "date": "2025-07-28",
-    "summarized_info": "我收到携程旅行的杭州酒店推荐，近四季青市场有优惠",
-    "phone_id": "1613"
   },
   {
     "type": "push",
@@ -9914,12 +9590,6 @@
   {
     "type": "push",
     "date": "2025-08-08",
-    "summarized_info": "小红书推荐了服装创业财务规划相关内容",
-    "phone_id": "1698"
-  },
-  {
-    "type": "push",
-    "date": "2025-08-08",
     "summarized_info": "小红书提醒我关注的纪念币收藏家更新了西湖主题纪念章内容",
     "phone_id": "1699"
   },
@@ -10024,12 +9694,6 @@
     "date": "2025-08-10",
     "summarized_info": "我收到Keep推送，推荐今日睡前舒缓瑜伽跟练课程。",
     "phone_id": "1716"
-  },
-  {
-    "type": "push",
-    "date": "2025-08-11",
-    "summarized_info": "我收到日历提醒，车辆下次保养里程建议5000公里，时间节点为2025年9月11日",
-    "phone_id": "1717"
   },
   {
     "type": "push",
@@ -10264,12 +9928,6 @@
     "date": "2025-08-15",
     "summarized_info": "我收到小红书的推送，更新了销售主管的晨会穿搭指南。",
     "phone_id": "1756"
-  },
-  {
-    "type": "push",
-    "date": "2025-08-15",
-    "summarized_info": "我收到支付宝的推送，成功支付高端医疗险套餐21600元，保障已生效。",
-    "phone_id": "1757"
   },
   {
     "type": "push",
@@ -10570,12 +10228,6 @@
     "date": "2025-08-21",
     "summarized_info": "我收到支付宝支付静心瑜伽私教课费用，金额380元",
     "phone_id": "1808"
-  },
-  {
-    "type": "push",
-    "date": "2025-08-21",
-    "summarized_info": "我收到微信读书推送的创业私域运营书籍推荐",
-    "phone_id": "1810"
   },
   {
     "type": "push",
@@ -10964,12 +10616,6 @@
   {
     "type": "push",
     "date": "2025-08-29",
-    "summarized_info": "什么值得买推送2025年贺岁纪念币最新行情，约380元/套",
-    "phone_id": "1875"
-  },
-  {
-    "type": "push",
-    "date": "2025-08-29",
     "summarized_info": "微信读书推送《可持续时尚》专栏关于再生聚酯纤维的更新文章",
     "phone_id": "1876"
   },
@@ -10996,12 +10642,6 @@
     "date": "2025-08-30",
     "summarized_info": "系统存储管理提醒手机存储空间已使用超过90%",
     "phone_id": "1880"
-  },
-  {
-    "type": "push",
-    "date": "2025-08-30",
-    "summarized_info": "我收到小红书的推送，推荐上海滨江环保徒步同好和#上海环保活动话题",
-    "phone_id": "1881"
   },
   {
     "type": "push",
@@ -11122,12 +10762,6 @@
     "date": "2025-09-01",
     "summarized_info": "我收到小红书推送的睡前护肤好物与补水面膜分享。",
     "phone_id": "1901"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-02",
-    "summarized_info": "我收到Keep的晨间运动提醒，推荐10分钟晨间唤醒瑜伽。",
-    "phone_id": "1902"
   },
   {
     "type": "push",
@@ -11353,18 +10987,6 @@
   },
   {
     "type": "push",
-    "date": "2025-09-06",
-    "summarized_info": "我收到网易云音乐推荐，内容为：推荐‘星空下的思绪’专属歌单，包含治愈纯音乐与情感共鸣歌曲。",
-    "phone_id": "1940"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-06",
-    "summarized_info": "我收到潮汐通知，内容为：开启‘深度颂钵音疗’助眠引导，时长45分钟，助您进入宁静睡眠。",
-    "phone_id": "1941"
-  },
-  {
-    "type": "push",
     "date": "2025-09-07",
     "summarized_info": "系统电池管理提醒电量低于20%",
     "phone_id": "1942"
@@ -11444,18 +11066,6 @@
   {
     "type": "push",
     "date": "2025-09-09",
-    "summarized_info": "我收到Keep关于力量训练课程取消成功的通知",
-    "phone_id": "1955"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-09",
-    "summarized_info": "我收到淘宝推送的关注的店铺秋季新品上架通知",
-    "phone_id": "1956"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-09",
     "summarized_info": "我收到BOSS直聘推送的行业报告和职位推荐",
     "phone_id": "1957"
   },
@@ -11516,12 +11126,6 @@
   {
     "type": "push",
     "date": "2025-09-10",
-    "summarized_info": "我收到微信支付下午茶的支付成功通知，金额98元",
-    "phone_id": "1967"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-10",
     "summarized_info": "我收到支付宝支付百果园订单#BG202509101710，金额56.8元",
     "phone_id": "1968"
   },
@@ -11530,12 +11134,6 @@
     "date": "2025-09-10",
     "summarized_info": "我收到衣二三伴娘礼服租赁订单#YD202509102230的确认通知",
     "phone_id": "1969"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-11",
-    "summarized_info": "我收到美的服务空调维护预约成功通知，服务单号AC20250911001，预约时间2025-09-13上午10:00-12:00",
-    "phone_id": "1970"
   },
   {
     "type": "push",
@@ -11572,18 +11170,6 @@
     "date": "2025-09-11",
     "summarized_info": "我收到悦跑圈更新的个性化间歇跑训练计划",
     "phone_id": "1976"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-11",
-    "summarized_info": "我收到下厨房更新的低糖低脂派对茶点食谱推荐",
-    "phone_id": "1977"
-  },
-  {
-    "type": "push",
-    "date": "2025-09-11",
-    "summarized_info": "我收到大众点评推荐的附近优质茶歇供应商",
-    "phone_id": "1978"
   },
   {
     "type": "push",
@@ -12596,12 +12182,6 @@
   {
     "type": "push",
     "date": "2025-10-01",
-    "summarized_info": "我收到小红书关于纪念币收藏话题的内容更新提醒",
-    "phone_id": "2151"
-  },
-  {
-    "type": "push",
-    "date": "2025-10-01",
     "summarized_info": "我收到支付宝支付盒马订单#HM202510011030，金额128.5元",
     "phone_id": "2152"
   },
@@ -12682,12 +12262,6 @@
     "date": "2025-10-03",
     "summarized_info": "我收到盒马的推送，内容为国庆家宴食材的限时优惠和配送服务。",
     "phone_id": "2165"
-  },
-  {
-    "type": "push",
-    "date": "2025-10-03",
-    "summarized_info": "我收到淘宝的推送，内容为丝巾礼盒的搭配用品推荐。",
-    "phone_id": "2166"
   },
   {
     "type": "push",
@@ -12976,12 +12550,6 @@
     "date": "2025-10-09",
     "summarized_info": "我收到微基因的通知，检测报告预计10月20日出具",
     "phone_id": "2217"
-  },
-  {
-    "type": "push",
-    "date": "2025-10-09",
-    "summarized_info": "高德地图播报通勤路况畅通，预计09:20到达目的地",
-    "phone_id": "2218"
   },
   {
     "type": "push",
@@ -13456,12 +13024,6 @@
     "date": "2025-10-19",
     "summarized_info": "我收到Keep的跑步数据同步通知，内容为：世纪公园6公里跑步，配速6分30秒，消耗450大卡",
     "phone_id": "2298"
-  },
-  {
-    "type": "push",
-    "date": "2025-10-19",
-    "summarized_info": "我收到支付宝支付便利店订单#SH202510190835，金额5.5元，购买电解质水",
-    "phone_id": "2299"
   },
   {
     "type": "push",
@@ -14048,12 +13610,6 @@
   {
     "type": "push",
     "date": "2025-11-01",
-    "summarized_info": "我收到小红书的户外徒步装备清单推荐，包含Salomon减震徒步鞋、加厚羊毛袜和环保垃圾袋。",
-    "phone_id": "2399"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-01",
     "summarized_info": "我收到支付宝支付华润万家超市订单#CRV202511011245，金额68.5元。",
     "phone_id": "2400"
   },
@@ -14086,12 +13642,6 @@
     "date": "2025-11-01",
     "summarized_info": "我收到淘宝的深夜好物推荐，包含ICICLE之禾同款羊绒衫和纪念币收藏册。",
     "phone_id": "2405"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-02",
-    "summarized_info": "我收到美团订单#20251102120001确认，包含热拿铁和鸡肉沙拉",
-    "phone_id": "2406"
   },
   {
     "type": "push",
@@ -14134,12 +13684,6 @@
     "date": "2025-11-03",
     "summarized_info": "我收到高德地图的通勤路线规划提醒，从家到店预计50分钟。",
     "phone_id": "2413"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-03",
-    "summarized_info": "我收到钉钉的晨会任务提醒，包括灯光报修和滞销品数据整理。",
-    "phone_id": "2414"
   },
   {
     "type": "push",
@@ -14290,24 +13834,6 @@
     "date": "2025-11-05",
     "summarized_info": "系统电池管理提醒电量低于20%。",
     "phone_id": "2439"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-05",
-    "summarized_info": "我收到微信支付成功通知，在诗与远方书店购买《微光》诗集花费35元。",
-    "phone_id": "2440"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-05",
-    "summarized_info": "我收到豆瓣基于《微光》诗集的作者其他作品及书评推荐。",
-    "phone_id": "2441"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-05",
-    "summarized_info": "我收到网易云音乐推荐的“静谧时光”助眠纯音乐歌单。",
-    "phone_id": "2442"
   },
   {
     "type": "push",
@@ -14588,12 +14114,6 @@
   {
     "type": "push",
     "date": "2025-11-13",
-    "summarized_info": "我收到支付宝支付Manner Coffee订单#MC202511131745，金额28元",
-    "phone_id": "2492"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-13",
     "summarized_info": "我收到闲鱼推荐藏友老王上新的1990年德国马克纪念币",
     "phone_id": "2493"
   },
@@ -14612,20 +14132,8 @@
   {
     "type": "push",
     "date": "2025-11-14",
-    "summarized_info": "我收到微信提醒，同事赵敏和刘伟有新的工作留言",
-    "phone_id": "2496"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-14",
     "summarized_info": "我收到微信提醒，供应商孙老板发来排期确认单电子版",
     "phone_id": "2497"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-14",
-    "summarized_info": "我收到微信提醒，跑伴李娜发来赛前心理调节信息",
-    "phone_id": "2498"
   },
   {
     "type": "push",
@@ -14648,26 +14156,8 @@
   {
     "type": "push",
     "date": "2025-11-14",
-    "summarized_info": "我收到大众点评提醒，确认明日18:00谧境SPA预约，预约码SPA20251115",
-    "phone_id": "2502"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-14",
     "summarized_info": "下厨房根据我的口味推荐了清蒸鳜鱼、油焖笋菜谱",
     "phone_id": "2503"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-14",
-    "summarized_info": "Keep提醒我检查明日跑步比赛的装备",
-    "phone_id": "2504"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-14",
-    "summarized_info": "微信读书提醒我进行睡前阅读",
-    "phone_id": "2505"
   },
   {
     "type": "push",
@@ -14680,12 +14170,6 @@
     "date": "2025-11-15",
     "summarized_info": "支付宝提醒在LAVAZZA咖啡消费128元",
     "phone_id": "2507"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-15",
-    "summarized_info": "小红书推送半马赛后科学恢复指南",
-    "phone_id": "2508"
   },
   {
     "type": "push",
@@ -14722,12 +14206,6 @@
     "date": "2025-11-15",
     "summarized_info": "系统存储管理提醒手机存储空间已使用超过90%",
     "phone_id": "2514"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-16",
-    "summarized_info": "我收到丁香医生的推送，提醒我运动后免疫力波动可能导致感冒，建议多休息多喝水。",
-    "phone_id": "2515"
   },
   {
     "type": "push",
@@ -14776,12 +14254,6 @@
     "date": "2025-11-16",
     "summarized_info": "我收到微信读书的推送，通知我《微光》诗集已上线朗读版，适合睡前收听。",
     "phone_id": "2523"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-17",
-    "summarized_info": "我收到支付宝支付全家便利店早餐订单#A202511170620，金额18.5元",
-    "phone_id": "2524"
   },
   {
     "type": "push",
@@ -14959,18 +14431,6 @@
   },
   {
     "type": "push",
-    "date": "2025-11-20",
-    "summarized_info": "我收到小红书关于纪念币收藏话题内容更新的通知。",
-    "phone_id": "2554"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-20",
-    "summarized_info": "我收到淘宝关于收藏的纪念币店铺上新2026年贺岁生肖纪念币的通知。",
-    "phone_id": "2555"
-  },
-  {
-    "type": "push",
     "date": "2025-11-21",
     "summarized_info": "系统存储管理提醒手机存储空间已使用超过90%",
     "phone_id": "2556"
@@ -14998,18 +14458,6 @@
     "date": "2025-11-21",
     "summarized_info": "我收到Keep的瑜伽课前热身提醒",
     "phone_id": "2560"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-21",
-    "summarized_info": "我收到支付宝支付滇游记云南菜订单#202511212145，金额268元",
-    "phone_id": "2561"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-21",
-    "summarized_info": "我收到大众点评对滇游记云南菜的评价邀请",
-    "phone_id": "2562"
   },
   {
     "type": "push",
@@ -15500,12 +14948,6 @@
   {
     "type": "push",
     "date": "2025-12-03",
-    "summarized_info": "我收到知乎推送的数据分析入门实战指南",
-    "phone_id": "2648"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-03",
     "summarized_info": "系统电池管理提醒电量低于20%",
     "phone_id": "2649"
   },
@@ -15514,12 +14956,6 @@
     "date": "2025-12-03",
     "summarized_info": "我收到淘宝推送的针织衫热销榜更新",
     "phone_id": "2650"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-03",
-    "summarized_info": "我收到Keep推送的新手晨跑计划",
-    "phone_id": "2651"
   },
   {
     "type": "push",
@@ -16004,12 +15440,6 @@
   {
     "type": "push",
     "date": "2025-12-15",
-    "summarized_info": "我收到支付宝关于建立紧急备用金和货币基金的理财知识推荐。",
-    "phone_id": "2734"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-15",
     "summarized_info": "我收到微信关于公众号【时尚零售观察】发布新文章《年终促销复盘与圣诞季陈列策略》的更新提醒。",
     "phone_id": "2735"
   },
@@ -16160,12 +15590,6 @@
   {
     "type": "push",
     "date": "2025-12-18",
-    "summarized_info": "我收到Keep的跑步记录推送，内容为：今日晨跑3.5公里，用时约60分钟，消耗约210千卡。",
-    "phone_id": "2760"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-18",
     "summarized_info": "我收到浦发银行的通知，内容为：货币基金申购已确认成功，份额已入账。",
     "phone_id": "2761"
   },
@@ -16204,12 +15628,6 @@
     "date": "2025-12-19",
     "summarized_info": "我收到小红书的健康早餐搭配推荐",
     "phone_id": "2767"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-19",
-    "summarized_info": "我收到健康云复诊预约成功通知，时间2025-12-19 09:20",
-    "phone_id": "2768"
   },
   {
     "type": "push",
@@ -16280,12 +15698,6 @@
   {
     "type": "push",
     "date": "2025-12-21",
-    "summarized_info": "我收到Keep推送的新年健康启动专题计划推荐，包含晨跑、瑜伽和正念课程。",
-    "phone_id": "2780"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-21",
     "summarized_info": "我收到闲鱼推送的纪念币收藏圈子内容更新提醒，有3条新动态。",
     "phone_id": "2781"
   },
@@ -16294,18 +15706,6 @@
     "date": "2025-12-21",
     "summarized_info": "我收到小红书推送的时尚博主ChicDaily的冬季OOTD穿搭内容更新。",
     "phone_id": "2782"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-21",
-    "summarized_info": "我收到携程旅行推送的樱花季短途游目的地推荐，包含无锡鼋头渚和杭州太子湾。",
-    "phone_id": "2783"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-21",
-    "summarized_info": "我收到飞猪推送的与好友的无锡樱花季酒店意向单创建成功通知，入住日期为2026年3月20日至21日。",
-    "phone_id": "2784"
   },
   {
     "type": "push",
@@ -16384,12 +15784,6 @@
     "date": "2025-12-23",
     "summarized_info": "系统存储管理提醒存储空间使用超过90%",
     "phone_id": "2797"
-  },
-  {
-    "type": "push",
-    "date": "2025-12-24",
-    "summarized_info": "我收到Keep的跑步成就提醒，内容为：首次突破4公里目标，完成4.2公里",
-    "phone_id": "2798"
   },
   {
     "type": "push",
@@ -16795,12 +16189,6 @@
   },
   {
     "type": "push",
-    "date": "2025-08-05",
-    "summarized_info": "我向驰易达汽车快修店支付了2000元。",
-    "phone_id": "2866"
-  },
-  {
-    "type": "push",
     "date": "2025-10-07",
     "summarized_info": "徐静收到健身房的推送，显示她在椭圆机上进行了40分钟的运动。",
     "phone_id": "2867"
@@ -16828,24 +16216,6 @@
     "date": "2025-05-05",
     "summarized_info": "徐静收到邮件发送成功的通知，收件人是周经理，邮件主题包含“最终促销清单”。",
     "phone_id": "2871"
-  },
-  {
-    "type": "push",
-    "date": "2025-03-10",
-    "summarized_info": "徐静收到了知乎关于‘装修需求清单’话题的推送，间接表明她正在为完成会议分配的任务而搜索相关信息。",
-    "phone_id": "2872"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-08",
-    "summarized_info": "徐静收到知乎关于会员分层模型文章的推送。",
-    "phone_id": "2873"
-  },
-  {
-    "type": "push",
-    "date": "2025-11-09",
-    "summarized_info": "徐静收到关于私域社群运营案例的文章推送。",
-    "phone_id": "2874"
   },
   {
     "type": "push",
@@ -16921,12 +16291,6 @@
   },
   {
     "type": "push",
-    "date": "2025-04-10",
-    "summarized_info": "我收到了线上服装陈列课程的开始提醒，通知显示了当前IP地址所在城市区域。",
-    "phone_id": "2887"
-  },
-  {
-    "type": "push",
     "date": "2025-06-11",
     "summarized_info": "徐静收到了来自‘中国金币’APP的推送通知，提示其收藏的蛇年银币高清图已更新。",
     "phone_id": "2888"
@@ -16978,24 +16342,6 @@
     "date": "2025-09-13",
     "summarized_info": "我收到智能家居推送，显示家中厨房的灯在12:15被开启了。",
     "phone_id": "2896"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-15",
-    "summarized_info": "我收到培训系统发来的考核任务通知，需要在休息时间完成'讲解礼仪要点考核'。",
-    "phone_id": "2897"
-  },
-  {
-    "type": "push",
-    "date": "2025-02-15",
-    "summarized_info": "我提交的'讲解礼仪要点考核'已成功提交。",
-    "phone_id": "2898"
-  },
-  {
-    "type": "push",
-    "date": "2025-01-14",
-    "summarized_info": "我收到招商银行的通知，确认已设置了一个每月15日从尾号8899卡自动转出的定期转账计划。",
-    "phone_id": "2899"
   },
   {
     "type": "push",
@@ -17095,12 +16441,6 @@
   },
   {
     "type": "push",
-    "date": "2025-07-19",
-    "summarized_info": "我在百果园乳山路店有一笔订单支付成功。",
-    "phone_id": "2916"
-  },
-  {
-    "type": "push",
     "date": "2025-02-21",
     "summarized_info": "收到瑜伽教练周晓雯对2月21日月度评估课的反馈推送，提到我在某个平衡体式上有进步。",
     "phone_id": "2917"
@@ -17119,21 +16459,9 @@
   },
   {
     "type": "push",
-    "date": "2025-04-21",
-    "summarized_info": "徐静收到一条支付通知，显示在‘蓝续扎染工坊’购买了一条手工靛蓝扎染长巾。",
-    "phone_id": "2920"
-  },
-  {
-    "type": "push",
     "date": "2025-03-24",
     "summarized_info": "我收到了社区卫生服务站发来的就诊通知，提到了初步诊断结果。",
     "phone_id": "2921"
-  },
-  {
-    "type": "push",
-    "date": "2025-06-20",
-    "summarized_info": "徐静收到钉钉提醒，关于她指派给陈丽的任务，任务内容关联会议中提到的客服与物流问题。",
-    "phone_id": "2922"
   },
   {
     "type": "push",
@@ -17197,8 +16525,896 @@
   },
   {
     "type": "push",
-    "date": "2025-06-23",
-    "summarized_info": "健康App推送提醒，根据徐静的饮食偏好过滤了高油高糖菜品建议。",
-    "phone_id": "2933"
+    "date": "2025-02-02",
+    "summarized_info": "我收到WPS Office的推送，提示文档‘店铺优化与创业构想’已保存。",
+    "phone_id": "2934"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-03",
+    "summarized_info": "收到播客APP的播放进度通知，显示正在收听一期关于Z世代消费的节目。",
+    "phone_id": "2935"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-02",
+    "summarized_info": "我收到了得到APP关于《零售新观察》播客更新的推送通知。",
+    "phone_id": "2936"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-04",
+    "summarized_info": "徐静通过微信向备注为“老王（北京藏友）”的联系人发送了一个包含纪念币照片和说明的文件。",
+    "phone_id": "2937"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-05",
+    "summarized_info": "徐静收到了支付宝的支付成功通知，显示向驰易达汽车快修店支付了2000元。",
+    "phone_id": "2938"
+  },
+  {
+    "type": "push",
+    "date": "2025-01-08",
+    "summarized_info": "徐静收到了一个关于跟进会员沙龙邀约的提醒通知。",
+    "phone_id": "2939"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-08",
+    "summarized_info": "徐静在新世界城的Brooks Brothers专柜完成了一笔消费。",
+    "phone_id": "2940"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-08",
+    "summarized_info": "我向工作群发送了一条长语音消息。",
+    "phone_id": "2941"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-10",
+    "summarized_info": "我收到了线上服装陈列课程的开始提醒，推送中显示了当前IP地址信息。",
+    "phone_id": "2942"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-11",
+    "summarized_info": "我发送给闺蜜王丽的消息已成功送达。",
+    "phone_id": "2943"
+  },
+  {
+    "type": "push",
+    "date": "2025-01-09",
+    "summarized_info": "徐静在15:42通过健康应用完成了一次名为“办公室深呼吸”的呼吸练习，心率有所下降。",
+    "phone_id": "2944"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-13",
+    "summarized_info": "Notion应用提醒我一份关于新锐设计师主题周的行动计划草案已保存。",
+    "phone_id": "2945"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-09",
+    "summarized_info": "我收到健康助手的提醒，提示我心率偏高、手部震颤，可能存在能量不足风险。",
+    "phone_id": "2946"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-14",
+    "summarized_info": "收到工作周报提醒，需要总结本周工作亮点，如解决的客户纠纷。",
+    "phone_id": "2947"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-09",
+    "summarized_info": "购物APP推送了徐静今天浏览过的老年人专用浴室地垫信息。",
+    "phone_id": "2948"
+  },
+  {
+    "type": "push",
+    "date": "2025-03-14",
+    "summarized_info": "我收到小宇宙App的推送，显示我刚刚听完了一期名为《零售氪星球》的播客。",
+    "phone_id": "2949"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-15",
+    "summarized_info": "徐静在家庭微信群中发送了一条包含银行转账截图和留言的消息。",
+    "phone_id": "2950"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-15",
+    "summarized_info": "我收到培训系统关于完成礼仪要点考核的提醒",
+    "phone_id": "2951"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-15",
+    "summarized_info": "我收到微信收藏交流群的新消息提醒，显示王明远分享了长文",
+    "phone_id": "2952"
+  },
+  {
+    "type": "push",
+    "date": "2025-01-14",
+    "summarized_info": "收到银行APP推送，确认一笔定期转账计划已设置成功。",
+    "phone_id": "2953"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-14",
+    "summarized_info": "徐静收到了支付宝支付成功的推送，收款方为荣成社区卫生服务站。",
+    "phone_id": "2954"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-15",
+    "summarized_info": "我收到播客《零售进化论》的新节目更新提醒，标题与私域流量运营相关。",
+    "phone_id": "2955"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-19",
+    "summarized_info": "我收到天气预报提醒，傍晚有小雨。",
+    "phone_id": "2956"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-19",
+    "summarized_info": "我在百果园(乳山路店)完成了一笔订单支付。",
+    "phone_id": "2957"
+  },
+  {
+    "type": "push",
+    "date": "2025-01-15",
+    "summarized_info": "徐静的手机在15:02连接到了名为【MingFang_VIP】的Wi-Fi网络。",
+    "phone_id": "2958"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-19",
+    "summarized_info": "徐静在浦东南路便利店完成了一笔支付。",
+    "phone_id": "2959"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-20",
+    "summarized_info": "徐静在LAWSON罗森便利店完成了一笔消费。",
+    "phone_id": "2960"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-18",
+    "summarized_info": "收到销售系统推送，确认售出浅灰色亚麻混纺西装套装及配套Polo衫、休闲裤。",
+    "phone_id": "2961"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-21",
+    "summarized_info": "我收到工作群的消息提醒，提到了与夏季新品趋势相关的文件。",
+    "phone_id": "2962"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-21",
+    "summarized_info": "收到在滇游记云南菜用餐的订单支付通知，提到了小锅米线和傣味烤鱼。",
+    "phone_id": "2963"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-22",
+    "summarized_info": "徐静收到一条备忘录推送，提醒她细化三个具体的运营设想方案。",
+    "phone_id": "2964"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-21",
+    "summarized_info": "徐静在“蓝续扎染工坊”完成了一笔支付，备注是给丽丽的礼物。",
+    "phone_id": "2966"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-20",
+    "summarized_info": "Keep推送显示徐静完成了一次名为“居家肩颈背部放松”的课程，时长为20分钟。",
+    "phone_id": "2967"
+  },
+  {
+    "type": "push",
+    "date": "2025-01-21",
+    "summarized_info": "我收到了来自‘六个月健康蜕变’APP的运动打卡成功通知。",
+    "phone_id": "2969"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-28",
+    "summarized_info": "我收到日记APP的通知，确认‘每日一照’项目创建成功，并显示了项目目标。",
+    "phone_id": "2970"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-17",
+    "summarized_info": "我在咖啡馆支付了第一笔订单，包含抹茶拿铁和芝士蛋糕。",
+    "phone_id": "2971"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-17",
+    "summarized_info": "我在咖啡馆追加支付了一份巧克力熔岩蛋糕。",
+    "phone_id": "2972"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-05",
+    "summarized_info": "我收到了健身App关于傍晚普拉提课程的开始提醒。",
+    "phone_id": "2973"
+  },
+  {
+    "type": "push",
+    "date": "2025-01-05",
+    "summarized_info": "收到华为运动健康App推送，提示一次户外步行运动已完成。",
+    "phone_id": "2974"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-28",
+    "summarized_info": "我收到天气APP的清晨天气推送，显示天气晴好。",
+    "phone_id": "2975"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-28",
+    "summarized_info": "我收到运动APP的跑步完成通知，记录了一次清晨节奏跑。",
+    "phone_id": "2976"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-18",
+    "summarized_info": "我收到了Keep推送的跑步完成通知，显示了里程、时间、配速等数据，并提示记录心得。",
+    "phone_id": "2977"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-18",
+    "summarized_info": "我收到了Keep的推送，确认跑步日记已保存，推送内容包含了日记的摘要信息。",
+    "phone_id": "2978"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-14",
+    "summarized_info": "徐静收到运动App的提醒，确认了晚上7点20分的瑜伽课。",
+    "phone_id": "2979"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-24",
+    "summarized_info": "运动APP推送了跑步完成通知，包含里程和配速数据，并提示记录心得。",
+    "phone_id": "2980"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-11",
+    "summarized_info": "手机收到一条运动健康推送，记录了一次在世纪汇广场的室内步行活动。",
+    "phone_id": "2981"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-11",
+    "summarized_info": "徐静在周末晚上完成了一次约8公里的户外跑步运动。",
+    "phone_id": "2982"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-25",
+    "summarized_info": "我收到记账APP的推送，显示我修改了家庭月度预算，并调高了“创业基金”的预算额度。",
+    "phone_id": "2983"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-11",
+    "summarized_info": "徐静收到了医用护肤品“雅漾舒缓特护修复霜”的订单发货提醒。",
+    "phone_id": "2984"
+  },
+  {
+    "type": "push",
+    "date": "2025-03-03",
+    "summarized_info": "徐静在会议结束后仍在编辑工作文档。",
+    "phone_id": "2985"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-05",
+    "summarized_info": "收到微信读书的推送，提醒我关注的《微光》诗集有更新，并提示我已连续7天在晚间阅读。",
+    "phone_id": "2986"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-04",
+    "summarized_info": "我在昌里路的甜品店消费了一笔",
+    "phone_id": "2987"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-04",
+    "summarized_info": "徐静收到了瑜伽APP关于傍晚17:30课程的签到提醒。",
+    "phone_id": "2988"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-11",
+    "summarized_info": "我收到Keep的课程完成提醒，显示完成了“晚间舒缓拉伸（15分钟）”课程。",
+    "phone_id": "2989"
+  },
+  {
+    "type": "push",
+    "date": "2025-03-11",
+    "summarized_info": "系统推送提示徐静已连续编辑文档超过90分钟。",
+    "phone_id": "2990"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-07",
+    "summarized_info": "我收到微信读书的推送，提醒我连续7天在睡前阅读《微光》。",
+    "phone_id": "2991"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-05",
+    "summarized_info": "我收到了Keep APP关于晚间流瑜伽课程的课前提醒。",
+    "phone_id": "2992"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-10",
+    "summarized_info": "手机同步了浏览记录，显示搜索了以星空和极光为灵感的珠宝系列，以及星空主题的餐厅布置和投影仪租赁信息。",
+    "phone_id": "2993"
+  },
+  {
+    "type": "push",
+    "date": "2025-03-22",
+    "summarized_info": "徐静在健康APP上记录了感冒相关的症状。",
+    "phone_id": "2994"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-11",
+    "summarized_info": "徐静收到了Keep APP的推送，显示她完成了一节15分钟的室内肩颈舒缓拉伸课程。",
+    "phone_id": "2995"
+  },
+  {
+    "type": "push",
+    "date": "2025-09-05",
+    "summarized_info": "我查询了‘湿纸巾’属于干垃圾的分类信息。",
+    "phone_id": "2996"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-06",
+    "summarized_info": "收到瑜伽课程预定成功的通知，明确了从5月7日开始每周二、四、六早上7点的上课时间。",
+    "phone_id": "2997"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-08",
+    "summarized_info": "我收到微信读书的推送，显示今日在《微光》中阅读了35分钟，并已连续7天睡前阅读。",
+    "phone_id": "2998"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-08",
+    "summarized_info": "我收到Kindle的推送，显示在《微光》中的阅读进度已同步更新。",
+    "phone_id": "2999"
+  },
+  {
+    "type": "push",
+    "date": "2025-03-21",
+    "summarized_info": "徐静收到健康应用的推送，显示近期睡眠严重不足。",
+    "phone_id": "3000"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-11",
+    "summarized_info": "我收到豆瓣读书的推送，显示有书友正在读《微光》这本书。",
+    "phone_id": "3001"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-30",
+    "summarized_info": "徐静通过微信向教练郑明辉发送了一份名为“十月运动数据评估报告.pdf”的文件。",
+    "phone_id": "3002"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-30",
+    "summarized_info": "我收到了Keep应用的推送，显示成功签到5月30日晚的瑜伽课，并提示这是本月首次完成该时段课程。",
+    "phone_id": "3003"
+  },
+  {
+    "type": "push",
+    "date": "2025-09-05",
+    "summarized_info": "徐静在9月5日晚上通过扫码投放垃圾后，收到了随申办App的积分到账通知。",
+    "phone_id": "3004"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-25",
+    "summarized_info": "手机收到高德地图推送，显示徐静已到达世纪大道88号的世纪汇广场。",
+    "phone_id": "3005"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-14",
+    "summarized_info": "收到微信读书的周报推送，显示11月13日阅读了《微光》30分钟。",
+    "phone_id": "3006"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-13",
+    "summarized_info": "手机系统在21:40推送通知，显示名为‘阅读时光’的专注模式已自动开启。",
+    "phone_id": "3007"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-10",
+    "summarized_info": "智能体推送提醒，关联到徐静关于“新店构想”和“家庭讨论”的记录，并提及压力疏导和专业建议获取。",
+    "phone_id": "3008"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-09",
+    "summarized_info": "徐静在企业微信的工作群中向店长汇报了出发和预计到店时间，该群组名称包含了店铺信息。",
+    "phone_id": "3009"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-20",
+    "summarized_info": "我收到微信读书的阅读进度提醒，显示我正在阅读《微光》这本书。",
+    "phone_id": "3010"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-18",
+    "summarized_info": "收到学习APP推送，显示徐静在计划时间内进入了课程学习。",
+    "phone_id": "3011"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-10",
+    "summarized_info": "徐静在5月初报名了另一门与创业相关的财务课程。",
+    "phone_id": "3012"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-20",
+    "summarized_info": "徐静收到印象笔记的同步提醒，显示她编辑的调研笔记已成功保存。",
+    "phone_id": "3013"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-15",
+    "summarized_info": "徐静收到了Zoom应用关于即将开始的会议的提醒通知。",
+    "phone_id": "3015"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-30",
+    "summarized_info": "系统推送了徐静之前设定的关于店铺社区化运营的备忘录提醒，提示可结合社区环保活动来塑造品牌形象。",
+    "phone_id": "3016"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-03",
+    "summarized_info": "徐静收到一条系统推送，提醒她完善关于将社区环保体验融入店铺品牌故事的构思。",
+    "phone_id": "3017"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-02",
+    "summarized_info": "徐静在Wagas（世纪汇店）完成了一笔268元的支付。",
+    "phone_id": "3018"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-02",
+    "summarized_info": "徐静在Baker&Spice(外滩金融中心店)有一笔消费记录。",
+    "phone_id": "3019"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-01",
+    "summarized_info": "我收到工作手机内部系统的推送，显示我作为销售主管发起的库存抽盘任务已指派。",
+    "phone_id": "3020"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-03",
+    "summarized_info": "手机收到通知，显示一个关于上海国际服装服饰博览会（CHIC）的A类品牌研究文档已被加密保存。",
+    "phone_id": "3021"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-30",
+    "summarized_info": "薄荷健康APP通知我，一个名为‘创业筹备期身心健康平衡计划（未来三月）’的计划已创建，并显示了其核心目标。",
+    "phone_id": "3022"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-02",
+    "summarized_info": "收到保险公司推送，告知车辆事故定损完成，需要送修3天，并提及代步车服务。",
+    "phone_id": "3023"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-03",
+    "summarized_info": "收到地铁APP的行程完成推送，显示在车辆维修期间使用了地铁通勤。",
+    "phone_id": "3024"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-04",
+    "summarized_info": "我收到了高德地图关于明天（5月5日）使用地铁6号线通勤的路线提醒，该提醒关联了“车辆维修期间通勤”设置。",
+    "phone_id": "3025"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-02",
+    "summarized_info": "我收到闪送APP的推送，显示一个订单已被骑手接单，预计今日送达。",
+    "phone_id": "3026"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-20",
+    "summarized_info": "徐静收到了创业顾问王莉对品牌定位方案的邮件回复，邮件中确认了目标市场。",
+    "phone_id": "3027"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-02",
+    "summarized_info": "我收到闪送APP的推送，通知客户张明远已签收订单。",
+    "phone_id": "3028"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-14",
+    "summarized_info": "徐静收到同事赵敏的微信消息，提及上午处理客户沟通压力很大，间接反映了徐静上午处理事件的紧张状态。",
+    "phone_id": "3029"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-06",
+    "summarized_info": "Keep应用推送了首次晨跑完成的记录，包含具体时间和运动详情。",
+    "phone_id": "3030"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-31",
+    "summarized_info": "Keep应用推送了12月的月度运动报告，其中包含了总跑步次数等关键数据。",
+    "phone_id": "3031"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-16",
+    "summarized_info": "收到赵敏对创业计划书草稿的邮件回复，她肯定了目标客群的定位。",
+    "phone_id": "3032"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-09",
+    "summarized_info": "徐静收到关于父亲高血压管理的提醒，提示关注低盐低脂饮食。",
+    "phone_id": "3033"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-03",
+    "summarized_info": "徐静收到一个关于“店铺直播带货项目”方案提交的系统提醒。",
+    "phone_id": "3034"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-12",
+    "summarized_info": "手机推送了久坐提醒，提示连续工作导致肩颈疲劳。",
+    "phone_id": "3035"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-14",
+    "summarized_info": "收到Keep推送，提醒明天（11月15日）上午7:30有半程马拉松比赛。",
+    "phone_id": "3036"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-09",
+    "summarized_info": "徐静收到了8月9日下午瑜伽团体课的提醒推送。",
+    "phone_id": "3037"
+  },
+  {
+    "type": "push",
+    "date": "2025-09-09",
+    "summarized_info": "我收到钉钉通知，有未预约的供应商代表到店，需要我去洽谈区接待。",
+    "phone_id": "3038"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-09",
+    "summarized_info": "徐静收到下厨房APP推送，提示她收藏的“控盐控脂家常菜”收藏夹有更新。",
+    "phone_id": "3039"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-02",
+    "summarized_info": "收到明日会议的推送提醒，会议内容涉及直播带货项目。",
+    "phone_id": "3040"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-12",
+    "summarized_info": "我收到钉钉关于今晚618大促冲刺会的紧急通知",
+    "phone_id": "3041"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-04",
+    "summarized_info": "我收到淘宝订单发货通知，是关于一双ASICS跑鞋。",
+    "phone_id": "3042"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-09",
+    "summarized_info": "徐静收到了Keep APP关于瑜伽团体课的提醒。",
+    "phone_id": "3043"
+  },
+  {
+    "type": "push",
+    "date": "2025-09-09",
+    "summarized_info": "我收到了Keep应用关于成功取消今晚健身课程的推送通知。",
+    "phone_id": "3044"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-13",
+    "summarized_info": "我收到健康APP的疲劳度预警，显示处于高度疲劳状态，且已连续高强度工作多日。",
+    "phone_id": "3045"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-03",
+    "summarized_info": "徐静在凌晨收到通知，提示她刚刚修改了一份关于直播带货试点方案的演示文稿。",
+    "phone_id": "3046"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-14",
+    "summarized_info": "徐静收到了SPA预约成功的推送通知，确认了预约时间和地点。",
+    "phone_id": "3047"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-09",
+    "summarized_info": "健康应用推送了8月8日的睡眠分析，提示因活动导致入睡晚、睡眠质量差。",
+    "phone_id": "3048"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-04",
+    "summarized_info": "我购买的亚瑟士跑鞋已发货",
+    "phone_id": "3049"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-20",
+    "summarized_info": "徐静收到Keep应用推送，提醒她已连续15天（自6月5日起）未完成晨间快走计划。",
+    "phone_id": "3050"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-14",
+    "summarized_info": "我收到悦跑圈关于明天半程马拉松比赛的提醒推送。",
+    "phone_id": "3051"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-15",
+    "summarized_info": "徐静收到了关于其首次抖音直播带货《“静选”夏季清仓专场》的准备提醒。",
+    "phone_id": "3052"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-05",
+    "summarized_info": "徐静收到了Nike运动鞋包裹已送达小区菜鸟驿站的取件通知。",
+    "phone_id": "3053"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-29",
+    "summarized_info": "徐静在6月29日早上完成了KEEP上的室内有氧操训练。",
+    "phone_id": "3054"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-03",
+    "summarized_info": "手机收到高德地图推送，提示用户途经了‘甜蜜时光烘焙坊（浦东大道店）’。",
+    "phone_id": "3055"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-01",
+    "summarized_info": "记账App提醒我成功为七月份新增了两个预算项目。",
+    "phone_id": "3056"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-05",
+    "summarized_info": "我收到了年度体检报告推送，结果为优秀。",
+    "phone_id": "3057"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-14",
+    "summarized_info": "我收到了微信读书的推送，显示已连续7天阅读《微光》。",
+    "phone_id": "3058"
+  },
+  {
+    "type": "push",
+    "date": "2025-05-09",
+    "summarized_info": "徐静收到了她收藏的“适合高血压患者的低盐清蒸鱼做法”菜谱更新提醒。",
+    "phone_id": "3059"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-14",
+    "summarized_info": "我收到微信读书的周度阅读报告，显示在11月7日至13日期间，我每晚都阅读了《微光》。",
+    "phone_id": "3060"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-11",
+    "summarized_info": "我收到了11月11日的睡前阅读日历提醒，但选择了忽略。",
+    "phone_id": "3061"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-01",
+    "summarized_info": "系统推送了一条来自日历的提醒，内容是关于执行车辆长期维护计划中的季度轮胎检查任务。",
+    "phone_id": "3062"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-17",
+    "summarized_info": "健康助手提醒我更新昨天记录的症状状态。",
+    "phone_id": "3063"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-17",
+    "summarized_info": "徐静的健康App推送显示，她在11月17日早晨将感冒症状状态更新为“无”。",
+    "phone_id": "3064"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-03",
+    "summarized_info": "徐静收到钉钉推送，提醒召开晨会跟进昨日月度复盘会议布置的常规任务。",
+    "phone_id": "3065"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-05",
+    "summarized_info": "我收到体检报告已生成的通知，综合评估为优秀。",
+    "phone_id": "3066"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-27",
+    "summarized_info": "Keep App根据徐静6月26日记录的肩部问题（斜方肌代偿）推送了相关的恢复训练课程推荐。",
+    "phone_id": "3067"
+  },
+  {
+    "type": "push",
+    "date": "2025-06-19",
+    "summarized_info": "徐静收到健康App的久坐提醒，建议活动肩颈以缓解肌肉紧张。",
+    "phone_id": "3068"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-06",
+    "summarized_info": "我收到记账APP的推送，确认了因修车而进行的月度预算调整，包括削减未来开支和新增应急基金。",
+    "phone_id": "3069"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-07",
+    "summarized_info": "我收到手机银行推送，确认已成功设立名为‘应急基金’的定期储蓄账户并设置自动转账。",
+    "phone_id": "3070"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-12",
+    "summarized_info": "健康App推送了徐静完成室内瑜伽锻炼的记录。",
+    "phone_id": "3071"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-18",
+    "summarized_info": "健康助手推送通知，总结徐静本次过敏症状从4月1日持续到4月18日，共18天。",
+    "phone_id": "3072"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-22",
+    "summarized_info": "我向家庭群发送了旅行相关的图片和视频。",
+    "phone_id": "3073"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-01",
+    "summarized_info": "我收到播客APP的推送，显示收听完一期商业播客。",
+    "phone_id": "3074"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-05",
+    "summarized_info": "我收到每日一照项目提醒，确认照片IMG_20250705_130500以‘午间的静谧角落’主题上传。",
+    "phone_id": "3075"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-05",
+    "summarized_info": "我收到家庭记账APP通知，确认照片IMG_20250705_213000被选为‘每日一照’，并备注了晚餐信息。",
+    "phone_id": "3076"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-02",
+    "summarized_info": "我收到了个人所得税APP的推送，确认2024年度个税申报已提交。",
+    "phone_id": "3077"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-08",
+    "summarized_info": "收到了东方医院急诊骨科的挂号成功通知。",
+    "phone_id": "3078"
+  },
+  {
+    "type": "push",
+    "date": "2025-07-08",
+    "summarized_info": "收到了母亲李芳的X光检查报告通知，显示右手腕桡骨骨折。",
+    "phone_id": "3079"
+  },
+  {
+    "type": "push",
+    "date": "2025-10-25",
+    "summarized_info": "徐静收到一条微信好友请求，对方是下午听了她分享的同行，希望进一步交流。",
+    "phone_id": "3080"
+  },
+  {
+    "type": "push",
+    "date": "2025-04-03",
+    "summarized_info": "徐静与母亲进行了一次时长32分钟的微信视频通话。",
+    "phone_id": "3081"
+  },
+  {
+    "type": "push",
+    "date": "2025-08-15",
+    "summarized_info": "收到保险支付成功通知，显示支付了三人套餐年费21600元。",
+    "phone_id": "3082"
+  },
+  {
+    "type": "push",
+    "date": "2025-11-15",
+    "summarized_info": "我收到健康App的午睡分析报告，显示我在13:00-13:50进行了深度午睡，标签为运动后恢复。",
+    "phone_id": "3083"
+  },
+  {
+    "type": "push",
+    "date": "2025-12-19",
+    "summarized_info": "徐静收到了健康云APP的推送，提醒她明天（12月20日）与吴明远医生在社区卫生服务中心有复诊预约。",
+    "phone_id": "3084"
+  },
+  {
+    "type": "push",
+    "date": "2025-02-22",
+    "summarized_info": "徐静在M50市集完成了一笔支付，备注显示为‘店铺装饰采购’。",
+    "phone_id": "3085"
   }
 ]

@@ -35,7 +35,23 @@ pip install -r requirements.txt
       1. 在`memory/memU-experiment-main/.env`中配置自己的`OPENAI_API_KEY`和`OPENAI_BASE_URL`
       2. 在`memory/memU-experiment-main/memu/memory/embeddings.py`中将所有的`text-embedding-v4`替换为自己的embedding模型
 
-3. 执行评测
+3. 考虑旧文件
+
+以下为三个记忆系统重要记忆结果文件位置：
+
+   1. MemOS: `memory/EverMemOS-main/evaluation/results/our-memos`
+   2. Hindsight: `memory/hindsight/benchmarks/our/results`
+   3. MemU: `memory/memU-experiment-main/memory`
+
+如果你是第一次运行：
+
+直接删除目录下所有文件（不要删除目录）
+
+如果你不是第一次运行，请确保你知道自己在做什么否则不要轻易删除。这些目录下保存的文件会影响后续运行：MemOS中的记录会影响下次运行从哪一步开始；HindSight中的结果记录可能会导致下次结果生成有问题；MemU中的文件会直接影响下次记忆生成。这些文件可能会为下次评测提供便利也可能会导致下次在错误的条件下评测，如有问题请联系我们。
+
+4. 执行评测
+
+4. 执行评测
 
    1. MemOS：
 

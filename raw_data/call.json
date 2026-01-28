@@ -28,5 +28,198 @@
     "call_type": "拨打",
     "duration": 180,
     "phone_id": "3"
+  },
+  {
+    "type": "call",
+    "event_id": "2905",
+    "contactName": "陈丽",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-07-08 07:52:00",
+    "call_type": "拨出",
+    "phone_id": "4"
+  },
+  {
+    "type": "call",
+    "event_id": "2905",
+    "contactName": "赵敏",
+    "contact_phone_number": "+8613918765432",
+    "datetime": "2025-07-08 07:58:00",
+    "call_type": "拨出",
+    "phone_id": "5"
+  },
+  {
+    "type": "call",
+    "event_id": "4441",
+    "contactName": "周经理",
+    "contact_phone_number": "+8613812345678",
+    "datetime": "2025-10-13 10:15:00",
+    "call_type": "拨出",
+    "phone_id": "6"
+  },
+  {
+    "type": "call",
+    "event_id": "4441",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "datetime": "2025-10-13 10:45:00",
+    "call_type": "拨出",
+    "phone_id": "7"
+  },
+  {
+    "type": "call",
+    "event_id": "5287",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-12-07 21:50:00",
+    "call_type": "拨打",
+    "phone_id": "8"
+  },
+  {
+    "type": "call",
+    "event_id": "5329",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-12-10 22:00:00",
+    "call_type": "拨打",
+    "phone_id": "9"
+  },
+  {
+    "type": "call",
+    "event_id": "4722",
+    "contactName": "吴明远",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-10-30 20:00:00",
+    "call_type": "视频通话",
+    "phone_id": "10"
+  },
+  {
+    "type": "call",
+    "event_id": "5465",
+    "contactName": "孙老板",
+    "contact_phone_number": "+8613802012345",
+    "datetime": "2025-12-19 13:05:00",
+    "call_type": "拨打",
+    "phone_id": "11"
+  },
+  {
+    "type": "call",
+    "event_id": "2182",
+    "contactName": "徐强",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-05-22 19:28:00",
+    "call_type": "拨打",
+    "phone_id": "13"
+  },
+  {
+    "type": "call",
+    "event_id": "1410",
+    "contactName": "刘伟",
+    "contact_phone_number": "+8613812345678",
+    "datetime": "2025-04-01 15:45:00",
+    "call_type": "拨打",
+    "phone_id": "14"
+  },
+  {
+    "type": "call",
+    "event_id": "4925",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-11-14 10:05:00",
+    "call_type": "拨打",
+    "phone_id": "15"
+  },
+  {
+    "type": "call",
+    "event_id": "4925",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-11-14 10:05:00",
+    "call_type": "拨打",
+    "phone_id": "15"
+  },
+  {
+    "type": "call",
+    "event_id": "4746",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "datetime": "2025-11-15 16:30:00",
+    "call_type": "接收",
+    "phone_id": "16"
+  },
+  {
+    "type": "call",
+    "event_id": "1126",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "datetime": "2025-03-13 20:45:00",
+    "call_type": "拨打",
+    "duration": "00:38:22",
+    "phone_id": "17"
+  },
+  {
+    "type": "call",
+    "event_id": "895",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "datetime": "2025-02-26 21:40:00",
+    "call_type": "拨打",
+    "phone_id": "18"
+  },
+  {
+    "type": "call",
+    "event_id": "2906",
+    "contactName": "周经理",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-07-08 08:45:00",
+    "call_type": "拨出",
+    "phone_id": "19"
+  },
+  {
+    "type": "call",
+    "event_id": "3242",
+    "contactName": "刘建国",
+    "contact_phone_number": "+8613901234567",
+    "datetime": "2025-07-28 15:45:00",
+    "call_type": "拨出",
+    "duration": "8分32秒",
+    "phone_id": "20"
+  },
+  {
+    "type": "call",
+    "event_id": "2775",
+    "contactName": "王经理（保险顾问）",
+    "contact_phone_number": "+8613812345678",
+    "datetime": "2025-06-30 14:15:00",
+    "call_type": "拨打",
+    "phone_id": "21"
+  },
+  {
+    "type": "call",
+    "event_id": "3747",
+    "contactName": "李芳",
+    "contact_phone_number": "+8613817892547",
+    "datetime": "2025-08-29 12:45:00",
+    "call_type": "呼出",
+    "duration": "8分32秒",
+    "summarized_info": "徐静在午餐后给母亲李芳打了一通电话。",
+    "phone_id": "22"
+  },
+  {
+    "type": "call",
+    "event_id": "2908",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613917895623",
+    "datetime": "2025-07-08 07:15:00",
+    "call_type": "接收",
+    "phone_id": "23"
+  },
+  {
+    "type": "call",
+    "event_id": "3077",
+    "contactName": "刘伟",
+    "contact_phone_number": "+8613987654321",
+    "datetime": "2025-07-18 14:50:00",
+    "call_type": "拨打",
+    "phone_id": "24"
   }
 ]

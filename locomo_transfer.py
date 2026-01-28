@@ -59,13 +59,13 @@ def convert_to_locomo(src: dict, sample_id: str) -> list:
                     if "calendar" in ev['id']:
                         processed_info = se
                     elif "call" in ev['id']:
-                        processed_info = f"我用手机打电话说：" + se.replace(PROTAGONIST, "").replace("我", "")
+                        processed_info = f"我用手机打电话说："
                     elif "note" in ev["id"]:
-                        processed_info = f"我用手机笔记" + se.replace(PROTAGONIST, "").replace("我", "")
+                        processed_info = f"我用手机笔记："
                     elif "photo" in ev["id"]:
-                        processed_info = f"我用手机相机" + se.replace(PROTAGONIST, "").replace("我", "")
+                        processed_info = f"我用手机相机："
                     elif "push" in ev['id']:
-                        processed_info = f"我收到推送通知" + se.replace(PROTAGONIST, "").replace("我", "")
+                        processed_info = f"我收到推送通知："
                     elif "sms" in ev['id']:
                         try:
                             processed_info = f"我用手机短信{ev["message_type"]}了：" + se
@@ -74,7 +74,7 @@ def convert_to_locomo(src: dict, sample_id: str) -> list:
 
                     conversation[session_key].append({
                         "speaker": PROTAGONIST,  # "user" or "assistant"
-                        "dia_id": f"{date_block['date']}_{ev['id']}_{t_idx}",
+                        "dia_id": f"{date_block['date']}_{ev['id']}",
                         "text": processed_info
                     })
         # ----- event summary -----

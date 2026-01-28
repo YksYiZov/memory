@@ -97,12 +97,6 @@
   },
   {
     "type": "calendar",
-    "date": "2025-04-18",
-    "summarized_info": "徐静设定了一个日程，为抵达大理疗愈民宿，2025-04-19 00:15抵达，入住民宿，来源：旅行团行程",
-    "phone_id": "19"
-  },
-  {
-    "type": "calendar",
     "date": "2025-04-20",
     "summarized_info": "徐静设定了一个日程，为与父亲徐明进行视频通话，深入探讨静简创业计划书，重点讨论环保面料供应链、风险点及启动资金预算，2025-04-20 20:10开始，来源：当日事件",
     "phone_id": "20"
@@ -202,12 +196,6 @@
     "date": "2025-09-24",
     "summarized_info": "徐静设定了一个日程，为与朋友李娜在北外滩滨江绿地健身步道挑战首次5公里跑，2025-09-25 06:50:00开始",
     "phone_id": "39"
-  },
-  {
-    "type": "calendar",
-    "date": "2025-10-15",
-    "summarized_info": "徐静设定了一个日程，为首次普拉提私教试课，2025-10-22 20:40开始，教练周晓雯，地点静心瑜伽工作室（徐汇区嘉善路XX号），来源：瑜伽课后现场预约",
-    "phone_id": "40"
   },
   {
     "type": "calendar",
@@ -319,18 +307,6 @@
   },
   {
     "type": "calendar",
-    "date": "2025-03-09",
-    "summarized_info": "徐静在日历中设置了一个事件，提醒自己完成“装修需求清单”的细化工作，这与会议纪要中她的任务相关。",
-    "phone_id": "59"
-  },
-  {
-    "type": "calendar",
-    "date": "2025-11-09",
-    "summarized_info": "徐静创建了与哥哥后续电话会议的日程，议题涉及会员分层、私域引流和分店计划。",
-    "phone_id": "60"
-  },
-  {
-    "type": "calendar",
     "date": "2025-12-03",
     "summarized_info": "徐静在日历中记录了12月4日下午在店铺仓库与同事陈丽、赵敏、刘伟进行周末促销物料验收的计划，并明确了分工。",
     "phone_id": "61"
@@ -367,12 +343,6 @@
   },
   {
     "type": "calendar",
-    "date": "2025-04-05",
-    "summarized_info": "徐静在日历中创建了一个线上服装陈列课程的日程。",
-    "phone_id": "67"
-  },
-  {
-    "type": "calendar",
     "date": "2025-06-10",
     "summarized_info": "徐静的日历事件显示，她在2025-06-11的09:00至10:10通勤时段预留了时间用于‘数字收藏鉴赏’以调整状态。",
     "phone_id": "68"
@@ -400,12 +370,6 @@
     "date": "2025-04-10",
     "summarized_info": "徐静设定了一个与高中同学聚餐的日程，并计划向赵小美请教创业财务问题。",
     "phone_id": "72"
-  },
-  {
-    "type": "calendar",
-    "date": "2025-08-12",
-    "summarized_info": "徐静在日历中设置了一个任务，提醒自己根据谈判确认的条款（递增率6.5%，额外免租期5天）审核合同。",
-    "phone_id": "73"
   },
   {
     "type": "calendar",
@@ -535,8 +499,674 @@
   },
   {
     "type": "calendar",
+    "date": "2025-12-02",
+    "summarized_info": "徐静设定了一个日程，计划在明天上午进行店铺销售数据分析实践。",
+    "phone_id": "96"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-01",
+    "summarized_info": "徐静记录了一个日程，内容是2025年8月1日和父亲一起去购买并放置新分类垃圾桶。",
+    "phone_id": "97"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-02",
+    "summarized_info": "徐静设定了一个日程，前往上海银行浦东大道支行办理创业相关业务，并提醒为账户想名字。",
+    "phone_id": "98"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-07",
+    "summarized_info": "徐静在日历中创建了与哥哥徐强会面的日程，计划讨论业务并听取他的专业建议。",
+    "phone_id": "99"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-03",
+    "summarized_info": "徐静在日历中记录了高铁行程，并备注了母亲讲述的关于姨妈张秀英事迹的要点。",
+    "phone_id": "100"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-12-05",
+    "summarized_info": "徐静在日历中记录了12月6日下午去愚园路创意市集的计划。",
+    "phone_id": "101"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-01-07",
+    "summarized_info": "徐静的日历中记录了1月8日上午与同事开会的日程。",
+    "phone_id": "102"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-09-09",
+    "summarized_info": "徐静在日历中创建了一个与王丽的下午茶日程，约定了不谈工作。",
+    "phone_id": "104"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-08",
+    "summarized_info": "徐静在日历中创建了一个事件，记录3月9日下午将举行家庭会议讨论老房翻新。",
+    "phone_id": "105"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-05",
+    "summarized_info": "徐静在日历中创建了一个日程，用于提醒自己参加线上服装陈列课程。",
+    "phone_id": "106"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-10",
+    "summarized_info": "徐静设定了一个日程，为与物业方的第二轮租金谈判做准备，目标是争取更有利的租金递增率和免租装修期。",
+    "phone_id": "107"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-13",
+    "summarized_info": "徐静在日程中安排了通勤时间，计划收听播客为大促做准备。",
+    "phone_id": "108"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-13",
+    "summarized_info": "徐静在日历中预约了明天在荣成社区卫生服务站的肩颈理疗。",
+    "phone_id": "109"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-18",
+    "summarized_info": "徐静设定了一个傍晚进行户外节奏跑的日程。",
+    "phone_id": "110"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-19",
+    "summarized_info": "徐静更新了傍晚的日程，将户外活动改为室内训练。",
+    "phone_id": "111"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-09-19",
+    "summarized_info": "徐静在日历中添加了次日参观设计师工作室的日程，备注是与前一晚在餐厅结识的本地买手店团队同行。",
+    "phone_id": "112"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-17",
+    "summarized_info": "徐静在日历中创建了与赵敏的会面日程，主题为讨论春季活动执行细节与协作优化。",
+    "phone_id": "113"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-12-10",
+    "summarized_info": "徐静预约了与财务规划师张女士的咨询会议。",
+    "phone_id": "114"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-01-14",
+    "summarized_info": "徐静在日历中设定了一个日程，计划在1月15日下午在店内VIP室进行春装介绍短视频的拍摄练习。",
+    "phone_id": "115"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-18",
+    "summarized_info": "徐静设定了一个日程，计划在10月19日晨跑后购买运动饮料补充水分。",
+    "phone_id": "116"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-18",
+    "summarized_info": "徐静在日程中记录了接待复盘，提及售出的浅灰色亚麻混纺西装套装及搭配的Polo衫和休闲裤。",
+    "phone_id": "117"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-20",
+    "summarized_info": "徐静在日历中安排了一个时段，用于内化行业分享会知识并构思新店运营设想。",
+    "phone_id": "118"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-22",
+    "summarized_info": "徐静在日历中记录了父亲下午会来店里探望并交流工作安排。",
+    "phone_id": "119"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-07-19",
+    "summarized_info": "徐静在日历中标记了7月20日上午9:30的直播，并备注了直播前在家进行放松活动。",
+    "phone_id": "120"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-22",
+    "summarized_info": "徐静设定了一个日程，计划向父亲请教商业谈判技巧，日程描述中提到父亲会结合早年与面料商孙老板、商场经理周旋的经历进行讲解。",
+    "phone_id": "121"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-01-20",
+    "summarized_info": "徐静设定了一个日程，计划在世纪公园进行户外运动。",
+    "phone_id": "122"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-19",
+    "summarized_info": "徐静设定了一个日程，为618复盘会议做准备，计划在PPT中展示销售亮点。",
+    "phone_id": "123"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-12-21",
+    "summarized_info": "徐静在日历中创建了一个执行健康计划中“正念练习”的提醒，并提及计划包含四个主要部分。",
+    "phone_id": "124"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-20",
+    "summarized_info": "徐静设定了一个日程，计划第二天下午去西湖边散步，并提及要带上一件新买的纪念品去拍照。",
+    "phone_id": "125"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-28",
+    "summarized_info": "徐静在日历中记录了‘每日一照’项目的启动，并描述了其目的。",
+    "phone_id": "126"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-04",
+    "summarized_info": "徐静在日历中设置了明天傍晚的普拉提课程预约。",
+    "phone_id": "127"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-07-13",
+    "summarized_info": "徐静在日历中记录了7月14日晚上7点20分开始的瑜伽课预约。",
+    "phone_id": "128"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-10",
+    "summarized_info": "徐静在周末的傍晚至晚上安排了一项户外运动活动。",
+    "phone_id": "129"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-30",
+    "summarized_info": "徐静设定了一个日程，计划在周三晚上协助父亲完成在线投保操作。",
+    "phone_id": "130"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-03",
+    "summarized_info": "徐静在日历中创建了一个晚间紧急工作会议日程。",
+    "phone_id": "131"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-08",
+    "summarized_info": "创建了一个为期一个月的日历事件，用于追踪‘每日睡前进行30分钟阅读’这一个人习惯的执行情况。",
+    "phone_id": "132"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-03",
+    "summarized_info": "徐静在日历中预约了2月4日傍晚17:30-18:30的瑜伽课程。",
+    "phone_id": "133"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-11",
+    "summarized_info": "徐静设定了一个日程，内容为因皮肤过敏暂停户外跑步，改为在家中进行15分钟舒缓瑜伽/拉伸。",
+    "phone_id": "134"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-10",
+    "summarized_info": "徐静的日历中记录了3月12日清晨有一个关于大促紧急事务的长时间会议。",
+    "phone_id": "135"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-31",
+    "summarized_info": "徐静在日历中设置了11月整个月的每日睡前阅读日程。",
+    "phone_id": "136"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-04",
+    "summarized_info": "徐静在日历中预约了2月5日晚间在静心瑜伽的流瑜伽课程。",
+    "phone_id": "137"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-13",
+    "summarized_info": "徐静在日历中预约了2月14日午休时间在公司健身房的瑜伽课程。",
+    "phone_id": "138"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-11",
+    "summarized_info": "徐静在日历中记录，因医嘱需暂停户外运动，改为今晚在家进行室内轻度活动（肩颈舒缓与拉伸）。",
+    "phone_id": "139"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-31",
+    "summarized_info": "徐静根据前一天视频咨询获得的健康计划，在日历中设置了年度健康监测的提醒。",
+    "phone_id": "140"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-05-13",
+    "summarized_info": "徐静在日历中标记了5月13日早上7点的瑜伽课因身体原因被取消。",
+    "phone_id": "141"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-20",
+    "summarized_info": "徐静在日历中设置了感冒药的服药提醒，并备注了与加班和睡眠相关的健康情况。",
+    "phone_id": "142"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-11",
+    "summarized_info": "我的日历中在20:30-21:30时间段标记了一项名为“每日固定事项”的活动，描述为“完成今日的睡前阅读”。",
+    "phone_id": "143"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-30",
+    "summarized_info": "徐静在日历中设置了与健身教练郑明辉的体能测试预约，时间为11月3日晚上。",
+    "phone_id": "144"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-05-29",
+    "summarized_info": "徐静在日历中创建了一个事件，计划恢复周二、四、六早上7点的瑜伽计划，并预约了5月30日晚周晓雯老师的课，备注提及尝试融入正念觉知。",
+    "phone_id": "145"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-09-05",
+    "summarized_info": "徐静的日历中设置了一个每日晚饭后的垃圾投放日程，描述了分类细节和地点。",
+    "phone_id": "146"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-31",
+    "summarized_info": "徐静在日历中为整个11月设定了一个每日重复的日程，时间为21:40至22:20，标记为个人固定活动时间。",
+    "phone_id": "147"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-01",
+    "summarized_info": "我在日历中设置了一个从11月1日开始的每日重复日程，内容是“睡前阅读”，时间段为22:20至22:50。",
+    "phone_id": "148"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-08",
+    "summarized_info": "徐静为国庆假期后复工第一天设定了工作计划，包括节后巡查和数据核对，地点在石辰商场二楼。",
+    "phone_id": "149"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-05-17",
+    "summarized_info": "徐静提前一天在日历中设置了学习财务分析课程的日程。",
+    "phone_id": "150"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-05-21",
+    "summarized_info": "徐静提前一天在日历中创建了一个与哥哥的视频学习日程，主题为电商运营。",
+    "phone_id": "151"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-10",
+    "summarized_info": "徐静在日历中创建了一个日程，记录了一次关于‘静简’项目合作的线上会议安排。",
+    "phone_id": "152"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-01",
+    "summarized_info": "我在日历中创建了参加服装博览会并为店铺进行品牌选品会谈的日程。",
+    "phone_id": "153"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-02",
+    "summarized_info": "徐静的日历中记录了参加上海国际服装服饰博览会（CHIC）的行程，目标包括接洽服装品牌、考察趋势并为店铺货品更新做准备。",
+    "phone_id": "154"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-16",
+    "summarized_info": "徐静安排了一个与商场招商部的会议，目的是洽谈联合宣传，此安排源于父亲之前的建议。",
+    "phone_id": "155"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-05-03",
+    "summarized_info": "徐静在日历中创建了一个事件，记录了车辆维修期间（5月3日至10日）通勤方式改为地铁。",
+    "phone_id": "156"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-12-03",
+    "summarized_info": "徐静在12月3日创建了一个日历事件，预约了年底健康复盘咨询。",
+    "phone_id": "157"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-18",
+    "summarized_info": "徐静设定了一个日程，为录制《都市她力量》播客节目。",
+    "phone_id": "158"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-07-05",
+    "summarized_info": "徐静设定了一个日程，为母亲准备符合医嘱的清淡晚餐，并列出需要购买的食材。",
+    "phone_id": "159"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-09-05",
+    "summarized_info": "徐静在静修营日程中创建了一个名为‘星空集体深谈’的活动，计划通过集体分享进行深度交流。",
+    "phone_id": "160"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-09-05",
+    "summarized_info": "徐静在日历中记录了在静修营地参加‘颂钵音疗’活动的日程安排。",
+    "phone_id": "161"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-14",
+    "summarized_info": "徐静在日历中创建了晚上SPA的预约事件，备注说明是为了缓解今日工作压力并为明天半程马拉松储备体力。",
+    "phone_id": "162"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-07-01",
+    "summarized_info": "徐静设定了一个日程，为与同事赵敏的午餐会议，讨论店铺直播项目。",
+    "phone_id": "163"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-14",
+    "summarized_info": "徐静在日历中创建了一个SPA预约事件，目的是缓解当天处理供应商订单的压力与疲劳，并为明天的半程马拉松储备精力。",
+    "phone_id": "164"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-07",
+    "summarized_info": "徐静设定了一个日程，为8月8日上午回访杭州供应商王总进行深入洽谈。",
+    "phone_id": "165"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-14",
+    "summarized_info": "徐静在日历中预约了晚上8点的全身SPA，并备注了预约原因。",
+    "phone_id": "166"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-12-04",
+    "summarized_info": "徐静设定了一个首次晨跑的日程，备注中提到将使用新到的ASICS跑鞋。",
+    "phone_id": "167"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-07",
+    "summarized_info": "徐静设定了一个日程，为次日下午与物业方经理的正式谈判做准备。",
+    "phone_id": "168"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-09-09",
+    "summarized_info": "徐静在日历中创建了一个日程，记录了当天下午需要临时接待一位突然到访的供应商。",
+    "phone_id": "169"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-24",
+    "summarized_info": "徐静设定日程，计划联系纪念币买家，目的是为她的买手店项目变现资金。",
+    "phone_id": "170"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-29",
+    "summarized_info": "我设定了一个日程，计划在大促结束后、肩部恢复后，于6月29日将因天气取消的户外快走调整为室内有氧操，以恢复规律运动。",
+    "phone_id": "171"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-07-02",
+    "summarized_info": "徐静的日历中记录了一项日程：第二天上午需要向王经理汇报一个直播带货试点项目。",
+    "phone_id": "172"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-10",
+    "summarized_info": "徐静的日历中记录了11月15日参加半程马拉松比赛的事件。",
+    "phone_id": "173"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-08",
+    "summarized_info": "徐静设定了8月9日的瑜伽课日程，并在备注中提及身体感受不佳，可能与前一天的状态有关。",
+    "phone_id": "174"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-12-05",
+    "summarized_info": "徐静设定了首次晨跑日程，注明将使用新到的亚瑟士跑鞋。",
+    "phone_id": "175"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-18",
+    "summarized_info": "徐静在日历中创建了事件，计划在2025年2月19日上午主导并观察新标准化操作流程的首次试运行。",
+    "phone_id": "176"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-28",
+    "summarized_info": "徐静在日历中设置了一项日程，计划在6月29日恢复运动，并将因天气原因将户外快走调整为室内有氧操，同时备注了中断原因是618大促工作强度大及身体不适。",
+    "phone_id": "177"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-14",
+    "summarized_info": "徐静在日历中预约了晚上8点的全身SPA，目的是缓解压力和为比赛放松。",
+    "phone_id": "178"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-18",
+    "summarized_info": "徐静在日历中设置了2025年2月19日全天观察新标准化操作流程首次试运行的日程。",
+    "phone_id": "179"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-26",
+    "summarized_info": "徐静在日历中预约了咨询拍卖行送拍纪念币的事宜，并备注此事关联新店启动资金筹备中的可变现资产部分。",
+    "phone_id": "180"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-09",
+    "summarized_info": "徐静在日历中标记了618大促冲刺期，并注明期间暂停晨间运动。",
+    "phone_id": "181"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-07-19",
+    "summarized_info": "徐静的日历事件显示，2025-07-20的首次抖音直播主题为“静选夏季清仓专场”，并提及需要核对依据同名策划案制定的流程表。",
+    "phone_id": "182"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-03",
+    "summarized_info": "徐静在日历中创建了一个为期三天（8月3日至5日）的轻食午餐计划事件。",
+    "phone_id": "183"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-17",
+    "summarized_info": "徐静的日历中设定了一个事件，内容为在2月19日上午主导并观察新标准化操作流程的首次试运行。",
+    "phone_id": "184"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-02",
+    "summarized_info": "徐静设定了一个为期三天的轻食午餐计划日程，包含启动日期和每日安排。",
+    "phone_id": "185"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-18",
+    "summarized_info": "徐静在日历中设置了2025年2月19日全天进行新标准化操作手册的首次试运行观察与辅导。",
+    "phone_id": "186"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-15",
+    "summarized_info": "徐静设定了一个日程，内容包含杭州闺蜜聚会，以及向从事电商的闺蜜请教新零售趋势和观察夏装陈列的工作目的。",
+    "phone_id": "187"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-11-06",
+    "summarized_info": "徐静为11月7日晚上设置了睡前阅读《微光》的日历提醒。",
+    "phone_id": "188"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-02-07",
+    "summarized_info": "徐静在日历中取消了原定于中午的“午间流瑜伽课”。",
+    "phone_id": "189"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-11",
+    "summarized_info": "徐静为车辆的下一次全面保养设置了一个日历事件，时间定在2026年2月。",
+    "phone_id": "191"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-07-28",
+    "summarized_info": "徐静在日历中添加了8月5日左右在杭州与舅舅刘建国见面请教的日程安排。",
+    "phone_id": "192"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-26",
+    "summarized_info": "徐静设置日程，准备与母亲李芳开会，正式启动由母亲主导的家庭健康计划。",
+    "phone_id": "193"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-21",
+    "summarized_info": "徐静在日历中创建了家庭垃圾分类检查会的日程，计划在晚上检查父母的垃圾分类情况。",
+    "phone_id": "194"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-30",
+    "summarized_info": "徐静创建了一个日程，内容为11月2日举行的常规月度业务回顾会议。",
+    "phone_id": "195"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-18",
+    "summarized_info": "徐静设定了一个日程，为6月19日上午在办公室制作618复盘PPT。",
+    "phone_id": "196"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-09-11",
+    "summarized_info": "徐静在日历中添加了家庭空调维护预约，并在描述中注明预约动机是吸取八月车辆故障教训，作为预防性维护。",
+    "phone_id": "197"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-04-11",
+    "summarized_info": "徐静将4月12日的户外晨跑计划修改为室内瑜伽，并备注了变更原因。",
+    "phone_id": "198"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-06-26",
+    "summarized_info": "徐静在日历中记录了2025年6月26日晚上的家庭健康计划启动晚餐，菜单为地中海风味。",
+    "phone_id": "199"
+  },
+  {
+    "type": "calendar",
     "date": "2025-06-22",
-    "summarized_info": "徐静设定了一个日程，记录与钱多多的午餐交流，并提醒自己注意健康饮食。",
-    "phone_id": "95"
+    "summarized_info": "徐静设定了一个日程，为向钱多多请教行业趋势的会面做准备。",
+    "phone_id": "200"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-14",
+    "summarized_info": "徐静设定了一个日程，用于和健身教练沟通运动计划，其中提到了教练建议尝试普拉提。",
+    "phone_id": "201"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-10-15",
+    "summarized_info": "徐静预约了普拉提试课，日程描述中提及此安排是基于周教练的专业评估与建议。",
+    "phone_id": "202"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-12",
+    "summarized_info": "徐静在日历中创建了一个为赵小美庆生的高中好友聚餐日程。",
+    "phone_id": "203"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-01-08",
+    "summarized_info": "徐静创建了一个日程，记录了她报名零售管理课程并计划与家人沟通。",
+    "phone_id": "205"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-15",
+    "summarized_info": "徐静设定了一个日程，计划在咖啡馆休息并收听《她山》播客。",
+    "phone_id": "206"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-04",
+    "summarized_info": "徐静设定了晨间瑜伽的日程，结束后需驾车返回工作地点。",
+    "phone_id": "207"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-12-15",
+    "summarized_info": "徐静在日历中创建了一个日程，内容为与吴明远医生在荣成社区卫生服务中心进行年底健康复诊。",
+    "phone_id": "208"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-08-28",
+    "summarized_info": "徐静在日历中创建了一个事件，记录了她首次与孙阿姨参加社区滨江环保徒步清洁活动的计划。",
+    "phone_id": "209"
+  },
+  {
+    "type": "calendar",
+    "date": "2025-03-05",
+    "summarized_info": "徐静设定了一个日程，记录第一期缝纫课程的时间、地点和内容。",
+    "phone_id": "210"
   }
 ]
