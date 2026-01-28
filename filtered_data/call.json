@@ -1,0 +1,23 @@
+[
+  {
+    "type": "call",
+    "contactName": "徐明",
+    "date": "2025-05-05",
+    "duration": "25分钟",
+    "summarized_info": "徐静与父亲徐明进行了一次视频通话，通话时长约25分钟。",
+    "phone_id": "1"
+  },
+  {
+    "type": "call",
+    "contactName": "张经理",
+    "date": "2025-01-12",
+    "phone_id": "2"
+  },
+  {
+    "type": "call",
+    "contactName": "王丽",
+    "date": "2025-01-20",
+    "duration": 180,
+    "phone_id": "3"
+  }
+]

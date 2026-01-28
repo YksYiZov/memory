@@ -1,0 +1,1821 @@
+{
+  "overall_accuracy": 100.0,
+  "total_correct": 1,
+  "total_questions": 1,
+  "total_invalid": 0,
+  "total_valid": 1,
+  "num_items": 1,
+  "model_config": {
+    "hindsight": {
+      "provider": "openai",
+      "model": "qwen3-max"
+    },
+    "answer_generation": {
+      "provider": "openai",
+      "model": "qwen3-max"
+    },
+    "judge": {
+      "provider": "openai",
+      "model": "qwen3-max"
+    }
+  },
+  "item_results": [
+    {
+      "item_id": "conv-26",
+      "metrics": {
+        "accuracy": 100.0,
+        "correct": 1,
+        "total": 1,
+        "invalid": 0,
+        "valid_total": 1,
+        "category_stats": {
+          "2": {
+            "correct": 1,
+            "total": 1,
+            "invalid": 0
+          }
+        },
+        "detailed_results": [
+          {
+            "question": "When did Caroline go to the LGBTQ support group?",
+            "correct_answer": "7 May 2023",
+            "predicted_answer": "Sunday, May 7, 2023",
+            "reasoning": "According to the provided context, Caroline attended an LGBTQ support group on Sunday, May 7, 2023. This is explicitly stated in the memory with ID 'f87ea794-25c3-4387-a061-465a98bebde4', which notes that the event occurred on that specific date and that Caroline found it powerful and inspiring, especially the transgender stories shared there.",
+            "category": 2,
+            "retrieved_memories": [
+              {
+                "id": "7da35582-5b40-4abd-9df9-858cdba8fe9b",
+                "text": "Caroline volunteers to support the LGBTQ+ community and creates art as part of her advocacy. | Involving: Caroline | She is inspired by seeing her work make a difference and wants to help create a more loving world.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ community",
+                  "volunteering",
+                  "art"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_16 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-09-13T00:09:20+00:00",
+                "document_id": "conv-26_session_16",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_16_17",
+                "tags": []
+              },
+              {
+                "id": "88b5e169-c90c-4d24-987a-f723f0894f81",
+                "text": "Caroline volunteered at an LGBTQ+ youth center and shared her personal story to support young people. | Involving: Caroline | To provide support and show young people they are not alone",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ youth center",
+                  "young people"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_15 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-28T15:19:10+00:00",
+                "document_id": "conv-26_session_15",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_15_14",
+                "tags": []
+              },
+              {
+                "id": "9be831d1-0600-4a9c-9b59-b955194ac46c",
+                "text": "Caroline's activist group holds regular meetings and organizes events and campaigns focused on LGBTQ rights and community support. | Involving: Caroline, Connected LGBTQ Activists",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Connected LGBTQ Activists"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_10 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-20T20:56:10+00:00",
+                "document_id": "conv-26_session_10",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_10_1",
+                "tags": []
+              },
+              {
+                "id": "74961b3c-9bec-4a53-b445-c7799848dd3d",
+                "text": "Caroline attended a pride parade on Friday, August 11, 2023, which inspired her to continue advocating for LGBTQ+ rights. | When: Friday, August 11, 2023 | Involving: Caroline | The event reinforced her commitment to equality and LGBTQ+ advocacy.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ rights"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_11 of conv-26)",
+                "occurred_start": "2023-08-11T00:00:10+00:00",
+                "occurred_end": "2023-08-12T00:00:09+00:00",
+                "mentioned_at": "2023-08-14T14:24:10+00:00",
+                "document_id": "conv-26_session_11",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_11_4",
+                "tags": []
+              },
+              {
+                "id": "7cb284f5-843e-4e4c-825d-4a5ff267e65e",
+                "text": "Caroline attended an LGBTQ+ pride parade last week and felt a strong sense of belonging, noting the community's growth. | When: Last week (relative to July 3, 2023) | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ pride parade"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_5 of conv-26)",
+                "occurred_start": "2023-06-26T00:00:00+00:00",
+                "occurred_end": "2023-06-26T23:59:59+00:00",
+                "mentioned_at": "2023-07-03T13:36:00+00:00",
+                "document_id": "conv-26_session_5",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_5_34",
+                "tags": []
+              },
+              {
+                "id": "a3383541-f004-4292-a092-70cbbca2e71d",
+                "text": "Caroline plans to continue volunteering at the LGBTQ+ youth center and is helping organize a talent show for the kids next month. | When: Next month (relative to August 28, 2023) | Involving: Caroline | She believes in community support and wants to keep making a difference",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ youth center",
+                  "talent show"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_15 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-28T15:19:20+00:00",
+                "document_id": "conv-26_session_15",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_15_14",
+                "tags": []
+              },
+              {
+                "id": "1fadf5fe-dbea-4da7-b66d-414b0c26418c",
+                "text": "Caroline gave a talk at her school event about her transgender journey and encouraged students to get involved in the LGBTQ community. | When: Last week relative to June 09, 2023 (i.e., week of June 2, 2023) | Involving: Caroline | To spread awareness, promote inclusion, and inspire students to become better allies",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ community",
+                  "school event",
+                  "transgender journey"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_3 of conv-26)",
+                "occurred_start": "2023-06-02T00:00:00+00:00",
+                "occurred_end": "2023-06-02T23:59:59+00:00",
+                "mentioned_at": "2023-06-09T19:55:00+00:00",
+                "document_id": "conv-26_session_3",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_3_29",
+                "tags": []
+              },
+              {
+                "id": "f87ea794-25c3-4387-a061-465a98bebde4",
+                "text": "Caroline attended an LGBTQ support group on Sunday, May 7, 2023, and found it powerful and inspiring, especially the transgender stories. | When: Sunday, May 7, 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ support group",
+                  "transgender stories"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_1 of conv-26)",
+                "occurred_start": "2023-05-07T00:00:00+00:00",
+                "occurred_end": "2023-05-07T23:59:59+00:00",
+                "mentioned_at": "2023-05-08T13:56:00+00:00",
+                "document_id": "conv-26_session_1",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_1_0",
+                "tags": []
+              },
+              {
+                "id": "94dd1319-b01f-44bf-b2fc-32eb1966eece",
+                "text": "Caroline joined a new LGBTQ activist group called 'Connected LGBTQ Activists' on Tuesday, July 18, 2023. | When: Tuesday, July 18, 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Connected LGBTQ Activists"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_10 of conv-26)",
+                "occurred_start": "2023-07-18T00:00:00+00:00",
+                "occurred_end": "2023-07-18T00:00:00+00:00",
+                "mentioned_at": "2023-07-20T20:56:00+00:00",
+                "document_id": "conv-26_session_10",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_10_1",
+                "tags": []
+              },
+              {
+                "id": "207981e1-7a9a-41c8-adab-484bb26177e2",
+                "text": "Caroline had a negative experience on a hike when she encountered a group of religious conservatives who said something upsetting, which reminded her of the ongoing need for LGBTQ rights progress. | When: Recently before August 17, 2023 | Involving: Caroline | Highlighted the emotional impact of discrimination and the importance of supportive communities",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ rights"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_12 of conv-26)",
+                "occurred_start": "2023-08-16T00:00:00+00:00",
+                "occurred_end": "2023-08-16T23:59:59+00:00",
+                "mentioned_at": "2023-08-17T13:50:00+00:00",
+                "document_id": "conv-26_session_12",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_12_6",
+                "tags": []
+              },
+              {
+                "id": "e3415eb7-4434-47e5-b9ce-7558b3facfff",
+                "text": "Caroline attended an LGBTQ+ pride parade and described it as a top memory where she felt accepted, happy, proud, and inspired. | When: Saturday, July 15, 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ pride parade"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_8 of conv-26)",
+                "occurred_start": "2023-07-15T00:01:30+00:00",
+                "occurred_end": "2023-07-15T00:01:30+00:00",
+                "mentioned_at": "2023-07-15T13:52:30+00:00",
+                "document_id": "conv-26_session_8",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_8_43",
+                "tags": []
+              },
+              {
+                "id": "30e75681-664c-4749-b762-10cc989fb35f",
+                "text": "Caroline and her mentee attended an LGBT pride event last month (June 2023) and had a great, affirming experience. | When: June 2023 | Involving: Caroline, her transgender teen mentee",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "transgender teen",
+                  "LGBT pride event"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_9 of conv-26)",
+                "occurred_start": "2023-06-01T00:00:30+00:00",
+                "occurred_end": "2023-07-01T00:00:29+00:00",
+                "mentioned_at": "2023-07-17T14:31:30+00:00",
+                "document_id": "conv-26_session_9",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_9_45",
+                "tags": []
+              },
+              {
+                "id": "fecb2f38-659f-4980-b705-baeadd12b3c6",
+                "text": "Caroline attended an LGBTQ+ counseling workshop last Friday that focused on therapeutic methods for working with trans people and emphasized creating safe spaces. | When: Friday, June 23, 2023 | Involving: Caroline | To learn how to better support trans individuals in a counseling context.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ counseling workshop",
+                  "trans people"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_4 of conv-26)",
+                "occurred_start": "2023-06-23T00:00:50+00:00",
+                "occurred_end": "2023-06-24T00:00:49+00:00",
+                "mentioned_at": "2023-06-27T10:37:50+00:00",
+                "document_id": "conv-26_session_4",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_4_33",
+                "tags": []
+              },
+              {
+                "id": "a3c8b117-13d9-4da7-af1c-b063178e7ac3",
+                "text": "Caroline plans to attend a transgender conference this month to connect with the community and learn about advocacy. | When: July 2023 | Involving: Caroline | To meet others and learn about advocacy",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "transgender conference"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_5 of conv-26)",
+                "occurred_start": "2023-07-03T00:00:50+00:00",
+                "occurred_end": "2023-08-01T00:00:49+00:00",
+                "mentioned_at": "2023-07-03T13:36:50+00:00",
+                "document_id": "conv-26_session_5",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_5_34",
+                "tags": []
+              },
+              {
+                "id": "928bb3d7-3125-49a7-a4cd-39616bcd030d",
+                "text": "Caroline joined a mentorship program for LGBTQ youth and finds it rewarding. | When: Last weekend relative to July 17, 2023 (July 8\u20139, 2023) | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ youth",
+                  "mentorship program"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_9 of conv-26)",
+                "occurred_start": "2023-07-08T00:00:10+00:00",
+                "occurred_end": "2023-07-10T00:00:09+00:00",
+                "mentioned_at": "2023-07-17T14:31:10+00:00",
+                "document_id": "conv-26_session_9",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_9_45",
+                "tags": []
+              },
+              {
+                "id": "787a1240-fa75-4c85-a971-292641465190",
+                "text": "Caroline is specifically interested in an adoption agency that supports LGBTQ+ individuals. | Involving: Caroline | The agency\u2019s inclusivity and support resonated with her.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption agency",
+                  "LGBTQ+"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_2 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-05-25T13:14:40+00:00",
+                "document_id": "conv-26_session_2",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_2_27",
+                "tags": []
+              },
+              {
+                "id": "a2228b61-e900-4912-9ee6-85255b93fbbb",
+                "text": "Caroline applied to adoption agencies, taking her first step toward becoming a mother, and received support from an adoption advice/assistance group. | When: Week of August 23, 2023 | Involving: Caroline | She feels ready to give all her love to a child.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption agencies",
+                  "adoption advice/assistance group"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_13 of conv-26)",
+                "occurred_start": "2023-08-23T00:00:00+00:00",
+                "occurred_end": "2023-08-23T23:59:59+00:00",
+                "mentioned_at": "2023-08-23T15:31:00+00:00",
+                "document_id": "conv-26_session_13",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_13_8",
+                "tags": []
+              },
+              {
+                "id": "a1a0b66c-1931-47b2-86cf-9d74a1eddf47",
+                "text": "Caroline attended an LGBTQ conference two days ago and felt accepted and connected with people who shared similar journeys. | When: Monday, July 10, 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ conference"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": "2023-07-10T00:00:00+00:00",
+                "occurred_end": "2023-07-10T23:59:59+00:00",
+                "mentioned_at": "2023-07-12T16:33:00+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_38",
+                "tags": []
+              },
+              {
+                "id": "3487ef4f-4bc3-4a3b-a036-3d9d0965606a",
+                "text": "Caroline is organizing an LGBTQ art show featuring her paintings next month (August 2023). | When: August 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ art show",
+                  "paintings"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_9 of conv-26)",
+                "occurred_start": "2023-08-01T00:00:40+00:00",
+                "occurred_end": "2023-09-01T00:00:39+00:00",
+                "mentioned_at": "2023-07-17T14:31:40+00:00",
+                "document_id": "conv-26_session_9",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_9_45",
+                "tags": []
+              },
+              {
+                "id": "63562d88-507a-4314-98d5-67068210e6a9",
+                "text": "Caroline is organizing an LGBTQ art show next month where she will exhibit her paintings. | When: September 2023 | Involving: Caroline | To spread understanding and acceptance of LGBTQ artists and their talents",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ art show",
+                  "paintings"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": "2023-09-01T00:02:20+00:00",
+                "occurred_end": "2023-10-01T00:02:19+00:00",
+                "mentioned_at": "2023-08-25T13:35:20+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_13",
+                "tags": []
+              },
+              {
+                "id": "ec1d1d44-dee9-4215-b792-77616db3d8a1",
+                "text": "Caroline attended a transgender poetry reading on Friday, October 6, 2023, where transgender individuals shared personal stories through poetry in a safe, empowering space. | When: Friday, October 6, 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "transgender poetry reading"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_17 of conv-26)",
+                "occurred_start": "2023-10-06T00:01:20+00:00",
+                "occurred_end": "2023-10-07T00:01:19+00:00",
+                "mentioned_at": "2023-10-13T10:32:20+00:00",
+                "document_id": "conv-26_session_17",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_17_21",
+                "tags": []
+              },
+              {
+                "id": "17945f43-03ec-4093-9147-68d7204d8bb3",
+                "text": "Caroline attended a pride parade a few weeks before July 15, 2023, which she considers a special memory. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "pride parade"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_8 of conv-26)",
+                "occurred_start": "2023-06-24T00:01:20+00:00",
+                "occurred_end": "2023-06-24T00:01:20+00:00",
+                "mentioned_at": "2023-07-15T13:52:20+00:00",
+                "document_id": "conv-26_session_8",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_8_42",
+                "tags": []
+              },
+              {
+                "id": "663261c0-bd0d-4e68-8e08-6847a6e8bf83",
+                "text": "Caroline values having supportive people around, promoting LGBTQ rights, and living authentically; she wants to help others do the same. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ rights",
+                  "authenticity"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_13 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-23T15:32:10+00:00",
+                "document_id": "conv-26_session_13",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_13_9",
+                "tags": []
+              },
+              {
+                "id": "6ab33e39-20d6-456a-8f91-f9e358d38f6e",
+                "text": "Caroline and Melanie attended a Pride festival together last year with a group of friends and had a great time. | When: 2022 (summer, inferred from 'last year' relative to August 17, 2023) | Involving: Caroline, Melanie, and their friend group",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Melanie",
+                  "Pride festival",
+                  "friend group"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_12 of conv-26)",
+                "occurred_start": "2022-06-01T00:00:30+00:00",
+                "occurred_end": "2022-09-01T00:00:29+00:00",
+                "mentioned_at": "2023-08-17T13:50:30+00:00",
+                "document_id": "conv-26_session_12",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_12_7",
+                "tags": []
+              },
+              {
+                "id": "a90d19d8-023d-40fd-9705-d677e89a1963",
+                "text": "Melanie volunteers for Pride events and supports the LGBTQ+ community. | Involving: Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "Pride event",
+                  "LGBTQ+ community"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-25T13:34:10+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_11",
+                "tags": []
+              },
+              {
+                "id": "217b5ef1-570f-45b3-bfd8-08356c39f9de",
+                "text": "The support group made Caroline feel accepted and gave her courage to embrace herself. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "support group"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_1 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-05-08T13:56:10+00:00",
+                "document_id": "conv-26_session_1",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_1_0",
+                "tags": []
+              },
+              {
+                "id": "d2e79520-6e92-4b8e-96ec-33f08c6b759b",
+                "text": "Caroline is a transgender woman who found acceptance and support in the transgender community. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "transgender community"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-25T13:33:40+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_11",
+                "tags": []
+              },
+              {
+                "id": "e6d4a981-9330-4b46-be03-37af38e0021b",
+                "text": "Caroline creates art that emphasizes inclusivity, diversity, and LGBTQ+ advocacy. | Involving: Caroline | She uses her art as a platform to promote acceptance and speak up for the LGBTQ+ community.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ+ community",
+                  "art"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_11 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-14T14:24:20+00:00",
+                "document_id": "conv-26_session_11",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_11_4",
+                "tags": []
+              },
+              {
+                "id": "0dac174a-5235-41e5-be04-18d8e4767c16",
+                "text": "Caroline had a picnic with friends and family last week (week of June 26\u201330, 2023), who are supporting her through a personal transition. | When: week of June 26\u201330, 2023 | Involving: Caroline, her friends, her family | Their support makes a significant difference in her transition.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "friends",
+                  "family",
+                  "picnic"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_6 of conv-26)",
+                "occurred_start": "2023-06-26T00:00:40+00:00",
+                "occurred_end": "2023-07-01T00:00:39+00:00",
+                "mentioned_at": "2023-07-06T20:18:40+00:00",
+                "document_id": "conv-26_session_6",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_6_36",
+                "tags": []
+              },
+              {
+                "id": "bda808d2-4df0-4505-940a-330e0143d021",
+                "text": "Caroline created a painting for an art show inspired by her visit to an LGBTQ center, aiming to capture unity and strength. | Involving: Caroline | To express the unity and strength she observed at the LGBTQ center.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ center",
+                  "painting",
+                  "art show"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_9 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-17T14:31:50+00:00",
+                "document_id": "conv-26_session_9",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_9_46",
+                "tags": []
+              },
+              {
+                "id": "458fd5ca-3fac-4704-bfd2-8cc60fbe0df5",
+                "text": "A pride parade took place in Caroline's city last weekend (Saturday, July 15 or Sunday, July 16, 2023), which she missed but found inspiring as a symbol of solidarity in the fight for equality. | When: Weekend of July 15\u201316, 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "pride parade"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_10 of conv-26)",
+                "occurred_start": "2023-07-15T00:00:20+00:00",
+                "occurred_end": "2023-07-17T00:00:19+00:00",
+                "mentioned_at": "2023-07-20T20:56:20+00:00",
+                "document_id": "conv-26_session_10",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_10_1",
+                "tags": []
+              },
+              {
+                "id": "74f75d29-e608-4e29-8485-4dabe7b2787d",
+                "text": "Caroline wants to help make a difference in LGBTQ rights and spread awareness. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "LGBTQ rights"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-12T16:33:10+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_38",
+                "tags": []
+              },
+              {
+                "id": "c7ce948e-8c9f-4697-bc49-e544e5d6aa39",
+                "text": "Caroline is considering working with trans people to support their mental health and self-acceptance. | Involving: Caroline | Motivated by her own journey and the positive impact counseling had on her life.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "trans people",
+                  "mental health"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_4 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-27T10:37:40+00:00",
+                "document_id": "conv-26_session_4",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_4_33",
+                "tags": []
+              },
+              {
+                "id": "1cc9df51-997c-4ed7-9892-a590aa5e4767",
+                "text": "Caroline's personal experience with counseling and support groups significantly improved her life, inspiring her dedication to mental health and creating safe spaces for others. | Involving: Caroline | Her own positive transformation through support motivated her to help others similarly.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "counseling",
+                  "support groups",
+                  "mental health"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_4 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-27T10:38:00+00:00",
+                "document_id": "conv-26_session_4",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_4_33",
+                "tags": []
+              },
+              {
+                "id": "d05194b8-21bc-4776-91c0-8a3c1bcadf59",
+                "text": "Caroline went through a difficult transition and struggled with self-acceptance, but was supported by friends, family, and role models who helped her discover her true identity. | Involving: Caroline | This experience shaped her desire to offer similar support to others in need.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "self-acceptance",
+                  "transition"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_19 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-22T09:55:20+00:00",
+                "document_id": "conv-26_session_19",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_19_25",
+                "tags": []
+              },
+              {
+                "id": "4d291f51-dadb-4b0c-b037-7365584c10e0",
+                "text": "Caroline attended a council meeting about adoption last Friday, which strengthened her determination to adopt a child. | When: Friday, July 14, 2023 | Involving: Caroline | The meeting was inspiring and emotional, highlighting many people's desire to create loving homes for children in need.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption",
+                  "council meeting"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_8 of conv-26)",
+                "occurred_start": "2023-07-14T00:00:20+00:00",
+                "occurred_end": "2023-07-15T00:00:19+00:00",
+                "mentioned_at": "2023-07-15T13:51:20+00:00",
+                "document_id": "conv-26_session_8",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_8_41",
+                "tags": []
+              },
+              {
+                "id": "2a0311db-a9c9-47fb-8cdb-4dc82645423c",
+                "text": "Caroline saw a rainbow-painted sidewalk in her neighborhood during Pride Month and took a photo of it as a symbol of togetherness, celebrating differences, love, and acceptance. | When: Friday, August 25, 2023 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "rainbow sidewalk",
+                  "Pride Month"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": "2023-08-25T00:01:20+00:00",
+                "occurred_end": "2023-08-26T00:01:19+00:00",
+                "mentioned_at": "2023-08-25T13:34:20+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_12",
+                "tags": []
+              },
+              {
+                "id": "af53229a-dfff-415b-938e-542b389838d4",
+                "text": "Caroline began her gender transition three years before June 2023. | When: Around June 2020 | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "transition"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_3 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-09T19:55:10+00:00",
+                "document_id": "conv-26_session_3",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_3_29",
+                "tags": []
+              },
+              {
+                "id": "a3d9f51e-1106-4553-845f-2af04f98186e",
+                "text": "Caroline has a support system of friends, family, and mentors who have been with her through everything, including a tough breakup. She has known these friends for 4 years, since moving from her home country. | Involving: Caroline, Caroline's friends, family, and mentors",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "friends",
+                  "family",
+                  "mentors",
+                  "home country",
+                  "breakup"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_3 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-09T19:55:20+00:00",
+                "document_id": "conv-26_session_3",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_3_30",
+                "tags": []
+              },
+              {
+                "id": "e7f908c6-a786-4cf3-8441-464798d5e627",
+                "text": "Caroline has a strong support network of friends and family who have provided love, guidance, and acceptance throughout her transition. | Involving: Caroline, Caroline's friends and family | Their support has been instrumental in helping Caroline accept and grow into her true self.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "friends and family",
+                  "transition",
+                  "support network"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_6 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-06T20:18:50+00:00",
+                "document_id": "conv-26_session_6",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_6_37",
+                "tags": []
+              },
+              {
+                "id": "ff2eb162-7255-4182-9993-c2a91312a26c",
+                "text": "Caroline went biking with friends last weekend and found it refreshing. | When: Saturday, September 9, 2023 or Sunday, September 10, 2023 | Involving: Caroline, Caroline's friends",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "biking"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_16 of conv-26)",
+                "occurred_start": "2023-09-09T00:00:00+00:00",
+                "occurred_end": "2023-09-10T23:59:59+00:00",
+                "mentioned_at": "2023-09-13T00:09:00+00:00",
+                "document_id": "conv-26_session_16",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_16_17",
+                "tags": []
+              },
+              {
+                "id": "3c928a4f-6237-4cb8-804d-3c61fd5e0951",
+                "text": "Caroline mentors a transgender teen similar to herself, focusing on building confidence and positive strategies, with noticeable progress. | Involving: Caroline, transgender teen mentee",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "transgender teen",
+                  "mentoring"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_9 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-17T14:31:20+00:00",
+                "document_id": "conv-26_session_9",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_9_45",
+                "tags": []
+              },
+              {
+                "id": "34f05c1b-385d-403a-a76f-0c681557d4c6",
+                "text": "Caroline struggled with mental health in the past and received helpful support, which inspired her to help others. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "mental health"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-12T16:33:30+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_38",
+                "tags": []
+              },
+              {
+                "id": "3e526034-bb2f-4e9c-852b-b84714bf7fd7",
+                "text": "Caroline is exploring counseling and mental health career options to support others on their journeys. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "counseling",
+                  "mental health"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-12T16:33:20+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_38",
+                "tags": []
+              },
+              {
+                "id": "4f72368e-bb9d-4304-b01f-ce322d31bf6f",
+                "text": "Caroline uses painting and drawing to express her feelings and explore her gender identity; creating art was crucial during her transition to understand and accept herself. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "painting",
+                  "drawing",
+                  "gender identity",
+                  "transition"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_16 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-09-13T00:10:00+00:00",
+                "document_id": "conv-26_session_16",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_16_18",
+                "tags": []
+              },
+              {
+                "id": "19ddcd34-3491-4638-8ea7-6a3640462a8b",
+                "text": "Caroline is motivated to pursue counseling and mental health to help others using her personal story. | Involving: Caroline | Inspired by interactions at the pride parade",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "counseling",
+                  "mental health"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_5 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-03T13:36:10+00:00",
+                "document_id": "conv-26_session_5",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_5_34",
+                "tags": []
+              },
+              {
+                "id": "658a79e0-2efa-4978-a21a-f138ca1788e6",
+                "text": "Caroline's goal is to build a safe and loving home for children in need through adoption, motivated by her belief that love and acceptance are universal rights. | Involving: Caroline | She wants to give back and provide support she once received, having found self-acceptance after a difficult personal journey.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_19 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-22T09:55:10+00:00",
+                "document_id": "conv-26_session_19",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_19_25",
+                "tags": []
+              },
+              {
+                "id": "8b48ca3a-d052-4c7f-9f36-a5037631bec4",
+                "text": "Caroline is exploring counseling and mental health as a career path because she wants to help people who have experienced similar challenges as she has. | Involving: Caroline | Her motivation stems from personal experience and a desire to support others.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "counseling",
+                  "mental health",
+                  "career"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_4 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-27T10:37:30+00:00",
+                "document_id": "conv-26_session_4",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_4_32",
+                "tags": []
+              },
+              {
+                "id": "96dad165-7d66-4b4a-b8a0-2b31331f6dec",
+                "text": "Caroline uses art to explore her gender transition and changing body, helping her process personal challenges and appreciate the beauty of imperfections. | Involving: Caroline | Art functions as a therapeutic tool for self-discovery and acceptance during her transition.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "art",
+                  "transition",
+                  "self-acceptance"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_11 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-14T14:24:50+00:00",
+                "document_id": "conv-26_session_11",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_11_5",
+                "tags": []
+              },
+              {
+                "id": "4d2be995-b1eb-4760-8d5d-8f1d9bcbb521",
+                "text": "Caroline values the support and encouragement of people close to her, which she credits for shaping who she is. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_19 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-22T09:55:40+00:00",
+                "document_id": "conv-26_session_19",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_19_26",
+                "tags": []
+              },
+              {
+                "id": "8d4f7933-6947-4698-9583-eccc36bcd0d2",
+                "text": "Caroline realized she could be herself without fear and found the courage to transition, which she described as freeing and the best part of her experience. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "transition"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_8 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-15T13:52:40+00:00",
+                "document_id": "conv-26_session_8",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_8_43",
+                "tags": []
+              },
+              {
+                "id": "acc13a8e-af99-4187-aaa4-0909ca3df722",
+                "text": "Caroline's painting 'Embracing Identity' symbolizes the journey of self-acceptance, portraying warmth, love, and comfort in being oneself. | Involving: Caroline | The painting conveys themes central to Caroline\u2019s identity and emotional experience.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Embracing Identity",
+                  "self-acceptance"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_11 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-14T14:24:40+00:00",
+                "document_id": "conv-26_session_11",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_11_5",
+                "tags": []
+              },
+              {
+                "id": "6ec696de-83b9-4728-8067-5a6d28eb2fb5",
+                "text": "Caroline created a stained glass window for a local church symbolizing her journey as a transgender woman, personal growth, change, and the idea that everyone holds the key to their true potential. | Involving: Caroline | To represent her identity, resilience, and belief in self-discovery",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "stained glass window",
+                  "church",
+                  "transgender woman"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-25T13:33:50+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_11",
+                "tags": []
+              },
+              {
+                "id": "96a6e695-b5bd-414f-bf55-858fbfcf3683",
+                "text": "Caroline went hiking last week and had a negative encounter with some people, which troubled her enough to attempt an apology. | When: Week of August 18, 2023 | Involving: Caroline | The incident 'really bugged' her, prompting her to apologize.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "hiking"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": "2023-08-18T00:00:00+00:00",
+                "occurred_end": "2023-08-24T23:59:59+00:00",
+                "mentioned_at": "2023-08-25T13:33:00+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_10",
+                "tags": []
+              },
+              {
+                "id": "655a1f68-7648-41b3-85f6-d0200f466383",
+                "text": "Caroline learned self-acceptance, how to find support, and that tough times don't last from reading \"Becoming Nicole\". | Involving: Caroline | These lessons provided emotional guidance and hope.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Becoming Nicole"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-12T16:34:00+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_39",
+                "tags": []
+              },
+              {
+                "id": "deab6a95-64f9-4aac-a1c3-41efb1748d57",
+                "text": "Caroline finds painting therapeutic and uses it to explore her identity and express herself authentically. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "painting",
+                  "identity"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_13 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-23T15:32:00+00:00",
+                "document_id": "conv-26_session_13",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_13_9",
+                "tags": []
+              },
+              {
+                "id": "cef6ce62-fcfd-4fde-ab7d-bf4dec0c7c5f",
+                "text": "Caroline is planning to become a single parent by creating a family for children in need. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "family",
+                  "children"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_2 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-05-25T13:14:50+00:00",
+                "document_id": "conv-26_session_2",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_2_28",
+                "tags": []
+              },
+              {
+                "id": "a07b71ea-bbf3-4265-a2f9-2161e1fd2823",
+                "text": "Caroline received a necklace with a cross and heart pendant from her grandmother in Sweden when she was young; it symbolizes love, faith, and strength, and serves as a reminder of her roots and family support. | Involving: Caroline, Caroline's grandmother | The necklace holds deep sentimental and cultural significance for Caroline.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Sweden",
+                  "necklace",
+                  "grandmother"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_4 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-27T10:37:00+00:00",
+                "document_id": "conv-26_session_4",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_4_32",
+                "tags": []
+              },
+              {
+                "id": "42bd72de-5e67-42be-9b2b-6c381542508d",
+                "text": "Caroline is researching adoption agencies to adopt children and provide them a loving home. | Involving: Caroline | It has been her dream to have a family and support children in need.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_2 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-05-25T13:14:30+00:00",
+                "document_id": "conv-26_session_2",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_2_27",
+                "tags": []
+              },
+              {
+                "id": "34081a05-0ee9-491b-8696-b1ec604665dc",
+                "text": "Caroline has been exploring counseling or mental health work since her last conversation with Melanie, driven by a passion for helping people and making a positive impact. | Involving: Caroline | She finds the work tough but rewarding.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "counseling",
+                  "mental health work"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_6 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-06T20:18:00+00:00",
+                "document_id": "conv-26_session_6",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_6_36",
+                "tags": []
+              },
+              {
+                "id": "54b354b8-62da-4a30-ad7f-6af4a63fbc62",
+                "text": "Caroline believes family is everything and feels thankful during moments with loved ones. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_3 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-09T19:56:00+00:00",
+                "document_id": "conv-26_session_3",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_3_31",
+                "tags": []
+              },
+              {
+                "id": "e79bd90d-770c-4bdd-88f0-cfbbe560b193",
+                "text": "Caroline used to go horseback riding with her father through fields as a child, which fostered her lasting love for horses. | When: During Caroline's childhood | Involving: Caroline, Caroline's father | It was a special bonding experience that instilled a lifelong affection for horses.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "horses",
+                  "Caroline's father"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_13 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-23T15:31:30+00:00",
+                "document_id": "conv-26_session_13",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_13_8",
+                "tags": []
+              },
+              {
+                "id": "77f7bb9a-c9d8-4bd9-889f-9ad7241ac646",
+                "text": "Caroline and Melanie value their friendship and support each other. | Involving: Caroline, Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Melanie"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_8 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-15T13:53:40+00:00",
+                "document_id": "conv-26_session_8",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_8_44",
+                "tags": []
+              },
+              {
+                "id": "7bf9f298-0044-4474-86a3-89a2e9b2d1b2",
+                "text": "Caroline and Melanie deeply value their friendship, finding mutual support and comfort in each other during life's challenges. | Involving: Caroline, Melanie | Their bond provides emotional resilience and joy",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Melanie",
+                  "friendship"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_12 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-17T13:50:20+00:00",
+                "document_id": "conv-26_session_12",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_12_6",
+                "tags": []
+              },
+              {
+                "id": "f4710b57-c969-4ef7-b691-4c4aefad3b89",
+                "text": "Caroline passed the adoption agency interviews on Friday, October 20, 2023. | When: Friday, October 20, 2023 | Involving: Caroline | This is a significant step toward her goal of building a family through adoption.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption agency interviews"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_19 of conv-26)",
+                "occurred_start": "2023-10-20T00:00:00+00:00",
+                "occurred_end": "2023-10-20T00:00:00+00:00",
+                "mentioned_at": "2023-10-22T09:55:00+00:00",
+                "document_id": "conv-26_session_19",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_19_25",
+                "tags": []
+              },
+              {
+                "id": "bd78593f-36d4-4d89-a225-d95f3d0cc03f",
+                "text": "Caroline created a painting with red and blue colors symbolizing the binary gender system, and their blending represents rejecting rigid gender norms; the piece reflects her journey as a trans woman and self-acceptance. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "painting",
+                  "binary gender system",
+                  "trans woman"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_16 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-09-13T00:10:10+00:00",
+                "document_id": "conv-26_session_16",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_16_18",
+                "tags": []
+              },
+              {
+                "id": "5f36e354-92d9-4f97-88c5-0e09fd294ad6",
+                "text": "Caroline created a drawing symbolizing freedom, authenticity, and embracing her womanhood, inspired by the transgender poetry reading she attended. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "drawing",
+                  "womanhood"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_17 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-13T10:32:30+00:00",
+                "document_id": "conv-26_session_17",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_17_21",
+                "tags": []
+              },
+              {
+                "id": "7f67fe4a-ae48-4a29-8121-2e8048fa3531",
+                "text": "Caroline\u2019s transition affected her relationships: some close friends remained supportive, while others could not accept her, leading to more genuine connections with those who do support her. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "relationships",
+                  "transition"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_16 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-09-13T00:10:20+00:00",
+                "document_id": "conv-26_session_16",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_16_18",
+                "tags": []
+              },
+              {
+                "id": "bfbf9a28-722a-42a9-89ae-5d7a87e7cffc",
+                "text": "While recovering from her injury, Melanie has been reading a book Caroline recommended and painting as alternative creative outlets. | Involving: Melanie, Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "Caroline",
+                  "painting"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_17 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-13T10:31:40+00:00",
+                "document_id": "conv-26_session_17",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_17_20",
+                "tags": []
+              },
+              {
+                "id": "04aa91ce-ca44-4cc0-af46-574f8ff79abc",
+                "text": "Caroline owns a guinea pig named Oscar who loves eating vegetables, especially parsley. | Involving: Caroline, Oscar (Caroline's guinea pig)",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Oscar",
+                  "guinea pig"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_13 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-23T15:31:10+00:00",
+                "document_id": "conv-26_session_13",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_13_8",
+                "tags": []
+              },
+              {
+                "id": "81904bd1-66a9-476e-ac21-29f32a956689",
+                "text": "Caroline finds deep personal meaning in symbols like the rainbow flag mural and an eagle painting, which represent trans community strength, freedom, pride, and her own resilience. | Involving: Caroline | These symbols affirm her identity and community belonging",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "rainbow flag",
+                  "eagle",
+                  "trans community"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-25T13:34:00+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_11",
+                "tags": []
+              },
+              {
+                "id": "7a72a731-d0c4-4f08-b0e6-32eafd886de3",
+                "text": "Caroline is on an adoption journey. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_13 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-23T15:32:20+00:00",
+                "document_id": "conv-26_session_13",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_13_9",
+                "tags": []
+              },
+              {
+                "id": "27046d6b-35be-4071-8566-e1e5165fd2fc",
+                "text": "Caroline owns a hand-painted bowl made by a friend for her 18th birthday ten years ago (around 2013); it reminds her of art and self-expression. | When: circa 2013 | Involving: Caroline, Caroline's friend | The bowl has sentimental value tied to personal identity and friendship.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "hand-painted bowl",
+                  "friend"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_4 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-06-27T10:37:10+00:00",
+                "document_id": "conv-26_session_4",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_4_32",
+                "tags": []
+              },
+              {
+                "id": "8042eaa2-d9fd-4b3e-90be-0188d9d5cc48",
+                "text": "Caroline is building a children's library in anticipation of having kids, collecting classics, multicultural stories, and educational books. | Involving: Caroline | She looks forward to reading to her future children and expanding their minds.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "children's library"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_6 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-06T20:18:20+00:00",
+                "document_id": "conv-26_session_6",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_6_36",
+                "tags": []
+              },
+              {
+                "id": "64122bf2-28bd-4c49-99ab-a5f3a3534a46",
+                "text": "Melanie expressed gratitude for her family, saying they bring her joy and love. | Involving: Melanie, Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "Caroline",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_10 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-20T20:57:10+00:00",
+                "document_id": "conv-26_session_10",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_10_3",
+                "tags": []
+              },
+              {
+                "id": "4d228d6b-cd81-4e2a-baf1-ea46dfef9123",
+                "text": "Caroline loved the book \"Becoming Nicole\" by Amy Ellis Nutt, describing it as an inspiring true story about a trans girl and her family that gave her hope for her own path. | Involving: Caroline | The book made her feel connected and hopeful about her own journey.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Becoming Nicole",
+                  "Amy Ellis Nutt"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-12T16:33:50+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_39",
+                "tags": []
+              },
+              {
+                "id": "74f3a0ef-8bae-44da-ac0e-de670d229fe0",
+                "text": "Caroline advised Melanie that starting the adoption process involves researching agencies or lawyers, gathering documents (references, financial info, medical checks), and preparing emotionally for a potentially long wait. | Involving: Caroline, Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Melanie",
+                  "adoption"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_17 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-13T10:31:20+00:00",
+                "document_id": "conv-26_session_17",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_17_20",
+                "tags": []
+              },
+              {
+                "id": "e5df6aae-a919-4c19-aacc-710da4e7a85c",
+                "text": "Caroline deeply values reading; books guide, motivate, and help her discover herself, and are a significant part of her personal journey. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "books"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-12T16:33:40+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_38",
+                "tags": []
+              },
+              {
+                "id": "7c1c2f34-a12e-45ea-a153-bf6654f90133",
+                "text": "The song \"Brave\" by Sara Bareilles holds deep personal significance for Caroline as it reminds her of her courage, life choices, and personal progress. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Brave",
+                  "Sara Bareilles"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_15 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-28T15:19:50+00:00",
+                "document_id": "conv-26_session_15",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_15_15",
+                "tags": []
+              },
+              {
+                "id": "5b2453c3-d521-4fbf-8af9-8f7f2cc6db2a",
+                "text": "Caroline plays acoustic guitar, which she uses to express emotions and as an emotional escape; she started playing about five years ago. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "acoustic guitar"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_15 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-28T15:19:40+00:00",
+                "document_id": "conv-26_session_15",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_15_15",
+                "tags": []
+              },
+              {
+                "id": "117511cc-5212-40b2-b75d-c6b98c5237c7",
+                "text": "Caroline believes art is a mood-booster and a way to express feelings and preserve beautiful moments, such as a bouquet of flowers. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "art"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-25T13:34:40+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_12",
+                "tags": []
+              },
+              {
+                "id": "daee5b59-6c8d-4635-a63b-598c9c7e87ef",
+                "text": "Caroline is learning to play the piano as a creative outlet. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "piano"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_5 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-03T13:36:40+00:00",
+                "document_id": "conv-26_session_5",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_5_34",
+                "tags": []
+              },
+              {
+                "id": "a5605646-c372-47d2-80aa-dbe5b26abb3a",
+                "text": "Caroline plans to continue her education and explore career options in counseling or mental health to support people with similar issues. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "counseling",
+                  "mental health"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_1 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-05-08T13:56:20+00:00",
+                "document_id": "conv-26_session_1",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_1_0",
+                "tags": []
+              },
+              {
+                "id": "3a788db6-5f43-451d-bdb9-1ca60d0a8809",
+                "text": "Caroline has been trying out abstract painting as a form of self-expression, finding it freeing to put her feelings on canvas without a strict plan. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "abstract painting"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_17 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-13T10:32:00+00:00",
+                "document_id": "conv-26_session_17",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_17_21",
+                "tags": []
+              },
+              {
+                "id": "1ebd29b4-2231-4fae-beef-83a4740e20b8",
+                "text": "Caroline enjoys drawing flowers and considers it one of her favorite artistic activities; she finds joy in appreciating and sharing nature through art. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "drawing flowers",
+                  "art"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-25T13:34:30+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_12",
+                "tags": []
+              },
+              {
+                "id": "b7c4206e-2c20-4bdd-a972-136cea51ed88",
+                "text": "Caroline finds it freeing and fulfilling to be herself, live honestly, accept who she is, and feel content. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_19 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-22T09:55:50+00:00",
+                "document_id": "conv-26_session_19",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_19_26",
+                "tags": []
+              },
+              {
+                "id": "f25db234-fc9b-413c-bffc-e797315fd7b3",
+                "text": "Caroline creates art to express her trans experience, share her story, and help others understand the trans community. | Involving: Caroline | Art serves as a medium for personal expression and community education.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "trans community",
+                  "art"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_11 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-14T14:24:30+00:00",
+                "document_id": "conv-26_session_11",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_11_5",
+                "tags": []
+              },
+              {
+                "id": "c6676a46-6b9c-4af8-9691-1cf76bc35a93",
+                "text": "Caroline contacted her mentor for adoption advice and is ready to become a mother through adoption to provide a safe, loving home for children in need. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "adoption",
+                  "mentor"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_17 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-13T10:31:00+00:00",
+                "document_id": "conv-26_session_17",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_17_20",
+                "tags": []
+              },
+              {
+                "id": "d00a4e9b-5222-4d02-bada-436da7419f5c",
+                "text": "Caroline has been creating art since she was 17 years old and finds it empowering and cathartic. | Involving: Caroline | Art helps express things that are hard to put into words.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "art"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_16 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-09-13T00:09:30+00:00",
+                "document_id": "conv-26_session_16",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_16_17",
+                "tags": []
+              },
+              {
+                "id": "00ba67fd-0b1a-47cf-beac-a01fc5ed1d39",
+                "text": "Caroline's favorite color is blue because it makes her feel relaxed. | Involving: Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "blue"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_8 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-15T13:51:30+00:00",
+                "document_id": "conv-26_session_8",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_8_42",
+                "tags": []
+              },
+              {
+                "id": "067312e4-ac6d-46a5-9cc1-2022d660cf5d",
+                "text": "Melanie finds peace through creativity and family support, especially during her recent move. | Involving: Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "creativity",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_8 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-15T13:52:50+00:00",
+                "document_id": "conv-26_session_8",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_8_43",
+                "tags": []
+              },
+              {
+                "id": "dcfeacbe-693c-4ac0-bc6f-1d2a2d6f96b0",
+                "text": "Caroline painted a vibrant sunset scene inspired by a beach visit last week. | When: After visiting the beach during the week of August 18, 2023 | Involving: Caroline | She was moved by the calming beauty of the sunset and wanted to capture that feeling.",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "painting",
+                  "beach",
+                  "sunset"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_14 of conv-26)",
+                "occurred_start": "2023-08-18T00:00:20+00:00",
+                "occurred_end": "2023-08-25T13:33:20+00:00",
+                "mentioned_at": "2023-08-25T13:33:20+00:00",
+                "document_id": "conv-26_session_14",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_14_10",
+                "tags": []
+              },
+              {
+                "id": "d7c80098-9c2a-403a-97d5-0c95440dda80",
+                "text": "Melanie especially values camping with her family for bonding over stories and campfires, and for the peaceful experience of waking up to birds and fresh air. | Involving: Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "camping",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_18 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-20T18:56:00+00:00",
+                "document_id": "conv-26_session_18",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_18_24",
+                "tags": []
+              },
+              {
+                "id": "32019018-0c02-41b2-921e-6737921ace03",
+                "text": "Melanie attended a concert by the band \"Summer Sounds\" where they played an upbeat pop song that got everyone dancing and singing. | Involving: Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "Summer Sounds"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_15 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-08-28T15:19:30+00:00",
+                "document_id": "conv-26_session_15",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_15_15",
+                "tags": []
+              },
+              {
+                "id": "b7666538-db83-4a2d-990a-ab938d464c48",
+                "text": "Melanie finds that spending time in nature with her family helps her reset, recharge, and cope with hard times. | Involving: Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "nature",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_18 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-20T18:55:50+00:00",
+                "document_id": "conv-26_session_18",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_18_24",
+                "tags": []
+              },
+              {
+                "id": "8cf92aad-259c-4123-9d63-17b4b8dfb9af",
+                "text": "Melanie deeply values her family and sees them as her primary source of strength and motivation, especially after the accident. | Involving: Melanie | The accident reinforced her appreciation for family.",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "family"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_18 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-10-20T18:55:30+00:00",
+                "document_id": "conv-26_session_18",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_18_23",
+                "tags": []
+              },
+              {
+                "id": "37fc1683-5ca0-4ca2-82ac-4d65a78a9a89",
+                "text": "Caroline and Melanie plan to take a special summer trip together in 2023, just the two of them, to catch up and explore nature. | When: Summer 2023 (before or around August 17, 2023) | Involving: Caroline, Melanie | To strengthen their friendship and create meaningful memories",
+                "fact_type": "world",
+                "entities": [
+                  "Caroline",
+                  "Melanie",
+                  "trip",
+                  "nature"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_12 of conv-26)",
+                "occurred_start": "2023-06-01T00:00:40+00:00",
+                "occurred_end": "2023-09-01T00:00:39+00:00",
+                "mentioned_at": "2023-08-17T13:50:40+00:00",
+                "document_id": "conv-26_session_12",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_12_7",
+                "tags": []
+              },
+              {
+                "id": "91f23e69-a124-48cd-aa39-98c1b74ea820",
+                "text": "Melanie and Caroline had a good time at a caf\u00e9 last weekend, where there was a thoughtful sign on the door that brought Melanie happiness. | When: 2023-09-09 | Involving: Melanie, Caroline",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "Caroline",
+                  "caf\u00e9"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_16 of conv-26)",
+                "occurred_start": "2023-09-09T00:01:30+00:00",
+                "occurred_end": "2023-09-10T00:01:29+00:00",
+                "mentioned_at": "2023-09-13T00:10:30+00:00",
+                "document_id": "conv-26_session_16",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_16_18",
+                "tags": []
+              },
+              {
+                "id": "d2f4540b-f6a4-4e75-8385-8e8a5fb8a3de",
+                "text": "Melanie finds running beneficial for her mental health and plans to continue. | Involving: Melanie",
+                "fact_type": "world",
+                "entities": [
+                  "Melanie",
+                  "running",
+                  "mental health"
+                ],
+                "context": "Conversation between Caroline and Melanie (session_7 of conv-26)",
+                "occurred_start": null,
+                "occurred_end": null,
+                "mentioned_at": "2023-07-12T16:34:30+00:00",
+                "document_id": "conv-26_session_7",
+                "metadata": null,
+                "chunk_id": "locomo_conv-26_conv-26_session_7_40",
+                "tags": []
+              }
+            ],
+            "is_invalid": false,
+            "error": null,
+            "is_correct": true,
+            "correctness_reasoning": "The generated answer 'Sunday, May 7, 2023' refers to the same date as the gold answer '7 May 2023', just in a different format."
+          }
+        ]
+      },
+      "num_sessions": 19
+    }
+  ]
+}

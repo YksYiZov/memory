@@ -1,0 +1,31 @@
+# our Dataset Configuration
+
+name: "our"
+version: "1.0"
+description: "our benchmark"
+
+# Memory language setting (overrides MEMORY_LANGUAGE env var)
+memory_language: "zh"
+
+# Data configuration
+data:
+  path: "our/our.json"  # Relative to evaluation/data/ or project root data/
+  format: "locomo"  # Native format, no conversion needed
+
+# Evaluation configuration
+evaluation:
+  type: "llm_judge"  # llm_judge | exact_match
+  
+  # LLM Judge settings
+  llm:
+    provider: "openai"
+    model: "qwen3-max"
+    api_key: "${LLM_API_KEY}"
+    base_url: "${LLM_BASE_URL:https://openrouter.ai/api/v1}"
+  
+  num_runs: 3  # Number of judging runs per question
+  
+  # Filter settings
+  # LoCoMo categories: "1", "2", "3", "5" (adversarial questions)
+  filter_category: [5]  # Can use integers or strings, like [5] or ["5"]
+

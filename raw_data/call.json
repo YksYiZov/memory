@@ -1,0 +1,32 @@
+[
+  {
+    "type": "call",
+    "event_id": "1933",
+    "contactName": "徐明",
+    "contact_phone_number": "+8613912345678",
+    "datetime": "2025-05-05 18:15:00",
+    "call_type": "视频通话",
+    "duration": "25分钟",
+    "summarized_info": "徐静与父亲徐明进行了一次视频通话，通话时长约25分钟。",
+    "phone_id": "1"
+  },
+  {
+    "type": "call",
+    "event_id": "212",
+    "contactName": "张经理",
+    "contact_phone_number": "+862150587890",
+    "datetime": "2025-01-12 10:15:00",
+    "call_type": "主叫",
+    "phone_id": "2"
+  },
+  {
+    "type": "call",
+    "event_id": "322",
+    "contactName": "王丽",
+    "contact_phone_number": "+8613812345678",
+    "datetime": "2025-01-20 12:45:00",
+    "call_type": "拨打",
+    "duration": 180,
+    "phone_id": "3"
+  }
+]
