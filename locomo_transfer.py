@@ -104,7 +104,7 @@ def main(input_path: str, output_path: str):
     with open(input_path, "r", encoding="utf-8") as f:
         src = json.load(f)
 
-    sample_id = Path(input_path).stem
+    sample_id = PROTAGONIST
     locomo_data = convert_to_locomo(src, sample_id)
 
     with open(output_path, "w", encoding="utf-8") as f:

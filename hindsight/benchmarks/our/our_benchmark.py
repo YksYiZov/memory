@@ -423,7 +423,7 @@ async def run_benchmark(
     console.print(f"\n[green]✓[/green] Results saved incrementally to {output_path}")
 
     # Generate markdown table
-    generate_markdown_table(results, use_think)
+    # generate_markdown_table(results, use_think)
 
     return results
 
@@ -488,7 +488,7 @@ def generate_markdown_table(results: dict, use_think: bool = False):
         cat_stats = metrics.get("category_stats", {})
         cat_accuracies = {}
 
-        for cat_id in ["1", "2", "3", "4"]:
+        for cat_id in category_names.keys():
             if cat_id in cat_stats:
                 stats = cat_stats[cat_id]
                 acc = (stats["correct"] / stats["total"] * 100) if stats["total"] > 0 else 0

@@ -1244,7 +1244,7 @@ def main():
         tester.print_results()
         
         # Save detailed results
-        output_file = f"enhanced_memory_test_results_{tester.log_timestamp}.json"
+        output_file = f"enhanced_memory_test_results.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
         
