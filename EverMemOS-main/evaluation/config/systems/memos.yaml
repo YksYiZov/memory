@@ -8,8 +8,8 @@ adapter: "memos"
 
 # Memos API configuration
 api_url: "https://memos.memtensor.cn/api/openmem/v1"
-#api_key: "${MEMOS_KEY}"
-api_key: "mpg-pLXzikhk2MdSK76tq4yOUIHY8KwwGpqt/5B3SYyT"
+#api_key: your_memos_api_key_here
+api_key: your_memos_api_key_here
 batch_size: 10  # Number of messages to send per batch (default)
 max_retries: 20  # Number of retries for failed requests
 
@@ -34,7 +34,7 @@ post_add_wait_seconds: 180  # Wait 180 seconds before starting search
 llm:
   provider: "openai"
   model: "qwen3-max"
-  api_key: "${LLM_API_KEY}"
+  api_key: your_memos_api_key_here
   base_url: "${LLM_BASE_URL:https://openrouter.ai/api/v1}"
   temperature: 0
   max_tokens: 32768

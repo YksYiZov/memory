@@ -1,2 +1,0 @@
-[14f3b3][mentioned at Unknown] On July 27, 2025, Caroline attended a LGBTQ support group where Caroline heard inspiring transgender stories that made Caroline feel happy, thankful, accepted, and gain courage to embrace Caroline's true self. []
-[14f3b3][mentioned at Unknown] On July 27, 2025, Caroline attended a LGBTQ support group where Caroline heard inspiring transgender stories that made Caroline feel happy, thankful, accepted, and gain courage to embrace Caroline's true self. []

@@ -34,7 +34,7 @@ class EmbeddingClient:
         """
         self.provider = provider.lower()
         self.client = None
-        self.model = kwargs.get("model", "text-embedding-v4")
+        self.model = kwargs.get("model", "your_embedding_model_here")
 
         # Initialize based on provider
         if self.provider == "openai":
@@ -87,7 +87,7 @@ class EmbeddingClient:
 
             # For Azure, model is the deployment name
             self.model = kwargs.get("deployment_name") or kwargs.get(
-                "model", "text-embedding-v4"
+                "model", "your_embedding_model_here"
             )
 
             logger.info(
