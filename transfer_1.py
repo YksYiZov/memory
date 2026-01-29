@@ -3,7 +3,8 @@ import json
 from datetime import datetime
 
 # 输入目录和输出目录
-input_dir = "./raw_data"   # 这里换成你的原json目录
+user = "徐静"
+input_dir = f"./raw_data/{user}"   # 这里换成你的原json目录
 output_dir = "./date_normalized_data" # 输出目录
 os.makedirs(output_dir, exist_ok=True)
 
