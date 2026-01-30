@@ -1,8 +1,7 @@
 import json
 from typing import Dict
 
-category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "updating": "3", "user_modeling": "4"}
-
+category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "temporal": "3", "user_modeling": "4", "unanswerable": "5", "updating": "3", "multiple_choice": "2", "open_domain": "2", "question_answer": "2"}
 def load_json(path: str) -> Dict:
     """读取 JSON 文件"""
     with open(path, "r", encoding="utf-8") as f:
@@ -29,12 +28,12 @@ def extract_results_method_b(data: Dict) -> Dict:
     for user in data["item_results"]:
         for k, v in category_dict.items():
             if v in user["metrics"]["category_stats"]:
-                if v not in category_accuracy.keys():
-                    category_accuracy[v] = {"total": user["metrics"]["category_stats"][v]["total"],
+                if k not in category_accuracy.keys():
+                    category_accuracy[k] = {"total": user["metrics"]["category_stats"][v]["total"],
                                               "acc": user["metrics"]["category_stats"][v]["correct"]}
                 else:
-                    category_accuracy[v]["total"] += user["metrics"]["category_stats"][v]["total"]
-                    category_accuracy[v]["acc"] +=user["metrics"]["category_stats"][v]["correct"]
+                    category_accuracy[k]["total"] += user["metrics"]["category_stats"][v]["total"]
+                    category_accuracy[k]["acc"] +=user["metrics"]["category_stats"][v]["correct"]
     
     for k, v in category_accuracy.items():
         v["acc"] /= v["total"]

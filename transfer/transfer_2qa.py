@@ -35,12 +35,12 @@ def process_json(input_file, output_file):
             phone_ids = []
             for evidence_item in question['evidence']:
                 if isinstance(evidence_item, dict) and 'id' in evidence_item:
-                    phone_ids.append(evidence_item['type'] + evidence_item['id'])
+                    phone_ids.append(str(evidence_item['type']) + str(evidence_item['id']))
             new_question['evidence'] = phone_ids
         
         processed_questions.append(new_question)
 
-        category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "updating": "3", "user_modeling": "4"}
+        category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "temporal": "3", "user_modeling": "4", "unanswerable": "5", "updating": "3", "multiple_choice": "2", "open_domain": "2", "question_answer": "2"}
 
         if 'question_type' in question:
             new_question["category"] = category_dict[question["question_type"]]

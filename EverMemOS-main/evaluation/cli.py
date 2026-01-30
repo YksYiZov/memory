@@ -237,6 +237,7 @@ async def main():
 
     # Create LLM Provider for answer generation
     llm_config = system_config.get("llm", {})
+
     llm_provider = LLMProvider(
         provider_type=llm_config.get("provider", "openai"),
         model=llm_config.get("model"),

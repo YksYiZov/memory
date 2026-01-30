@@ -9,13 +9,20 @@ def convert_to_locomo(src: dict, sample_id: str) -> list:
     # ========== QA ==========
     locomo["qa"] = []
     for qa in src.get("qa", []):
-        locomo["qa"].append({
-            "question": qa["question"],
-            "answer": qa["answer"],
-            "evidence": qa.get("evidence", []),
-            "category": qa["category"]
-        })
-
+        try:
+            locomo["qa"].append({
+                "question": qa["question"],
+                "answer": qa["answer"],
+                "evidence": qa.get("evidence", []),
+                "category": qa["category"]
+            })
+        except KeyError:
+            locomo["qa"].append({
+                "question": qa["question"],
+                "answer": "无法回答",
+                "evidence": qa.get("evidence", []),
+                "category": qa["category"]
+            })
     # ========== CONVERSATION ==========
     conversation = {
         "speaker_a": PROTAGONIST,
@@ -56,18 +63,18 @@ def convert_to_locomo(src: dict, sample_id: str) -> list:
                     if "calendar" in ev['id']:
                         processed_info = se
                     elif "call" in ev['id']:
-                        processed_info = f"我用手机打电话说："
+                        processed_info = f"我用手机打电话说：" + se
                     elif "note" in ev["id"]:
-                        processed_info = f"我用手机笔记："
+                        processed_info = f"我用手机笔记：" + se
                     elif "photo" in ev["id"]:
-                        processed_info = f"我用手机相机："
+                        processed_info = f"我用手机相机：" + se
                     elif "push" in ev['id']:
-                        processed_info = f"我收到推送通知："
+                        processed_info = f"我收到推送通知：" + se
                     elif "sms" in ev['id']:
                         try:
                             processed_info = f"我用手机短信{ev['message_type']}了：" + se
                         except KeyError:
-                            processed_info = f"我用手机短信功能："
+                            processed_info = f"我用手机短信功能：" + se
 
                     conversation[session_key].append({
                         "speaker": PROTAGONIST,  # "user" or "assistant"

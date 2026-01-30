@@ -193,7 +193,7 @@ if __name__ == "__main__":
         "calendar.json": ["title", "description", "start_time", "end_time", "event_id"],
         "call.json": ["call_type", "event_id", "contact_phone_number"],
         "contact.json": ["phone_id", "event_id", "gender", "phoneNumber", "personalEmail", "workEmail", "idNumber"],
-        "health.json": ["phone_id", "城市", "日常活动", "步数", "距离", "热量", "锻炼时长", "活动小时数", "跑步", "运动类型", "运动时间", "天气", "距离统计", "平均心率", "平均步频", "累计爬升", "累计下降", "平均配速", "最佳配速", "总步数", "消耗热量", "骑行", "平均速度", "平均踏频", "平均功率", "最佳速度", "最大踏频", "步行", "步数统计", "睡眠", "入睡时间", "出睡时间", "全部睡眠时长", "浅睡时长", "深睡时长", "快速眼动时长", "清醒时长", "清醒次数", "深睡连续性得分", "睡眠得分", "零星小睡时长", "心率统计", "平均静息心率", "心率变异性", "体温统计", "平均体温", "血糖统计", "平均血糖水平", "体重", "压力", "压力得分", "饮食记录", "摄入热量", "用户交互事件", "时间", "描述", "event_id"],
+        "fitness_health.json": ["phone_id", "城市", "日常活动", "步数", "距离", "热量", "锻炼时长", "活动小时数", "跑步", "运动类型", "运动时间", "天气", "距离统计", "平均心率", "平均步频", "累计爬升", "累计下降", "平均配速", "最佳配速", "总步数", "消耗热量", "骑行", "平均速度", "平均踏频", "平均功率", "最佳速度", "最大踏频", "步行", "步数统计", "睡眠", "入睡时间", "出睡时间", "全部睡眠时长", "浅睡时长", "深睡时长", "快速眼动时长", "清醒时长", "清醒次数", "深睡连续性得分", "睡眠得分", "零星小睡时长", "心率统计", "平均静息心率", "心率变异性", "体温统计", "平均体温", "血糖统计", "平均血糖水平", "体重", "压力", "压力得分", "饮食记录", "摄入热量", "用户交互事件", "时间", "描述", "event_id"],
         "note.json": ["title", "content", "event_id"],
         "photo.json": ["imageTag", "faceRecognition", "event_id", "", "caption", "title", "datetime", "location", "province", "city", "district", "streetName", "streetNumber", "poi", "faceRecognition", "imageTag", "ocrText", "shoot_mode", "image_size"],
         "push.json": ["title", "content", "source", "push_status", "jump_path", "event_id"],

@@ -1,0 +1,66 @@
+2026-01-21 11:38:37,993 - evaluation - INFO - Conversation range [0:1] - selected 1/10 conversations, 199/1986 questions
+2026-01-21 11:38:37,997 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 11:39:23,760 - evaluation - INFO - Conversation range [0:1] - selected 1/10 conversations, 199/1986 questions
+2026-01-21 11:39:23,764 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 11:42:49,427 - evaluation - INFO - Smoke test: 10 conversations - 200/5882 messages, 50/1986 questions
+2026-01-21 11:42:49,429 - evaluation - INFO - Starting Stage 1: Add
+2026-01-21 11:43:16,172 - evaluation - INFO - ✅ Stage 1 completed
+2026-01-21 11:43:16,176 - evaluation - INFO - ⏰ Waiting 180s for backend indexing
+2026-01-21 11:46:16,221 - evaluation - INFO - ✅ Post-add wait completed
+2026-01-21 11:46:16,223 - evaluation - INFO - Starting Stage 2: Search
+2026-01-21 11:46:47,360 - evaluation - INFO - ✅ Stage 2 completed
+2026-01-21 11:46:47,413 - evaluation - INFO - Starting Stage 3: Answer
+2026-01-21 11:46:50,629 - evaluation - INFO - ✅ Stage 3 completed
+2026-01-21 11:46:50,691 - evaluation - INFO - Starting Stage 4: Evaluate
+2026-01-21 11:46:51,936 - evaluation - INFO - ✅ Stage 4 completed
+2026-01-21 11:46:52,008 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 11:48:39,953 - evaluation - INFO - Smoke test: 10 conversations - 200/5882 messages, 50/1986 questions
+2026-01-21 11:48:39,986 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 11:49:07,357 - evaluation - INFO - Smoke test: 10 conversations - 200/5882 messages, 50/1986 questions
+2026-01-21 11:49:07,391 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 11:49:53,378 - evaluation - INFO - Smoke test: 10 conversations - 200/5882 messages, 50/1986 questions
+2026-01-21 11:49:53,380 - evaluation - INFO - Starting Stage 1: Add
+2026-01-21 11:50:16,912 - evaluation - INFO - ✅ Stage 1 completed
+2026-01-21 11:50:16,919 - evaluation - INFO - ⏰ Waiting 180s for backend indexing
+2026-01-21 11:53:16,965 - evaluation - INFO - ✅ Post-add wait completed
+2026-01-21 11:53:16,967 - evaluation - INFO - Starting Stage 2: Search
+2026-01-21 11:53:46,153 - evaluation - INFO - ✅ Stage 2 completed
+2026-01-21 11:53:46,208 - evaluation - INFO - Starting Stage 3: Answer
+2026-01-21 11:54:49,758 - evaluation - INFO - ✅ Stage 3 completed
+2026-01-21 11:54:49,823 - evaluation - INFO - Starting Stage 4: Evaluate
+2026-01-21 11:54:51,119 - evaluation - INFO - ✅ Stage 4 completed
+2026-01-21 11:54:51,194 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 11:57:48,142 - evaluation - INFO - Smoke test: 10 conversations - 10/5882 messages, 10/1986 questions
+2026-01-21 11:57:48,176 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 11:58:50,741 - evaluation - INFO - Smoke test: 10 conversations - 10/5882 messages, 10/1986 questions
+2026-01-21 11:58:50,744 - evaluation - INFO - Starting Stage 1: Add
+2026-01-21 11:58:58,567 - evaluation - INFO - ✅ Stage 1 completed
+2026-01-21 11:58:58,571 - evaluation - INFO - ⏰ Waiting 180s for backend indexing
+2026-01-21 12:01:58,618 - evaluation - INFO - ✅ Post-add wait completed
+2026-01-21 12:01:58,619 - evaluation - INFO - Starting Stage 2: Search
+2026-01-21 12:02:06,990 - evaluation - INFO - ✅ Stage 2 completed
+2026-01-21 12:02:07,002 - evaluation - INFO - Starting Stage 3: Answer
+2026-01-21 12:02:12,955 - evaluation - INFO - ✅ Stage 3 completed
+2026-01-21 12:02:12,978 - evaluation - INFO - Starting Stage 4: Evaluate
+2026-01-21 12:02:13,589 - evaluation - INFO - ✅ Stage 4 completed
+2026-01-21 12:02:13,624 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 15:49:28,763 - evaluation - INFO - Smoke test: 10 conversations - 10/5882 messages, 10/1986 questions
+2026-01-21 15:49:28,766 - evaluation - INFO - Starting Stage 1: Add
+2026-01-21 15:49:39,086 - evaluation - INFO - ✅ Stage 1 completed
+2026-01-21 15:49:39,090 - evaluation - INFO - ⏰ Waiting 180s for backend indexing
+2026-01-21 15:52:39,135 - evaluation - INFO - ✅ Post-add wait completed
+2026-01-21 15:52:39,137 - evaluation - INFO - Starting Stage 2: Search
+2026-01-21 15:52:46,138 - evaluation - INFO - ✅ Stage 2 completed
+2026-01-21 15:52:46,150 - evaluation - INFO - Starting Stage 3: Answer
+2026-01-21 15:52:56,242 - evaluation - INFO - ✅ Stage 3 completed
+2026-01-21 15:52:56,262 - evaluation - INFO - Starting Stage 4: Evaluate
+2026-01-21 15:52:56,800 - evaluation - INFO - ✅ Stage 4 completed
+2026-01-21 15:52:56,826 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 15:54:53,865 - evaluation - INFO - Smoke test: 10 conversations - 10/5882 messages, 10/1986 questions
+2026-01-21 15:54:53,876 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 15:56:35,008 - evaluation - INFO - Smoke test: 10 conversations - 10/5882 messages, 10/1986 questions
+2026-01-21 15:56:35,018 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt
+2026-01-21 15:57:04,936 - evaluation - INFO - Smoke test: 10 conversations - 10/5882 messages, 10/1986 questions
+2026-01-21 15:57:04,945 - evaluation - INFO - Starting Stage 4: Evaluate
+2026-01-21 15:57:17,297 - evaluation - INFO - ✅ Stage 4 completed
+2026-01-21 15:57:17,324 - evaluation - INFO - Report saved to: /home/student2025/wwx/huawei/EverMemOS-main/evaluation/results/locomo-memos/report.txt

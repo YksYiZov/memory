@@ -14,14 +14,14 @@ pip install -r requirements.txt
 ### 数据转换
 
 **简便过程**：
-1. 将所有收集数据放入`./raw_data`目录下，请参考以下格式：
+1. 将所有收集数据放入`./raw_data`目录下，请确保为以下格式：
 ```
 ├── raw_data
 │   ├── 李强 # 用户名
 │   │   ├── calendar.json
 │   │   ├── call.json
 │   │   ├── QA.json 
-│   │   ├── health.json
+│   │   ├── fitness_health.json
 │   │   ├── agent_chat.json
 │   │   ├── photo.json
 │   │   ├── note.json
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 │   │   ├── calendar.json
 │   │   ├── call.json
 │   │   ├── QA.json
-│   │   ├── health.json
+│   │   ├── fitness_health.json
 │   │   ├── agent_chat.json
 │   │   ├── photo.json
 │   │   ├── note.json
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 │   │   ├── contact.json
 │   │   ├── push.json
 ```
-2. 直接运行preprocess.sh文件，即可自动生成`./dataset/out.json`文件，同时将该文件复制入所有记忆系统指定位置。
+2. 直接`sh preprocess.sh`，即可自动生成`./dataset/out.json`文件，同时将该文件复制入所有记忆系统指定位置。（如果是windows系统，建议使用`git bash`终端，实在没办法可选择使用.ps1对应文件，第一次运行可能出现权限问题，需要使用`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`，如果仍存在问题，可以逐步解析`preprocess.sh`中的命令一步一步运行直至最终生成`our.json`）
 
 ### 系统使用
 
@@ -80,21 +80,21 @@ pip install -r requirements.txt
 4. 执行评测
 
    1. MemOS：
-
+      在根目录下执行：
       ```
       cd EverMemOS-main
       python -m evaluation.cli --dataset our --system memos
       ```
 
    2. Hindsight:
-
+      (请确保可连接至huggingface)在根目录下执行：
       ```
       cd hindsight
       ./run-our.sh
       ```
 
    3. MemU:
-
+      在根目录下执行：
       ```
       cd memU-experiment-main
       python locomo_test.py --data-file data/our.json --chat-deployment qwen3-max

@@ -150,7 +150,7 @@ if __name__ == "__main__":
     existing_file = "sorted_data/main_events.json"
     
     # 有date字段的文件
-    date_file = "filtered_data/health.json"
+    date_file = "filtered_data/fitness_health.json"
     
     # 没有date字段的文件
     no_date_file = "filtered_data/contact.json"

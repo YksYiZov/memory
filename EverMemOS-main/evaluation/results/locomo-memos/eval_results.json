@@ -1,0 +1,190 @@
+{
+  "total_questions": 10,
+  "correct": 8,
+  "accuracy": 0.8000000000000002,
+  "detailed_results": {
+    "locomo_exp_user_0": [
+      {
+        "question_id": "locomo_0_qa0",
+        "question": "When did Caroline go to the LGBTQ support group?",
+        "golden_answer": "7 May 2023",
+        "generated_answer": "May 7, 2023.",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "2"
+      }
+    ],
+    "locomo_exp_user_1": [
+      {
+        "question_id": "locomo_1_qa0",
+        "question": "When Jon has lost his job as a banker?",
+        "golden_answer": "19 January, 2023",
+        "generated_answer": "January 19, 2023",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "2"
+      }
+    ],
+    "locomo_exp_user_2": [
+      {
+        "question_id": "locomo_2_qa0",
+        "question": "Who did Maria have dinner with on May 3, 2023?",
+        "golden_answer": "her mother",
+        "generated_answer": "Maria had dinner with her mom on May 3, 2023.",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "2"
+      }
+    ],
+    "locomo_exp_user_3": [
+      {
+        "question_id": "locomo_3_qa0",
+        "question": "Is it likely that Nate has friends besides Joanna?",
+        "golden_answer": "Yesteammates on hisvideo game team.",
+        "generated_answer": "Yes, Nate has other friends.  \n\n**Why:** Multiple memories confirm Nate interacts with friends from tournaments, old teammates, and hosts social events (e.g., June 3, 2022 memory: \"invite his friends from tournaments... to his upcoming party\"). This aligns with his implicit preference for socializing and hosting, without violating any stated preferences.",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "3"
+      }
+    ],
+    "locomo_exp_user_4": [
+      {
+        "question_id": "locomo_4_qa0",
+        "question": "what are John's goals with regards to his basketball career?",
+        "golden_answer": "improve shooting percentage, win a championship",
+        "generated_answer": "Win a championship and improve shooting consistency.",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "1"
+      }
+    ],
+    "locomo_exp_user_5": [
+      {
+        "question_id": "locomo_5_qa0",
+        "question": "Which year did Audrey adopt the first three of her dogs?",
+        "golden_answer": "2020",
+        "generated_answer": "2020",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "2"
+      }
+    ],
+    "locomo_exp_user_6": [
+      {
+        "question_id": "locomo_6_qa0",
+        "question": "What are John's suspected health problems?",
+        "golden_answer": "Obesity",
+        "generated_answer": "No health problems mentioned.",
+        "llm_judgments": {
+          "judgment_1": false,
+          "judgment_2": false,
+          "judgment_3": false
+        },
+        "category": "3"
+      }
+    ],
+    "locomo_exp_user_7": [
+      {
+        "question_id": "locomo_7_qa0",
+        "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+        "golden_answer": "electricity engineering project",
+        "generated_answer": "Electrical engineering project.",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "2"
+      }
+    ],
+    "locomo_exp_user_8": [
+      {
+        "question_id": "locomo_8_qa0",
+        "question": "What kind of car does Evan drive?",
+        "golden_answer": "Prius",
+        "generated_answer": "Evan drives a new Prius.  \n\n**Explanation**: Multiple memories confirm that after his old Prius broke down, Evan repaired and sold it, then bought a new Prius (May 18, 2023). Although the new Prius later broke down (December 5, 2023), there is no indication he replaced it again, so the most recent vehicle he drives is still the new Prius. This aligns with his implicit preference for reliable vehicles for road trips and an active lifestyle.",
+        "llm_judgments": {
+          "judgment_1": true,
+          "judgment_2": true,
+          "judgment_3": true
+        },
+        "category": "1"
+      }
+    ],
+    "locomo_exp_user_9": [
+      {
+        "question_id": "locomo_9_qa0",
+        "question": "When did Calvin first travel to Tokyo?",
+        "golden_answer": "between 26 March and 20 April 2023",
+        "generated_answer": "Calvin has not yet traveled to Tokyo.  \n\n**Explanation:** All memories indicate Calvin *planned* to travel to Japan in April 2023, with statements like \"plans to travel,\" \"will be traveling next month,\" and \"had never been to Japan.\" The latest timestamp referencing his plans is March 23, 2023, and there is no memory confirming he actually went. Therefore, as of the most recent information, his trip had not occurred.",
+        "llm_judgments": {
+          "judgment_1": false,
+          "judgment_2": false,
+          "judgment_3": false
+        },
+        "category": "2"
+      }
+    ]
+  },
+  "metadata": {
+    "model": "qwen3-max",
+    "num_runs": 3,
+    "mean_accuracy": 0.8000000000000002,
+    "std_accuracy": 1.1102230246251565e-16,
+    "run_scores": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "category_accuracies": {
+      "2": {
+        "mean": 0.8333333333333334,
+        "std": 0.0,
+        "individual_runs": [
+          0.8333333333333334,
+          0.8333333333333334,
+          0.8333333333333334
+        ],
+        "total": 6
+      },
+      "3": {
+        "mean": 0.5,
+        "std": 0.0,
+        "individual_runs": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "total": 2
+      },
+      "1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "individual_runs": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "total": 2
+      }
+    }
+  }
+}

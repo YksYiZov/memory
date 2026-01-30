@@ -150,7 +150,7 @@ def combine_and_sort_events(all_events):
     
     for event in all_events:
         date = event["date"]
-        tid = event["type"] + event["phone_id"]
+        tid = str(event["type"]) + str(event["phone_id"])
         
         # 添加到对应的date和phone_id组
         date_groups[date][tid].append(event)
