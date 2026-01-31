@@ -111,4 +111,14 @@ python quick_analyze.py
 
 分析统计结果会保存在`./result.json`中
 
-如果你并没有完整三个记忆系统评测结果文件，请手动在`quick_analyze.py`中修改文件路径
+如果你并没有完整三个记忆系统评测结果文件，请手动在`quick_analyze.py`中修改
+
+```
+final_results = {
+        "method_a": extract_results_method_a(data_a),
+        "method_b": extract_results_method_b(data_b),
+        "method_c": extract_results_method_c(data_c),
+    }
+```
+
+将某几行注释掉，method_a对应memOS，method_b对应hindsight,method_c对应memU
