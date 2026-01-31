@@ -27,5 +27,5 @@ evaluation:
   
   # Filter settings
   # LoCoMo categories: "1", "2", "3", "5" (adversarial questions)
-  filter_category: [5]  # Can use integers or strings, like [5] or ["5"]
+  filter_category: [-1]  # Can use integers or strings, like [5] or ["5"]
 

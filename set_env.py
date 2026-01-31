@@ -6,18 +6,18 @@ from pathlib import Path
 MEMOS_LLM_API_KEY = "your_llm_api_key_here"
 MEMOS_LLM_MODEL = "gpt-5-mini-2025-08-07"       # default
 MEMOS_LLM_BASE_URL = "https://api.bianxie.ai/v1"        # default
-MEMOS_MEMOS_KEY = "your_memos_api_key_here"
+MEMOS_MEMOS_KEY = "mpg-fVpCdWth4bR/jvtUoHeO558L0mAmft3R5NmVuj3s"
 
 # Hindsight
 HINDSIGHT_LLM_API_KEY = "your_llm_api_key_here"
 HINDSIGHT_LLM_MODEL = "gpt-5-mini-2025-08-07"       # default
 HINDSIGHT_LLM_BASE_URL = "https://api.bianxie.ai/v1"
-HINDSIGHT_EMBEDDINGS_API_KEY = "your_embeddings_api_key_here"
+HINDSIGHT_EMBEDDINGS_API_KEY = "your_llm_api_key_here"
 HINDSIGHT_EMBEDDINGS_MODEL = "text-embedding-3-small"   # default
 HINDSIGHT_EMBEDDINGS_BASE_URL = "https://api.bianxie.ai/v1"     # default
 
 # MemU
-MEMU_OPENAI_API_KEY = "your_openai_api_key_here"
+MEMU_OPENAI_API_KEY = "your_llm_api_key_here"
 MEMU_OPENAI_BASE_URL = "https://api.bianxie.ai/v1"  # default
 MEMU_EMBEDDING_MODEL = "text-embedding-3-small"     # default
 
@@ -56,6 +56,7 @@ def replace_two_api_keys(
     file_path: Path,
     memos_api_key: str,
     llm_api_key: str,
+    llm_model: str,
 ):
     if not file_path.exists():
         print(f"[WARN] {file_path} 不存在，跳过")
@@ -89,6 +90,21 @@ def replace_two_api_keys(
         f"[INFO] memos api_key 替换 {memos_count} 次，"
         f"llm api_key 替换 {llm_count} 次 in {file_path}"
     )
+    # 替换 llm 下的 model
+    llm_pattern = r'(llm:\s*(?:.|\n)*?)model:\s*(.*)'
+    content, llm_count = re.subn(
+        llm_pattern,
+        rf'\1model: "{llm_model}"',
+        content,
+        count=1
+    )
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(
+        f"[INFO] memos model 替换 {memos_count} 次，"
+        f"llm model 替换 {llm_count} 次 in {file_path}"
+    )
 
 def setup_memos():
     env_file = Path("EverMemOS-main/.env")
@@ -99,7 +115,7 @@ def setup_memos():
     })
 
     memos_yaml = Path("EverMemOS-main/evaluation/config/systems/memos.yaml")
-    replace_two_api_keys(memos_yaml, MEMOS_MEMOS_KEY, MEMOS_LLM_API_KEY)
+    replace_two_api_keys(memos_yaml, MEMOS_MEMOS_KEY, MEMOS_LLM_API_KEY, MEMOS_LLM_MODEL)
 
 def setup_hindsight():
     env_file = Path("hindsight/.env")
