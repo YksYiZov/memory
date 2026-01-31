@@ -98,7 +98,7 @@ pip install -r requirements.txt
       在根目录下执行：
       ```
       cd memU-experiment-main
-      python locomo_test.py --data-file data/our.json --chat-deployment qwen3-max
+      python locomo_test.py --data-file data/our.json --chat-deployment gpt-5-mini-2025-08-07
       ```
 
       额外需要注意的是，你的chat-deployment模型和embedding模型需要匹配你的api key
