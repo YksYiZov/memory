@@ -92,56 +92,6 @@
     "ask_time": "2025-02"
   },
   {
-    "question": "陆明强与妻子在2月7日晚商讨后，对一笔额外收入做出了怎样的初步使用规划？之后在2月15日进行月度财务复盘时，他们又对资金分配做出了什么新的决定？",
-    "answer": "初步规划：将大部分存入家庭定期账户作为应急储备金，一小部分用于春节开销。新的决定：将月度复盘发现的超出预期的结余，连同“捡漏”节省下来的钱，一并存入“子女教育专项基金”。",
-    "score_points": [
-      {
-        "description": "初步规划：大部分作应急储备金，小部分补贴春节开销（对应事件ID 543）。",
-        "score": 5
-      },
-      {
-        "description": "最终分配：月度复盘后，将更多结余及“捡漏”节省的钱存入子女教育基金（对应事件ID 655）。",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "543",
-      "655"
-    ],
-    "question_type": "mutihop",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "59"
-      },
-      {
-        "type": "note",
-        "id": "69"
-      },
-      {
-        "type": "note",
-        "id": "70"
-      },
-      {
-        "type": "push",
-        "id": "40"
-      },
-      {
-        "type": "note",
-        "id": "411"
-      },
-      {
-        "type": "sms",
-        "id": "449"
-      },
-      {
-        "type": "calendar",
-        "id": "303"
-      }
-    ],
-    "ask_time": "2025-02"
-  },
-  {
     "question": "2025年4月，陆明强在微信上向酒瓶藏友老陈分享了自己近期在白酒口味上的一个新偏好，他更喜欢哪种口感或风味的白酒了？",
     "options": [
       {
@@ -245,44 +195,6 @@
       }
     ],
     "ask_time": "2025-02"
-  },
-  {
-    "question": "陆明强在1月10日晚上享用海南鸡饭，结合事件背景说明这顿晚餐的主要庆祝原因是什么？",
-    "answer": "为了庆祝他获得公司全额资助考取电工高级技师证书的支持。",
-    "score_points": [
-      {
-        "description": "答案包含庆祝原因：获得公司对考取电工高级技师证书的资助（源自1月10日事件ID:117）",
-        "score": 10
-      }
-    ],
-    "required_events_id": [
-      "117",
-      "121"
-    ],
-    "question_type": "mutihop",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "27"
-      },
-      {
-        "type": "note",
-        "id": "30"
-      },
-      {
-        "type": "sms",
-        "id": "22"
-      },
-      {
-        "type": "calendar",
-        "id": "227"
-      },
-      {
-        "type": "note",
-        "id": "304"
-      }
-    ],
-    "ask_time": "2025-03"
   },
   {
     "question": "在2月，陆明强如何利用新手机改善家庭生活与社交？请具体说明他通过手机进行的活动及其目的。",
@@ -496,64 +408,6 @@
       }
     ],
     "ask_time": "2025-03"
-  },
-  {
-    "question": "在1月份的作业现场，工友陈建国注意到陆明强身体不适后，具体提供了哪些帮助？",
-    "options": [
-      {
-        "option": "A",
-        "content": "递上活血药油并提醒他别硬扛"
-      },
-      {
-        "option": "B",
-        "content": "立即开车送他去医院检查"
-      },
-      {
-        "option": "C",
-        "content": "帮他完成剩余的全部收尾工作"
-      },
-      {
-        "option": "D",
-        "content": "建议他明天请假并联系班长"
-      }
-    ],
-    "answer": "陈建国快步走来，向陆明强递上了活血药油，并提醒他不要硬扛，强调腰是本钱。",
-    "required_events": [
-      {
-        "event_id": "294",
-        "event_name": "工友提醒与收尾清理"
-      }
-    ],
-    "score_points": [
-      {
-        "description": "陈建国快步走来，向陆明强递上了活血药油。",
-        "score": 5
-      },
-      {
-        "description": "陈建国提醒陆明强不要硬扛，强调腰是本钱。",
-        "score": 5
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "137"
-      },
-      {
-        "type": "photo",
-        "id": "32"
-      },
-      {
-        "type": "note",
-        "id": "86"
-      },
-      {
-        "type": "push",
-        "id": "53"
-      }
-    ],
-    "ask_time": "2025-03",
-    "question_type": "single_hop"
   },
   {
     "question": "2025年3月，陆明强在修理厂为修车支付了多少现金？",
@@ -840,48 +694,6 @@
     "ask_time": "2025-04"
   },
   {
-    "question": "陆明强在收到第一笔二手平台交易款项后，过了几天他的腰伤就急性发作了？",
-    "answer": "11天",
-    "score_points": [
-      {
-        "description": "正确识别出二手平台收款事件（事件ID: 1487）发生在2025年4月13日。",
-        "score": 5
-      },
-      {
-        "description": "正确识别出腰伤急性发作事件（事件ID: 1634）发生在2025年4月24日。",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "1487",
-      "1634"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "push",
-        "id": "197"
-      },
-      {
-        "type": "calendar",
-        "id": "259"
-      },
-      {
-        "type": "sms",
-        "id": "455"
-      },
-      {
-        "type": "call",
-        "id": "52"
-      },
-      {
-        "type": "note",
-        "id": "437"
-      }
-    ],
-    "ask_time": "2025-04"
-  },
-  {
     "question": "在1月份的一次家庭早餐中，陆明强答应了小儿子什么周末活动？",
     "answer": "周末放风筝。",
     "score_points": [
@@ -957,42 +769,6 @@
         "id": "164"
       }
     ],
-    "question_type": "single_hop"
-  },
-  {
-    "question": "在4月份的一个早晨，陆明强与家人共进早餐时，他查看了哪两样信息，并基于什么天气情况提醒家人不能外出？",
-    "answer": "查看了天气预报和工作群，提醒家人大雨天不能外出。",
-    "score_points": [
-      {
-        "description": "准确回答陆明强查看了天气预报。",
-        "score": 5
-      },
-      {
-        "description": "准确回答陆明强查看了工作群。",
-        "score": 5
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "1480",
-        "event_name": "早晨家庭与工作准备"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "push",
-        "id": "36"
-      },
-      {
-        "type": "note",
-        "id": "61"
-      },
-      {
-        "type": "calendar",
-        "id": "52"
-      }
-    ],
-    "ask_time": "2025-04",
     "question_type": "single_hop"
   },
   {
@@ -1620,50 +1396,6 @@
       {
         "type": "calendar",
         "id": "47"
-      }
-    ],
-    "ask_time": "2025-05",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "2025年1月，陆明强在银行办理了哪项具体的财务业务？",
-    "answer": "以自己和妻子王丽娟的名义，在家庭账户下新开设了“子女教育基金”子账户，并当场转入800元。",
-    "score_points": [
-      {
-        "description": "准确回答出业务内容：开设“子女教育基金”子账户。",
-        "score": 5
-      },
-      {
-        "description": "准确回答出业务涉及的人员：自己和妻子王丽娟。",
-        "score": 3
-      },
-      {
-        "description": "准确回答出初始转入金额：800元。",
-        "score": 2
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "258",
-        "event_name": "午间银行事务与财务处理"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "88"
-      },
-      {
-        "type": "push",
-        "id": "43"
-      },
-      {
-        "type": "note",
-        "id": "73"
-      },
-      {
-        "type": "calendar",
-        "id": "61"
       }
     ],
     "ask_time": "2025-05",
@@ -2411,7 +2143,7 @@
         "content": "乘坐校车上学"
       }
     ],
-    "answer": "王丽娟联系了大儿子陆子轩的同学小宇的妈妈，成功安排了顺路接送陆子轩上学。",
+    "answer": "C",
     "required_events": [
       {
         "event_id": "975",
@@ -3317,52 +3049,6 @@
     "ask_time": "2025-07"
   },
   {
-    "question": "在五月份，陆明强在哪两个周末带着家人前往万绿园进行了户外活动？",
-    "answer": "2025年5月4日（星期日）和2025年5月18日（星期日）。",
-    "score_points": [
-      {
-        "description": "准确列出第一个日期“2025年5月4日”。",
-        "score": 5
-      },
-      {
-        "description": "准确列出第二个日期“2025年5月18日”。",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "1762",
-      "1957"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "131"
-      },
-      {
-        "type": "note",
-        "id": "167"
-      },
-      {
-        "type": "photo",
-        "id": "55"
-      },
-      {
-        "type": "calendar",
-        "id": "190"
-      },
-      {
-        "type": "push",
-        "id": "155"
-      },
-      {
-        "type": "photo",
-        "id": "83"
-      }
-    ],
-    "ask_time": "2025-07"
-  },
-  {
     "question": "2025年7月，陆明强在与工友陈建国喝茶聊天时，提到自己的发小王海最近遇到了什么让他感到烦恼但又不影响陆明强自己生活的事情？",
     "answer": "王海在深圳的电子产品销售工作遇到了瓶颈，业绩压力很大，同时他正在考虑是否要回海南发展，但担心收入下降，因此感到纠结和焦虑。",
     "score_points": [
@@ -3398,38 +3084,6 @@
         "id": "71"
       }
     ],
-    "question_type": "single_hop"
-  },
-  {
-    "question": "在2月14日的工作间隙，陆明强与工友陈建国交流了关于哪项设备改造的简化流程想法？",
-    "answer": "老旧断路器改造",
-    "score_points": [
-      {
-        "description": "答案需准确包含改造对象“老旧断路器”。",
-        "score": 10
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "638",
-        "event_name": "上午工作：设备检查、文书处理与工友交流"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "note",
-        "id": "62"
-      },
-      {
-        "type": "sms",
-        "id": "40"
-      },
-      {
-        "type": "calendar",
-        "id": "53"
-      }
-    ],
-    "ask_time": "2025-07",
     "question_type": "single_hop"
   },
   {
@@ -3516,54 +3170,6 @@
         "id": "197"
       }
     ],
-    "question_type": "single_hop"
-  },
-  {
-    "question": "3月份，陆明强在五金店采购家装材料时，购买了哪种规格的铜芯线？",
-    "options": [
-      {
-        "option": "A",
-        "content": "1.5平方国标铜芯线"
-      },
-      {
-        "option": "B",
-        "content": "2.5平方国标铜芯线"
-      },
-      {
-        "option": "C",
-        "content": "4平方国标铜芯线"
-      },
-      {
-        "option": "D",
-        "content": "6平方国标铜芯线"
-      }
-    ],
-    "answer": "B",
-    "required_events": [
-      {
-        "event_id": "1210",
-        "event_name": "下班通勤与前往五金店采购"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "72"
-      },
-      {
-        "type": "push",
-        "id": "54"
-      },
-      {
-        "type": "sms",
-        "id": "180"
-      },
-      {
-        "type": "note",
-        "id": "89"
-      }
-    ],
-    "ask_time": "2025-07",
     "question_type": "single_hop"
   },
   {
@@ -4240,48 +3846,6 @@
     "ask_time": "2025-08"
   },
   {
-    "question": "陆明强在8月1日晚上重新观看并收藏了关于高盐饮食危害的健康科普视频后，过了几天才在家庭晚餐中首次发起关于“健康饮食”的讨论？",
-    "answer": "2天。",
-    "score_points": [
-      {
-        "description": "答案指出具体间隔天数为2天。",
-        "score": 10
-      }
-    ],
-    "required_events_id": [
-      "3110",
-      "3130"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "push",
-        "id": "175"
-      },
-      {
-        "type": "note",
-        "id": "307"
-      },
-      {
-        "type": "calendar",
-        "id": "229"
-      },
-      {
-        "type": "push",
-        "id": "199"
-      },
-      {
-        "type": "calendar",
-        "id": "262"
-      },
-      {
-        "type": "note",
-        "id": "352"
-      }
-    ],
-    "ask_time": "2025-08"
-  },
-  {
     "question": "陆明强在八月初因健康考虑决定调整饮食习惯，其直接诱因是什么？",
     "answer": "八月初偶然看到关于高盐饮食危害的健康科普视频，以及紧接着因周末烤鱼聚会导致身体不适。",
     "score_points": [
@@ -4686,240 +4250,6 @@
     "ask_time": "2025-08"
   },
   {
-    "question": "在六月份，陆明强坚持进行康复性散步的天数至少有多少天？",
-    "answer": "至少7天",
-    "score_points": [
-      {
-        "description": "正确回答出至少7天，并基于事件信息推导得出。",
-        "score": 10
-      }
-    ],
-    "required_events_id": [
-      "2170",
-      "2197",
-      "2214",
-      "2232",
-      "2265",
-      "2297",
-      "2328"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "93"
-      },
-      {
-        "type": "note",
-        "id": "114"
-      },
-      {
-        "type": "push",
-        "id": "65"
-      },
-      {
-        "type": "calendar",
-        "id": "145"
-      },
-      {
-        "type": "note",
-        "id": "192"
-      },
-      {
-        "type": "push",
-        "id": "117"
-      },
-      {
-        "type": "photo",
-        "id": "63"
-      },
-      {
-        "type": "note",
-        "id": "209"
-      },
-      {
-        "type": "push",
-        "id": "128"
-      },
-      {
-        "type": "push",
-        "id": "184"
-      },
-      {
-        "type": "calendar",
-        "id": "239"
-      },
-      {
-        "type": "note",
-        "id": "324"
-      },
-      {
-        "type": "push",
-        "id": "202"
-      },
-      {
-        "type": "calendar",
-        "id": "266"
-      },
-      {
-        "type": "note",
-        "id": "358"
-      },
-      {
-        "type": "push",
-        "id": "217"
-      },
-      {
-        "type": "calendar",
-        "id": "286"
-      },
-      {
-        "type": "note",
-        "id": "387"
-      },
-      {
-        "type": "note",
-        "id": "413"
-      },
-      {
-        "type": "push",
-        "id": "228"
-      },
-      {
-        "type": "calendar",
-        "id": "305"
-      }
-    ],
-    "ask_time": "2025-08"
-  },
-  {
-    "question": "陆明强在2月初与家人商定健康计划后，如何利用外部工具和自身需求，在当月逐步建立并巩固了针对性的健康管理习惯？",
-    "answer": "他首先在2月1日与家人商定并开始执行增加运动频率和体验家庭健康饮食的计划。随后，在2月3日通过跑友推荐得知运动健康APP，并于2月4日下载并设置了该APP来管理锻炼目标。之后，因工作劳累关注到腰部健康，在2月5日利用APP搜索并学习了腰部康复指导视频，并最终在2月9日进行了首次系统性的腰部强化训练，从而将健康管理从初步尝试深化为规律性的习惯。",
-    "score_points": [
-      {
-        "description": "起点：与家人商定并开始执行增加运动频率和家庭健康饮食计划（2月1日，事件ID：436， 440， 444）。",
-        "score": 3
-      },
-      {
-        "description": "工具引入：通过跑友推荐得知运动健康APP（2月3日，事件ID：470），并下载、设置APP以管理目标（2月4日，事件ID：489）。",
-        "score": 3
-      },
-      {
-        "description": "深化与巩固：因工作劳累关注腰部健康，利用APP搜索康复指导（2月5日，事件ID：502），并进行首次系统性腰部康复训练（2月9日，事件ID：569）。",
-        "score": 4
-      }
-    ],
-    "required_events_id": [
-      "436",
-      "440",
-      "444",
-      "470",
-      "489",
-      "502",
-      "569"
-    ],
-    "question_type": "mutihop",
-    "evidence": [
-      {
-        "type": "note",
-        "id": "146"
-      },
-      {
-        "type": "sms",
-        "id": "328"
-      },
-      {
-        "type": "call",
-        "id": "22"
-      },
-      {
-        "type": "calendar",
-        "id": "114"
-      },
-      {
-        "type": "calendar",
-        "id": "171"
-      },
-      {
-        "type": "note",
-        "id": "138"
-      },
-      {
-        "type": "note",
-        "id": "230"
-      },
-      {
-        "type": "sms",
-        "id": "322"
-      },
-      {
-        "type": "sms",
-        "id": "371"
-      },
-      {
-        "type": "push",
-        "id": "84"
-      },
-      {
-        "type": "push",
-        "id": "85"
-      },
-      {
-        "type": "push",
-        "id": "86"
-      },
-      {
-        "type": "note",
-        "id": "8"
-      },
-      {
-        "type": "sms",
-        "id": "7"
-      },
-      {
-        "type": "push",
-        "id": "5"
-      },
-      {
-        "type": "calendar",
-        "id": "155"
-      },
-      {
-        "type": "note",
-        "id": "207"
-      },
-      {
-        "type": "push",
-        "id": "127"
-      },
-      {
-        "type": "calendar",
-        "id": "293"
-      },
-      {
-        "type": "note",
-        "id": "399"
-      },
-      {
-        "type": "calendar",
-        "id": "320"
-      },
-      {
-        "type": "note",
-        "id": "434"
-      },
-      {
-        "type": "sms",
-        "id": "464"
-      },
-      {
-        "type": "note",
-        "id": "474"
-      }
-    ],
-    "ask_time": "2025-08"
-  },
-  {
     "question": "陆明强在探望恩师和偶遇邻居后，分别获得了哪两种具体的康复资源？",
     "answer": "通过探望恩师李师傅，获得了腰部保养的土办法经验（如靠墙静蹲、热敷）；通过偶遇邻居王叔，获赠了《家庭康复体操》小册子。",
     "score_points": [
@@ -5010,50 +4340,6 @@
       {
         "type": "photo",
         "id": "22"
-      }
-    ],
-    "ask_time": "2025-08",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "6月份，陆明强在万绿园与儿子们放风筝时，购买了哪些物品？",
-    "options": [
-      {
-        "option": "A",
-        "content": "矿泉水和零食"
-      },
-      {
-        "option": "B",
-        "content": "风筝和饮料"
-      },
-      {
-        "option": "C",
-        "content": "水果和玩具"
-      },
-      {
-        "option": "D",
-        "content": "面包和牛奶"
-      }
-    ],
-    "answer": "A",
-    "required_events": [
-      {
-        "event_id": "2376",
-        "event_name": "万绿园亲子放风筝时光"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "push",
-        "id": "29"
-      },
-      {
-        "type": "calendar",
-        "id": "44"
-      },
-      {
-        "type": "note",
-        "id": "51"
       }
     ],
     "ask_time": "2025-08",
@@ -6508,50 +5794,6 @@
     "question_type": "single_hop"
   },
   {
-    "question": "1月3日，陆明强与工友在公司附近哪家快餐店用了午餐？",
-    "options": [
-      {
-        "option": "A",
-        "content": "老地方大排档"
-      },
-      {
-        "option": "B",
-        "content": "快客中式快餐店"
-      },
-      {
-        "option": "C",
-        "content": "瑞溪周记早餐店"
-      },
-      {
-        "option": "D",
-        "content": "公司食堂"
-      }
-    ],
-    "answer": "B",
-    "required_events": [
-      {
-        "event_id": "28",
-        "event_name": "与工友午餐及午间休息"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "photo",
-        "id": "6"
-      },
-      {
-        "type": "note",
-        "id": "14"
-      },
-      {
-        "type": "calendar",
-        "id": "12"
-      }
-    ],
-    "ask_time": "2025-09",
-    "question_type": "single_hop"
-  },
-  {
     "question": "2025年1月，陆明强在与发小王海视频聊天时，王海提到他最近对哪一类电子产品产生了特别的兴趣，并计划为此进行一笔消费？",
     "options": [
       {
@@ -7648,48 +6890,6 @@
     "ask_time": "2025-10"
   },
   {
-    "question": "陆明强在家庭财务会议后，隔了多久才在家庭记账本上写下‘紧缩’二字并向孩子们正式宣告？",
-    "answer": "1天",
-    "score_points": [
-      {
-        "description": "正确识别出家庭财务会议（制定紧缩计划）发生在4月1日晚，正式向孩子们宣告发生在4月2日晚，并计算出间隔天数为1天。",
-        "score": 10
-      }
-    ],
-    "required_events_id": [
-      "1336",
-      "1350"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "106"
-      },
-      {
-        "type": "note",
-        "id": "128"
-      },
-      {
-        "type": "push",
-        "id": "75"
-      },
-      {
-        "type": "calendar",
-        "id": "256"
-      },
-      {
-        "type": "sms",
-        "id": "423"
-      },
-      {
-        "type": "note",
-        "id": "347"
-      }
-    ],
-    "ask_time": "2025-10"
-  },
-  {
     "question": "陆明强在卧床养伤期间，为了应对当前困境并为未来做打算，主动了解和规划了哪些具体事项？",
     "answer": "他主动向公司人力资源部了解了病假工资和工伤保险报销政策；在网上搜索并收藏了腰肌劳损康复训练视频，制定了康复计划；与哥哥深入探讨了创业合伙提议，并向朋友咨询了开维修店的经验；计划并沟通了复工后转为负责技术监督等非重体力工作的职责调整。",
     "score_points": [
@@ -8413,54 +7613,6 @@
     "ask_time": "2025-10"
   },
   {
-    "question": "10月份，陆明强在万绿园进行恢复性慢跑时，他的配速是多少？",
-    "options": [
-      {
-        "option": "A",
-        "content": "6分钟/公里"
-      },
-      {
-        "option": "B",
-        "content": "7分钟/公里"
-      },
-      {
-        "option": "C",
-        "content": "8分钟/公里"
-      },
-      {
-        "option": "D",
-        "content": "9分钟/公里"
-      }
-    ],
-    "answer": "C",
-    "required_events": [
-      {
-        "event_id": "4112",
-        "event_name": "通勤前往万绿园并进行恢复性慢跑"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "19"
-      },
-      {
-        "type": "push",
-        "id": "14"
-      },
-      {
-        "type": "photo",
-        "id": "8"
-      },
-      {
-        "type": "note",
-        "id": "20"
-      }
-    ],
-    "ask_time": "2025-10",
-    "question_type": "single_hop"
-  },
-  {
     "question": "10月份，陆明强与同事陈建国在秀英万达广场的哪家餐厅进行了考后庆祝午餐？",
     "answer": "拾味馆海南菜(万达店)",
     "score_points": [
@@ -8632,54 +7784,6 @@
         "id": "82"
       }
     ],
-    "question_type": "single_hop"
-  },
-  {
-    "question": "7月下旬，陆明强婉拒了哪位同行提出的挖角邀请？",
-    "options": [
-      {
-        "option": "A",
-        "content": "张班长"
-      },
-      {
-        "option": "B",
-        "content": "陈建国"
-      },
-      {
-        "option": "C",
-        "content": "老师傅"
-      },
-      {
-        "option": "D",
-        "content": "林峰"
-      }
-    ],
-    "answer": "C",
-    "required_events": [
-      {
-        "event_id": "2968",
-        "event_name": "接到挖角邀请并初步回应"
-      },
-      {
-        "event_id": "2976",
-        "event_name": "婉拒挖角邀请电话"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "call",
-        "id": "16"
-      },
-      {
-        "type": "sms",
-        "id": "93"
-      },
-      {
-        "type": "note",
-        "id": "79"
-      }
-    ],
-    "ask_time": "2025-10",
     "question_type": "single_hop"
   },
   {
@@ -8907,52 +8011,6 @@
       {
         "type": "sms",
         "id": "262"
-      }
-    ],
-    "ask_time": "2025-10",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "在9月2日，我婉拒了球友林峰的深夜外出邀约，主要原因是什么？",
-    "options": [
-      {
-        "option": "A",
-        "content": "需要辅导孩子作业"
-      },
-      {
-        "option": "B",
-        "content": "次日有繁重工作，需要养足精神"
-      },
-      {
-        "option": "C",
-        "content": "手腕需要休息，不能吃烤鱼"
-      },
-      {
-        "option": "D",
-        "content": "与妻子有家庭活动安排"
-      }
-    ],
-    "answer": "因为次日可能有繁重工作，需要高度集中的注意力和充沛体力，我需要养足精神。",
-    "required_events": [
-      {
-        "event_id": "3580",
-        "event_name": "微信咨询运动建议并婉拒深夜社交邀约"
-      }
-    ],
-    "score_points": [
-      {
-        "description": "答案中明确提及“次日可能有繁重工作”或“需要养足精神”。",
-        "score": 10
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "14"
-      },
-      {
-        "type": "calendar",
-        "id": "17"
       }
     ],
     "ask_time": "2025-10",
@@ -9720,35 +8778,6 @@
     "ask_time": "2025-11"
   },
   {
-    "question": "陆明强作为技术骨干主导老旧小区电表箱改造现场勘察是在哪一天？",
-    "answer": "2025年9月15日。",
-    "score_points": [
-      {
-        "description": "主导现场勘察的具体日期是2025年9月15日。",
-        "score": 10
-      }
-    ],
-    "required_events_id": [
-      "3766"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "233"
-      },
-      {
-        "type": "photo",
-        "id": "97"
-      },
-      {
-        "type": "note",
-        "id": "312"
-      }
-    ],
-    "ask_time": "2025-11"
-  },
-  {
     "question": "陆明强在三月中旬婉拒了同行介绍的私活，他当时最核心的考量是什么？",
     "options": [
       {
@@ -9965,52 +8994,6 @@
     "ask_time": "2025-11"
   },
   {
-    "question": "陆明强在腰伤康复期间，从首次尝试散步到完成一次5公里跑步活动，中间间隔了多少天？",
-    "answer": "14天",
-    "score_points": [
-      {
-        "description": "正确识别首次试探性散步事件（ID: 2170）发生在2025年6月1日。",
-        "score": 5
-      },
-      {
-        "description": "正确识别完成5公里欢乐跑事件（ID: 2369）发生在2025年6月15日。",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "2170",
-      "2369"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "93"
-      },
-      {
-        "type": "note",
-        "id": "114"
-      },
-      {
-        "type": "push",
-        "id": "65"
-      },
-      {
-        "type": "note",
-        "id": "326"
-      },
-      {
-        "type": "calendar",
-        "id": "241"
-      },
-      {
-        "type": "photo",
-        "id": "100"
-      }
-    ],
-    "ask_time": "2025-11"
-  },
-  {
     "question": "陆明强在七月开始核心力量训练的直接起因是什么？",
     "answer": "他在7月16日的壁球锻炼中感到腰部酸胀，这一身体信号触发了他对职业健康管理的关注，因此主动向球友请教并开始核心训练。",
     "score_points": [
@@ -10124,52 +9107,6 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "2025年1月，陆明强在与发小王海的视频通话中，聊到了另一位初中同学吴刚最近发生的一件什么事情？这件事对陆明强本人有什么直接影响吗？",
-    "answer": "吴刚最近在社区维修工作中，因为一次意外从梯子上摔下来，扭伤了脚踝，需要在家休养一段时间。这件事对陆明强本人没有直接影响。",
-    "score_points": [
-      {
-        "description": "准确说出吴刚发生的事件：在社区维修工作中从梯子上摔下，扭伤脚踝。",
-        "score": 5
-      },
-      {
-        "description": "准确说出吴刚因此需要在家休养一段时间。",
-        "score": 3
-      },
-      {
-        "description": "明确指出该事件对陆明强本人没有直接影响。",
-        "score": 2
-      }
-    ],
-    "ask_time": "2025-11",
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "45"
-      },
-      {
-        "type": "sms",
-        "id": "46"
-      },
-      {
-        "type": "sms",
-        "id": "47"
-      },
-      {
-        "type": "sms",
-        "id": "48"
-      },
-      {
-        "type": "sms",
-        "id": "49"
-      },
-      {
-        "type": "sms",
-        "id": "50"
-      }
-    ],
     "question_type": "single_hop"
   },
   {
@@ -10695,54 +9632,6 @@
     "question_type": "single_hop"
   },
   {
-    "question": "8月份，我与工友临时加班处理电路故障，故障原因是什么？",
-    "options": [
-      {
-        "option": "A",
-        "content": "线路负荷过大且空气开关老化"
-      },
-      {
-        "option": "B",
-        "content": "电表箱损坏导致短路"
-      },
-      {
-        "option": "C",
-        "content": "新增设备导致线路短路"
-      },
-      {
-        "option": "D",
-        "content": "线路老化导致接触不良"
-      }
-    ],
-    "answer": "A",
-    "required_events": [
-      {
-        "event_id": "3234",
-        "event_name": "临时加班维修电路"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "32"
-      },
-      {
-        "type": "sms",
-        "id": "26"
-      },
-      {
-        "type": "note",
-        "id": "36"
-      },
-      {
-        "type": "push",
-        "id": "22"
-      }
-    ],
-    "ask_time": "2025-11",
-    "question_type": "single_hop"
-  },
-  {
     "question": "在8月份的一次下班后，陆明强婉拒了工友的宵夜邀请，他改约了何时何地进行更健康的聚会？",
     "options": [
       {
@@ -10762,7 +9651,7 @@
         "content": "周末下午，万绿园散步"
       }
     ],
-    "answer": "周末下午，在文明一路喝老爸茶。",
+    "answer": "B",
     "required_events": [
       {
         "event_id": "3386",
@@ -10973,52 +9862,6 @@
     "question_type": "single_hop"
   },
   {
-    "question": "在2025年10月，陆明强与工友陈建国在微信聊天中，谈论了另一位工友赵强最近发生的什么事情？这件事对陆明强本人的生活有直接影响吗？",
-    "answer": "赵强在国庆假期回湖南老家相亲，并且相亲成功了。这件事对陆明强本人的生活没有直接影响。",
-    "score_points": [
-      {
-        "description": "准确说出赵强在国庆假期回湖南老家相亲这件事。",
-        "score": 5
-      },
-      {
-        "description": "准确说出赵强相亲成功的结果。",
-        "score": 3
-      },
-      {
-        "description": "明确指出这件事对陆明强本人的生活没有直接影响。",
-        "score": 2
-      }
-    ],
-    "ask_time": "2025-11",
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "275"
-      },
-      {
-        "type": "sms",
-        "id": "276"
-      },
-      {
-        "type": "sms",
-        "id": "277"
-      },
-      {
-        "type": "sms",
-        "id": "278"
-      },
-      {
-        "type": "sms",
-        "id": "279"
-      },
-      {
-        "type": "sms",
-        "id": "280"
-      }
-    ],
-    "question_type": "single_hop"
-  },
-  {
     "question": "在2025年11月，陆明强在与球友林峰的聊天中，分享了自己最近在摄影方面的一个具体品味偏好。他更喜欢拍摄哪种风格或主题的工业场景照片？",
     "options": [
       {
@@ -11155,42 +9998,6 @@
       {
         "type": "call",
         "id": "5"
-      }
-    ],
-    "ask_time": "2025-11",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "2025年11月7日上午，陆明强在工间休息时与妻子通过微信语音主要沟通了哪项事务？",
-    "answer": "核对了投保人、受益人信息及保额方案，并确认所有电子材料已齐备。",
-    "score_points": [
-      {
-        "description": "准确回答出核对的具体信息内容：投保人、受益人信息及保额方案。",
-        "score": 7
-      },
-      {
-        "description": "准确回答出确认的事项：所有电子材料已齐备。",
-        "score": 3
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "4533",
-        "event_name": "上午检修工作与休息时核对投保信息"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "call",
-        "id": "8"
-      },
-      {
-        "type": "push",
-        "id": "26"
-      },
-      {
-        "type": "note",
-        "id": "43"
       }
     ],
     "ask_time": "2025-11",
@@ -12324,47 +11131,6 @@
     "ask_time": "2025-11"
   },
   {
-    "question": "在八月初的家庭财务会议中，陆明强和王丽娟通过压力测试发现，家庭储蓄仅能支撑多久的基本生活开销？",
-    "options": [
-      {
-        "option": "A",
-        "content": "1-2个月"
-      },
-      {
-        "option": "B",
-        "content": "3-4个月"
-      },
-      {
-        "option": "C",
-        "content": "5-6个月"
-      },
-      {
-        "option": "D",
-        "content": "6个月以上"
-      }
-    ],
-    "answer": "B",
-    "required_events_id": [
-      "3162"
-    ],
-    "question_type": "reasoning",
-    "evidence": [
-      {
-        "type": "note",
-        "id": "219"
-      },
-      {
-        "type": "sms",
-        "id": "368"
-      },
-      {
-        "type": "note",
-        "id": "297"
-      }
-    ],
-    "ask_time": "2025-12"
-  },
-  {
     "question": "陆明强在壁球比赛中手腕扭伤，导致他需要佩戴护具并调整工作。这一事件发生在八月的哪一天？",
     "answer": "2025年8月17日。",
     "score_points": [
@@ -12770,111 +11536,6 @@
     "ask_time": "2025-12"
   },
   {
-    "question": "陆明强在十月份进行的户外跑步活动中，总共使用了几个不同的具体地点？",
-    "answer": "三个，分别是万绿园、白沙门公园、小区附近街道。",
-    "score_points": [
-      {
-        "description": "正确答出地点数量为三个。",
-        "score": 4
-      },
-      {
-        "description": "准确列出三个具体地点：万绿园、白沙门公园、小区附近街道。",
-        "score": 6
-      }
-    ],
-    "required_events_id": [
-      "4002",
-      "4036",
-      "4112",
-      "4176",
-      "4221",
-      "4245",
-      "4330",
-      "4348",
-      "4432"
-    ],
-    "question_type": "mutihop",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "157"
-      },
-      {
-        "type": "push",
-        "id": "129"
-      },
-      {
-        "type": "calendar",
-        "id": "19"
-      },
-      {
-        "type": "note",
-        "id": "20"
-      },
-      {
-        "type": "push",
-        "id": "14"
-      },
-      {
-        "type": "photo",
-        "id": "8"
-      },
-      {
-        "type": "note",
-        "id": "269"
-      },
-      {
-        "type": "push",
-        "id": "163"
-      },
-      {
-        "type": "note",
-        "id": "319"
-      },
-      {
-        "type": "push",
-        "id": "198"
-      },
-      {
-        "type": "calendar",
-        "id": "260"
-      },
-      {
-        "type": "note",
-        "id": "350"
-      },
-      {
-        "type": "push",
-        "id": "206"
-      },
-      {
-        "type": "calendar",
-        "id": "273"
-      },
-      {
-        "type": "calendar",
-        "id": "311"
-      },
-      {
-        "type": "note",
-        "id": "418"
-      },
-      {
-        "type": "push",
-        "id": "245"
-      },
-      {
-        "type": "calendar",
-        "id": "337"
-      },
-      {
-        "type": "note",
-        "id": "459"
-      }
-    ],
-    "ask_time": "2025-12"
-  },
-  {
     "question": "陆明强在通过电工高级技师考试后，首次恢复壁球运动是在哪一天？",
     "answer": "2025年10月26日（或考后第8天）。",
     "score_points": [
@@ -13180,48 +11841,6 @@
       {
         "type": "calendar",
         "id": "373"
-      }
-    ],
-    "ask_time": "2025-12"
-  },
-  {
-    "question": "在十二月的第三周（12月15日至21日），陆明强总共进行了多少次以“轻松跑”或“恢复”为目的的跑步活动？",
-    "answer": "2次",
-    "score_points": [
-      {
-        "description": "12月16日赛前最后一次轻松跑（3公里）",
-        "score": 5
-      },
-      {
-        "description": "12月13日与跑友周末晨跑（5公里慢跑，目的是释放压力，属于轻松/恢复性质）",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "5095",
-      "5050"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "103"
-      },
-      {
-        "type": "note",
-        "id": "125"
-      },
-      {
-        "type": "push",
-        "id": "73"
-      },
-      {
-        "type": "note",
-        "id": "310"
-      },
-      {
-        "type": "push",
-        "id": "177"
       }
     ],
     "ask_time": "2025-12"
@@ -13933,36 +12552,6 @@
     "ask_time": "2025-12"
   },
   {
-    "question": "陆明强何时决定开始备考2025年的电工高级技师证书？",
-    "answer": "2025年3月8日之后",
-    "score_points": [
-      {
-        "description": "明确陆明强决定开始备考电工高级技师证书的时间点",
-        "score": 10
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "484"
-      },
-      {
-        "type": "sms",
-        "id": "485"
-      },
-      {
-        "type": "sms",
-        "id": "486"
-      },
-      {
-        "type": "sms",
-        "id": "487"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "mutihop"
-  },
-  {
     "question": "陆明强在6月收藏到的那瓶白酒具体是哪家酒厂的？",
     "answer": "海口椰岛酒厂",
     "score_points": [
@@ -14315,58 +12904,6 @@
     "question_type": "mutihop"
   },
   {
-    "question": "陆明强3月向发小王海咨询的手机型号，他最终选择购买的是哪一款？",
-    "answer": "A型号",
-    "score_points": [
-      {
-        "description": "明确陆明强最终购买的手机具体型号",
-        "score": 10
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "534"
-      },
-      {
-        "type": "sms",
-        "id": "535"
-      },
-      {
-        "type": "sms",
-        "id": "536"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "mutihop"
-  },
-  {
-    "question": "工友陈建国5月说想给儿子买的专业壁球拍，具体是哪个品牌的？",
-    "answer": "X品牌",
-    "score_points": [
-      {
-        "description": "明确陈建国想购买的壁球拍品牌",
-        "score": 10
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "537"
-      },
-      {
-        "type": "sms",
-        "id": "538"
-      },
-      {
-        "type": "sms",
-        "id": "539"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "mutihop"
-  },
-  {
     "question": "妻弟陈志强9月底说国庆回海口要带的深圳特产，具体指的是哪两样点心？",
     "answer": "老婆饼和鸡仔饼",
     "score_points": [
@@ -14447,50 +12984,6 @@
       {
         "type": "sms",
         "id": "550"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "mutihop"
-  },
-  {
-    "question": "陆明强在2025年3月8日买到的那个自己寻觅多年的珍贵白酒瓶具体是什么牌子的？",
-    "answer": "五粮液",
-    "score_points": [
-      {
-        "description": "明确陆明强于3月8日购入的珍贵酒瓶的具体品牌",
-        "score": 10
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "551"
-      },
-      {
-        "type": "sms",
-        "id": "552"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "mutihop"
-  },
-  {
-    "question": "陆明强2025年4月15日在壁球场遇到的那个让他感觉“今天真巧”的熟人具体是谁？",
-    "answer": "林峰",
-    "score_points": [
-      {
-        "description": "明确4月15日在壁球场与陆明强偶遇的熟人的具体身份",
-        "score": 10
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "553"
-      },
-      {
-        "type": "sms",
-        "id": "554"
       }
     ],
     "ask_time": "2025-12",
@@ -14585,102 +13078,6 @@
     "question_type": "mutihop"
   },
   {
-    "question": "2025年3月22日，陆明强的妻子王丽娟在进行兼职家政服务时，其主要服务对象的住宅位于以下哪个小区？",
-    "options": [
-      {
-        "option": "A",
-        "content": "金楚小区"
-      },
-      {
-        "option": "B",
-        "content": "海盛公寓"
-      },
-      {
-        "option": "C",
-        "content": "龙华法院住宅小区"
-      },
-      {
-        "option": "D",
-        "content": "无法回答"
-      }
-    ],
-    "type": "multiple_choice",
-    "question_type": "unanswerable",
-    "ask_time": "2025-12"
-  },
-  {
-    "question": "2025年2月5日上午，陆明强在工作中与同事张伟的对话主要围绕以下哪个主题？",
-    "options": [
-      {
-        "option": "A",
-        "content": "孩子的教育问题"
-      },
-      {
-        "option": "B",
-        "content": "老旧小区改造项目中的某张电路图细节"
-      },
-      {
-        "option": "C",
-        "content": "无法回答"
-      },
-      {
-        "option": "D",
-        "content": "晚上是否需要加班进行设备调试"
-      }
-    ],
-    "type": "multiple_choice",
-    "question_type": "unanswerable",
-    "ask_time": "2025-12"
-  },
-  {
-    "question": "在2025-08-27，陆明强在整理项目材料时参考的《实操手册》的出版社是以下哪一个？",
-    "options": [
-      {
-        "option": "A",
-        "content": "机械工业出版社"
-      },
-      {
-        "option": "B",
-        "content": "电力出版社"
-      },
-      {
-        "option": "C",
-        "content": "人民邮电出版社"
-      },
-      {
-        "option": "D",
-        "content": "无法回答"
-      }
-    ],
-    "type": "multiple_choice",
-    "question_type": "unanswerable",
-    "ask_time": "2025-12"
-  },
-  {
-    "question": "2025年9月29日，陆明强在幼儿园送儿子时，停车场入口处的保安姓名是什么？",
-    "options": [
-      {
-        "option": "A",
-        "content": "李华"
-      },
-      {
-        "option": "B",
-        "content": "张伟"
-      },
-      {
-        "option": "C",
-        "content": "王芳"
-      },
-      {
-        "option": "D",
-        "content": "无法回答"
-      }
-    ],
-    "type": "multiple_choice",
-    "question_type": "unanswerable",
-    "ask_time": "2025-12"
-  },
-  {
     "question": "10月份，陆明强与工友陈建国在秀英区一家茶店喝茶，他们交流了哪些具体内容？",
     "answer": "交流了考试过程、工作项目（如节后小区配电改造）和家庭计划，陈建国还推荐了文昌旅行景点。",
     "score_points": [
@@ -14767,42 +13164,6 @@
       {
         "type": "note",
         "id": "4"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "10月份，陆明强在家中通过视频与工友交流时，主要讨论了哪些技术问题？",
-    "answer": "新型真空断路器调试标准和变频器干扰问题。",
-    "score_points": [
-      {
-        "description": "准确回答出讨论的第一个技术问题：新型真空断路器调试标准。",
-        "score": 5
-      },
-      {
-        "description": "准确回答出讨论的第二个技术问题：变频器干扰问题。",
-        "score": 5
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "4099",
-        "event_name": "与工友技术交流"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "call",
-        "id": "3"
-      },
-      {
-        "type": "calendar",
-        "id": "13"
-      },
-      {
-        "type": "note",
-        "id": "15"
       }
     ],
     "ask_time": "2025-12",
@@ -15141,38 +13502,6 @@
     "question_type": "single_hop"
   },
   {
-    "question": "12月份，陆明强在维修家中水管时，因扳手打滑导致哪个手指受伤？",
-    "answer": "左手食指",
-    "score_points": [
-      {
-        "description": "准确回答受伤的手指部位（左手食指）",
-        "score": 10
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "4994",
-        "event_name": "维修家中渗水水管并意外受伤"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "33"
-      },
-      {
-        "type": "sms",
-        "id": "27"
-      },
-      {
-        "type": "note",
-        "id": "37"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
     "question": "12月份，陆明强在南方电网小区配电间进行月度巡检时，使用什么仪器检测关键节点温度？",
     "options": [
       {
@@ -15255,134 +13584,6 @@
       {
         "type": "call",
         "id": "9"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "12月份，我参加了一次线上职业资格考试，考试结果如何？",
-    "options": [
-      {
-        "option": "A",
-        "content": "成绩合格"
-      },
-      {
-        "option": "B",
-        "content": "成绩优秀"
-      },
-      {
-        "option": "C",
-        "content": "成绩良好"
-      },
-      {
-        "option": "D",
-        "content": "成绩未通过"
-      }
-    ],
-    "answer": "B",
-    "required_events": [
-      {
-        "event_id": "5091",
-        "event_name": "电工高级技师线上考试"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "49"
-      },
-      {
-        "type": "push",
-        "id": "33"
-      },
-      {
-        "type": "note",
-        "id": "58"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "12月份，我在万绿园偶遇球友林峰时，他提醒我参加什么活动并调侃我请客？",
-    "answer": "周三晚上的壁球活动",
-    "score_points": [
-      {
-        "description": "答案中包含具体活动名称“壁球活动”",
-        "score": 5
-      },
-      {
-        "description": "答案中包含活动时间“周三晚上”",
-        "score": 5
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "5166",
-        "event_name": "偶遇球友林峰"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "sms",
-        "id": "92"
-      },
-      {
-        "type": "calendar",
-        "id": "62"
-      },
-      {
-        "type": "note",
-        "id": "77"
-      },
-      {
-        "type": "push",
-        "id": "47"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "12月份，陆明强为送别徒弟，在五金店购买了一套电工工具作为礼物。这套礼物中包含了哪些具体工具？（多选）",
-    "options": [
-      {
-        "option": "A",
-        "content": "数字万用表"
-      },
-      {
-        "option": "B",
-        "content": "绝缘螺丝刀"
-      },
-      {
-        "option": "C",
-        "content": "绝缘摇表"
-      },
-      {
-        "option": "D",
-        "content": "扳手"
-      }
-    ],
-    "answer": "AB",
-    "required_events": [
-      {
-        "event_id": "5182",
-        "event_name": "下班购买送别礼物"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "65"
-      },
-      {
-        "type": "sms",
-        "id": "94"
-      },
-      {
-        "type": "note",
-        "id": "81"
       }
     ],
     "ask_time": "2025-12",
@@ -15593,50 +13794,6 @@
     "question_type": "single_hop"
   },
   {
-    "question": "5月份，陆明强在小区门口的五金店购买了哪些复工工具消耗品？",
-    "options": [
-      {
-        "option": "A",
-        "content": "两卷电工胶带、三支油性记号笔（黑红各一）、一副新的L码绝缘手套"
-      },
-      {
-        "option": "B",
-        "content": "一卷电工胶带、两支油性记号笔、一副M码绝缘手套"
-      },
-      {
-        "option": "C",
-        "content": "三卷电工胶带、两支油性记号笔（黑色）、一副L码绝缘手套"
-      },
-      {
-        "option": "D",
-        "content": "两卷电工胶带、两支油性记号笔（红色）、一副新的绝缘手套"
-      }
-    ],
-    "answer": "A",
-    "required_events": [
-      {
-        "event_id": "1753",
-        "event_name": "购买复工工具消耗品"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "6"
-      },
-      {
-        "type": "push",
-        "id": "4"
-      },
-      {
-        "type": "note",
-        "id": "6"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
     "question": "5月份，陆明强为腰伤康复考察了两家游泳馆，他最终更倾向于选择哪一家？",
     "options": [
       {
@@ -15685,78 +13842,6 @@
     "question_type": "single_hop"
   },
   {
-    "question": "5月份，我在指导学徒进行转正实操考核时，模拟的故障场景是什么？",
-    "answer": "水泵电机无法启动",
-    "score_points": [
-      {
-        "description": "准确回答出模拟故障的具体内容：水泵电机无法启动",
-        "score": 10
-      }
-    ],
-    "required_events": [
-      {
-        "event_id": "1918",
-        "event_name": "指导学徒赵强完成转正实操考核"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "35"
-      },
-      {
-        "type": "note",
-        "id": "40"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "5月17日下午，我接到紧急抢修任务，需要前往处理配电箱故障的小区叫什么名字？",
-    "options": [
-      {
-        "option": "A",
-        "content": "海建花园"
-      },
-      {
-        "option": "B",
-        "content": "龙华法院住宅小区"
-      },
-      {
-        "option": "C",
-        "content": "南光中心"
-      },
-      {
-        "option": "D",
-        "content": "海府路小区"
-      }
-    ],
-    "answer": "A",
-    "required_events": [
-      {
-        "event_id": "1948",
-        "event_name": "家庭互动与休闲"
-      }
-    ],
-    "evidence": [
-      {
-        "type": "call",
-        "id": "12"
-      },
-      {
-        "type": "sms",
-        "id": "41"
-      },
-      {
-        "type": "note",
-        "id": "63"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
     "question": "2025年6月，陆明强在和朋友陈杰聊天时，提到自己最近在收藏白酒瓶方面，对哪个特定产地的瓶子产生了特别的兴趣？",
     "options": [
       {
@@ -15797,68 +13882,6 @@
       {
         "type": "sms",
         "id": "192"
-      }
-    ],
-    "ask_time": "2025-12",
-    "question_type": "single_hop"
-  },
-  {
-    "question": "在4月份，陆明强与工友陈建国、赵强共同执行配电箱升级改造工作的具体地点是哪里？",
-    "options": [
-      {
-        "option": "A",
-        "content": "海秀中路的老旧小区配电房"
-      },
-      {
-        "option": "B",
-        "content": "海甸岛五西路碧海蓝天小区配电间"
-      },
-      {
-        "option": "C",
-        "content": "向荣路片区老旧住宅楼"
-      },
-      {
-        "option": "D",
-        "content": "海盛路老旧小区A区配电房"
-      }
-    ],
-    "answer": "海南省海口市美兰区海甸岛五西路碧海蓝天小区3号楼配电间。",
-    "required_events": [
-      {
-        "event_id": "1360",
-        "event_name": "配电箱升级改造工作（上午）"
-      }
-    ],
-    "score_points": [
-      {
-        "description": "答案中包含完整的行政区划：海南省海口市美兰区。",
-        "score": 4
-      },
-      {
-        "description": "答案中包含具体道路和小区名称：海甸岛五西路碧海蓝天小区。",
-        "score": 3
-      },
-      {
-        "description": "答案中包含具体的楼栋和功能区域：3号楼配电间。",
-        "score": 3
-      }
-    ],
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "18"
-      },
-      {
-        "type": "note",
-        "id": "19"
-      },
-      {
-        "type": "call",
-        "id": "4"
-      },
-      {
-        "type": "photo",
-        "id": "7"
       }
     ],
     "ask_time": "2025-12",
@@ -16462,56 +14485,6 @@
     "ask_time": "2025-12"
   },
   {
-    "question": "根据8月7日的事件，陆建国最可能是我的什么人？",
-    "options": [
-      {
-        "option": "A",
-        "content": "我的父亲"
-      },
-      {
-        "option": "B",
-        "content": "我的工友"
-      },
-      {
-        "option": "C",
-        "content": "我的邻居"
-      },
-      {
-        "option": "D",
-        "content": "我的师父"
-      }
-    ],
-    "answer": "A",
-    "required_events_id": [
-      "3194",
-      "3195"
-    ],
-    "question_type": "user_modeling",
-    "evidence": [
-      {
-        "type": "call",
-        "id": "18"
-      },
-      {
-        "type": "calendar",
-        "id": "86"
-      },
-      {
-        "type": "note",
-        "id": "104"
-      },
-      {
-        "type": "note",
-        "id": "121"
-      },
-      {
-        "type": "calendar",
-        "id": "100"
-      }
-    ],
-    "ask_time": "2025-12"
-  },
-  {
     "question": "12月初，陆明强在海甸岛家电维修店进行的项目，其核心改造内容是什么？",
     "answer": "增加散热风扇、优化线路并更换部分老化开关。",
     "score_points": [
@@ -16536,52 +14509,6 @@
       {
         "type": "sms",
         "id": "306"
-      }
-    ],
-    "ask_time": "2025-12"
-  },
-  {
-    "question": "我12月进行晨跑锻炼通常开始于什么时间？",
-    "answer": "清晨6点左右（或6:15-6:20）。",
-    "score_points": [
-      {
-        "description": "识别出多次晨跑事件均发生于早晨时段。",
-        "score": 4
-      },
-      {
-        "description": "具体指出通常的开始时间在清晨6点至6点20分之间。",
-        "score": 6
-      }
-    ],
-    "required_events_id": [
-      "4861",
-      "5095"
-    ],
-    "question_type": "user_modeling",
-    "evidence": [
-      {
-        "type": "calendar",
-        "id": "80"
-      },
-      {
-        "type": "push",
-        "id": "58"
-      },
-      {
-        "type": "note",
-        "id": "99"
-      },
-      {
-        "type": "calendar",
-        "id": "103"
-      },
-      {
-        "type": "push",
-        "id": "73"
-      },
-      {
-        "type": "note",
-        "id": "125"
       }
     ],
     "ask_time": "2025-12"
