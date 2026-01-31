@@ -100,6 +100,7 @@ pip install -r requirements.txt
       python locomo_test.py --data-file data/our.json --chat-deployment qwen3-max
       ```
 
+      额外需要注意的是，你的chat-deployment模型和embedding模型需要匹配你的api key
 5. 运行分析
 
 确认三个记忆系统评测结果文件都生成后，回到根目录，运行以下命令：
@@ -108,4 +109,4 @@ pip install -r requirements.txt
 python quick_analyze.py
 ```
 
-分析结果会保存在`./result.json`中
+分析统计结果会保存在`./result.json`中
