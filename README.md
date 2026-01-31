@@ -61,6 +61,7 @@ pip install -r requirements.txt
       1. MemOS: 
          1. 修改`EverMemOS-main/.env`中的`LLM_API_KEY`、`LLM_MODEL`、`LLM_BASE_URL`为自己的模型和Key
          2. 修改`EverMemOS-main/evaluation/config/systems/memos.yaml`中的`api_key`为自己的MemOS Key
+         3. 修改`EverMemOS-main/evaluation/config/systems/memos.yaml`中的`LLM/api_key`为自己的模型API Key
       2. Hindsight:
          1. 修改`memory/hindsight/.env`中的`HINDSIGHT_API_LLM_API_KEY`、`HINDSIGHT_API_LLM_BASE_URL`、`HINDSIGHT_API_LLM_MODEL`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_API_KEY`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_BASE_URL`和`HINDSIGHT_API_EMBEDDINGS_OPENAI_MODEL`为自己的模型和Key
       3. MemU:
