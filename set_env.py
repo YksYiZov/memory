@@ -4,22 +4,22 @@ from pathlib import Path
 
 # ====== 用户需要填写的配置 ======
 MEMOS_LLM_API_KEY = "your_llm_api_key_here"
-MEMOS_LLM_MODEL = "gpt-5-mini-2025-08-07"
-MEMOS_LLM_BASE_URL = "https://api.bianxie.ai/v1"
+MEMOS_LLM_MODEL = "gpt-5-mini-2025-08-07"       # default
+MEMOS_LLM_BASE_URL = "https://api.bianxie.ai/v1"        # default
 MEMOS_MEMOS_KEY = "your_memos_api_key_here"
 
 # Hindsight
 HINDSIGHT_LLM_API_KEY = "your_llm_api_key_here"
-HINDSIGHT_LLM_MODEL = "gpt-5-mini-2025-08-07"
+HINDSIGHT_LLM_MODEL = "gpt-5-mini-2025-08-07"       # default
 HINDSIGHT_LLM_BASE_URL = "https://api.bianxie.ai/v1"
 HINDSIGHT_EMBEDDINGS_API_KEY = "your_embeddings_api_key_here"
-HINDSIGHT_EMBEDDINGS_MODEL = "text-embedding-3-small"
-HINDSIGHT_EMBEDDINGS_BASE_URL = "https://api.bianxie.ai/v1"
+HINDSIGHT_EMBEDDINGS_MODEL = "text-embedding-3-small"   # default
+HINDSIGHT_EMBEDDINGS_BASE_URL = "https://api.bianxie.ai/v1"     # default
 
 # MemU
 MEMU_OPENAI_API_KEY = "your_openai_api_key_here"
-MEMU_OPENAI_BASE_URL = "https://api.bianxie.ai/v1"
-MEMU_EMBEDDING_MODEL = "text-embedding-3-small"
+MEMU_OPENAI_BASE_URL = "https://api.bianxie.ai/v1"  # default
+MEMU_EMBEDDING_MODEL = "text-embedding-3-small"     # default
 
 NOW_EMBEDDING_MODEL = "text-embedding-3-small" # 替换上次使用的MEMU_EMBEDDING_MODEL，必须与上次使用的MEMU_EMBEDDING_MODEL相同
 # ================================
