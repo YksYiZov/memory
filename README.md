@@ -110,3 +110,5 @@ python quick_analyze.py
 ```
 
 分析统计结果会保存在`./result.json`中
+
+如果你并没有完整三个记忆系统评测结果文件，请手动在`quick_analyze.py`中修改文件路径
