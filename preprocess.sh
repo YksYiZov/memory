@@ -29,22 +29,22 @@ echo "🎉 所有用户处理完成"
 
 # ===== 文件复制到指定目录（保留源文件） =====
 
-# SRC_FILE="./dataset/our.json"
+SRC_FILE="./dataset/our.json"
 
-# DEST_DIR="EverMemOS-main/evaluation/data/our"
-# mkdir -p "$DEST_DIR"
-# cp -f "$SRC_FILE" "$DEST_DIR/"
+DEST_DIR="EverMemOS-main/evaluation/data/our"
+mkdir -p "$DEST_DIR"
+cp -f "$SRC_FILE" "$DEST_DIR/"
 
-# echo "文件已复制到 $DEST_DIR 并覆盖同名文件（如存在）"
+echo "文件已复制到 $DEST_DIR 并覆盖同名文件（如存在）"
 
-# DEST_DIR="hindsight/benchmarks/our/datasets"
-# mkdir -p "$DEST_DIR"
-# cp -f "$SRC_FILE" "$DEST_DIR/"
+DEST_DIR="hindsight/benchmarks/our/datasets"
+mkdir -p "$DEST_DIR"
+cp -f "$SRC_FILE" "$DEST_DIR/"
 
-# echo "文件已复制到 $DEST_DIR 并覆盖同名文件（如存在）"
+echo "文件已复制到 $DEST_DIR 并覆盖同名文件（如存在）"
 
-# DEST_DIR="memU-experiment-main/data"
-# mkdir -p "$DEST_DIR"
-# cp -f "$SRC_FILE" "$DEST_DIR/"
+DEST_DIR="memU-experiment-main/data"
+mkdir -p "$DEST_DIR"
+cp -f "$SRC_FILE" "$DEST_DIR/"
 
-# echo "文件已复制到 $DEST_DIR 并覆盖同名文件（如存在）"
+echo "文件已复制到 $DEST_DIR 并覆盖同名文件（如存在）"
