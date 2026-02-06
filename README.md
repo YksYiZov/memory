@@ -1,5 +1,6 @@
 # Memory
 
+[简体中文](README.md) | [English](README_en.md)
 ## 快速使用
 
 ### 配置环境
@@ -46,9 +47,9 @@ pip install -r requirements.txt
 
 1. 上步会将将`out.json`复制入对应的记忆系统目录，保持命名为`our.json`
 
-   1. MemOS: `EverMemOS-main/evaluation/data/our/our.json`
-   2. Hindsight: `hindsight/benchmarks/our/datasets/our.json`
-   3. MemU: `memU-experiment-main/data/our.json`
+   1. MemOS: `MemOS/evaluation/data/our/our.json`
+   2. Hindsight: `Hindsight/benchmarks/our/datasets/our.json`
+   3. MemU: `MemU/data/our.json`
 
 2. 修改记忆系统环境
 
@@ -59,22 +60,22 @@ pip install -r requirements.txt
 
    2. 详细操作（以下内容描述上步操作做了什么，如果你已经成功执行上一步操作，无需执行下一步操作）
       1. MemOS: 
-         1. 修改`EverMemOS-main/.env`中的`LLM_API_KEY`、`LLM_MODEL`、`LLM_BASE_URL`为自己的模型和Key
-         2. 修改`EverMemOS-main/evaluation/config/systems/memos.yaml`中的`api_key`为自己的MemOS Key
-         3. 修改`EverMemOS-main/evaluation/config/systems/memos.yaml`中的`LLM/api_key`为自己的模型API Key
+         1. 修改`MemOS/.env`中的`LLM_API_KEY`、`LLM_MODEL`、`LLM_BASE_URL`为自己的模型和Key
+         2. 修改`MemOS/evaluation/config/systems/memos.yaml`中的`api_key`为自己的MemOS Key
+         3. 修改`MemOS/evaluation/config/systems/memos.yaml`中的`LLM/api_key`为自己的模型API Key
       2. Hindsight:
-         1. 修改`memory/hindsight/.env`中的`HINDSIGHT_API_LLM_API_KEY`、`HINDSIGHT_API_LLM_BASE_URL`、`HINDSIGHT_API_LLM_MODEL`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_API_KEY`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_BASE_URL`和`HINDSIGHT_API_EMBEDDINGS_OPENAI_MODEL`为自己的模型和Key
+         1. 修改`Hindsight/.env`中的`HINDSIGHT_API_LLM_API_KEY`、`HINDSIGHT_API_LLM_BASE_URL`、`HINDSIGHT_API_LLM_MODEL`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_API_KEY`、`HINDSIGHT_API_EMBEDDINGS_OPENAI_BASE_URL`和`HINDSIGHT_API_EMBEDDINGS_OPENAI_MODEL`为自己的模型和Key
       3. MemU:
-         1. 在`memory/memU-experiment-main/.env`中配置自己的`OPENAI_API_KEY`和`OPENAI_BASE_URL`
-         2. 在`memory/memU-experiment-main/memu/memory/embeddings.py`中第37行和第90行中`kwargs.get("model", "")`中后一个参数改为自己的模型
+         1. 在`MemU/.env`中配置自己的`OPENAI_API_KEY`和`OPENAI_BASE_URL`
+         2. 在`MemU/memu/memory/embeddings.py`中第37行和第90行中`kwargs.get("model", "")`中后一个参数改为自己的模型
 
 3. 了解重要文件和目录
 
 以下为三个记忆系统重要记忆结果文件位置：
 
-   1. MemOS: `EverMemOS-main/evaluation/results/our-memos`
-   2. Hindsight: `hindsight/benchmarks/our/results`
-   3. MemU: `memU-experiment-main/memory`和`memU-experiment-main/enhanced_memory_test_results.json`
+   1. MemOS: `MemOS/evaluation/results/our-memos`
+   2. Hindsight: `Hindsight/benchmarks/our/results`
+   3. MemU: `MemU/memory`和`MemU/enhanced_memory_test_results.json`
 
 当你已经在这些目录或文件中创建了相关文件，但是还需要进行新一次评测时，请考虑是否要删除相关文件，这取决于记忆过程是否完全进行，如果完全进行，则无需删除，否则务必删除上述目录中的文件或文件，否则下次运行会跳过某些步骤。
 
@@ -83,21 +84,21 @@ pip install -r requirements.txt
    1. MemOS：
       在根目录下执行：
       ```
-      cd EverMemOS-main
+      cd MemOS
       python -m evaluation.cli --dataset our --system memos
       ```
 
    2. Hindsight:
       (请确保可连接至huggingface)在根目录下执行：
       ```
-      cd hindsight
+      cd Hindsight
       ./run-our.sh
       ```
 
    3. MemU:
       在根目录下执行：
       ```
-      cd memU-experiment-main
+      cd MemU
       python locomo_test.py --data-file data/our.json --chat-deployment gpt-5-mini-2025-08-07
       ```
 
@@ -112,14 +113,6 @@ python quick_analyze.py
 
 分析统计结果会保存在`./result.json`中
 
-如果你并没有完整三个记忆系统评测结果文件，请手动在`quick_analyze.py`中修改
+如果你并没有完整三个记忆系统评测结果文件，请手动在`quick_analyze.py`中灵活修改。
 
-```
-final_results = {
-        "method_a": extract_results_method_a(data_a),
-        "method_b": extract_results_method_b(data_b),
-        "method_c": extract_results_method_c(data_c),
-    }
-```
-
-将某几行注释掉，method_a对应memOS，method_b对应hindsight,method_c对应memU
+默认情况下，method_a对应MemOS，method_b对应Hindsight,method_c对应MemU
