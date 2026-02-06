@@ -37,5 +37,5 @@ if __name__ == "__main__":
     # json_file = "./filtered_data/contact.json"  # 改成你的 json 文件路径
     # json_file = "./filtered_data/health.json"  # 改成你的 json 文件路径
     # json_file = "./sorted_data/final_data.json"  # 改成你的 json 文件路径
-    json_file = "./locomo_output.json"  # 改成你的 json 文件路径
+    json_file = "./雷明轩 memu.json"  # 改成你的 json 文件路径
     show_json_structure(json_file)

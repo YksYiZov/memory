@@ -6,7 +6,7 @@ from pathlib import Path
 MEMOS_LLM_API_KEY = "your_llm_api_key_here"
 MEMOS_LLM_MODEL = "gpt-5-mini-2025-08-07"       # default
 MEMOS_LLM_BASE_URL = "https://api.bianxie.ai/v1"        # default
-MEMOS_MEMOS_KEY = "mpg-fVpCdWth4bR/jvtUoHeO558L0mAmft3R5NmVuj3s"
+MEMOS_MEMOS_KEY = "your_memos_api_key_here"
 
 # Hindsight
 HINDSIGHT_LLM_API_KEY = "your_llm_api_key_here"

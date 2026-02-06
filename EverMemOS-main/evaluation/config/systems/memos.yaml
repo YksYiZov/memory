@@ -8,7 +8,7 @@ adapter: "memos"
 
 # Memos API configuration
 api_url: "https://memos.memtensor.cn/api/openmem/v1"
-api_key: "mpg-fVpCdWth4bR/jvtUoHeO558L0mAmft3R5NmVuj3s"
+api_key: "your_memos_api_key_here"
 batch_size: 10  # Number of messages to send per batch (default)
 max_retries: 20  # Number of retries for failed requests
 

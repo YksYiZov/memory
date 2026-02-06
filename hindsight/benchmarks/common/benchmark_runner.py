@@ -21,6 +21,7 @@ import asyncio
 import json
 import logging
 import os
+import asyncpg
 from abc import ABC, abstractmethod
 from datetime import datetime, timezone
 from pathlib import Path
@@ -438,12 +439,32 @@ class BenchmarkRunner:
         """
         batch_contents = self.dataset.prepare_sessions_for_ingestion(item)
 
+        def remove_null_bytes(obj):
+            """
+            递归删除 list / dict / str 中的 \\x00
+            保持原始结构不变
+            """
+            if isinstance(obj, dict):
+                return {k: remove_null_bytes(v) for k, v in obj.items()}
+
+            if isinstance(obj, list):
+                return [remove_null_bytes(v) for v in obj]
+
+            if isinstance(obj, str):
+                return obj.replace("\x00", "")
+
+            # int / float / None / bool / bytes 等，原样返回
+            return obj
+
         if batch_contents:
-            await self.memory.retain_batch_async(
-                bank_id=agent_id,
-                contents=batch_contents,
-                request_context=RequestContext(),
-            )
+            try:
+                await self.memory.retain_batch_async(
+                    bank_id=agent_id,
+                    contents=batch_contents,
+                    request_context=RequestContext(),
+                )
+            except asyncpg.exceptions.CharacterNotInRepertoireError as e:
+                print(f"Error ingesting batch: {e}")
 
         return len(batch_contents)
 
@@ -1012,7 +1033,7 @@ class BenchmarkRunner:
 
         # Load existing results if merge_with_existing is True
         if merge_with_existing and output_path and output_path.exists():
-            with open(output_path, "r") as f:
+            with open(output_path, "r", ) as f:
                 existing_data = json.load(f)
                 if "item_results" in existing_data:
                     all_results = existing_data["item_results"]
@@ -1091,7 +1112,7 @@ class BenchmarkRunner:
         result_lock = asyncio.Lock()  # Lock for thread-safe updates to all_results
 
         if merge_with_existing and output_path and output_path.exists():
-            with open(output_path, "r") as f:
+            with open(output_path, "r", ) as f:
                 existing_data = json.load(f)
                 if "item_results" in existing_data:
                     all_results = existing_data["item_results"]
@@ -1399,7 +1420,7 @@ class BenchmarkRunner:
             "item_results": all_results,
         }
 
-        with open(output_path, "w") as f:
+        with open(output_path, "w", ) as f:
             json.dump(results_dict, f, indent=2, default=str)
 
     def save_results(self, results: Dict[str, Any], output_path: Path, merge_with_existing: bool = False):
@@ -1413,12 +1434,12 @@ class BenchmarkRunner:
         """
         if merge_with_existing and output_path.exists():
             # Load existing results
-            with open(output_path, "r") as f:
+            with open(output_path, "r", ) as f:
                 existing_results = json.load(f)
 
             console.print(f"\n[cyan]Merging with existing results from {output_path}...[/cyan]")
             results = self.merge_results(results, existing_results)
 
-        with open(output_path, "w") as f:
+        with open(output_path, "w", ) as f:
             json.dump(results, f, indent=2, default=str)
         console.print(f"\n[green]✓[/green] Results saved to {output_path}")

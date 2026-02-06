@@ -1,7 +1,7 @@
 import json
 from typing import Dict
 
-category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "temporal": "3", "user_modeling": "4", "unanswerable": "5", "updating": "3", "multiple_choice": "2", "open_domain": "2", "question_answer": "2"}
+category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "temporal": "3", "user_modeling": "4", "unanswerable": "5"}
 def load_json(path: str) -> Dict:
     """读取 JSON 文件"""
     with open(path, "r", encoding="utf-8") as f:
@@ -80,7 +80,7 @@ def main(json_a, json_b, json_c, output_path):
 if __name__ == "__main__":
     json_a = "EverMemOS-main/evaluation/results/our-memos/eval_results.json"
     json_b = "hindsight/benchmarks/our/results/benchmark_results.json"
-    json_c = "memU-experiment-main/enhanced_memory_test_results.json"
+    json_c = "merged.json"
     output = "./result.json"
 
     main(json_a, json_b, json_c, output)
