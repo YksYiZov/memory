@@ -3,13 +3,13 @@
 set -e
 
 TARGETS="
-EverMemOS-main/evaluation/data/our/our.json
-hindsight/benchmarks/our/datasets/our.json
-memU-experiment-main/data/our.json
-EverMemOS-main/evaluation/results/our-memos
-hindsight/benchmarks/our/results
-memU-experiment-main/memory
-memU-experiment-main/enhanced_memory_test_results.json
+MemOS/evaluation/data/our/our.json
+Hindsight/benchmarks/our/datasets/our.json
+MemU/data/our.json
+MemOS/evaluation/results/our-memos
+Hindsight/benchmarks/our/results
+MemU/memory
+MemU/enhanced_memory_test_results.json
 "
 
 for path in $TARGETS; do

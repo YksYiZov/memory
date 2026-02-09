@@ -79,7 +79,7 @@ def main(json_a, json_b, json_c, output_path):
 
 if __name__ == "__main__":
     json_a = "MemOS/evaluation/results/our-memos/eval_results.json"
-    json_b = "hindsight/benchmarks/our/results/benchmark_results.json"
+    json_b = "Hindsight/benchmarks/our/results/benchmark_results.json"
     json_c = "MemU/enhanced_memory_test_results.json"
     output = "./result.json"
 

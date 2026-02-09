@@ -107,18 +107,18 @@ def replace_two_api_keys(
     )
 
 def setup_memos():
-    env_file = Path("EverMemOS-main/.env")
+    env_file = Path("MemOS/.env")
     replace_env_vars(env_file, {
         "LLM_API_KEY": MEMOS_LLM_API_KEY,
         "LLM_MODEL": MEMOS_LLM_MODEL,
         "LLM_BASE_URL": MEMOS_LLM_BASE_URL
     })
 
-    memos_yaml = Path("EverMemOS-main/evaluation/config/systems/memos.yaml")
+    memos_yaml = Path("MemOS/evaluation/config/systems/memos.yaml")
     replace_two_api_keys(memos_yaml, MEMOS_MEMOS_KEY, MEMOS_LLM_API_KEY, MEMOS_LLM_MODEL)
 
-def setup_hindsight():
-    env_file = Path("hindsight/.env")
+def setup_Hindsight():
+    env_file = Path("Hindsight/.env")
     replace_env_vars(env_file, {
         "HINDSIGHT_API_LLM_API_KEY": HINDSIGHT_LLM_API_KEY,
         "HINDSIGHT_API_LLM_BASE_URL": HINDSIGHT_LLM_BASE_URL,
@@ -129,18 +129,18 @@ def setup_hindsight():
     })
 
 def setup_memu():
-    env_file = Path("memU-experiment-main/.env")
+    env_file = Path("MemU/.env")
     replace_env_vars(env_file, {
         "OPENAI_API_KEY": MEMU_OPENAI_API_KEY,
         "OPENAI_BASE_URL": MEMU_OPENAI_BASE_URL
     })
 
-    embeddings_file = Path("memU-experiment-main/memu/memory/embeddings.py")
+    embeddings_file = Path("MemU/memu/memory/embeddings.py")
     replace_in_file(embeddings_file, NOW_EMBEDDING_MODEL, MEMU_EMBEDDING_MODEL)
 
 def main():
     setup_memos()
-    setup_hindsight()
+    setup_Hindsight()
     setup_memu()
     print("🎉 所有配置已完成")
 

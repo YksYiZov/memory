@@ -39,9 +39,9 @@ Write-Host "🎉 所有用户处理完成"
 $SRC_FILE = "./dataset/our.json"
 
 $DEST_DIRS = @(
-    "EverMemOS-main/evaluation/data/our",
-    "hindsight/benchmarks/our/datasets",
-    "memU-experiment-main/data"
+    "MemOS/evaluation/data/our",
+    "Hindsight/benchmarks/our/datasets",
+    "MemU/data"
 )
 
 foreach ($DEST_DIR in $DEST_DIRS) {
