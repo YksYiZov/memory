@@ -37,7 +37,57 @@
       }
     ],
     "ask_time": "2025-01",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，冯浩然在与咖啡店老板沈心怡的交流中，透露了自己近期在咖啡豆风味上的一个具体偏好变化是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "从偏爱日晒处理的豆子转向更偏爱水洗处理的豆子，追求更干净、明亮的酸质。"
+      },
+      {
+        "option": "B",
+        "content": "从偏爱非洲豆（如埃塞俄比亚）转向更偏爱中南美洲豆（如哥伦比亚、巴拿马），追求更均衡的口感。"
+      },
+      {
+        "option": "C",
+        "content": "从偏爱浅烘花果调性的豆子转向开始尝试并欣赏中深烘、带有更多坚果巧克力风味的豆子。"
+      },
+      {
+        "option": "D",
+        "content": "从偏爱单一产地豆子转向更偏爱精心拼配的意式咖啡豆，追求更浓郁醇厚的口感。"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2046"
+      },
+      {
+        "type": "sms",
+        "id": "2047"
+      },
+      {
+        "type": "sms",
+        "id": "2048"
+      },
+      {
+        "type": "sms",
+        "id": "2049"
+      },
+      {
+        "type": "sms",
+        "id": "2050"
+      },
+      {
+        "type": "sms",
+        "id": "2051"
+      }
+    ],
+    "ask_time": "2025-01",
+    "question_type": "Information Extraction"
   },
   {
     "question": "我1月份主要在哪里办公？",
@@ -62,7 +112,7 @@
       "153",
       "188"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -137,7 +187,7 @@
       }
     ],
     "ask_time": "2025-02",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "冯浩然在2025年1月25日参加的摄影工作坊主要学习了哪些内容？",
@@ -161,7 +211,7 @@
       "2025-01-25"
     ],
     "ask_time": "2025-02",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -210,7 +260,7 @@
       "295",
       "371"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -289,7 +339,51 @@
       }
     ],
     "ask_time": "2025-03",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "3月下旬，冯浩然与好友共进晚餐时，主要分享了哪些内容？",
+    "options": [
+      {
+        "option": "A",
+        "content": "本周组建虚拟小组的压力与成就感，以及父亲生日宴的温馨细节"
+      },
+      {
+        "option": "B",
+        "content": "本周客户汇报的成功经验，以及父母体检计划的进展"
+      },
+      {
+        "option": "C",
+        "content": "本周与上司的沟通成果，以及下周的出差行程规划"
+      },
+      {
+        "option": "D",
+        "content": "本周CFA备考的进展，以及周末在江边的摄影计划"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "1043",
+        "event_name": "与好友彭雨晴共进晚餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "55"
+      },
+      {
+        "type": "sms",
+        "id": "1998"
+      },
+      {
+        "type": "calendar",
+        "id": "35"
+      }
+    ],
+    "ask_time": "2025-03",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年3月，冯浩然在与好友董浩然的一次视频通话中，了解到董浩然最近因为什么事情而情绪低落？",
@@ -327,7 +421,51 @@
         "id": "2005"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2月份，冯浩然与妹妹视频通话讨论父亲寿宴预算时，明确了由谁负责联系酒店策划？",
+    "options": [
+      {
+        "option": "A",
+        "content": "冯浩然"
+      },
+      {
+        "option": "B",
+        "content": "冯欣然"
+      },
+      {
+        "option": "C",
+        "content": "两人共同负责"
+      },
+      {
+        "option": "D",
+        "content": "未明确指定"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "680",
+        "event_name": "与妹妹视频通话细化父亲寿宴预算"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": "1334"
+      },
+      {
+        "type": "note",
+        "id": "62"
+      },
+      {
+        "type": "sms",
+        "id": "2080"
+      }
+    ],
+    "ask_time": "2025-03",
+    "question_type": "Information Extraction"
   },
   {
     "question": "根据我1月25日参加的摄影学习活动，推断我在学习哪种摄影类型时可能需要特别注意与拍摄对象的沟通？",
@@ -342,7 +480,7 @@
       "298",
       "299"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -396,7 +534,7 @@
       "164",
       "new_event_20250110"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -438,6 +576,72 @@
     "ask_time": "2025-04"
   },
   {
+    "question": "我在温泉放松并与上司深入交流，是在完成哪个拓展项目之后？",
+    "options": [
+      {
+        "option": "A",
+        "content": "团队密码"
+      },
+      {
+        "option": "B",
+        "content": "信任背摔"
+      },
+      {
+        "option": "C",
+        "content": "高空断桥"
+      },
+      {
+        "option": "D",
+        "content": "所有项目均已完成"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1063",
+      "1060"
+    ],
+    "required_events_date": [
+      "2025-03-23",
+      "2025-03-23"
+    ],
+    "ask_time": "2025-04",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 169
+      },
+      {
+        "type": "call",
+        "id": 295
+      },
+      {
+        "type": "photo",
+        "id": 458
+      },
+      {
+        "type": "photo",
+        "id": 459
+      },
+      {
+        "type": "push",
+        "id": 750
+      },
+      {
+        "type": "agent_chat",
+        "id": 168
+      },
+      {
+        "type": "photo",
+        "id": 455
+      },
+      {
+        "type": "push",
+        "id": 747
+      }
+    ]
+  },
+  {
     "question": "我决定系统性学习夜景摄影，并制定详细学习计划的直接触发因素是什么？",
     "answer": "向摄影伙伴分享了首次夜景摄影实践的成果，并获得了其反馈和建议。",
     "score_points": [
@@ -459,7 +663,7 @@
       "2025-03-09"
     ],
     "ask_time": "2025-04",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -533,7 +737,7 @@
       }
     ],
     "ask_time": "2025-04",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "你今年参加过几次精品咖啡豆品鉴会？",
@@ -551,7 +755,7 @@
       "2025-04-05"
     ],
     "ask_time": "2025-04",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -592,7 +796,7 @@
       "754",
       "956"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "sms",
@@ -660,7 +864,7 @@
       "1924",
       "1967"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -719,7 +923,7 @@
       "2025-03-14"
     ],
     "ask_time": "2025-05",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -738,6 +942,136 @@
         "id": 380
       }
     ]
+  },
+  {
+    "question": "冯浩然在三月下旬牵头组建了针对客户黄思琪的虚拟服务小组，这一行为最直接为以下哪个事件提供了人员协作准备？",
+    "options": [
+      {
+        "option": "A",
+        "content": "季度绩效奖金评定会议"
+      },
+      {
+        "option": "B",
+        "content": "客户黄思琪的科技主题资产配置方案研究启动"
+      },
+      {
+        "option": "C",
+        "content": "客户黄思琪的公司上市项目关键会议"
+      },
+      {
+        "option": "D",
+        "content": "团队建设高空拓展项目"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1020",
+      "1384"
+    ],
+    "required_events_date": [
+      "2025-03-20",
+      "2025-04-15"
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 281
+      },
+      {
+        "type": "photo",
+        "id": 443
+      },
+      {
+        "type": "photo",
+        "id": 444
+      },
+      {
+        "type": "push",
+        "id": 727
+      },
+      {
+        "type": "sms",
+        "id": 409
+      },
+      {
+        "type": "agent_chat",
+        "id": 230
+      },
+      {
+        "type": "call",
+        "id": 383
+      },
+      {
+        "type": "call",
+        "id": 384
+      },
+      {
+        "type": "photo",
+        "id": 558
+      },
+      {
+        "type": "photo",
+        "id": 559
+      },
+      {
+        "type": "push",
+        "id": 933
+      }
+    ]
+  },
+  {
+    "question": "在3月份，冯浩然收到了上司钱永强关于述职面谈的回复，面谈被预约在什么时间？",
+    "options": [
+      {
+        "option": "A",
+        "content": "本周三下午3点"
+      },
+      {
+        "option": "B",
+        "content": "本周四下午3点"
+      },
+      {
+        "option": "C",
+        "content": "本周五上午10点"
+      },
+      {
+        "option": "D",
+        "content": "下周一上午9点"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "798",
+        "event_name": "收到述职面谈预约确认"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1910"
+      },
+      {
+        "type": "sms",
+        "id": "1911"
+      },
+      {
+        "type": "note",
+        "id": "40"
+      },
+      {
+        "type": "calendar",
+        "id": "25"
+      },
+      {
+        "type": "photo",
+        "id": "1690"
+      }
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年2月，冯浩然在与好友彭雨晴的聊天中，得知了他们的共同好友蔡文静最近遇到了什么与工作相关的困扰？",
@@ -779,7 +1113,7 @@
         "id": "2056"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "你参加过几次天文台公众开放日活动？",
@@ -800,7 +1134,7 @@
       "2025-04-11"
     ],
     "ask_time": "2025-05",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -861,6 +1195,52 @@
     ]
   },
   {
+    "question": "冯浩然在1月上旬立即研究并购买力量训练器材，最核心、最直接的触发原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "跑友高云飞的强烈推荐和亲身示范。"
+      },
+      {
+        "option": "B",
+        "content": "年度体检后医生针对其腰背肌群紧张、核心力量薄弱的明确建议。"
+      },
+      {
+        "option": "C",
+        "content": "在运动APP上看到2024年跑量数据后，希望进一步提升运动表现。"
+      },
+      {
+        "option": "D",
+        "content": "为了与好友彭雨晴共同规划春季露营时，能有更好的体能进行户外活动。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "101",
+      "111"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 19
+      },
+      {
+        "type": "note",
+        "id": "133"
+      },
+      {
+        "type": "push",
+        "id": "3011"
+      },
+      {
+        "type": "calendar",
+        "id": "87"
+      }
+    ],
+    "ask_time": "2025-06"
+  },
+  {
     "question": "冯浩然在4月5日晚上处理个人事务时，注意到车辆保险和年检即将到期。他后来预约并完成了一次车辆年检。从他注意到这件事，到完成年检，中间间隔了多少天？",
     "answer": "7天。",
     "score_points": [
@@ -881,7 +1261,7 @@
       "1253",
       "1343"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -947,7 +1327,7 @@
       "1690",
       "1702"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -1010,7 +1390,7 @@
       "2025-05-15"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1051,6 +1431,158 @@
     ]
   },
   {
+    "question": "从接到客户的重要非工作邀约，到该客户首次在沟通中主动谈及公司未来资本规划，中间间隔了多少天？",
+    "options": [
+      {
+        "option": "A",
+        "content": "9天"
+      },
+      {
+        "option": "B",
+        "content": "10天"
+      },
+      {
+        "option": "C",
+        "content": "12天"
+      },
+      {
+        "option": "D",
+        "content": "14天"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1714",
+      "1889"
+    ],
+    "required_events_date": [
+      "2025-05-08",
+      "2025-05-20"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 665
+      },
+      {
+        "type": "push",
+        "id": 1131
+      },
+      {
+        "type": "sms",
+        "id": 648
+      },
+      {
+        "type": "sms",
+        "id": 649
+      },
+      {
+        "type": "agent_chat",
+        "id": 322
+      },
+      {
+        "type": "photo",
+        "id": 721
+      },
+      {
+        "type": "push",
+        "id": 1236
+      },
+      {
+        "type": "sms",
+        "id": 715
+      }
+    ]
+  },
+  {
+    "question": "从报名‘春日焕新’跑步挑战赛到团队累计里程达到100公里，间隔了多少天？",
+    "options": [
+      {
+        "option": "A",
+        "content": "26天"
+      },
+      {
+        "option": "B",
+        "content": "27天"
+      },
+      {
+        "option": "C",
+        "content": "28天"
+      },
+      {
+        "option": "D",
+        "content": "30天"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "759",
+      "1128"
+    ],
+    "required_events_date": [
+      "2025-03-01",
+      "2025-03-28"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 119
+      },
+      {
+        "type": "calendar",
+        "id": "131"
+      },
+      {
+        "type": "call",
+        "id": 196
+      },
+      {
+        "type": "note",
+        "id": "147"
+      },
+      {
+        "type": "note",
+        "id": "196"
+      },
+      {
+        "type": "photo",
+        "id": 342
+      },
+      {
+        "type": "photo",
+        "id": 343
+      },
+      {
+        "type": "push",
+        "id": 579
+      },
+      {
+        "type": "push",
+        "id": "3020"
+      },
+      {
+        "type": "sms",
+        "id": "2192"
+      },
+      {
+        "type": "photo",
+        "id": 478
+      },
+      {
+        "type": "push",
+        "id": 795
+      },
+      {
+        "type": "sms",
+        "id": 456
+      }
+    ]
+  },
+  {
     "question": "在2025年3月5日，冯浩然午餐时与同事郑文博分享的读书收获主要基于哪本书？他在分享前是如何记录这本书的学习心得的？",
     "answer": "主要基于《周期、价值与人性》这本书。他在当天早上回家洗漱、早餐后，在书房系统化总结了该书的读书笔记，记录了核心观点和行动项。",
     "score_points": [
@@ -1072,7 +1604,7 @@
       "2025-03-05"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -1138,7 +1670,7 @@
       "2025-05-24"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1191,6 +1723,107 @@
     ]
   },
   {
+    "question": "在2025年5月10日，冯浩然在500px摄影社区主要参与了哪些活动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "仅浏览热门作品和财经快讯"
+      },
+      {
+        "option": "B",
+        "content": "仅上传个人摄影作品集"
+      },
+      {
+        "option": "C",
+        "content": "既浏览热门作品又上传个人作品集"
+      },
+      {
+        "option": "D",
+        "content": "与其他用户积极互动并交流拍摄技巧"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1754",
+      "1755"
+    ],
+    "required_events_date": [
+      "2025-05-10"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "push",
+        "id": 1155
+      },
+      {
+        "type": "agent_chat",
+        "id": 292
+      },
+      {
+        "type": "sms",
+        "id": 667
+      },
+      {
+        "type": "sms",
+        "id": 668
+      }
+    ]
+  },
+  {
+    "question": "在5月份参加的一场关于个人品牌构建的圆桌讨论后，冯浩然记录下的灵感中，不包括以下哪一项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "将ESG投资逻辑写成科普文章"
+      },
+      {
+        "option": "B",
+        "content": "寻找科技股投资的细分赛道以打造专业标签"
+      },
+      {
+        "option": "C",
+        "content": "从内部培训开始尝试"
+      },
+      {
+        "option": "D",
+        "content": "开设个人财经短视频频道"
+      }
+    ],
+    "answer": "D",
+    "required_events": [
+      {
+        "event_id": "1713",
+        "event_name": "峰会圆桌讨论：个人品牌启发"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 288
+      },
+      {
+        "type": "photo",
+        "id": 662
+      },
+      {
+        "type": "photo",
+        "id": 663
+      },
+      {
+        "type": "photo",
+        "id": 664
+      },
+      {
+        "type": "push",
+        "id": 1130
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "3月份，冯浩然在书房通过智能家居App新设置了什么模式？",
     "answer": "观影模式",
     "score_points": [
@@ -1224,7 +1857,7 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月20日，冯浩然在通勤途中通过什么方式学习了夜景摄影技巧？",
@@ -1256,7 +1889,7 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "4月份，冯浩然在家中书房使用Notion软件制定了一份关于什么主题的学习计划？",
@@ -1284,7 +1917,7 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年5月，冯浩然在与发小张明轩的聊天中，得知张明轩的哪位朋友最近在事业上取得了什么进展？",
@@ -1322,7 +1955,7 @@
         "id": "2035"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，冯浩然在与发小张明轩的聊天中，得知他们共同的小学同学陈志远最近遇到了什么与工作相关的个人困扰？",
@@ -1360,7 +1993,7 @@
         "id": "2105"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "到目前为止，你参加过几次人像摄影工作坊？",
@@ -1380,7 +2013,7 @@
       "2025-01-25"
     ],
     "ask_time": "2025-06",
-    "question_type": "updating",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -1468,7 +2101,7 @@
     "required_events_id": [
       "1571"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -1477,6 +2110,233 @@
       {
         "type": "photo",
         "id": 622
+      }
+    ],
+    "ask_time": "2025-06"
+  },
+  {
+    "question": "在完成年度个人所得税汇算清缴并收到退税后，冯浩然的反应最符合以下哪种金融从业人员的典型特征？",
+    "options": [
+      {
+        "option": "A",
+        "content": "风险厌恶型，对任何资金变动都感到焦虑"
+      },
+      {
+        "option": "B",
+        "content": "投机型，立即将退款投入高风险投资"
+      },
+      {
+        "option": "C",
+        "content": "规划型，将其视为计划内的财务事项完成并归档"
+      },
+      {
+        "option": "D",
+        "content": "疏忽型，完全不在意这类小额资金变动"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "754",
+      "762",
+      "833",
+      "852",
+      "956"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": 307
+      },
+      {
+        "type": "sms",
+        "id": 308
+      },
+      {
+        "type": "sms",
+        "id": 309
+      },
+      {
+        "type": "agent_chat",
+        "id": 120
+      },
+      {
+        "type": "photo",
+        "id": 344
+      },
+      {
+        "type": "push",
+        "id": 582
+      },
+      {
+        "type": "sms",
+        "id": 310
+      },
+      {
+        "type": "sms",
+        "id": 311
+      },
+      {
+        "type": "sms",
+        "id": 334
+      },
+      {
+        "type": "photo",
+        "id": 376
+      },
+      {
+        "type": "photo",
+        "id": 377
+      },
+      {
+        "type": "push",
+        "id": 631
+      },
+      {
+        "type": "sms",
+        "id": 341
+      },
+      {
+        "type": "agent_chat",
+        "id": 148
+      },
+      {
+        "type": "photo",
+        "id": 420
+      },
+      {
+        "type": "photo",
+        "id": 421
+      },
+      {
+        "type": "photo",
+        "id": 422
+      },
+      {
+        "type": "push",
+        "id": 693
+      },
+      {
+        "type": "calendar",
+        "id": "43"
+      },
+      {
+        "type": "note",
+        "id": "67"
+      }
+    ],
+    "ask_time": "2025-06"
+  },
+  {
+    "question": "在三月份，我主要在为四月份的哪项户外休闲活动做规划？这项活动主要是和以下哪类伙伴一起进行的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "登山；和同事"
+      },
+      {
+        "option": "B",
+        "content": "露营；和露营伙伴"
+      },
+      {
+        "option": "C",
+        "content": "摄影采风；和摄影伙伴"
+      },
+      {
+        "option": "D",
+        "content": "骑行；和跑友"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "765",
+      "783",
+      "883",
+      "913",
+      "942",
+      "954"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 121
+      },
+      {
+        "type": "push",
+        "id": 583
+      },
+      {
+        "type": "sms",
+        "id": 312
+      },
+      {
+        "type": "sms",
+        "id": 313
+      },
+      {
+        "type": "call",
+        "id": 203
+      },
+      {
+        "type": "push",
+        "id": 592
+      },
+      {
+        "type": "push",
+        "id": 593
+      },
+      {
+        "type": "sms",
+        "id": 318
+      },
+      {
+        "type": "agent_chat",
+        "id": 137
+      },
+      {
+        "type": "sms",
+        "id": 356
+      },
+      {
+        "type": "photo",
+        "id": 410
+      },
+      {
+        "type": "push",
+        "id": 684
+      },
+      {
+        "type": "agent_chat",
+        "id": 147
+      },
+      {
+        "type": "push",
+        "id": 691
+      },
+      {
+        "type": "sms",
+        "id": 381
+      },
+      {
+        "type": "sms",
+        "id": 382
+      },
+      {
+        "type": "sms",
+        "id": 383
+      },
+      {
+        "type": "calendar",
+        "id": "44"
+      },
+      {
+        "type": "note",
+        "id": "69"
+      },
+      {
+        "type": "call",
+        "id": "1336"
       }
     ],
     "ask_time": "2025-06"
@@ -1494,7 +2354,7 @@
       "2475",
       "2676"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -1570,7 +2430,7 @@
       "2625",
       "2637"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -1636,6 +2496,54 @@
     "ask_time": "2025-07"
   },
   {
+    "question": "我第一次正式提议并开始规划‘露营’这一休闲活动，是在以下哪个时间节点之后？",
+    "options": [
+      {
+        "option": "A",
+        "content": "3月底参加完老城区街拍活动并与藏友视频交流后"
+      },
+      {
+        "option": "B",
+        "content": "4月中旬与好友完成影珠山徒步活动时"
+      },
+      {
+        "option": "C",
+        "content": "5月下旬与密友彭雨晴在拉面店谈心讨论人生压力后"
+      },
+      {
+        "option": "D",
+        "content": "6月上旬考后清理相机设备并思考下半年计划时"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1434"
+    ],
+    "required_events_date": [
+      "2025-04-19"
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "34"
+      },
+      {
+        "type": "note",
+        "id": "54"
+      },
+      {
+        "type": "photo",
+        "id": "1700"
+      },
+      {
+        "type": "sms",
+        "id": "1997"
+      }
+    ]
+  },
+  {
     "question": "2025年5月，冯浩然在与发小张明轩的聊天中，谈论了另一位共同的朋友陈志远最近发生的一件什么事情？",
     "answer": "陈志远最近在深圳成功竞拍到了一枚他心仪已久的、1997年发行的香港回归纪念邮票小型张。",
     "score_points": [
@@ -1679,7 +2587,7 @@
         "id": "2025"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在年初的部门工作会议上，冯浩然最终明确了哪项核心工作目标？",
@@ -1715,7 +2623,7 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "6月份，冯浩然在哪个咖啡厅阅读了《城市摄影美学》？",
@@ -1739,7 +2647,134 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "6月份，冯浩然在从北京返回长沙的航班上，阅读了关于哪个主题的深度分析文章？",
+    "options": [
+      {
+        "option": "A",
+        "content": "消费ETF成分股"
+      },
+      {
+        "option": "B",
+        "content": "医疗ETF成分股"
+      },
+      {
+        "option": "C",
+        "content": "科技ETF成分股"
+      },
+      {
+        "option": "D",
+        "content": "新能源ETF成分股"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2252",
+        "event_name": "机场候机与航班飞行"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2966"
+      },
+      {
+        "type": "photo",
+        "id": "1697"
+      },
+      {
+        "type": "note",
+        "id": "50"
+      },
+      {
+        "type": "sms",
+        "id": "1994"
+      }
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年5月，冯浩然在与邮票藏友罗振宇的交流中，分享了自己近期在邮票收藏方面的一个具体品味偏好是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "偏好收藏带有历史人物肖像的纪念邮票"
+      },
+      {
+        "option": "B",
+        "content": "偏好收藏反映中国航天成就的特种邮票"
+      },
+      {
+        "option": "C",
+        "content": "偏好收藏以中国古典文学名著为主题的系列邮票"
+      },
+      {
+        "option": "D",
+        "content": "偏好收藏展现中国各地自然风光和文化遗产的邮票"
+      }
+    ],
+    "answer": "C",
+    "ask_time": "2025-07",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2145"
+      },
+      {
+        "type": "sms",
+        "id": "2146"
+      },
+      {
+        "type": "sms",
+        "id": "2147"
+      },
+      {
+        "type": "sms",
+        "id": "2148"
+      },
+      {
+        "type": "sms",
+        "id": "2149"
+      }
+    ],
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在2月下旬，冯浩然首次尝试解决楼上邻居噪音问题时，采取了哪种方式？",
+    "options": [
+      {
+        "option": "A",
+        "content": "直接向物业投诉"
+      },
+      {
+        "option": "B",
+        "content": "私下与邻居进行友好沟通协商"
+      },
+      {
+        "option": "C",
+        "content": "被动忍受并尝试自我调整（如戴耳机）"
+      },
+      {
+        "option": "D",
+        "content": "通过法律途径解决"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "669"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 104
+      }
+    ],
+    "ask_time": "2025-07"
   },
   {
     "question": "基于我下班后去咖啡馆与店主交流的经历，可以推断出我在制作手冲咖啡时，除了关注咖啡豆本身，下一个可能比较关注的环节是什么？",
@@ -1761,7 +2796,7 @@
     "required_events_id": [
       "731"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -1795,7 +2830,7 @@
       "1289",
       "1384"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1848,7 +2883,7 @@
     "required_events_id": [
       "661"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1919,7 +2954,7 @@
       "2595",
       "2676"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -2029,6 +3064,89 @@
     "ask_time": "2025-08"
   },
   {
+    "question": "冯浩然在8月2日清晨选择缩短晨跑距离，最直接的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "因前一晚与父母视频通话讨论售房事宜至深夜，导致睡眠不足。"
+      },
+      {
+        "option": "B",
+        "content": "因前一日（8月1日）通勤后感到轻微感冒症状，身体尚未完全恢复。"
+      },
+      {
+        "option": "C",
+        "content": "因当日上午需前往办理公寓出售过户手续，时间安排紧张。"
+      },
+      {
+        "option": "D",
+        "content": "因根据跑友高云飞的建议，为增强耐力基础而主动降低训练强度。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2879",
+      "2886",
+      "2890"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "push",
+        "id": 1812
+      },
+      {
+        "type": "push",
+        "id": 1813
+      },
+      {
+        "type": "sms",
+        "id": 1072
+      },
+      {
+        "type": "call",
+        "id": 771
+      },
+      {
+        "type": "push",
+        "id": 1816
+      },
+      {
+        "type": "agent_chat",
+        "id": 480
+      },
+      {
+        "type": "note",
+        "id": "80"
+      },
+      {
+        "type": "photo",
+        "id": 1054
+      },
+      {
+        "type": "push",
+        "id": "2983"
+      },
+      {
+        "type": "note",
+        "id": "161"
+      },
+      {
+        "type": "note",
+        "id": "173"
+      },
+      {
+        "type": "note",
+        "id": "193"
+      },
+      {
+        "type": "push",
+        "id": "3034"
+      }
+    ],
+    "ask_time": "2025-08"
+  },
+  {
     "question": "我与创业者建立月度交流惯例的直接原因是什么？",
     "answer": "在2025年7月10日晚间参加的一场金融科技沙龙中，我与创业者李哲就智能投顾业务中如何构建客户信任、突破数据壁垒等具体问题展开了深入讨论，分享了彼此的见解并获得了新颖思路，双方理念高度认同。沙龙结束时，我们互加了微信，并约定保持联系、进一步交流。这次高质量的深度交流是促成后续月度交流惯例的直接触发因素。",
     "score_points": [
@@ -2048,7 +3166,7 @@
       "2025-07-10"
     ],
     "ask_time": "2025-08",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2102,7 +3220,53 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年8月，冯浩然在与跑友高云飞晨跑后的闲聊中，分享了自己最近在摄影器材方面的一个具体品味偏好。他提到自己现在更倾向于使用哪种镜头进行街拍创作？",
+    "options": [
+      {
+        "option": "A",
+        "content": "大光圈定焦镜头（如50mm f/1.4）"
+      },
+      {
+        "option": "B",
+        "content": "标准变焦镜头（如24-70mm f/2.8）"
+      },
+      {
+        "option": "C",
+        "content": "长焦变焦镜头（如70-200mm f/2.8）"
+      },
+      {
+        "option": "D",
+        "content": "超广角定焦镜头（如24mm f/1.4）"
+      }
+    ],
+    "answer": "A",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1969"
+      },
+      {
+        "type": "sms",
+        "id": "1970"
+      },
+      {
+        "type": "sms",
+        "id": "1971"
+      },
+      {
+        "type": "sms",
+        "id": "1972"
+      },
+      {
+        "type": "sms",
+        "id": "1973"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，冯浩然在与好友董浩然的聊天中，得知了另一位共同好友（非冯浩然本人）近期在职业发展上做出了什么重要决定？",
@@ -2144,7 +3308,7 @@
         "id": "2015"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，冯浩然与朋友在影珠山徒步休息时，讨论了什么未来的户外活动计划？",
@@ -2184,7 +3348,7 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在1月份的体检中，医生针对冯浩然核心肌群力量薄弱和腰背肌群紧张的问题，给出了什么建议？",
@@ -2208,7 +3372,55 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "1月份，冯浩然在哪个事件中通过微信与跑友高云飞确认了第二天进行10公里LSD训练的具体安排？",
+    "options": [
+      {
+        "option": "A",
+        "content": "晨跑与享受晨光"
+      },
+      {
+        "option": "B",
+        "content": "运动社交：与跑友同步数据并约定明日晨跑"
+      },
+      {
+        "option": "C",
+        "content": "岳麓山雨中适应性晨跑与交流"
+      },
+      {
+        "option": "D",
+        "content": "晨跑锻炼与返回"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "209",
+        "event_name": "运动社交：与跑友同步数据并约定明日晨跑"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2963"
+      },
+      {
+        "type": "calendar",
+        "id": "30"
+      },
+      {
+        "type": "note",
+        "id": "47"
+      },
+      {
+        "type": "photo",
+        "id": "1694"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2月份，冯浩然在汉口江滩进行快走和摄影时，主要捕捉了哪些景象？",
@@ -2240,7 +3452,49 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年2月，冯浩然在与咖啡店老板沈心怡聊天时，提到自己最近偏爱哪种特定处理法的咖啡豆，并认为其风味最适合搭配什么类型的点心？",
+    "options": [
+      {
+        "option": "A",
+        "content": "日晒处理法，搭配黄油曲奇"
+      },
+      {
+        "option": "B",
+        "content": "蜜处理法，搭配芝士蛋糕"
+      },
+      {
+        "option": "C",
+        "content": "水洗处理法，搭配可颂"
+      },
+      {
+        "option": "D",
+        "content": "厌氧发酵处理法，搭配黑巧克力"
+      }
+    ],
+    "answer": "D",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2115"
+      },
+      {
+        "type": "sms",
+        "id": "2116"
+      },
+      {
+        "type": "sms",
+        "id": "2117"
+      },
+      {
+        "type": "sms",
+        "id": "2118"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "你今年去澳门旅行过几次了？",
@@ -2268,7 +3522,7 @@
       "2025-07-06"
     ],
     "ask_time": "2025-08",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "photo",
@@ -2370,7 +3624,7 @@
       "2025-08-23"
     ],
     "ask_time": "2025-08-31",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -2418,7 +3672,7 @@
     "required_events_id": [
       "1192"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2460,7 +3714,7 @@
       "3309",
       "3371"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2505,7 +3759,7 @@
     "required_events_id": [
       "616"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2571,7 +3825,7 @@
       "2854",
       "2869"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -2661,7 +3915,7 @@
       "2916",
       "2922"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -2704,7 +3958,7 @@
       "3101",
       "3104"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2763,7 +4017,7 @@
       "2025-08-20"
     ],
     "ask_time": "2025-09",
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -2809,7 +4063,7 @@
       "2025-08-04"
     ],
     "ask_time": "2025-09",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -2855,7 +4109,7 @@
       "2025-08-21"
     ],
     "ask_time": "2025-09",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -2901,7 +4155,7 @@
       "2025-08-05"
     ],
     "ask_time": "2025-09",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2949,7 +4203,47 @@
         "id": "1927"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在9月份的一次家庭视频通话中，冯浩然为父母预约体检的医院是哪一家？",
+    "options": [
+      {
+        "option": "A",
+        "content": "长沙市第一医院"
+      },
+      {
+        "option": "B",
+        "content": "一家高端体检中心"
+      },
+      {
+        "option": "C",
+        "content": "武汉协和医院"
+      },
+      {
+        "option": "D",
+        "content": "中南大学湘雅医院"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "3417",
+        "event_name": "与父母视频通话敲定体检并家庭汇报"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 570
+      },
+      {
+        "type": "push",
+        "id": 2110
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "9月份，冯浩然与跑友高云飞在岳麓山跑步后，一起步行下山前往哪家店共进早餐？",
@@ -2985,7 +4279,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，我与同事郑文博在午休时闲聊，他提到他的发小最近遇到了什么职业上的烦恼？",
@@ -3023,7 +4317,145 @@
         "id": "1937"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年5月，在与邮票藏友罗振宇的线上交流中，我向他透露了自己近期在邮票收藏品味上的一个新偏好，即更倾向于收藏哪一类主题的邮票？",
+    "options": [
+      {
+        "option": "A",
+        "content": "具有强烈视觉冲击力和现代设计感的当代艺术邮票"
+      },
+      {
+        "option": "B",
+        "content": "记录中国重大科技成就（如航天、深海探测）的纪念邮票"
+      },
+      {
+        "option": "C",
+        "content": "描绘世界各地自然风光和野生动物的生态主题邮票"
+      },
+      {
+        "option": "D",
+        "content": "反映特定历史时期社会风貌和文化的老纪特邮票"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1938"
+      },
+      {
+        "type": "sms",
+        "id": "1939"
+      },
+      {
+        "type": "sms",
+        "id": "1940"
+      },
+      {
+        "type": "sms",
+        "id": "1941"
+      },
+      {
+        "type": "sms",
+        "id": "1942"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年3月，冯浩然在与邮票藏友罗振宇的交流中，透露了自己近期在收藏领域的一个具体品味偏好变化。这个变化是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "从收藏中国近现代邮票，转向专注于外国异形邮票"
+      },
+      {
+        "option": "B",
+        "content": "从追求邮票的题材多样性，转向更注重特定历史时期（如民国）的精品"
+      },
+      {
+        "option": "C",
+        "content": "从单纯收藏单枚邮票，转向更偏好收藏带有特殊邮政戳记或实寄封的邮品"
+      },
+      {
+        "option": "D",
+        "content": "从关注传统纸质邮票，转向开始研究并收藏数字货币相关的NFT邮品"
+      }
+    ],
+    "answer": "C",
+    "ask_time": "2025-09",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2057"
+      },
+      {
+        "type": "sms",
+        "id": "2058"
+      },
+      {
+        "type": "sms",
+        "id": "2059"
+      },
+      {
+        "type": "sms",
+        "id": "2060"
+      },
+      {
+        "type": "sms",
+        "id": "2061"
+      }
+    ],
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，冯浩然在与好友彭雨晴聊天时，分享了自己最近在挑选手冲咖啡豆时的一个具体品味偏好变化。这个变化是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "从偏好非洲豆（如耶加雪菲）转向更偏好美洲豆（如瑰夏）"
+      },
+      {
+        "option": "B",
+        "content": "从偏好深烘焙转向更偏好中浅烘焙，以突出花果香气"
+      },
+      {
+        "option": "C",
+        "content": "从偏好水洗处理法转向更偏好日晒或蜜处理法"
+      },
+      {
+        "option": "D",
+        "content": "从偏好单一产地豆转向更偏好精心拼配的混合豆"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2075"
+      },
+      {
+        "type": "sms",
+        "id": "2076"
+      },
+      {
+        "type": "sms",
+        "id": "2077"
+      },
+      {
+        "type": "sms",
+        "id": "2078"
+      },
+      {
+        "type": "sms",
+        "id": "2079"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在7月份的露营活动中，当山区天气变化开始下雨时，冯浩然采取了什么措施来保护他的摄影设备？",
@@ -3055,7 +4487,51 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在7月份与好友彭雨晴的一次晚餐中，冯浩然点了哪些菜？",
+    "options": [
+      {
+        "option": "A",
+        "content": "小炒黄牛肉、剁椒鱼头、清炒时蔬"
+      },
+      {
+        "option": "B",
+        "content": "腊肉炒竹笋、清蒸小河鱼"
+      },
+      {
+        "option": "C",
+        "content": "烤鸡胸肉沙拉、果蔬汁"
+      },
+      {
+        "option": "D",
+        "content": "猪软骨拉面、蔬菜沙拉"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "2635",
+        "event_name": "与好友共进晚餐分享见闻"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "32"
+      },
+      {
+        "type": "push",
+        "id": "2967"
+      },
+      {
+        "type": "sms",
+        "id": "1995"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年9月，冯浩然在与好友董浩然的视频通话中，谈论了另一位共同好友张明轩最近遇到的什么事情？",
@@ -3093,7 +4569,97 @@
         "id": "2154"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "我在5月启动并持续进行的一项新活动是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "园艺"
+      },
+      {
+        "option": "B",
+        "content": "烹饪"
+      },
+      {
+        "option": "C",
+        "content": "健身"
+      },
+      {
+        "option": "D",
+        "content": "阅读"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "1717",
+      "1720",
+      "1721",
+      "1751",
+      "1765",
+      "2033"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "push",
+        "id": 1133
+      },
+      {
+        "type": "sms",
+        "id": 652
+      },
+      {
+        "type": "sms",
+        "id": 653
+      },
+      {
+        "type": "sms",
+        "id": 654
+      },
+      {
+        "type": "push",
+        "id": 1135
+      },
+      {
+        "type": "push",
+        "id": 1154
+      },
+      {
+        "type": "photo",
+        "id": 676
+      },
+      {
+        "type": "push",
+        "id": 1161
+      },
+      {
+        "type": "agent_chat",
+        "id": 344
+      },
+      {
+        "type": "photo",
+        "id": 770
+      },
+      {
+        "type": "push",
+        "id": "2980"
+      },
+      {
+        "type": "note",
+        "id": "73"
+      },
+      {
+        "type": "photo",
+        "id": "1714"
+      },
+      {
+        "type": "note",
+        "id": "99"
+      }
+    ],
+    "ask_time": "2025-09"
   },
   {
     "question": "在6月6日下午的摄影活动中，冯浩然通过哪些具体的拍摄对象和场景，体现了他对特定摄影主题的偏好？",
@@ -3116,7 +4682,7 @@
       "2123",
       "2125"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -3176,7 +4742,7 @@
       "3361",
       "3376"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -3282,7 +4848,7 @@
       "3304",
       "3436"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -3344,7 +4910,7 @@
       "3333",
       "3346"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3411,7 +4977,7 @@
       "556",
       "626"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3486,7 +5052,7 @@
       "721",
       "741"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -3561,7 +5127,7 @@
       "2025-08-25"
     ],
     "ask_time": "2025-10",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -3594,6 +5160,116 @@
       {
         "type": "sms",
         "id": 1213
+      }
+    ]
+  },
+  {
+    "question": "在‘一丹咖啡厅’与妹妹冯欣然深入交流后，冯浩然接下来去了哪里、与谁见面？",
+    "options": [
+      {
+        "option": "A",
+        "content": "回家为妹妹和闺蜜准备第二天的早餐。"
+      },
+      {
+        "option": "B",
+        "content": "独自前往一家龙虾餐厅与朋友彭雨晴见面讨论。"
+      },
+      {
+        "option": "C",
+        "content": "继续留在咖啡厅为妹妹指导摄影技巧。"
+      },
+      {
+        "option": "D",
+        "content": "开车送妹妹和闺蜜去橘子洲头欣赏夜景。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3088"
+    ],
+    "required_events_date": [
+      "2025-08-16"
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1105
+      },
+      {
+        "type": "push",
+        "id": 1932
+      },
+      {
+        "type": "push",
+        "id": "3070"
+      },
+      {
+        "type": "note",
+        "id": "253"
+      },
+      {
+        "type": "calendar",
+        "id": "168"
+      }
+    ]
+  },
+  {
+    "question": "冯浩然在2025年9月1日晚浏览《集邮》杂志萌生新的邮票收藏想法后，隔了多久首次通过视频与藏友罗振宇讨论？",
+    "options": [
+      {
+        "option": "A",
+        "content": "约12小时"
+      },
+      {
+        "option": "B",
+        "content": "约24小时"
+      },
+      {
+        "option": "C",
+        "content": "约36小时"
+      },
+      {
+        "option": "D",
+        "content": "约48小时"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3312",
+      "3332"
+    ],
+    "required_events_date": [
+      "2025-09-01",
+      "2025-09-02"
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 558
+      },
+      {
+        "type": "push",
+        "id": 2053
+      },
+      {
+        "type": "calendar",
+        "id": "15"
+      },
+      {
+        "type": "call",
+        "id": "1331"
+      },
+      {
+        "type": "note",
+        "id": "26"
+      },
+      {
+        "type": "sms",
+        "id": "1901"
       }
     ]
   },
@@ -3633,7 +5309,53 @@
         "id": "1917"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年9月，冯浩然在与邮票藏友罗振宇的交流中，透露了自己目前对哪个国家/地区发行的哪一类主题的邮票收藏兴趣最浓？",
+    "options": [
+      {
+        "option": "A",
+        "content": "中国发行的“古代名画”系列邮票"
+      },
+      {
+        "option": "B",
+        "content": "日本发行的“浮世绘”主题邮票"
+      },
+      {
+        "option": "C",
+        "content": "欧洲多国发行的“工业革命”纪念邮票"
+      },
+      {
+        "option": "D",
+        "content": "中国发行的“现代桥梁建设”专题邮票"
+      }
+    ],
+    "answer": "D",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1928"
+      },
+      {
+        "type": "sms",
+        "id": "1929"
+      },
+      {
+        "type": "sms",
+        "id": "1930"
+      },
+      {
+        "type": "sms",
+        "id": "1931"
+      },
+      {
+        "type": "sms",
+        "id": "1932"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "9月中旬，冯浩然在工间休息时，于哪个线上收藏论坛发起了一个关于“中国航天邮票”的专题讨论？",
@@ -3657,7 +5379,55 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "9月份，冯浩然在家中书房通过视频通话与谁进行了交流，分享了出行准备进展并倾听了对方近况？",
+    "options": [
+      {
+        "option": "A",
+        "content": "父亲冯建国"
+      },
+      {
+        "option": "B",
+        "content": "母亲李秀英"
+      },
+      {
+        "option": "C",
+        "content": "妹妹冯欣然"
+      },
+      {
+        "option": "D",
+        "content": "好友彭雨晴"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "3598",
+        "event_name": "与异地妹妹视频通话联络亲情"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "24"
+      },
+      {
+        "type": "push",
+        "id": "2955"
+      },
+      {
+        "type": "note",
+        "id": "39"
+      },
+      {
+        "type": "push",
+        "id": "2956"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，冯浩然在咖啡馆休息时，咖啡馆老板沈心怡向他发出了什么活动的邀请？",
@@ -3697,7 +5467,53 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年6月，冯浩然在与咖啡店老板沈心怡聊天时，分享了自己近期在挑选手冲咖啡豆时的一个具体口味偏好变化是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "从偏爱埃塞俄比亚的耶加雪菲水洗豆，转向更喜欢巴拿马瑰夏日晒处理法的豆子。"
+      },
+      {
+        "option": "B",
+        "content": "从喜欢中深烘焙的曼特宁，转向更偏爱中浅烘焙、酸质明亮的非洲豆。"
+      },
+      {
+        "option": "C",
+        "content": "从追求复杂风味的厌氧发酵处理豆，回归到更欣赏传统水洗处理法的干净口感。"
+      },
+      {
+        "option": "D",
+        "content": "从单一产地爱好者，变成了喜欢尝试各种产地拼配豆带来的均衡风味。"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2026"
+      },
+      {
+        "type": "sms",
+        "id": "2027"
+      },
+      {
+        "type": "sms",
+        "id": "2028"
+      },
+      {
+        "type": "sms",
+        "id": "2029"
+      },
+      {
+        "type": "sms",
+        "id": "2030"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年7月，冯浩然在与好友彭雨晴聊天时，谈论到他们共同的朋友蔡文静最近发生了一件什么事情？",
@@ -3731,7 +5547,53 @@
         "id": "2065"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年10月，冯浩然在向同事郑文博推荐一款他最近常喝的手冲咖啡豆时，主要提到了该咖啡豆的哪两个核心风味特点？",
+    "options": [
+      {
+        "option": "A",
+        "content": "明亮的柑橘酸质和持久的焦糖甜感"
+      },
+      {
+        "option": "B",
+        "content": "浓郁的黑巧克力风味和明显的酒香"
+      },
+      {
+        "option": "C",
+        "content": "柔和的花香和清爽的绿茶尾韵"
+      },
+      {
+        "option": "D",
+        "content": "饱满的坚果香气和醇厚的奶油质感"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2136"
+      },
+      {
+        "type": "sms",
+        "id": "2137"
+      },
+      {
+        "type": "sms",
+        "id": "2138"
+      },
+      {
+        "type": "sms",
+        "id": "2139"
+      },
+      {
+        "type": "sms",
+        "id": "2140"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月2日，冯浩然与跑友高云飞在岳麓山晨跑时，交流了哪些工作近况？",
@@ -3771,7 +5633,59 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月份，冯浩然在办公室签收新手机后，对手机进行了哪些初步检查？",
+    "options": [
+      {
+        "option": "A",
+        "content": "检查外包装、核对型号颜色、开机测试功能、确认无外观瑕疵"
+      },
+      {
+        "option": "B",
+        "content": "检查发票、核对序列号、连接网络、下载应用"
+      },
+      {
+        "option": "C",
+        "content": "检查配件是否齐全、测试通话信号、检查电池健康度"
+      },
+      {
+        "option": "D",
+        "content": "检查保修卡、激活手机、备份旧手机数据、贴膜"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "2663",
+        "event_name": "签收并初步检查新手机"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2974"
+      },
+      {
+        "type": "photo",
+        "id": "1703"
+      },
+      {
+        "type": "photo",
+        "id": "1704"
+      },
+      {
+        "type": "note",
+        "id": "61"
+      },
+      {
+        "type": "calendar",
+        "id": "40"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "在3月份，我通常在工作日的什么时候进行跑步健身活动？当遇到工作压力或疲劳时，我是如何调整的？",
@@ -3804,7 +5718,7 @@
       "924",
       "930"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "sms",
@@ -3890,6 +5804,112 @@
     "ask_time": "2025-10"
   },
   {
+    "question": "我5月6日、5月8日和5月21日参与的三项主要职业活动，共同指向我在5月主要关注哪个领域？",
+    "options": [
+      {
+        "option": "A",
+        "content": "金融科技"
+      },
+      {
+        "option": "B",
+        "content": "房地产"
+      },
+      {
+        "option": "C",
+        "content": "区块链"
+      },
+      {
+        "option": "D",
+        "content": "教育培训"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "1689",
+      "1693",
+      "1712",
+      "1713",
+      "1715",
+      "1907"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 282
+      },
+      {
+        "type": "call",
+        "id": 462
+      },
+      {
+        "type": "agent_chat",
+        "id": 283
+      },
+      {
+        "type": "photo",
+        "id": 656
+      },
+      {
+        "type": "photo",
+        "id": 657
+      },
+      {
+        "type": "push",
+        "id": 1115
+      },
+      {
+        "type": "photo",
+        "id": 661
+      },
+      {
+        "type": "push",
+        "id": 1129
+      },
+      {
+        "type": "agent_chat",
+        "id": 288
+      },
+      {
+        "type": "photo",
+        "id": 662
+      },
+      {
+        "type": "photo",
+        "id": 663
+      },
+      {
+        "type": "photo",
+        "id": 664
+      },
+      {
+        "type": "push",
+        "id": 1130
+      },
+      {
+        "type": "sms",
+        "id": 650
+      },
+      {
+        "type": "agent_chat",
+        "id": 324
+      },
+      {
+        "type": "call",
+        "id": 509
+      },
+      {
+        "type": "photo",
+        "id": 726
+      },
+      {
+        "type": "push",
+        "id": 1246
+      }
+    ],
+    "ask_time": "2025-10"
+  },
+  {
     "question": "冯浩然在四月制定新健康计划，决定增加核心力量训练和设置工作提醒，这两项举措最直接的触发因素是什么？",
     "answer": "年度体检报告显示体脂率接近上限且颈椎有轻微生理曲度变直。",
     "score_points": [
@@ -3906,7 +5926,7 @@
       "1364",
       "1366"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3964,7 +5984,7 @@
       "3747",
       "3922"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "photo",
@@ -4022,7 +6042,7 @@
       "3742",
       "3743"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -4106,7 +6126,7 @@
       "3747",
       "3764"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -4183,7 +6203,7 @@
     "required_events_id": [
       "4213"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -4233,7 +6253,7 @@
       "4391",
       "4416"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4279,7 +6299,7 @@
       "4297",
       "new_event_20251110"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "sms",
@@ -4332,7 +6352,7 @@
       "3205",
       "3212"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4424,7 +6444,7 @@
       "2025-10-19"
     ],
     "ask_time": "2025-11",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4498,7 +6518,7 @@
       "2025-10-22"
     ],
     "ask_time": "2025-11",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -4519,6 +6539,76 @@
       {
         "type": "calendar",
         "id": "164"
+      }
+    ]
+  },
+  {
+    "question": "在10月，冯浩然整理完数字化投研分享会心得后，是在与朋友交流该心得之前还是之后？",
+    "options": [
+      {
+        "option": "A",
+        "content": "之前"
+      },
+      {
+        "option": "B",
+        "content": "之后"
+      },
+      {
+        "option": "C",
+        "content": "同时发生"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4023",
+      "4039"
+    ],
+    "required_events_date": [
+      "2025-10-24",
+      "2025-10-25"
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 1065
+      },
+      {
+        "type": "photo",
+        "id": 1411
+      },
+      {
+        "type": "push",
+        "id": 2446
+      },
+      {
+        "type": "agent_chat",
+        "id": 682
+      },
+      {
+        "type": "call",
+        "id": 1070
+      },
+      {
+        "type": "push",
+        "id": 2455
+      },
+      {
+        "type": "note",
+        "id": "260"
+      },
+      {
+        "type": "calendar",
+        "id": "173"
+      },
+      {
+        "type": "sms",
+        "id": "2287"
       }
     ]
   },
@@ -4544,7 +6634,7 @@
       "2025-10-04"
     ],
     "ask_time": "2025-11",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -4616,7 +6706,7 @@
       "2025-10-11"
     ],
     "ask_time": "2025-11",
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -4665,6 +6755,82 @@
     ]
   },
   {
+    "question": "在8月初，冯浩然在哪次活动中明确提出了将月度咖啡预算从1200元降至600元的调整方案？",
+    "options": [
+      {
+        "option": "A",
+        "content": "居家财务复盘分析"
+      },
+      {
+        "option": "B",
+        "content": "制定与同步个人预算调整方案"
+      },
+      {
+        "option": "C",
+        "content": "信用卡数据分析、睡前放松与明日规划"
+      },
+      {
+        "option": "D",
+        "content": "午餐交流行业见解"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2922",
+        "event_name": "制定与同步个人预算调整方案"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1059
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在8月份与彭雨晴的晚餐讨论中，冯浩然提出的国庆自驾游环线起点和终点分别是哪里？",
+    "options": [
+      {
+        "option": "A",
+        "content": "长沙"
+      },
+      {
+        "option": "B",
+        "content": "凤凰"
+      },
+      {
+        "option": "C",
+        "content": "镇远"
+      },
+      {
+        "option": "D",
+        "content": "梵净山"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3089",
+        "event_name": "晚餐与深度讨论"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 518
+      },
+      {
+        "type": "sms",
+        "id": 1168
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "8月份，冯浩然在撰写养老金报告第三部分时，梳理了哪些类型的金融产品在长期配置中的作用？",
     "answer": "公募基金、银行理财、信托、保险产品",
     "score_points": [
@@ -4706,7 +6872,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "9月份，我与藏友视频讨论邮票收藏时，对方推荐了哪两个邮票系列？",
@@ -4746,7 +6912,153 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年11月，冯浩然在与好友彭雨晴聊天时，分享了自己最近在挑选手冲咖啡豆时的一个具体口味偏好是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "偏好深度烘焙、带有浓郁黑巧克力风味的哥伦比亚豆"
+      },
+      {
+        "option": "B",
+        "content": "偏好浅度烘焙、带有明显花果酸香的埃塞俄比亚耶加雪菲"
+      },
+      {
+        "option": "C",
+        "content": "偏好中度烘焙、口感均衡、带有坚果和焦糖风味的巴西豆"
+      },
+      {
+        "option": "D",
+        "content": "偏好特殊处理法、带有酒香和发酵感的厌氧日晒洪都拉斯豆"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1947"
+      },
+      {
+        "type": "sms",
+        "id": "1948"
+      },
+      {
+        "type": "sms",
+        "id": "1949"
+      },
+      {
+        "type": "sms",
+        "id": "1950"
+      },
+      {
+        "type": "sms",
+        "id": "1951"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在3月份与客户黄思琪的视频会议中，客户提出的尖锐问题主要针对哪个方面？",
+    "options": [
+      {
+        "option": "A",
+        "content": "投资组合的调仓逻辑"
+      },
+      {
+        "option": "B",
+        "content": "近期行业监管政策的影响"
+      },
+      {
+        "option": "C",
+        "content": "潜在标的的具体分析"
+      },
+      {
+        "option": "D",
+        "content": "风险控制的具体措施"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "902",
+        "event_name": "与高净值客户季度视频会议"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "46"
+      },
+      {
+        "type": "calendar",
+        "id": "29"
+      },
+      {
+        "type": "sms",
+        "id": "1974"
+      },
+      {
+        "type": "push",
+        "id": "2962"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "4月份，冯浩然与客户黄思琪在哪个具体地点讨论了比特币ETF作为另类资产配置的选项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "湖南省长沙市开福区湖南广电中心写字楼，公司3号独立会议室"
+      },
+      {
+        "option": "B",
+        "content": "湖南省长沙市开福区湖南广电中心写字楼，小型会议室"
+      },
+      {
+        "option": "C",
+        "content": "湖南省长沙市开福区湖南广电中心写字楼，钱永强副总经理办公室"
+      },
+      {
+        "option": "D",
+        "content": "湖南省长沙市开福区湖南广电中心写字楼，华泰证券办公室个人工位"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "1318",
+        "event_name": "客户视频会议与纪要整理"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "27"
+      },
+      {
+        "type": "sms",
+        "id": "1952"
+      },
+      {
+        "type": "photo",
+        "id": "1693"
+      },
+      {
+        "type": "note",
+        "id": "44"
+      },
+      {
+        "type": "push",
+        "id": "2960"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月份，冯浩然在办公室启动CFA三级备考时，重点学习了哪个模块的哪部分内容？",
@@ -4782,7 +7094,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月下旬，我在岳麓山参加天文活动，抵达并签到后领取了什么物品？",
@@ -4818,7 +7130,51 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "11月下旬，我在北京与大学同学聚餐，地点是哪家餐厅？",
+    "options": [
+      {
+        "option": "A",
+        "content": "和府捞面(北京王府井店)"
+      },
+      {
+        "option": "B",
+        "content": "潇湘阁(中关村店)"
+      },
+      {
+        "option": "C",
+        "content": "四季民福烤鸭店(呼家楼店)"
+      },
+      {
+        "option": "D",
+        "content": "老味家常菜"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "4339",
+        "event_name": "与大学同学赵天宇聚餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1515
+      },
+      {
+        "type": "sms",
+        "id": 1618
+      },
+      {
+        "type": "sms",
+        "id": 1619
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2月份，冯浩然在晨跑后，针对右小腿的状况对接下来一周的训练计划做出了什么调整？",
@@ -4854,7 +7210,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "10月份，冯浩然在凤凰古城非核心区进行人文纪实街拍时，主要使用了哪种拍摄模式？",
@@ -4886,7 +7242,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月份，我在长沙一家咖啡馆进行心态沉淀时，点了什么咖啡，并围绕什么主题进行了记录与思考？",
@@ -4926,7 +7282,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年10月，冯浩然在与好友董浩然视频通话时，得知董浩然最近遇到了什么工作上的具体挑战？",
@@ -4964,7 +7320,7 @@
         "id": "2135"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "你和发小最近一次去武汉怀旧旅行是什么时候？",
@@ -5000,7 +7356,7 @@
       "2025-07-27"
     ],
     "ask_time": "2025-11",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -5144,7 +7500,7 @@
     "required_events_id": [
       "1366"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5161,6 +7517,98 @@
       {
         "type": "push",
         "id": 920
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
+    "question": "在8月处理养老金研究、新房购置、自驾游规划等多个目标时，我最可能采用以下哪种方法？",
+    "options": [
+      {
+        "option": "A",
+        "content": "制定系统化计划并按步骤执行"
+      },
+      {
+        "option": "B",
+        "content": "临时起意，根据心情决定"
+      },
+      {
+        "option": "C",
+        "content": "主要委托他人处理"
+      },
+      {
+        "option": "D",
+        "content": "顺其自然，不做详细规划"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "2882",
+      "2989",
+      "3046",
+      "3149"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 769
+      },
+      {
+        "type": "photo",
+        "id": 1077
+      },
+      {
+        "type": "sms",
+        "id": 1123
+      },
+      {
+        "type": "sms",
+        "id": 1124
+      },
+      {
+        "type": "sms",
+        "id": 1125
+      },
+      {
+        "type": "call",
+        "id": 802
+      },
+      {
+        "type": "push",
+        "id": 1956
+      },
+      {
+        "type": "push",
+        "id": 1957
+      },
+      {
+        "type": "sms",
+        "id": 1190
+      },
+      {
+        "type": "sms",
+        "id": 1191
+      },
+      {
+        "type": "note",
+        "id": "86"
+      },
+      {
+        "type": "calendar",
+        "id": "55"
+      },
+      {
+        "type": "note",
+        "id": "96"
+      },
+      {
+        "type": "calendar",
+        "id": "61"
+      },
+      {
+        "type": "push",
+        "id": "2988"
       }
     ],
     "ask_time": "2025-11"
@@ -5192,7 +7640,7 @@
       "453",
       "643"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5262,6 +7710,43 @@
     "ask_time": "2025-11"
   },
   {
+    "question": "根据9月5日早上在岳麓山脚发生的事件，可以推断冯浩然性格中的哪种特质被明显体现？",
+    "options": [
+      {
+        "option": "A",
+        "content": "强烈的冒险精神"
+      },
+      {
+        "option": "B",
+        "content": "注重社会责任和乐于助人"
+      },
+      {
+        "option": "C",
+        "content": "对户外活动有浓厚兴趣"
+      },
+      {
+        "option": "D",
+        "content": "擅长组织协调"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3362"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 564
+      },
+      {
+        "type": "call",
+        "id": 885
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
     "question": "冯浩然原定的CFA周末全天复习计划面临调整，这与哪两项工作的叠加压力直接相关？",
     "answer": "撰写季度末客户投资分析报告，以及准备并主持部门季度投资策略研讨会。",
     "score_points": [
@@ -5278,7 +7763,7 @@
       "811",
       "820"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5336,7 +7821,7 @@
       "1319",
       "1346"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5366,6 +7851,43 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "冯浩然在九月调整其邮票收藏策略，由零散转向专题收藏，最核心的触发因素是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "基于个人年度预算的重新规划，为收藏分配了固定资金。"
+      },
+      {
+        "option": "B",
+        "content": "在翻阅杂志和论坛时，受到其他藏友系统性专题收藏展示的启发。"
+      },
+      {
+        "option": "C",
+        "content": "资深藏友罗振宇直接建议他放弃现有收藏，转而投资热门邮票。"
+      },
+      {
+        "option": "D",
+        "content": "为撰写个人投资故事，需要收集与投资主题相关的邮票作为素材。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3312"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 558
+      },
+      {
+        "type": "push",
+        "id": 2053
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "他在细化职业行动计划时，结合了哪两个人的具体建议？",
     "answer": "他结合了上司钱永强关于“展现全局视野和团队协调力”的晋升指引，以及父亲冯建国关于“戒骄戒躁、财富意味着责任”的嘱托。",
     "score_points": [
@@ -5383,7 +7905,7 @@
       "3407",
       "3420"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -5450,7 +7972,7 @@
       "3410",
       "3426"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -5525,7 +8047,7 @@
       "3390",
       "3425"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5579,6 +8101,69 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "2月19日晚，冯浩然熬夜加班至深夜的直接原因是什么？2月20日晚，他入睡困难的主要原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "19日因准备客户材料熬夜，20日因楼上邻居噪音干扰入睡困难。"
+      },
+      {
+        "option": "B",
+        "content": "19日因研究保险条款熬夜，20日因思考述职报告结构失眠。"
+      },
+      {
+        "option": "C",
+        "content": "19日因与妹妹视频通话较晚，20日因客户临时咨询加班。"
+      },
+      {
+        "option": "D",
+        "content": "19日因阅读新投资书籍入迷，20日因规划父亲寿宴兴奋。"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "640",
+      "643",
+      "659"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 165
+      },
+      {
+        "type": "push",
+        "id": 522
+      },
+      {
+        "type": "sms",
+        "id": 253
+      },
+      {
+        "type": "agent_chat",
+        "id": 97
+      },
+      {
+        "type": "note",
+        "id": "98"
+      },
+      {
+        "type": "sms",
+        "id": "2168"
+      },
+      {
+        "type": "agent_chat",
+        "id": 101
+      },
+      {
+        "type": "photo",
+        "id": 310
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "冯浩然在10月中旬利用数字人民币红包完成了哪些类型的线下消费体验？",
     "answer": "在咖啡馆消费和超市购物。",
     "score_points": [
@@ -5596,7 +8181,7 @@
       "3961",
       "3963"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -5671,7 +8256,7 @@
       "4422",
       "new_event_2025_11_15"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -5741,7 +8326,7 @@
       "2543",
       "2553"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5787,7 +8372,7 @@
       "4703",
       "4751"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5813,6 +8398,114 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "冯浩然与客户黄思琪在12月1日确认的年度复盘会议，最终选择在12月8日举行，最可能的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "12月8日是周一，符合黄思琪的工作习惯。"
+      },
+      {
+        "option": "B",
+        "content": "冯浩然需要时间准备会议材料并预约个人健康复查。"
+      },
+      {
+        "option": "C",
+        "content": "12月初冯浩然刚从澳门返回，需要调整状态。"
+      },
+      {
+        "option": "D",
+        "content": "12月8日之前的一周，冯浩然被其他客户的紧急报告和健康复查占用了时间。"
+      }
+    ],
+    "answer": "D",
+    "required_events_id": [
+      "4450",
+      "4478",
+      "4490",
+      "4544"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 756
+      },
+      {
+        "type": "push",
+        "id": 2699
+      },
+      {
+        "type": "sms",
+        "id": 1704
+      },
+      {
+        "type": "sms",
+        "id": 1705
+      },
+      {
+        "type": "sms",
+        "id": 1709
+      },
+      {
+        "type": "agent_chat",
+        "id": 763
+      },
+      {
+        "type": "call",
+        "id": 1231
+      },
+      {
+        "type": "call",
+        "id": 1235
+      },
+      {
+        "type": "call",
+        "id": 1236
+      },
+      {
+        "type": "push",
+        "id": 2730
+      },
+      {
+        "type": "photo",
+        "id": 1578
+      },
+      {
+        "type": "photo",
+        "id": 1579
+      },
+      {
+        "type": "calendar",
+        "id": "101"
+      },
+      {
+        "type": "calendar",
+        "id": "102"
+      },
+      {
+        "type": "push",
+        "id": "3022"
+      },
+      {
+        "type": "calendar",
+        "id": "103"
+      },
+      {
+        "type": "calendar",
+        "id": "117"
+      },
+      {
+        "type": "note",
+        "id": "179"
+      },
+      {
+        "type": "sms",
+        "id": "2190"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "冯浩然在12月初与父母视频沟通保险方案后，最终为他们投保的保险产品是什么？",
     "answer": "一套组合方案，具体包括医疗险和重疾险。",
     "score_points": [
@@ -5830,7 +8523,7 @@
       "4556",
       "4559"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -5876,6 +8569,80 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "冯浩然与发小张明轩的武汉怀旧之旅最终定在12月13日，最直接的促成因素是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "12月13日是周末，两人都有空闲时间。"
+      },
+      {
+        "option": "B",
+        "content": "冯浩然通过了CFA三级考试，想用旅行庆祝。"
+      },
+      {
+        "option": "C",
+        "content": "冯浩然在12月5日确认了考试通过并立即与发小商定了具体日期。"
+      },
+      {
+        "option": "D",
+        "content": "冯浩然为了实地考察武汉的养老机构，顺便进行怀旧之旅。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "4504",
+      "4506"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 765
+      },
+      {
+        "type": "call",
+        "id": 1240
+      },
+      {
+        "type": "photo",
+        "id": 1564
+      },
+      {
+        "type": "agent_chat",
+        "id": 767
+      },
+      {
+        "type": "push",
+        "id": 2741
+      },
+      {
+        "type": "push",
+        "id": 2742
+      },
+      {
+        "type": "sms",
+        "id": "2183"
+      },
+      {
+        "type": "calendar",
+        "id": "107"
+      },
+      {
+        "type": "note",
+        "id": "189"
+      },
+      {
+        "type": "calendar",
+        "id": "126"
+      },
+      {
+        "type": "push",
+        "id": "3032"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "冯浩然在结束澳门旅行回到长沙后，其新的健康管理计划是在哪一天开始执行的？",
     "answer": "第二天（即2025年12月2日）。",
     "score_points": [
@@ -5892,7 +8659,7 @@
       "4446",
       "4458"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -5957,7 +8724,7 @@
       "4865",
       "4871"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6258,7 +9025,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "徐佳宁在2025年6月提到新做的那个手机产品的视觉设计和我在7月看到的她朋友样片里的产品，指的是同一个品牌的哪款产品？",
@@ -6280,7 +9047,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "高云飞在2025年7月抱怨维修的那条我们常跑步的路，和他在8月建议绕行时提到的替代路线起点，具体是哪条路？",
@@ -6302,7 +9069,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "客户黄思琪在9月初提到的她公司打算支持的那个环保创新挑战赛，具体名称是什么？",
@@ -6324,7 +9091,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "妹妹冯欣然在2025年10月提到学成归国后，要在长沙和我们聚餐庆祝，具体定在哪一天？",
@@ -6346,7 +9113,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然在2025年4月想要拍摄的街拍目标城市是哪里？",
@@ -6368,7 +9135,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "谢雨桐在2025年7月提到的露营活动，具体在湖南哪个地方举办？",
@@ -6394,7 +9161,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然在2025年3月提到的投资失败案例中，客户最终亏损了多少人民币？",
@@ -6416,7 +9183,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然在2025年1月提到的童年去过的水族馆，具体在哪个城市？",
@@ -6442,7 +9209,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然在一月初与罗振宇讨论的那套2025年新发行邮票，其主题是什么？",
@@ -6472,7 +9239,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "客户黄思琪在五月提到要等一笔资金到账后才跟进的房地产基金产品，资金具体是在哪一天到账的？",
@@ -6502,7 +9269,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "三月上旬徐佳宁和三月中旬沈心怡先后向冯浩然推荐的同一家深圳咖啡馆，其最被称道的特色饮品是什么？",
@@ -6532,7 +9299,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯建国在九月初送给冯浩然的新相机是什么品牌和型号？",
@@ -6562,7 +9329,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "钱永强在十一月初说要去试菜的那家新开湘菜馆叫什么名字？",
@@ -6592,7 +9359,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "谢雨桐七月下旬向冯浩然咨询想入手的那款轻量化帐篷具体是什么型号？",
@@ -6622,7 +9389,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然的摄影伙伴徐佳宁在4月10日提到回长沙参加的那个活动具体是什么？",
@@ -6652,7 +9419,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然的跑友高云飞在3月22日想买来晨跑用的那款耳机具体是什么型号？",
@@ -6674,7 +9441,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然的邮票藏友罗振宇在1月初提到的他正在关注的那套“茶”主题邮票具体叫什么名字？",
@@ -6700,7 +9467,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然的直属上司钱永强在5月12日提到要在“老地方”举办的那场讲座具体地点在哪里？",
@@ -6726,7 +9493,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然的客户黄思琪在4月15日提到下周在深圳举办的AI投资论坛具体是哪一天？",
@@ -6752,7 +9519,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "冯浩然的好友彭雨晴在4月28日提议五一聚餐想去的“那家新开的”餐厅具体叫什么名字？",
@@ -6778,7 +9545,65 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
+  },
+  {
+    "question": "在与妹妹远程讨论父母同城养老初步构想后，冯浩然多少天后开始系统研究长沙的适老房源？",
+    "options": [
+      {
+        "option": "A",
+        "content": "1天"
+      },
+      {
+        "option": "B",
+        "content": "2天"
+      },
+      {
+        "option": "C",
+        "content": "3天"
+      },
+      {
+        "option": "D",
+        "content": "4天"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4494",
+      "4518"
+    ],
+    "required_events_date": [
+      "2025-12-04",
+      "2025-12-06"
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 1238
+      },
+      {
+        "type": "call",
+        "id": 1239
+      },
+      {
+        "type": "push",
+        "id": 2733
+      },
+      {
+        "type": "agent_chat",
+        "id": 769
+      },
+      {
+        "type": "push",
+        "id": 2750
+      },
+      {
+        "type": "sms",
+        "id": 1763
+      }
+    ]
   },
   {
     "question": "11月中旬，冯浩然在武汉医院陪护父亲期间，如何同步处理紧急的工作任务？",
@@ -6802,7 +9627,7 @@
       "2025-11-15"
     ],
     "ask_time": "2025-12",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6868,7 +9693,7 @@
       "2025-12-01"
     ],
     "ask_time": "2025-12",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6938,7 +9763,7 @@
       "2025-11-25"
     ],
     "ask_time": "2025-12",
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6988,7 +9813,7 @@
       "2025-12-31"
     ],
     "ask_time": "2025-12",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -7025,6 +9850,46 @@
     ]
   },
   {
+    "question": "在9月份，我分析跑步数据并草拟了一份体能突破方案，计划何时开始执行该方案？",
+    "options": [
+      {
+        "option": "A",
+        "content": "9月2日"
+      },
+      {
+        "option": "B",
+        "content": "9月3日"
+      },
+      {
+        "option": "C",
+        "content": "下周"
+      },
+      {
+        "option": "D",
+        "content": "2025年第四季度"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "3333",
+        "event_name": "健康数据分析与方案构思"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 559
+      },
+      {
+        "type": "photo",
+        "id": 1190
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Nondeclarative"
+  },
+  {
     "question": "5月份，冯浩然与同事郑文博共进午餐的快餐店位于哪里？",
     "answer": "传媒路快餐店",
     "score_points": [
@@ -7046,7 +9911,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月8日，冯浩然在驾车通勤途中，为准备下午的客户会议，在脑中反复推演了什么内容？",
@@ -7086,7 +9951,51 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "12月，冯浩然在驾车上班途中收到银行短信，通知了什么款项入账？",
+    "options": [
+      {
+        "option": "A",
+        "content": "工资"
+      },
+      {
+        "option": "B",
+        "content": "年终奖金"
+      },
+      {
+        "option": "C",
+        "content": "项目提成"
+      },
+      {
+        "option": "D",
+        "content": "理财收益"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4760",
+        "event_name": "驾车通勤途中喜获年终奖金"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 1301
+      },
+      {
+        "type": "push",
+        "id": 2873
+      },
+      {
+        "type": "sms",
+        "id": 1849
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，冯浩然在与好友彭雨晴的短信聊天中，谈论了另一位共同好友蔡文静最近发生的哪件具体事情？",
@@ -7128,7 +10037,7 @@
         "id": "1979"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，冯浩然在与好友彭雨晴的聊天中，谈论到另一位好友蔡文静最近遇到了什么事情？",
@@ -7162,7 +10071,51 @@
         "id": "1988"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "11月5日，冯浩然在晚餐后照料阳台植物时，具体检查了哪些植物的长势？",
+    "options": [
+      {
+        "option": "A",
+        "content": "生菜和薄荷"
+      },
+      {
+        "option": "B",
+        "content": "罗勒和迷迭香"
+      },
+      {
+        "option": "C",
+        "content": "生菜和罗勒"
+      },
+      {
+        "option": "D",
+        "content": "番茄和罗勒"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "4187",
+        "event_name": "晚餐与阳台植物照料"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "34"
+      },
+      {
+        "type": "photo",
+        "id": "1687"
+      },
+      {
+        "type": "sms",
+        "id": "1906"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在11月陪护期间，冯浩然在哪家咖啡馆进行了独处思考，并规划了返回长沙后的个人计划？",
@@ -7198,7 +10151,55 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "11月12日上午，冯浩然陪同父亲完成了哪些检查？",
+    "options": [
+      {
+        "option": "A",
+        "content": "CT扫描和心电图"
+      },
+      {
+        "option": "B",
+        "content": "血液常规和B超"
+      },
+      {
+        "option": "C",
+        "content": "抽血检验和心电图"
+      },
+      {
+        "option": "D",
+        "content": "核磁共振和血液检查"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "4207",
+        "event_name": "陪同父亲检查与医疗缴费"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2970"
+      },
+      {
+        "type": "sms",
+        "id": "1996"
+      },
+      {
+        "type": "photo",
+        "id": "1699"
+      },
+      {
+        "type": "note",
+        "id": "53"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，冯浩然在与他人的短信交流中，谈论了其好友董浩然最近发生的什么事情？请具体说明这件事是什么。",
@@ -7244,7 +10245,7 @@
         "id": "2085"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，冯浩然在与好友董浩然的聊天中，得知了他们的另一位共同好友（也是高中同学）刘浩然最近在职业发展上遇到了什么具体困境？",
@@ -7286,7 +10287,147 @@
         "id": "2095"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，冯浩然在与邮票藏友罗振宇交流时，提到自己最近在收藏品味上有一个新的偏好，他更倾向于收藏哪一类主题的邮票？",
+    "options": [
+      {
+        "option": "A",
+        "content": "中国古代书画题材的邮票"
+      },
+      {
+        "option": "B",
+        "content": "反映中国现代科技成就的纪念邮票"
+      },
+      {
+        "option": "C",
+        "content": "世界各国发行的“极地探险与科考”主题邮票"
+      },
+      {
+        "option": "D",
+        "content": "与茶文化、咖啡文化相关的民俗邮票"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2096"
+      },
+      {
+        "type": "sms",
+        "id": "2097"
+      },
+      {
+        "type": "sms",
+        "id": "2098"
+      },
+      {
+        "type": "sms",
+        "id": "2099"
+      },
+      {
+        "type": "sms",
+        "id": "2100"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年4月，冯浩然向跑友高云飞分享了自己近期在挑选新手冲咖啡豆时，最看重哪个产区的豆子？",
+    "options": [
+      {
+        "option": "A",
+        "content": "埃塞俄比亚耶加雪菲"
+      },
+      {
+        "option": "B",
+        "content": "哥伦比亚蕙兰"
+      },
+      {
+        "option": "C",
+        "content": "巴拿马瑰夏"
+      },
+      {
+        "option": "D",
+        "content": "肯尼亚AA"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2106"
+      },
+      {
+        "type": "sms",
+        "id": "2107"
+      },
+      {
+        "type": "sms",
+        "id": "2108"
+      },
+      {
+        "type": "sms",
+        "id": "2109"
+      },
+      {
+        "type": "sms",
+        "id": "2110"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年10月，冯浩然在便利店首次体验数字人民币线下支付时，购买了哪些商品？",
+    "options": [
+      {
+        "option": "A",
+        "content": "一瓶NFC橙汁和一份关东煮"
+      },
+      {
+        "option": "B",
+        "content": "一瓶矿泉水和一份三明治"
+      },
+      {
+        "option": "C",
+        "content": "一瓶牛奶和一份面包"
+      },
+      {
+        "option": "D",
+        "content": "一瓶果汁和一份沙拉"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3930",
+        "event_name": "首次数字人民币线下支付体验"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "38"
+      },
+      {
+        "type": "push",
+        "id": "2971"
+      },
+      {
+        "type": "sms",
+        "id": "1999"
+      },
+      {
+        "type": "note",
+        "id": "58"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月份，冯浩然在咖啡馆使用数字人民币支付后，与谁交流了体验？",
@@ -7318,7 +10459,101 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月下旬，冯浩然与跑友高云飞在岳麓山风景名胜区的哪个具体地点，围绕“职业突破与生活平衡”进行了深入探讨？",
+    "options": [
+      {
+        "option": "A",
+        "content": "东门"
+      },
+      {
+        "option": "B",
+        "content": "山顶观光长廊"
+      },
+      {
+        "option": "C",
+        "content": "南门"
+      },
+      {
+        "option": "D",
+        "content": "古麓山寺"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2758",
+        "event_name": "与跑友高云飞的深度晨跑谈心"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "42"
+      },
+      {
+        "type": "sms",
+        "id": "2119"
+      },
+      {
+        "type": "photo",
+        "id": "1706"
+      },
+      {
+        "type": "note",
+        "id": "64"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年11月，冯浩然在与邮票藏友罗振宇的交流中，分享了自己近期在收藏邮票时的一个具体品味偏好变化。这个变化是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "从偏好收藏中国近现代人物邮票，转向偏好收藏外国风景名胜邮票。"
+      },
+      {
+        "option": "B",
+        "content": "从偏好收藏全新未使用的邮票，转向偏好收藏有清晰邮戳和流转历史的信销票。"
+      },
+      {
+        "option": "C",
+        "content": "从偏好收藏单枚珍稀邮票，转向偏好收藏成系列、有主题的套票或小版张。"
+      },
+      {
+        "option": "D",
+        "content": "从偏好收藏传统纸质邮票，转向偏好收藏新型的电子邮票或数字藏品。"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2155"
+      },
+      {
+        "type": "sms",
+        "id": "2156"
+      },
+      {
+        "type": "sms",
+        "id": "2157"
+      },
+      {
+        "type": "sms",
+        "id": "2158"
+      },
+      {
+        "type": "sms",
+        "id": "2159"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "冯浩然在2025年11月2日参加马拉松比赛时，沿途经过的最具代表性的自然景观是什么？",
@@ -7340,7 +10575,7 @@
     "required_events_id": [
       "4167"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -7353,6 +10588,73 @@
       {
         "type": "photo",
         "id": 1465
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
+    "question": "在11月，当需要与家人或同事进行远程沟通时，我通常首选什么方式？",
+    "options": [
+      {
+        "option": "A",
+        "content": "打电话"
+      },
+      {
+        "option": "B",
+        "content": "发微信消息"
+      },
+      {
+        "option": "C",
+        "content": "视频通话"
+      },
+      {
+        "option": "D",
+        "content": "发电子邮件"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "4197",
+      "4201",
+      "4202"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 1117
+      },
+      {
+        "type": "photo",
+        "id": 1474
+      },
+      {
+        "type": "push",
+        "id": 2536
+      },
+      {
+        "type": "push",
+        "id": 2537
+      },
+      {
+        "type": "call",
+        "id": 1119
+      },
+      {
+        "type": "sms",
+        "id": 1564
+      },
+      {
+        "type": "sms",
+        "id": 1565
+      },
+      {
+        "type": "call",
+        "id": "1339"
+      },
+      {
+        "type": "note",
+        "id": "90"
       }
     ],
     "ask_time": "2025-12"
@@ -7377,7 +10679,7 @@
     "required_events_id": [
       "4770"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -7428,7 +10730,7 @@
       "4717",
       "4816"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -7486,6 +10788,81 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "根据我参加瑜伽课程的行为，可以推断我可能面临什么挑战？",
+    "options": [
+      {
+        "option": "A",
+        "content": "财务压力"
+      },
+      {
+        "option": "B",
+        "content": "工作压力"
+      },
+      {
+        "option": "C",
+        "content": "家庭压力"
+      },
+      {
+        "option": "D",
+        "content": "健康问题"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4515",
+      "4717",
+      "4816"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "push",
+        "id": 2747
+      },
+      {
+        "type": "push",
+        "id": 2854
+      },
+      {
+        "type": "agent_chat",
+        "id": 818
+      },
+      {
+        "type": "photo",
+        "id": 1665
+      },
+      {
+        "type": "photo",
+        "id": 1666
+      },
+      {
+        "type": "push",
+        "id": 2904
+      },
+      {
+        "type": "push",
+        "id": "2999"
+      },
+      {
+        "type": "sms",
+        "id": "2172"
+      },
+      {
+        "type": "note",
+        "id": "113"
+      },
+      {
+        "type": "calendar",
+        "id": "74"
+      },
+      {
+        "type": "note",
+        "id": "115"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "12月，在处理完一笔到期的理财资金后，我规划将这笔钱用于哪两个具体方面？",
     "answer": "为父母支付补充医疗保险保费；预留作为圣诞节和元旦的节日消费及礼物预算。",
     "score_points": [
@@ -7505,7 +10882,7 @@
       "2025-12-06"
     ],
     "ask_time": "2026-01",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -7553,7 +10930,7 @@
       "2025-12-19"
     ],
     "ask_time": "2026-01",
-    "question_type": "question_answer",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",

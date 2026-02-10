@@ -16,7 +16,7 @@
       "169",
       "182"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -54,6 +54,97 @@
     "ask_time": "2025-01"
   },
   {
+    "question": "尹浩在2月25日晚间做出续租决策时，最核心的考量因素是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "因为房东承诺未来一年租金稳定"
+      },
+      {
+        "option": "B",
+        "content": "因为搬家带来的中介费、押金和精力成本更高"
+      },
+      {
+        "option": "C",
+        "content": "因为他刚刚完成高级技师考试报名，需要稳定环境备考"
+      },
+      {
+        "option": "D",
+        "content": "因为他对广富林路周边的环境非常熟悉且满意"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "760"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "28"
+      },
+      {
+        "type": "note",
+        "id": "42"
+      },
+      {
+        "type": "push",
+        "id": "2639"
+      },
+      {
+        "type": "sms",
+        "id": "1845"
+      }
+    ],
+    "ask_time": "2025-02"
+  },
+  {
+    "question": "2025年3月，尹浩在和朋友讨论最近尝试的手冲咖啡时，明确表示自己目前最喜欢用哪种处理法的咖啡豆来制作手冲咖啡？",
+    "options": [
+      {
+        "option": "A",
+        "content": "日晒处理法"
+      },
+      {
+        "option": "B",
+        "content": "水洗处理法"
+      },
+      {
+        "option": "C",
+        "content": "蜜处理法"
+      },
+      {
+        "option": "D",
+        "content": "厌氧发酵处理法"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1862"
+      },
+      {
+        "type": "sms",
+        "id": "1863"
+      },
+      {
+        "type": "sms",
+        "id": "1864"
+      },
+      {
+        "type": "sms",
+        "id": "1865"
+      },
+      {
+        "type": "sms",
+        "id": "1866"
+      }
+    ],
+    "ask_time": "2025-02",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "在1月份，尹浩为了缓解工作疲劳，在早晨起床后做了什么特定的身体活动？",
     "answer": "做了几组肩颈和手臂拉伸。",
     "score_points": [
@@ -83,7 +174,7 @@
       }
     ],
     "ask_time": "2025-02",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "在3月15日与父母视频分享晚餐前，尹浩为准备这顿晚餐具体做了哪些事？",
@@ -99,7 +190,7 @@
       "1026",
       "1028"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -174,7 +265,7 @@
       "2025-02-18"
     ],
     "ask_time": "2025-03",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -223,7 +314,7 @@
       "235",
       "236"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -265,6 +356,50 @@
     "ask_time": "2025-04"
   },
   {
+    "question": "尹浩在2月份制定学习计划时，为考取哪个证书设定了下班后的固定学习时间？",
+    "options": [
+      {
+        "option": "A",
+        "content": "低压电工证"
+      },
+      {
+        "option": "B",
+        "content": "高级技师证"
+      },
+      {
+        "option": "C",
+        "content": "数控编程师证"
+      },
+      {
+        "option": "D",
+        "content": "机床维修证"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "468",
+        "event_name": "制定节后工作与学习计划"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 36
+      },
+      {
+        "type": "photo",
+        "id": 92
+      },
+      {
+        "type": "push",
+        "id": 161
+      }
+    ],
+    "ask_time": "2025-04",
+    "question_type": "Nondeclarative"
+  },
+  {
     "question": "你参观过几次国际工业博览会？",
     "answer": "1次",
     "score_points": [
@@ -286,7 +421,7 @@
       "2025-04-06"
     ],
     "ask_time": "2025-04",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -390,7 +525,7 @@
       "2025-04-06"
     ],
     "ask_time": "2025-04",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "photo",
@@ -431,7 +566,7 @@
       "1340",
       "1341"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -477,7 +612,7 @@
       "1319",
       "1320"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -554,7 +689,7 @@
       "1993",
       "2013"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -656,6 +791,54 @@
     "ask_time": "2025-05"
   },
   {
+    "question": "3月份，尹浩和同事们在午休时商议为师傅庆生，他们最终计划去哪家餐馆聚餐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "松江老饭店"
+      },
+      {
+        "option": "B",
+        "content": "百年传承淮南牛肉汤店"
+      },
+      {
+        "option": "C",
+        "content": "慢时光咖啡店"
+      },
+      {
+        "option": "D",
+        "content": "员工食堂"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "1066",
+        "event_name": "午休期间密谋为师傅庆生"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2653"
+      },
+      {
+        "type": "note",
+        "id": "62"
+      },
+      {
+        "type": "sms",
+        "id": "1915"
+      },
+      {
+        "type": "calendar",
+        "id": "42"
+      }
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "4月份，尹浩在参观汽车博物馆时，重点观赏了哪款古董车？",
     "answer": "红旗CA770",
     "score_points": [
@@ -693,7 +876,7 @@
       }
     ],
     "ask_time": "2025-05",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "1月份，尹浩在向班组长汇报带教情况时，针对新同事李明提出了什么后续培养建议？",
@@ -725,7 +908,7 @@
       }
     ],
     "ask_time": "2025-05",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "尹浩在3月上旬的财务复盘中发现“爱好发展”类别支出明显增加，并因此调整了预算。导致该类别支出增加的具体消费项目有哪些？",
@@ -752,7 +935,7 @@
       "892",
       "950"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -814,7 +997,7 @@
       "1603",
       "1611"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -864,7 +1047,7 @@
       "2134",
       "2143"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "sms",
@@ -915,7 +1098,7 @@
       "2025-03-01"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -971,7 +1154,7 @@
       "2025-02-26"
     ],
     "ask_time": "2025-06",
-    "question_type": "question_answer",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1017,7 +1200,7 @@
       "2025-04-05"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1038,6 +1221,144 @@
       {
         "type": "photo",
         "id": 344
+      }
+    ]
+  },
+  {
+    "question": "尹浩在5月20日成功报名上海半程马拉松后，为了备赛，他在6月1日主要完成了哪项任务？",
+    "options": [
+      {
+        "option": "A",
+        "content": "进行了5公里恢复性晨跑"
+      },
+      {
+        "option": "B",
+        "content": "制定了详细的半马备赛训练计划"
+      },
+      {
+        "option": "C",
+        "content": "安装了居家安全设施"
+      },
+      {
+        "option": "D",
+        "content": "回复了朋友的生日聚会邀请"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1987",
+      "2156"
+    ],
+    "required_events_date": [
+      "2025-05-20",
+      "2025-06-01"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 289
+      },
+      {
+        "type": "photo",
+        "id": 510
+      },
+      {
+        "type": "push",
+        "id": 954
+      },
+      {
+        "type": "sms",
+        "id": 633
+      },
+      {
+        "type": "sms",
+        "id": 634
+      },
+      {
+        "type": "agent_chat",
+        "id": 325
+      },
+      {
+        "type": "push",
+        "id": 1042
+      },
+      {
+        "type": "sms",
+        "id": 692
+      }
+    ]
+  },
+  {
+    "question": "我在2025年1月4日的晨跑活动中，向跑友（兼健身教练）陈杰透露了半马目标，并与他分享了目标、寻求了建议。根据当天的记录，这两个表述所指的事件的关系是怎样的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "透露目标发生在前，分享并寻求建议发生在后"
+      },
+      {
+        "option": "B",
+        "content": "分享并寻求建议发生在前，透露目标发生在后"
+      },
+      {
+        "option": "C",
+        "content": "两者发生在同一次交流中"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "41"
+    ],
+    "required_events_date": [
+      "2025-01-04"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 3
+      },
+      {
+        "type": "photo",
+        "id": 27
+      },
+      {
+        "type": "photo",
+        "id": 28
+      },
+      {
+        "type": "push",
+        "id": 62
+      },
+      {
+        "type": "sms",
+        "id": 7
+      },
+      {
+        "type": "sms",
+        "id": 9
+      },
+      {
+        "type": "sms",
+        "id": "2220"
+      },
+      {
+        "type": "note",
+        "id": "247"
+      },
+      {
+        "type": "calendar",
+        "id": "152"
+      },
+      {
+        "type": "push",
+        "id": "2731"
       }
     ]
   },
@@ -1063,7 +1384,7 @@
       "2025-05-20"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1134,7 +1455,7 @@
       "2025-02-19"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -1216,7 +1537,7 @@
       "2025-06-13"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -1306,7 +1627,7 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，尹浩在与同事王磊聊天时，得知了另一位同事刘志强最近遇到了什么个人生活上的困扰？",
@@ -1340,7 +1661,105 @@
         "id": "1872"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年8月，尹浩在与发小张伟聊天时，分享了自己最近在听音乐方面的一个具体偏好变化，他现在更喜欢听哪种风格的音乐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "流行情歌和网络热歌"
+      },
+      {
+        "option": "B",
+        "content": "经典老歌和军旅歌曲"
+      },
+      {
+        "option": "C",
+        "content": "纯音乐和轻音乐，特别是钢琴曲"
+      },
+      {
+        "option": "D",
+        "content": "摇滚乐和电子音乐"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1873"
+      },
+      {
+        "type": "sms",
+        "id": "1874"
+      },
+      {
+        "type": "sms",
+        "id": "1875"
+      },
+      {
+        "type": "sms",
+        "id": "1876"
+      },
+      {
+        "type": "sms",
+        "id": "1877"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "6月份，尹浩在哪个地点与战友进行了视频通话？",
+    "options": [
+      {
+        "option": "A",
+        "content": "上海市松江区新港路224弄1-246号，松江科技园区新港小区租住处"
+      },
+      {
+        "option": "B",
+        "content": "上海市松江区民益路，联东U谷松江工厂，上海精工机械制造有限公司车间办公室"
+      },
+      {
+        "option": "C",
+        "content": "上海市松江区泗砖南路351号，泗泾YONEX运动馆"
+      },
+      {
+        "option": "D",
+        "content": "上海市松江区新松江路1292弄川流不息精川菜小龙虾(新松江路店)"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "2283",
+        "event_name": "与战友张建国视频通话"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": "1134"
+      },
+      {
+        "type": "photo",
+        "id": "1422"
+      },
+      {
+        "type": "note",
+        "id": "47"
+      },
+      {
+        "type": "calendar",
+        "id": "31"
+      },
+      {
+        "type": "push",
+        "id": "2643"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月份，尹浩在五金店为露营钓鱼活动购买了哪些新配件？",
@@ -1380,7 +1799,59 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "尹浩在4月份收到项目奖金后，初步规划的奖金分配方案中，计划将多大比例的资金用于购买跑鞋？",
+    "options": [
+      {
+        "option": "A",
+        "content": "10%"
+      },
+      {
+        "option": "B",
+        "content": "20%"
+      },
+      {
+        "option": "C",
+        "content": "30%"
+      },
+      {
+        "option": "D",
+        "content": "40%"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "1490",
+        "event_name": "收到项目奖金、午餐与午休"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1892"
+      },
+      {
+        "type": "note",
+        "id": "58"
+      },
+      {
+        "type": "push",
+        "id": "2649"
+      },
+      {
+        "type": "calendar",
+        "id": "39"
+      },
+      {
+        "type": "sms",
+        "id": "1893"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在1月中旬的一次车间休息间隙，尹浩与师傅孙建国、编程员刘志强在何处就新型合金材料的试加工情况进行了简短交流？",
@@ -1416,7 +1887,7 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在6月上旬的几个工作日，尹浩通常在一天的哪个时段进行跑步锻炼？",
@@ -1437,7 +1908,7 @@
       "2262",
       "2274"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -1478,7 +1949,7 @@
     "required_events_id": [
       "893"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -1491,6 +1962,80 @@
       {
         "type": "calendar",
         "id": "100"
+      }
+    ],
+    "ask_time": "2025-07"
+  },
+  {
+    "question": "5月14日，尹浩集中处理财务，调整预算并启动储蓄预案的直接原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "因为他报名了高级技师实操培训班，需要支付培训费用。"
+      },
+      {
+        "option": "B",
+        "content": "因为他购买了新的专业跑鞋，娱乐消费超出预算。"
+      },
+      {
+        "option": "C",
+        "content": "因为他的房东决定出售房产，他面临搬家和额外开支的压力。"
+      },
+      {
+        "option": "D",
+        "content": "因为他计划端午节驾车回家，需要预留油费和礼物开销。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1904",
+      "1873"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 275
+      },
+      {
+        "type": "push",
+        "id": 914
+      },
+      {
+        "type": "push",
+        "id": 915
+      },
+      {
+        "type": "push",
+        "id": 916
+      },
+      {
+        "type": "agent_chat",
+        "id": 271
+      },
+      {
+        "type": "call",
+        "id": 379
+      },
+      {
+        "type": "push",
+        "id": 899
+      },
+      {
+        "type": "sms",
+        "id": 583
+      },
+      {
+        "type": "note",
+        "id": "178"
+      },
+      {
+        "type": "calendar",
+        "id": "112"
+      },
+      {
+        "type": "sms",
+        "id": "2129"
       }
     ],
     "ask_time": "2025-07"
@@ -1514,7 +2059,7 @@
       "71",
       "73"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -1616,6 +2161,54 @@
     "ask_time": "2025-07"
   },
   {
+    "question": "在2025年端午节假期（6月2日至4日）回到父母家安装安全设施前，尹浩已经提前完成了以下哪项关键准备工作？",
+    "options": [
+      {
+        "option": "A",
+        "content": "在父母家中完成了所有安全设施的实地测量"
+      },
+      {
+        "option": "B",
+        "content": "通过视频通话与父母沟通，询问生活习惯并确认了改造需求"
+      },
+      {
+        "option": "C",
+        "content": "在家中书房完成了安全产品的最终安装测试"
+      },
+      {
+        "option": "D",
+        "content": "与同事就安全产品品牌选择进行了深入讨论"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1687"
+    ],
+    "required_events_date": [
+      "2025-04-29"
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "call",
+        "id": "1152"
+      },
+      {
+        "type": "note",
+        "id": "233"
+      },
+      {
+        "type": "calendar",
+        "id": "144"
+      },
+      {
+        "type": "push",
+        "id": "2722"
+      }
+    ]
+  },
+  {
     "question": "在2025年6月6日与师傅孙建国讨论落户政策后，我将对落户的焦虑转化为了对哪个近期具体目标的专注？",
     "answer": "高级技师备考",
     "score_points": [
@@ -1631,7 +2224,7 @@
       "2025-06-06"
     ],
     "ask_time": "2025-07",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1640,6 +2233,162 @@
       {
         "type": "photo",
         "id": 571
+      }
+    ]
+  },
+  {
+    "question": "尹浩在2025年端午假期（6月1日至2日）处理了以下哪些个人事务？",
+    "options": [
+      {
+        "option": "A",
+        "content": "为父母安装居家安全设施并制定半马训练计划"
+      },
+      {
+        "option": "B",
+        "content": "整理车辆天窗排水孔疏通笔记并确认合租看房安排"
+      },
+      {
+        "option": "C",
+        "content": "回复朋友生日聚会邀请并庆祝自己的生日"
+      },
+      {
+        "option": "D",
+        "content": "所有以上选项"
+      }
+    ],
+    "answer": "D",
+    "required_events_id": [
+      "2153",
+      "2156",
+      "2157",
+      "2168",
+      "2169",
+      "2171"
+    ],
+    "required_events_date": [
+      "2025-06-01",
+      "2025-06-02"
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 326
+      },
+      {
+        "type": "calendar",
+        "id": "51"
+      },
+      {
+        "type": "call",
+        "id": 443
+      },
+      {
+        "type": "note",
+        "id": "71"
+      },
+      {
+        "type": "agent_chat",
+        "id": 325
+      },
+      {
+        "type": "push",
+        "id": 1042
+      },
+      {
+        "type": "sms",
+        "id": 692
+      },
+      {
+        "type": "sms",
+        "id": 693
+      },
+      {
+        "type": "sms",
+        "id": 694
+      },
+      {
+        "type": "sms",
+        "id": 695
+      },
+      {
+        "type": "agent_chat",
+        "id": 327
+      },
+      {
+        "type": "push",
+        "id": 1048
+      },
+      {
+        "type": "photo",
+        "id": 559
+      },
+      {
+        "type": "sms",
+        "id": 699
+      },
+      {
+        "type": "sms",
+        "id": 700
+      },
+      {
+        "type": "sms",
+        "id": 701
+      }
+    ]
+  },
+  {
+    "question": "在技术学习和休闲交流方面，尹浩是先向维修师傅请教技术问题，还是先与钓友交流钓鱼心得？",
+    "options": [
+      {
+        "option": "A",
+        "content": "先向师傅请教"
+      },
+      {
+        "option": "B",
+        "content": "先与钓友交流"
+      },
+      {
+        "option": "C",
+        "content": "两者同时进行"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "2346",
+      "2421"
+    ],
+    "required_events_date": [
+      "2025-06-15",
+      "2025-06-22"
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 353
+      },
+      {
+        "type": "photo",
+        "id": 598
+      },
+      {
+        "type": "agent_chat",
+        "id": 371
+      },
+      {
+        "type": "photo",
+        "id": 613
+      },
+      {
+        "type": "push",
+        "id": 1170
       }
     ]
   },
@@ -1661,7 +2410,7 @@
       "2025-06-25"
     ],
     "ask_time": "2025-07",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "note",
@@ -1707,7 +2456,7 @@
       "2025-06-25"
     ],
     "ask_time": "2025-07",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -1740,6 +2489,154 @@
     ]
   },
   {
+    "question": "在合租期间，尹浩因模拟考试耽搁了客厅清洁后，他是否在之后与室友陈杰正式沟通了合租公共空间维护问题？",
+    "options": [
+      {
+        "option": "A",
+        "content": "是"
+      },
+      {
+        "option": "B",
+        "content": "否"
+      },
+      {
+        "option": "C",
+        "content": "同时"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "2521",
+      "2589"
+    ],
+    "required_events_date": [
+      "2025-06-28",
+      "2025-07-03"
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": 828
+      },
+      {
+        "type": "push",
+        "id": 1259
+      },
+      {
+        "type": "sms",
+        "id": "2232"
+      },
+      {
+        "type": "calendar",
+        "id": "165"
+      },
+      {
+        "type": "push",
+        "id": "2741"
+      },
+      {
+        "type": "note",
+        "id": "263"
+      }
+    ]
+  },
+  {
+    "question": "6月份，尹浩在松江大学城文汇路商业街用餐时，选择了哪家餐厅？",
+    "options": [
+      {
+        "option": "A",
+        "content": "好味缘快餐店"
+      },
+      {
+        "option": "B",
+        "content": "老盛昌汤包"
+      },
+      {
+        "option": "C",
+        "content": "新开木桶饭快餐店"
+      },
+      {
+        "option": "D",
+        "content": "广富林生鲜超市"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "2436",
+        "event_name": "大学城商业街闲逛与午餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 619
+      },
+      {
+        "type": "photo",
+        "id": 620
+      },
+      {
+        "type": "push",
+        "id": 1176
+      },
+      {
+        "type": "push",
+        "id": 1177
+      }
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年11月，尹浩在与朋友聊天时，表达了自己对哪种类型的电影最不感兴趣？",
+    "options": [
+      {
+        "option": "A",
+        "content": "科幻大片，尤其是涉及时间旅行和星际战争的"
+      },
+      {
+        "option": "B",
+        "content": "文艺爱情片，节奏缓慢、情感细腻的"
+      },
+      {
+        "option": "C",
+        "content": "悬疑推理片，需要高度集中注意力分析细节的"
+      },
+      {
+        "option": "D",
+        "content": "历史战争片，特别是描写宏大场面的"
+      }
+    ],
+    "answer": "B",
+    "ask_time": "2025-07",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1967"
+      },
+      {
+        "type": "sms",
+        "id": "1968"
+      },
+      {
+        "type": "sms",
+        "id": "1969"
+      },
+      {
+        "type": "sms",
+        "id": "1970"
+      }
+    ],
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "在3月份，尹浩在哪一天收到了母亲寄来的家乡食材包裹？",
     "answer": "2025年3月26日",
     "score_points": [
@@ -1769,7 +2666,53 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年4月，尹浩在与钓友吴哥交流时，表达了他对哪种类型的钓鱼竿的偏好？",
+    "question_type": "Information Extraction",
+    "options": [
+      {
+        "option": "A",
+        "content": "偏好超硬调（H）的碳素竿，因为回鱼快，适合钓黑坑抢鱼。"
+      },
+      {
+        "option": "B",
+        "content": "偏好中硬调（M）的综合竿，因为泛用性强，野钓和黑坑都能兼顾。"
+      },
+      {
+        "option": "C",
+        "content": "偏好软调（L）的溪流竿，因为手感好，适合钓小型鱼种。"
+      },
+      {
+        "option": "D",
+        "content": "偏好超软调（UL）的马口竿，因为轻便灵敏，适合路亚钓法。"
+      }
+    ],
+    "answer": "B",
+    "ask_time": "2025-07",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2038"
+      },
+      {
+        "type": "sms",
+        "id": "2039"
+      },
+      {
+        "type": "sms",
+        "id": "2040"
+      },
+      {
+        "type": "sms",
+        "id": "2041"
+      },
+      {
+        "type": "sms",
+        "id": "2042"
+      }
+    ]
   },
   {
     "question": "尹浩在2月初开始学习低压电工知识，结合他ISTJ的性格特点，推断他学习的主要动机是什么？",
@@ -1794,7 +2737,7 @@
       "529",
       "609"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1873,7 +2816,7 @@
       "3012",
       "3001"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -1968,7 +2911,7 @@
       "1573",
       "1557"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -2014,6 +2957,60 @@
     "ask_time": "2025-08"
   },
   {
+    "question": "尹浩在查询高级技师考试成绩后，间隔了多久与好友聚餐庆祝？",
+    "options": [
+      {
+        "option": "A",
+        "content": "1天"
+      },
+      {
+        "option": "B",
+        "content": "2天"
+      },
+      {
+        "option": "C",
+        "content": "3天"
+      },
+      {
+        "option": "D",
+        "content": "4天"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2900",
+      "2929"
+    ],
+    "required_events_date": [
+      "2025-07-25",
+      "2025-07-27"
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 452
+      },
+      {
+        "type": "call",
+        "id": 634
+      },
+      {
+        "type": "push",
+        "id": 1423
+      },
+      {
+        "type": "agent_chat",
+        "id": 458
+      },
+      {
+        "type": "push",
+        "id": 1444
+      }
+    ]
+  },
+  {
     "question": "在7月14日的早餐对话中，尹浩针对合租公约的执行情况向室友陈杰提出了什么具体的提醒？结合他们前一天共同完成的跑步活动，分析这次提醒的背景和陈杰的回应。",
     "answer": "尹浩提醒陈杰上周轮到他负责的公共区域清洁（如洗手间镜子水渍）还未完成。由于前一天两人刚一起完成了15公里长跑，建立了友好的跑友关系，这次提醒是在轻松的早餐氛围中进行的。陈杰听后立刻拍脑袋道歉，并承诺会在当晚补做清洁。",
     "score_points": [
@@ -2039,7 +3036,7 @@
       "2025-07-13"
     ],
     "ask_time": "2025-08",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -2137,7 +3134,7 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "8月初，尹浩与跑友陈杰进行了一次训练复盘，他们主要交流了哪些方面的内容？",
@@ -2177,7 +3174,55 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "8月10日清晨，尹浩完成半马拉松训练后，为了补充水分和进行冷身，他做了什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "在小区门口便利店购买矿泉水并慢走"
+      },
+      {
+        "option": "B",
+        "content": "直接回家冲澡并喝运动饮料"
+      },
+      {
+        "option": "C",
+        "content": "在早餐店喝牛肉汤补充水分"
+      },
+      {
+        "option": "D",
+        "content": "在车间休息区喝公司发的盐汽水"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3112",
+        "event_name": "清晨半马拉松训练与恢复"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2635"
+      },
+      {
+        "type": "calendar",
+        "id": "24"
+      },
+      {
+        "type": "sms",
+        "id": "1823"
+      },
+      {
+        "type": "photo",
+        "id": "1417"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "8月份，尹浩在松江大学城运动馆进行了一次长距离模拟跑，其设定的目标配速是多少？",
@@ -2209,7 +3254,109 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在8月份与战友的农家乐晚餐中，尹浩分享了自己考取高级技师后，对未来的哪项具体计划有了更清晰的展望？",
+    "options": [
+      {
+        "option": "A",
+        "content": "攻读在职硕士学位"
+      },
+      {
+        "option": "B",
+        "content": "在上海周边（如嘉定、松江）购房"
+      },
+      {
+        "option": "C",
+        "content": "扩大健身房经营规模"
+      },
+      {
+        "option": "D",
+        "content": "参与网络安全项目"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3209",
+        "event_name": "农家乐晚餐与未来规划畅谈"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 502
+      },
+      {
+        "type": "push",
+        "id": 1596
+      },
+      {
+        "type": "push",
+        "id": 1597
+      },
+      {
+        "type": "sms",
+        "id": 1070
+      },
+      {
+        "type": "sms",
+        "id": 1071
+      },
+      {
+        "type": "sms",
+        "id": 1072
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年5月，尹浩在和朋友讨论最近听的音乐时，明确表示自己最近偏爱哪种风格的音乐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "节奏感强的电子音乐"
+      },
+      {
+        "option": "B",
+        "content": "舒缓的纯音乐或轻音乐"
+      },
+      {
+        "option": "C",
+        "content": "经典老歌和怀旧金曲"
+      },
+      {
+        "option": "D",
+        "content": "节奏布鲁斯（R&B）"
+      }
+    ],
+    "answer": "B",
+    "ask_time": "2025-08",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1997"
+      },
+      {
+        "type": "sms",
+        "id": "1998"
+      },
+      {
+        "type": "sms",
+        "id": "1999"
+      },
+      {
+        "type": "sms",
+        "id": "2000"
+      },
+      {
+        "type": "sms",
+        "id": "2001"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "在8月与战友的露营活动中，尹浩与战友们交流了哪些关于个人发展的内容？",
@@ -2231,7 +3378,7 @@
     "required_events_id": [
       "3209"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2290,7 +3437,7 @@
       "2776",
       "2777"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -2339,7 +3486,7 @@
     "required_events_id": [
       "3770"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2387,7 +3534,7 @@
       "1915",
       "1963"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2457,7 +3604,7 @@
       "43",
       "46"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -2528,7 +3675,7 @@
       "2025-08-06"
     ],
     "ask_time": "2025-09",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -2577,6 +3724,68 @@
     ]
   },
   {
+    "question": "在2025年8月18日完成30公里长跑后，尹浩是先补充了香蕉和牛奶，还是先驾车前往公司上班？",
+    "options": [
+      {
+        "option": "A",
+        "content": "是，先补充了香蕉和牛奶"
+      },
+      {
+        "option": "B",
+        "content": "否，先驾车前往公司上班"
+      },
+      {
+        "option": "C",
+        "content": "两者同时进行"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "3231",
+      "3232"
+    ],
+    "required_events_date": [
+      "2025-08-18",
+      "2025-08-18"
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 718
+      },
+      {
+        "type": "push",
+        "id": 1608
+      },
+      {
+        "type": "sms",
+        "id": 1083
+      },
+      {
+        "type": "sms",
+        "id": 1084
+      },
+      {
+        "type": "sms",
+        "id": "2225"
+      },
+      {
+        "type": "push",
+        "id": "2736"
+      },
+      {
+        "type": "calendar",
+        "id": "157"
+      }
+    ]
+  },
+  {
     "question": "尹浩在8月的哪个日期既领取了夏季高温福利又去淀山湖钓鱼？",
     "answer": "2025年8月10日。",
     "score_points": [
@@ -2598,7 +3807,7 @@
       "2025-08-10"
     ],
     "ask_time": "2025-09",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2652,7 +3861,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年10月，尹浩在微信群里与发小张伟、李强聊天时，谈到了另一位发小陈明最近发生的一件喜事。这件喜事是什么？",
@@ -2694,7 +3903,7 @@
         "id": "1828"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2月份，尹浩在午餐后通过手机发现并立即报名了什么课程？",
@@ -2734,7 +3943,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，尹浩在与他人的短信交流中，谈论了关于他哥哥尹涛的什么事情？这件事对尹浩本人的日常生活没有直接影响。",
@@ -2772,7 +3981,7 @@
         "id": "1852"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在6月初驾车返程途中，尹浩为了保持清醒，播放了哪两类主题的音频节目？",
@@ -2808,7 +4017,43 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在6月份的一次工间休息中，同事王磊向尹浩提议周末进行什么活动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "去新开的电玩城活动"
+      },
+      {
+        "option": "B",
+        "content": "一起去钓鱼"
+      },
+      {
+        "option": "C",
+        "content": "去看电影"
+      },
+      {
+        "option": "D",
+        "content": "去健身房锻炼"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "2195",
+        "event_name": "工间休息与同事交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": 710
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年9月，尹浩在与战友张建国的聊天中，得知了另一位战友周晓峰最近遇到了什么个人生活上的困扰？",
@@ -2846,7 +4091,7 @@
         "id": "1942"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月8日，尹浩下班途中在广富林生鲜超市采购了哪些物品？",
@@ -2886,7 +4131,55 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月9日，尹浩为技术研讨会准备的钛合金零件工艺改进方案发言要点，不包括以下哪一项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "组合夹具的定位原理与优势"
+      },
+      {
+        "option": "B",
+        "content": "分层切削参数的实验数据支撑"
+      },
+      {
+        "option": "C",
+        "content": "预期的变形控制效果"
+      },
+      {
+        "option": "D",
+        "content": "新型冷却液的选用建议"
+      }
+    ],
+    "answer": "D",
+    "required_events": [
+      {
+        "event_id": "2689",
+        "event_name": "午间准备研讨会发言"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "34"
+      },
+      {
+        "type": "sms",
+        "id": "1868"
+      },
+      {
+        "type": "note",
+        "id": "50"
+      },
+      {
+        "type": "push",
+        "id": "2645"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月，尹浩与跑友陈杰在完成长跑后，于松江区何处共进早餐庆祝？",
@@ -2922,7 +4215,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年8月，尹浩在与师傅孙建国聊天时，得知了孙师傅的哪位亲戚最近遇到了什么具体困难？",
@@ -2960,7 +4253,7 @@
         "id": "1975"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在三月上旬与钓友吴志强的一次交流后，尹浩可能对哪个技术领域产生了新的兴趣？",
@@ -2984,7 +4277,7 @@
       "830",
       "1043"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -3040,7 +4333,7 @@
       "1038",
       "1143"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3078,6 +4371,73 @@
     "ask_time": "2025-09"
   },
   {
+    "question": "尹浩在7月11日购买收音机维修零件的直接动机是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "为了录制一期关于旧物维修的短视频内容做准备。"
+      },
+      {
+        "option": "B",
+        "content": "高级技师考试通过后，作为奖励自己的兴趣爱好项目。"
+      },
+      {
+        "option": "C",
+        "content": "维修师傅的赞赏鼓励了他，且手头收音机项目遇到了具体故障。"
+      },
+      {
+        "option": "D",
+        "content": "为即将到来的搬家活动，提前处理闲置物品。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "2619",
+      "2712",
+      "2754"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 402
+      },
+      {
+        "type": "push",
+        "id": 1273
+      },
+      {
+        "type": "agent_chat",
+        "id": 421
+      },
+      {
+        "type": "call",
+        "id": 578
+      },
+      {
+        "type": "call",
+        "id": 579
+      },
+      {
+        "type": "photo",
+        "id": 679
+      },
+      {
+        "type": "push",
+        "id": 1326
+      },
+      {
+        "type": "push",
+        "id": 1327
+      },
+      {
+        "type": "push",
+        "id": 1344
+      }
+    ],
+    "ask_time": "2025-10"
+  },
+  {
     "question": "尹浩在周末钓鱼比赛前，根据哪位钓友的建议，对最终版饵料配方进行了怎样的调整？",
     "answer": "根据钓友吴志强（吴哥）的建议，减少了15%的腥味饵比例，并严格控制了拉丝粉的用量，配出了纯正谷物清香的饵料。",
     "score_points": [
@@ -3094,7 +4454,7 @@
       "893",
       "906"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -3141,7 +4501,7 @@
       "3560",
       "3564"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -3210,7 +4570,7 @@
     "required_events_id": [
       "4094"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3250,7 +4610,7 @@
       "3854",
       "3855"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "sms",
@@ -3308,7 +4668,7 @@
       "3112",
       "3127"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -3366,7 +4726,7 @@
       "2082",
       "2095"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3409,7 +4769,7 @@
       "2025-09-10"
     ],
     "ask_time": "2025-10",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3458,7 +4818,7 @@
       "2025-09-24"
     ],
     "ask_time": "2025-10",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3487,6 +4847,54 @@
     ]
   },
   {
+    "question": "在9月份，我为了完成一项高精度加工任务，与哪位同事协作对刀具路径和切削参数提出了优化建议？",
+    "options": [
+      {
+        "option": "A",
+        "content": "孙建国"
+      },
+      {
+        "option": "B",
+        "content": "王磊"
+      },
+      {
+        "option": "C",
+        "content": "刘志强"
+      },
+      {
+        "option": "D",
+        "content": "小张"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "3517",
+        "event_name": "承接高精度加工任务并完成技术准备"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": 1755
+      },
+      {
+        "type": "sms",
+        "id": 1200
+      },
+      {
+        "type": "sms",
+        "id": 1201
+      },
+      {
+        "type": "sms",
+        "id": 1202
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "在9月份，我通过微信与跑友陈杰交流了关于什么主题的计划？",
     "answer": "赛后身体感受和主动恢复方法，为下周健身房力量训练做准备。",
     "score_points": [
@@ -3512,7 +4920,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在2月份与师傅的一次交谈中，尹浩坦诚地讨论了哪些方面的压力？",
@@ -3552,7 +4960,53 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年9月，尹浩在和朋友讨论钓鱼装备时，明确表示自己目前最想升级或添置的钓具是哪一项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "一根更轻便、感度更高的碳素路亚竿"
+      },
+      {
+        "option": "B",
+        "content": "一套更精准、功能更全的电子漂"
+      },
+      {
+        "option": "C",
+        "content": "一个容量更大、保温效果更好的钓箱"
+      },
+      {
+        "option": "D",
+        "content": "一台更灵敏、探测范围更广的探鱼器"
+      }
+    ],
+    "answer": "B",
+    "ask_time": "2025-10",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1976"
+      },
+      {
+        "type": "sms",
+        "id": "1977"
+      },
+      {
+        "type": "sms",
+        "id": "1978"
+      },
+      {
+        "type": "sms",
+        "id": "1979"
+      },
+      {
+        "type": "sms",
+        "id": "1980"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月份，尹浩在家中首次尝试手冲咖啡后，在哪个微信群与哪两位朋友分享了体验？",
@@ -3592,7 +5046,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "尹浩在10月份观摩陈师傅维修洗衣机时，结合理论观察了哪些具体操作？",
@@ -3628,7 +5082,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月份，尹浩在为新员工准备带教资料时，草拟了什么内容？",
@@ -3664,7 +5118,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月份，尹浩在车间休息区通过微信向陈杰咨询了哪些关于半程马拉松和康复的具体建议？",
@@ -3704,7 +5158,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年1月，尹浩在微信聊天中得知，他的战友张建国在杭州遇到了什么让他感到“又好笑又无奈”的事情？",
@@ -3750,7 +5204,7 @@
         "id": "2068"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "尹浩在7月初为解决合租问题寻求外部建议，他最终采纳了哪条关键建议，并以此为基础采取了什么具体行动？",
@@ -3769,7 +5223,7 @@
       "2577",
       "2634"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -3814,7 +5268,7 @@
     "required_events_id": [
       "2904"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -3855,7 +5309,7 @@
       "3584",
       "3585"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -3933,7 +5387,7 @@
       "3716",
       "3717"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -3996,7 +5450,7 @@
       "4006",
       "4019"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4062,7 +5516,7 @@
       "3949",
       "4014"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4109,7 +5563,7 @@
       "3872",
       "4056"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -4163,7 +5617,7 @@
       "3049",
       "3118"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4218,7 +5672,7 @@
       "3236",
       "3262"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4284,6 +5738,64 @@
     "ask_time": "2025-11"
   },
   {
+    "question": "在排查加工精度波动问题时，团队最终将排查重点从单纯的‘刀具磨损’转向了更多维度，这主要是基于哪一天的讨论共识？",
+    "options": [
+      {
+        "option": "A",
+        "content": "4月2日，基于首件试加工尺寸接近上限的发现。"
+      },
+      {
+        "option": "B",
+        "content": "4月8日，基于更换新刀具后问题依然存在的验证结果。"
+      },
+      {
+        "option": "C",
+        "content": "4月16日，基于团队技术讨论会上的集思广益。"
+      },
+      {
+        "option": "D",
+        "content": "4月22日，基于解决另一批次材料刀具磨损问题的经验。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1381",
+      "1382"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 186
+      },
+      {
+        "type": "call",
+        "id": 258
+      },
+      {
+        "type": "push",
+        "id": 620
+      },
+      {
+        "type": "push",
+        "id": 621
+      },
+      {
+        "type": "push",
+        "id": 622
+      },
+      {
+        "type": "sms",
+        "id": 392
+      },
+      {
+        "type": "sms",
+        "id": 393
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
     "question": "尹浩在2025年10月被班组长推荐列席技改项目评审会，主要是由于此前在2025年7月与班组长沟通中明确的哪个新职责？",
     "answer": "获得了参与工艺评审的新职责。",
     "score_points": [
@@ -4305,7 +5817,7 @@
       "2025-10-26"
     ],
     "ask_time": "2025-11",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -4375,7 +5887,47 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "9月下旬，我在车间指导学徒进行最终检验时，主要教导其规范填写了什么文件？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《设备点检保养记录表》"
+      },
+      {
+        "option": "B",
+        "content": "《加工零件检验报告单》"
+      },
+      {
+        "option": "C",
+        "content": "《学徒阶段性带教总结报告》"
+      },
+      {
+        "option": "D",
+        "content": "《生产完工记录》"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3693",
+        "event_name": "指导学徒进行最终检验与报告填写"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 827
+      },
+      {
+        "type": "photo",
+        "id": 972
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2月份，尹浩在检查完车辆后，与父母在家中客厅玩了什么游戏？",
@@ -4407,7 +5959,59 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "5月20日午休时，尹浩通过手机成功报名了哪项体育赛事？",
+    "options": [
+      {
+        "option": "A",
+        "content": "上海全程马拉松"
+      },
+      {
+        "option": "B",
+        "content": "上海半程马拉松"
+      },
+      {
+        "option": "C",
+        "content": "松江区10公里健康跑"
+      },
+      {
+        "option": "D",
+        "content": "广富林路绿道慈善跑"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1987",
+        "event_name": "午休事务处理"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 289
+      },
+      {
+        "type": "photo",
+        "id": 510
+      },
+      {
+        "type": "push",
+        "id": 954
+      },
+      {
+        "type": "sms",
+        "id": 633
+      },
+      {
+        "type": "sms",
+        "id": 634
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，尹浩在与发小张伟的聊天中，谈论到另一位发小李强最近在杭州遇到了什么工作上的麻烦事？",
@@ -4449,7 +6053,7 @@
         "id": "1898"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，尹浩在与同事王磊的聊天中，得知了他们的战友张建国最近在杭州遇到了什么让他感到困扰但又不算严重的事情？",
@@ -4495,7 +6099,7 @@
         "id": "1908"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "3月初，尹浩在客厅地垫上进行了什么活动来缓解肌肉酸痛？",
@@ -4531,7 +6135,53 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年6月，尹浩在和朋友讨论最近上映的科幻电影时，明确表示自己最不喜欢以下哪种类型的科幻片设定？",
+    "options": [
+      {
+        "option": "A",
+        "content": "时间旅行导致因果悖论，逻辑混乱的"
+      },
+      {
+        "option": "B",
+        "content": "外星文明入侵地球，人类团结反抗的"
+      },
+      {
+        "option": "C",
+        "content": "人工智能觉醒后与人类爆发全面战争的"
+      },
+      {
+        "option": "D",
+        "content": "未来世界资源枯竭，社会结构崩塌的废土风格"
+      }
+    ],
+    "answer": "A",
+    "ask_time": "2025-11",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1987"
+      },
+      {
+        "type": "sms",
+        "id": "1988"
+      },
+      {
+        "type": "sms",
+        "id": "1989"
+      },
+      {
+        "type": "sms",
+        "id": "1990"
+      },
+      {
+        "type": "sms",
+        "id": "1991"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，尹浩在微信上与师傅孙建国聊天时，得知了同事王磊的什么近况？",
@@ -4569,7 +6219,7 @@
         "id": "1996"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在11月上旬的一次夜班中，尹浩巡检时发现机床换刀后切削声音异常，他随后检查并处理了什么具体问题？",
@@ -4605,7 +6255,47 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "11月份，尹浩与同事在棕榈广场聚餐，他们选择了哪家餐厅？",
+    "options": [
+      {
+        "option": "A",
+        "content": "今日牛事"
+      },
+      {
+        "option": "B",
+        "content": "潮汕牛肉火锅店"
+      },
+      {
+        "option": "C",
+        "content": "今日牛事潮汕牛肉火锅店"
+      },
+      {
+        "option": "D",
+        "content": "棕榈广场火锅店"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "4341",
+        "event_name": "与同事聚餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1191
+      },
+      {
+        "type": "push",
+        "id": 2196
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，尹浩在与他哥哥尹涛的聊天中，提到了他们的表姐陈晓雯最近在杭州遇到了什么让她感到困扰的事情？",
@@ -4647,7 +6337,53 @@
         "id": "2016"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年1月，尹浩在与钓友吴志强交流时，提到他最近在听音乐方面有了一个新的偏好，他更喜欢在什么场景下听哪种类型的音乐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "在晨跑时听节奏感强的电子音乐或摇滚乐。"
+      },
+      {
+        "option": "B",
+        "content": "在晚上下班后，独自在家小酌时听一些舒缓的民谣或轻音乐。"
+      },
+      {
+        "option": "C",
+        "content": "在开车通勤的路上听一些经典老歌或怀旧金曲。"
+      },
+      {
+        "option": "D",
+        "content": "在周末钓鱼或露营时，用便携音箱播放一些自然风格或纯音乐。"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2017"
+      },
+      {
+        "type": "sms",
+        "id": "2018"
+      },
+      {
+        "type": "sms",
+        "id": "2019"
+      },
+      {
+        "type": "sms",
+        "id": "2020"
+      },
+      {
+        "type": "sms",
+        "id": "2021"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "4月份，尹浩与跑友阿杰在广富林文化遗址公园晨跑时，提到了什么话题？",
@@ -4683,7 +6419,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年5月，尹浩在微信聊天中得知，他的战友张建国最近在杭州经历了一件什么让他感到既好笑又无奈的事情？",
@@ -4725,7 +6461,7 @@
         "id": "2026"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，尹浩在微信上向发小李强分享了他对一部近期上映的、讲述技术工人故事的国产电影的看法。他认为这部电影最打动他、让他产生共鸣的核心主题是什么？",
@@ -4763,7 +6499,7 @@
         "id": "2079"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "你学习电工基础知识时，通常在哪里进行？",
@@ -4783,7 +6519,7 @@
       "2025-11-01"
     ],
     "ask_time": "2025-11",
-    "question_type": "updating",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -4838,7 +6574,7 @@
       "4432",
       "4472"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4967,7 +6703,7 @@
     "required_events_id": [
       "2619"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4997,7 +6733,7 @@
       "3882",
       "3988"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -5039,7 +6775,7 @@
       "930",
       "934"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -5093,7 +6829,7 @@
       "3418",
       "3476"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5153,7 +6889,7 @@
       "4012",
       "4203"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -5242,7 +6978,7 @@
     "required_events_id": [
       "4792"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5276,7 +7012,7 @@
       "4864",
       "4876"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5322,7 +7058,7 @@
       "4727",
       "4728"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5366,7 +7102,7 @@
       "4735",
       "4737"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5451,7 +7187,7 @@
     "required_events_id": [
       "3112"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -5511,7 +7247,7 @@
       "2058",
       "2071"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5592,7 +7328,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "尹浩在国庆节前提到的那个奖金很高的淀山湖钓鱼比赛具体在哪一天举行？",
@@ -5614,7 +7350,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "尹浩在7月份提到母亲准备寄来的家乡特产具体是什么？",
@@ -5636,7 +7372,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陈明在2025年8月2日提到的培训具体开始于哪一天？",
@@ -5670,7 +7406,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "2025年5月12日孙师傅因为什么原因要请客吃饭？",
@@ -5704,7 +7440,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "2025年7月5日刘芳向尹浩推荐的中医叫什么名字？",
@@ -5730,7 +7466,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "2025年10月5日尹浩舅舅家新养的小狗叫什么名字？",
@@ -5764,7 +7500,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "跑友陈杰在2025年2月首次提到的半程马拉松比赛，具体是3月的哪一天？",
@@ -5786,7 +7522,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "2025年4月，尹浩的父母分两次共给他寄了多少斤南通文蛤？",
@@ -5808,7 +7544,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陈建国师傅在2025年8月初提到上个月修好的那台旧音箱，其原主人是谁？",
@@ -5830,7 +7566,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "尹浩的发小张伟在国庆假期前一周说钓到了特别大的鱼，这条鱼具体是什么鱼？",
@@ -5852,7 +7588,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "尹浩的房东李姐在2025年4月催收的房租，具体是指哪一天的款项？",
@@ -5874,7 +7610,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "尹浩的父亲在八月份提到有亲戚来上海看病，想托尹浩帮忙，这位亲戚最有可能看的是哪个科室？",
@@ -5896,7 +7632,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "启动购房计划（指11月开始的系统性调研）最为直接和关键的触发因素是什么？",
@@ -5924,7 +7660,7 @@
       "2025-11-01"
     ],
     "ask_time": "2025-12",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5984,7 +7720,7 @@
       "2025-12-14"
     ],
     "ask_time": "2025-12",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -6025,6 +7761,60 @@
     ]
   },
   {
+    "question": "我在查阅年度体检报告后，间隔了几天开始全面盘点个人年度成就？",
+    "options": [
+      {
+        "option": "A",
+        "content": "5天"
+      },
+      {
+        "option": "B",
+        "content": "7天"
+      },
+      {
+        "option": "C",
+        "content": "9天"
+      },
+      {
+        "option": "D",
+        "content": "11天"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "4727",
+      "4860"
+    ],
+    "required_events_date": [
+      "2025-12-05",
+      "2025-12-14"
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 772
+      },
+      {
+        "type": "push",
+        "id": 2408
+      },
+      {
+        "type": "agent_chat",
+        "id": 796
+      },
+      {
+        "type": "photo",
+        "id": 1356
+      },
+      {
+        "type": "sms",
+        "id": 1722
+      }
+    ]
+  },
+  {
     "question": "尹浩在12月15日确认寄往老家的特产包裹已签收，他是在哪一天规划这次寄送的？",
     "answer": "2025年12月10日。",
     "score_points": [
@@ -6042,7 +7832,7 @@
       "2025-12-15"
     ],
     "ask_time": "2025-12",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6110,7 +7900,7 @@
         "id": "1838"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "在5月份的班组总结短会上，尹浩因何工作成果受到班组长王磊的公开表扬？",
@@ -6138,7 +7928,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，尹浩在与他人的短信交流中，谈论到他的舅舅陈志刚最近在老家遇到的一件麻烦事。请问具体是什么麻烦事？",
@@ -6176,7 +7966,229 @@
         "id": "1881"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年7月，尹浩在与朋友讨论音乐品味时，明确表示自己最近一段时间在跑步和独处时，最喜欢听哪种风格的音乐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "节奏强劲的电子音乐（EDM）"
+      },
+      {
+        "option": "B",
+        "content": "经典华语流行老歌（如周杰伦、林俊杰）"
+      },
+      {
+        "option": "C",
+        "content": "纯音乐或轻音乐（如钢琴曲、电影原声）"
+      },
+      {
+        "option": "D",
+        "content": "节奏布鲁斯（R&B）"
+      }
+    ],
+    "answer": "C",
+    "ask_time": "2025-12",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1882"
+      },
+      {
+        "type": "sms",
+        "id": "1883"
+      },
+      {
+        "type": "sms",
+        "id": "1884"
+      },
+      {
+        "type": "sms",
+        "id": "1885"
+      },
+      {
+        "type": "sms",
+        "id": "1886"
+      }
+    ],
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年6月，尹浩在与同事王磊聊天时，分享了自己近期在视频平台（如B站）上最喜欢观看哪一类主题的UP主视频？",
+    "options": [
+      {
+        "option": "A",
+        "content": "专注于硬核机械拆解与原理讲解的技术类UP主"
+      },
+      {
+        "option": "B",
+        "content": "记录户外露营、钓鱼全过程与装备评测的休闲生活类UP主"
+      },
+      {
+        "option": "C",
+        "content": "分享复古电子产品修复与DIY改造过程的动手类UP主"
+      },
+      {
+        "option": "D",
+        "content": "讲解个人理财、储蓄与职场规划的知识类UP主"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1899"
+      },
+      {
+        "type": "sms",
+        "id": "1900"
+      },
+      {
+        "type": "sms",
+        "id": "1901"
+      },
+      {
+        "type": "sms",
+        "id": "1902"
+      },
+      {
+        "type": "sms",
+        "id": "1903"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年6月，尹浩在与表姐陈晓雯的聊天中，分享了自己目前对哪种类型的音乐产生了特别的偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "节奏感强的电子舞曲（EDM）"
+      },
+      {
+        "option": "B",
+        "content": "经典老歌和怀旧金曲"
+      },
+      {
+        "option": "C",
+        "content": "八九十年代的City Pop（城市流行乐）"
+      },
+      {
+        "option": "D",
+        "content": "舒缓的纯音乐和轻音乐"
+      }
+    ],
+    "answer": "C",
+    "ask_time": "2025-12",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1909"
+      },
+      {
+        "type": "sms",
+        "id": "1910"
+      },
+      {
+        "type": "sms",
+        "id": "1911"
+      },
+      {
+        "type": "sms",
+        "id": "1912"
+      },
+      {
+        "type": "sms",
+        "id": "1913"
+      }
+    ],
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "12月份，尹浩在松江万达广场为参加婚礼挑选了什么礼物？",
+    "options": [
+      {
+        "option": "A",
+        "content": "一套设计简约的骨瓷餐具套装"
+      },
+      {
+        "option": "B",
+        "content": "一套专业级螺丝刀套装"
+      },
+      {
+        "option": "C",
+        "content": "一条米灰色羊绒围巾"
+      },
+      {
+        "option": "D",
+        "content": "一套智能手电筒"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "4723",
+        "event_name": "挑选结婚礼物"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1322
+      },
+      {
+        "type": "push",
+        "id": 2407
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "12月份，尹浩在查看年度绩效评估后，确认获得了多少年终奖？",
+    "options": [
+      {
+        "option": "A",
+        "content": "约1.5万元"
+      },
+      {
+        "option": "B",
+        "content": "约2万元"
+      },
+      {
+        "option": "C",
+        "content": "约2.5万元"
+      },
+      {
+        "option": "D",
+        "content": "约3万元"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4792",
+        "event_name": "查看奖金通知、完成生产及获评优秀"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 783
+      },
+      {
+        "type": "photo",
+        "id": 1340
+      },
+      {
+        "type": "push",
+        "id": 2441
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "尹浩在12月份拜访维修店时，向陈师傅请教了关于哪种电机的实操判断经验？",
@@ -6212,7 +8224,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "12月21日，尹浩与吴哥在淀山湖野餐时享用了哪些食物？",
@@ -6248,7 +8260,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，尹浩在与他人的短信交流中，谈论了关于他哥哥尹涛最近发生的一件具体事情。请问，尹涛最近发生了什么事情？",
@@ -6290,7 +8302,7 @@
         "id": "1931"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年8月，尹浩在棕榈广场便利店购买双色球彩票时，具体花费了多少钱？",
@@ -6314,7 +8326,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月份，尹浩在家整理了多少套位于特定区域的二手房源信息？",
@@ -6346,7 +8358,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在11月下旬的一次设备清点工作中，尹浩负责核对了哪些核心部件的型号与序列号？",
@@ -6390,7 +8402,101 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "11月下旬，尹浩在午休时规划去松江图书馆要查询的资料关键词不包括以下哪一项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "机电一体化"
+      },
+      {
+        "option": "B",
+        "content": "PLC编程"
+      },
+      {
+        "option": "C",
+        "content": "上海电工证考纲"
+      },
+      {
+        "option": "D",
+        "content": "数控机床维修"
+      }
+    ],
+    "answer": "D",
+    "required_events": [
+      {
+        "event_id": "4508",
+        "event_name": "午休与周末学习规划"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "66"
+      },
+      {
+        "type": "calendar",
+        "id": "44"
+      },
+      {
+        "type": "sms",
+        "id": "1960"
+      },
+      {
+        "type": "push",
+        "id": "2656"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，尹浩在与同事王磊聊天时，提到自己最近在追一部电视剧，并对剧中某个角色发表了看法。根据聊天记录，尹浩追的这部剧以及他评价的角色最可能是以下哪一项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《繁花》，评价的角色是阿宝。"
+      },
+      {
+        "option": "B",
+        "content": "《大江大河之岁月如歌》，评价的角色是宋运辉。"
+      },
+      {
+        "option": "C",
+        "content": "《三体》，评价的角色是史强。"
+      },
+      {
+        "option": "D",
+        "content": "《狂飙》，评价的角色是高启强。"
+      }
+    ],
+    "answer": "B",
+    "ask_time": "2025-12",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2007"
+      },
+      {
+        "type": "sms",
+        "id": "2008"
+      },
+      {
+        "type": "sms",
+        "id": "2009"
+      },
+      {
+        "type": "sms",
+        "id": "2010"
+      },
+      {
+        "type": "sms",
+        "id": "2011"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，尹浩在车间休息区与同事王磊、刘志强等分享了什么活动的见闻？",
@@ -6422,7 +8528,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年2月，尹浩在与战友张建国的聊天中，得知了另一位战友周晓峰最近在深圳遇到了什么个人生活上的好消息？",
@@ -6460,7 +8566,91 @@
         "id": "2057"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "尹浩在10月份一次下班后，顺路在哪家便利店为次日的约跑活动购买了补给品？",
+    "options": [
+      {
+        "option": "A",
+        "content": "全家便利店(华亭茗苑店)"
+      },
+      {
+        "option": "B",
+        "content": "永辉超市(上海松江万达广场店)"
+      },
+      {
+        "option": "C",
+        "content": "淮南羊肉牛肉汤馆(新港路店)"
+      },
+      {
+        "option": "D",
+        "content": "甜趣烘焙工坊"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3944",
+        "event_name": "下班购物与通勤前往聚餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 881
+      },
+      {
+        "type": "photo",
+        "id": 1043
+      },
+      {
+        "type": "photo",
+        "id": 1044
+      },
+      {
+        "type": "push",
+        "id": 2001
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "10月份，尹浩在师傅的维修店练习了什么电工技能？",
+    "options": [
+      {
+        "option": "A",
+        "content": "测量电阻和判断二极管"
+      },
+      {
+        "option": "B",
+        "content": "多股软导线的连接与绝缘恢复"
+      },
+      {
+        "option": "C",
+        "content": "电动机继电控制电路"
+      },
+      {
+        "option": "D",
+        "content": "工业物联网网络通信技术"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3995",
+        "event_name": "电工技能练习"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 640
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "在11月，我进行晨跑或类似健身活动的习惯和规律是怎样的？（例如频率、时间、地点、是否受其他因素影响等）",
@@ -6496,7 +8686,7 @@
       "4265",
       "4375"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6594,7 +8784,7 @@
       "3451",
       "3452"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -6646,7 +8836,7 @@
       "4784",
       "4785"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6736,7 +8926,7 @@
       "4157",
       "4223"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -6766,6 +8956,81 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "尹浩为了考取电工证，每周六上午会去荣乐东路一位师傅的维修店进行实践观摩。请问这位师傅是谁？",
+    "options": [
+      {
+        "option": "A",
+        "content": "工作中的同事"
+      },
+      {
+        "option": "B",
+        "content": "钓鱼的朋友"
+      },
+      {
+        "option": "C",
+        "content": "电器维修店的师傅"
+      },
+      {
+        "option": "D",
+        "content": "中专时期的同学"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "3824",
+      "3915",
+      "3995"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 851
+      },
+      {
+        "type": "photo",
+        "id": 1002
+      },
+      {
+        "type": "push",
+        "id": 1924
+      },
+      {
+        "type": "push",
+        "id": 1979
+      },
+      {
+        "type": "agent_chat",
+        "id": 640
+      },
+      {
+        "type": "calendar",
+        "id": "50"
+      },
+      {
+        "type": "sms",
+        "id": "2086"
+      },
+      {
+        "type": "note",
+        "id": "70"
+      },
+      {
+        "type": "calendar",
+        "id": "81"
+      },
+      {
+        "type": "sms",
+        "id": "2108"
+      },
+      {
+        "type": "note",
+        "id": "120"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "我从完成个人财务模板的搭建，到进行首次详细的年度预算复盘，中间间隔了大约多少个月？",
     "answer": "10个月。",
     "score_points": [
@@ -6783,7 +9048,7 @@
       "2025-12-28"
     ],
     "ask_time": "2026-03",
-    "question_type": "question_answer",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -6822,7 +9087,7 @@
   {
     "question": "尹浩的母亲王秀英在2025年5月31日上午10点至11点之间具体做了什么？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -6831,7 +9096,7 @@
   {
     "question": "在2025年3月16日尹浩拜访维修师傅陈建国时，陈师傅当时正在维修的具体家电型号是什么？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],

@@ -1,7 +1,12 @@
 import json
 from typing import Dict
 
-category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "temporal": "3", "user_modeling": "4", "unanswerable": "5"}
+category_dict = {"Information Extraction": "0",
+                         "Multi-hop reasoning": "1",
+                         "Nondeclarative": "2",
+                         "Temporal and Knowledge Updating": "3",
+                         "Unanswerable": "4"}
+
 def load_json(path: str) -> Dict:
     """读取 JSON 文件"""
     with open(path, "r", encoding="utf-8") as f:

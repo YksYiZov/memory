@@ -138,3 +138,29 @@ The analysis and statistical results will be saved in `./result.json`.
 If you do not have complete evaluation result files for all three memory systems, please manually modify `quick_analyze.py` accordingly.
 
 By default, method_a corresponds to MemOS, method_b to Hindsight, and method_c to MemU.
+
+## Dataset Statistics
+| **Metric**                         | **Value** |
+| ---------------------------------- | --------- |
+| Total users                        | 10        |
+| Duration per user                  | 1 year    |
+| Total events                       | 51,491    |
+| Events per user (mean)             | 5,149     |
+| Events per user (median)           | 5,147     |
+| Persona tokens (mean)              | 17,730.8  |
+| Relationships (mean)               | 24.4      |
+| Locations (mean)                   | 15        |
+| Contacts per user (mean)           | 21.9      |
+| Calls per user (mean)              | 1,040.4   |
+| SMS messages per user (mean)       | 1,812.9   |
+| Calendar events per user (mean)    | 234.4     |
+| Agent chat conversations per user  | 688.5     |
+| Photos per user (mean)             | 1,233.4   |
+| Notes per user (mean)              | 363.1     |
+| Push notifications per user (mean) | 2,350.3   |
+| Fitness health records per user    | 301.0     |
+| Monthly summaries per user         | 12        |
+| Summary length (words, per user)   | 1,737.7   |
+| Context depth (tokens) per user    | 3.66M     |
+| Total dataset size                 | 332 MB    |
+| Generation time per user           | 8 hours   |

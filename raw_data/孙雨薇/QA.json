@@ -1,5 +1,42 @@
 [
   {
+    "question": "11月，孙雨薇在书店策划手账市集摊位时，为摊位确定的主题是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "拾光记忆"
+      },
+      {
+        "option": "B",
+        "content": "流动的日常诗"
+      },
+      {
+        "option": "C",
+        "content": "岁月手账"
+      },
+      {
+        "option": "D",
+        "content": "薇语片段"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4326",
+        "event_name": "策划手账市集摊位“流动的日常诗”"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 659,
+        "error": "Phone data item not found (type: agent_chat, id: 659)"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "我在哪一天晨跑时首次突破了5公里距离？",
     "answer": "2025年10月27日。",
     "score_points": [
@@ -11,7 +48,7 @@
     "required_events_id": [
       "4116"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -62,7 +99,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在10月份，我第一次因项目筹备工作而晚睡是在哪一天？",
@@ -76,7 +113,7 @@
     "required_events_id": [
       "3974"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -141,7 +178,7 @@
       "2025-01-22"
     ],
     "ask_time": "2025-09",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "event_id": "3154",
@@ -296,7 +333,7 @@
       "2025-07-12"
     ],
     "ask_time": "2025-08",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "event_id": "2284",
@@ -414,7 +451,7 @@
       "135",
       "170"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "event_id": "62",
@@ -600,7 +637,7 @@
       "1736",
       "1779"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "event_id": "1673",
@@ -1055,7 +1092,7 @@
       "827",
       "919"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -1170,7 +1207,7 @@
       "3027",
       "3184"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "event_id": "3027",
@@ -1276,7 +1313,7 @@
       "2226",
       "2482"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "event_id": "2225",
@@ -1428,7 +1465,7 @@
       "1497",
       "1538"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -1485,7 +1522,7 @@
       "1723",
       "1760"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "event_id": "1723",
@@ -1626,7 +1663,7 @@
       "690",
       "702"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "photo",
@@ -1830,7 +1867,7 @@
       "5",
       "15"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1921,7 +1958,56 @@
       }
     ],
     "ask_time": "2025-02",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "我2月份收到的一笔撰稿收入，其付款方是哪家机构？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《文化视界》杂志社"
+      },
+      {
+        "option": "B",
+        "content": "云南大学文学院"
+      },
+      {
+        "option": "C",
+        "content": "明远书屋"
+      },
+      {
+        "option": "D",
+        "content": "昆明市第二中学"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "515"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 58
+      },
+      {
+        "type": "photo",
+        "id": 119
+      },
+      {
+        "type": "push",
+        "id": 226
+      },
+      {
+        "type": "push",
+        "id": 227
+      },
+      {
+        "type": "sms",
+        "id": 104
+      }
+    ],
+    "ask_time": "2025-02"
   },
   {
     "question": "2025年2月，孙雨薇在与表姐沈薇的聊天中，得知了表姐的一位同事最近遇到了什么具体的家庭变故？",
@@ -1959,7 +2045,7 @@
         "id": "1727"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月份，孙雨薇在三联韬奋书店写作时，书店老板做了什么？",
@@ -1999,7 +2085,7 @@
       }
     ],
     "ask_time": "2025-03",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，孙雨薇在与闺蜜张静的聊天中，提到了另一位闺蜜王欣然最近遇到的一件具体烦恼事，这件事是什么？",
@@ -2037,7 +2123,7 @@
         "id": "1858"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "孙雨薇在寒假期间，与父亲孙明远围绕其知青经历进行的首次正式、深入的创作访谈，发生在哪一天？",
@@ -2052,7 +2138,7 @@
       "177",
       "155"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -2091,7 +2177,7 @@
       "2025-03-08"
     ],
     "ask_time": "2025-04",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2137,7 +2223,7 @@
       }
     ],
     "ask_time": "2025-04",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月初，孙雨薇与朋友在花鸟市场采购了哪些花材？",
@@ -2185,7 +2271,59 @@
       }
     ],
     "ask_time": "2025-04",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "4月份，我在明远书屋闲逛时，书店老板秦明远先生向我推荐了什么活动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "昆明老照片展"
+      },
+      {
+        "option": "B",
+        "content": "纸间叙事——地方文献与当代艺术展"
+      },
+      {
+        "option": "C",
+        "content": "城市记忆主题讲座"
+      },
+      {
+        "option": "D",
+        "content": "汪曾祺作品分享会"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1248",
+        "event_name": "书店行程"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": "1629"
+      },
+      {
+        "type": "note",
+        "id": "21"
+      },
+      {
+        "type": "calendar",
+        "id": "9"
+      },
+      {
+        "type": "sms",
+        "id": "1686"
+      },
+      {
+        "type": "push",
+        "id": "2636"
+      }
+    ],
+    "ask_time": "2025-04",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，孙雨薇在和闺蜜张静的聊天中，得知张静的一位同事最近遇到了什么家庭变故？",
@@ -2219,7 +2357,7 @@
         "id": "1877"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "你第一次上声乐体验课是在哪里上的？",
@@ -2237,7 +2375,7 @@
       "2025-04-07"
     ],
     "ask_time": "2025-04",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -2273,7 +2411,7 @@
       "2025-03-23"
     ],
     "ask_time": "2025-04",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2294,6 +2432,84 @@
     ]
   },
   {
+    "question": "孙雨薇在3月规划并开始周末翠湖快走习惯，主要是为了改善哪两个方面？",
+    "options": [
+      {
+        "option": "A",
+        "content": "改善写作时的肩颈劳损和缓解学业压力"
+      },
+      {
+        "option": "B",
+        "content": "改善‘向往自然却不行’的矛盾状态和追求健康体态"
+      },
+      {
+        "option": "C",
+        "content": "为散文集积累素材和采购素食食材"
+      },
+      {
+        "option": "D",
+        "content": "缓解声乐课后的紧张情绪和探索城市新路线"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "916",
+      "1017"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 133
+      },
+      {
+        "type": "photo",
+        "id": 236
+      },
+      {
+        "type": "push",
+        "id": 425
+      },
+      {
+        "type": "sms",
+        "id": 212
+      },
+      {
+        "type": "agent_chat",
+        "id": 133
+      },
+      {
+        "type": "photo",
+        "id": 279
+      },
+      {
+        "type": "photo",
+        "id": 280
+      },
+      {
+        "type": "note",
+        "id": "151"
+      },
+      {
+        "type": "push",
+        "id": "2693"
+      },
+      {
+        "type": "note",
+        "id": "183"
+      },
+      {
+        "type": "calendar",
+        "id": "113"
+      },
+      {
+        "type": "push",
+        "id": "2704"
+      }
+    ],
+    "ask_time": "2025-05"
+  },
+  {
     "question": "孙雨薇在五月份开始并适应了哪项晨间运动，她是在哪一天决定将这项运动纳入六月份的长期规划的？",
     "answer": "孙雨薇在五月份开始并适应了晨间快走，她是在2025年5月28日决定将这项运动纳入六月份的长期规划的。",
     "score_points": [
@@ -2311,7 +2527,7 @@
       "1823",
       "2057"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -2386,7 +2602,7 @@
       }
     ],
     "ask_time": "2025-05",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，孙雨薇在与闺蜜张静的聊天中，谈论了另一位闺蜜王欣然最近发生的一件具体事情。请问王欣然最近发生了什么事情？",
@@ -2424,7 +2640,7 @@
         "id": "1791"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月份，孙雨薇在书店阅读放松时，为接下来的什么活动积蓄能量？",
@@ -2460,7 +2676,7 @@
       }
     ],
     "ask_time": "2025-05",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，孙雨薇在翠湖公园快走锻炼时，用手机备忘录记录了什么？",
@@ -2500,7 +2716,7 @@
       }
     ],
     "ask_time": "2025-05",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "到四月底为止，你一共上过几次声乐体验课了？",
@@ -2524,7 +2740,7 @@
       "2025-04-29"
     ],
     "ask_time": "2025-05",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -2581,7 +2797,7 @@
       "427",
       "467"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2598,56 +2814,6 @@
       {
         "type": "note",
         "id": "208"
-      }
-    ],
-    "ask_time": "2025-06"
-  },
-  {
-    "question": "孙雨薇在提交毕业论文终稿后的第几天，正式通过了答辩并获评优秀？",
-    "answer": "第3天。",
-    "score_points": [
-      {
-        "description": "准确识别出提交毕业论文终稿的事件ID为1723，日期为2025-05-05。",
-        "score": 5
-      },
-      {
-        "description": "准确识别出毕业论文答辩（获评优秀）的事件ID为1760，日期为2025-05-08。",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "1723",
-      "1760"
-    ],
-    "question_type": "temporal",
-    "evidence": [
-      {
-        "type": "agent_chat",
-        "id": 239
-      },
-      {
-        "type": "call",
-        "id": 295
-      },
-      {
-        "type": "push",
-        "id": 849
-      },
-      {
-        "type": "sms",
-        "id": 487
-      },
-      {
-        "type": "push",
-        "id": 866
-      },
-      {
-        "type": "calendar",
-        "id": "105"
-      },
-      {
-        "type": "sms",
-        "id": "1963"
       }
     ],
     "ask_time": "2025-06"
@@ -2674,7 +2840,7 @@
       "2025-03-22"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2720,7 +2886,7 @@
       "2025-05-25"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -2745,6 +2911,259 @@
     ]
   },
   {
+    "question": "孙雨薇在3月至4月期间将素食实践常态化为‘工作日素食，周末灵活’模式，最直接基于以下哪项前期积累？",
+    "options": [
+      {
+        "option": "A",
+        "content": "首次无肉日的成功体验"
+      },
+      {
+        "option": "B",
+        "content": "正念饮食工作坊的技能学习"
+      },
+      {
+        "option": "C",
+        "content": "纪录片引发的伦理反思"
+      },
+      {
+        "option": "D",
+        "content": "家庭对素食汽锅鸡的认可"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1373",
+      "1151"
+    ],
+    "required_events_date": [
+      "2025-04-11",
+      "2025-03-26"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "145"
+      },
+      {
+        "type": "note",
+        "id": "242"
+      },
+      {
+        "type": "photo",
+        "id": "1677"
+      },
+      {
+        "type": "sms",
+        "id": "1984"
+      },
+      {
+        "type": "call",
+        "id": 178
+      },
+      {
+        "type": "push",
+        "id": 539
+      },
+      {
+        "type": "push",
+        "id": 540
+      },
+      {
+        "type": "push",
+        "id": "2732"
+      },
+      {
+        "type": "note",
+        "id": "250"
+      },
+      {
+        "type": "sms",
+        "id": "2049"
+      },
+      {
+        "type": "calendar",
+        "id": "149"
+      }
+    ]
+  },
+  {
+    "question": "1月初，孙雨薇在家通过线上查询，初步选定了哪家医院的体检套餐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "昆明市第一人民医院"
+      },
+      {
+        "option": "B",
+        "content": "云南大学附属医院"
+      },
+      {
+        "option": "C",
+        "content": "云南省第一人民医院"
+      },
+      {
+        "option": "D",
+        "content": "昆明医科大学第一附属医院"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "62",
+        "event_name": "线上查询与决定体检方案"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 6
+      },
+      {
+        "type": "push",
+        "id": 65
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在6月份的一次书店交流中，孙雨薇的同行好友宋文针对其困境提供了多项建议。以下哪一项建议是宋文没有提到的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "推荐使用‘坚果云’进行实时同步备份"
+      },
+      {
+        "option": "B",
+        "content": "推荐性价比高的电脑型号和购买渠道"
+      },
+      {
+        "option": "C",
+        "content": "建议将此次意外视为自由职业者必修课"
+      },
+      {
+        "option": "D",
+        "content": "建议立即购买移动硬盘进行定期备份"
+      }
+    ],
+    "answer": "D",
+    "required_events": [
+      {
+        "event_id": "2303",
+        "event_name": "阵雨中情绪波动并与同行好友深度语音交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": "998"
+      },
+      {
+        "type": "note",
+        "id": "62"
+      },
+      {
+        "type": "sms",
+        "id": "1852"
+      },
+      {
+        "type": "calendar",
+        "id": "38"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年8月，孙雨薇在与大学室友周琳的聊天中，分享了自己最近在摄影学习方面的一个具体偏好。她更喜欢使用哪种镜头来拍摄日常场景？",
+    "options": [
+      {
+        "option": "A",
+        "content": "长焦镜头，用于捕捉远处景物的细节"
+      },
+      {
+        "option": "B",
+        "content": "广角镜头，用于拍摄宏大的风景和建筑"
+      },
+      {
+        "option": "C",
+        "content": "定焦镜头（特别是50mm f/1.8），用于拍摄人像和静物，追求虚化效果"
+      },
+      {
+        "option": "D",
+        "content": "微距镜头，用于拍摄昆虫、花卉等微小物体的特写"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1919"
+      },
+      {
+        "type": "sms",
+        "id": "1920"
+      },
+      {
+        "type": "sms",
+        "id": "1921"
+      },
+      {
+        "type": "sms",
+        "id": "1922"
+      },
+      {
+        "type": "sms",
+        "id": "1923"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "根据我3月12日参观的花卉市场，可以推断该市场是？",
+    "options": [
+      {
+        "option": "A",
+        "content": "国内最大的花卉批发市场"
+      },
+      {
+        "option": "B",
+        "content": "亚洲最大的鲜切花交易市场"
+      },
+      {
+        "option": "C",
+        "content": "世界著名的花卉拍卖中心"
+      },
+      {
+        "option": "D",
+        "content": "本地的小型花市"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "968"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 126
+      },
+      {
+        "type": "photo",
+        "id": 258
+      },
+      {
+        "type": "photo",
+        "id": 259
+      }
+    ],
+    "ask_time": "2025-06"
+  },
+  {
     "question": "我3月14日在植物园参加插花工作坊时，与我之前学习的哪种插花流派形成了对比？",
     "answer": "日本池坊流。",
     "score_points": [
@@ -2756,7 +3175,7 @@
     "required_events_id": [
       "995"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2777,6 +3196,59 @@
       {
         "type": "sms",
         "id": "1943"
+      }
+    ],
+    "ask_time": "2025-06"
+  },
+  {
+    "question": "根据孙雨薇在声乐体验课最后一节课上录制的歌曲，可以推断她可能喜欢什么风格的音乐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "古典音乐"
+      },
+      {
+        "option": "B",
+        "content": "爵士乐"
+      },
+      {
+        "option": "C",
+        "content": "流行音乐"
+      },
+      {
+        "option": "D",
+        "content": "民族音乐"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1811"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 252
+      },
+      {
+        "type": "call",
+        "id": 313
+      },
+      {
+        "type": "photo",
+        "id": 517
+      },
+      {
+        "type": "push",
+        "id": 892
+      },
+      {
+        "type": "push",
+        "id": 893
+      },
+      {
+        "type": "note",
+        "id": "105"
       }
     ],
     "ask_time": "2025-06"
@@ -2808,7 +3280,7 @@
       "336",
       "347"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2878,7 +3350,7 @@
       "105",
       "161"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2937,7 +3409,7 @@
       "1358",
       "1373"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -2996,7 +3468,7 @@
       "2504",
       "2517"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3107,7 +3579,47 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月份，孙雨薇在书店完成并提交的专栏样稿标题是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "春城步迹"
+      },
+      {
+        "option": "B",
+        "content": "翠湖的晨与昏"
+      },
+      {
+        "option": "C",
+        "content": "雨隙间的字句与街巷"
+      },
+      {
+        "option": "D",
+        "content": "城市的偶然与漫步"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2831",
+        "event_name": "写作并提交专栏样稿"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 891
+      },
+      {
+        "type": "sms",
+        "id": 880
+      }
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年5月，孙雨薇在与表姐沈薇的聊天中，得知表姐最近在杭州遇到了哪位共同认识的人，并了解到此人最近在忙什么？",
@@ -3145,7 +3657,7 @@
         "id": "1907"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "6月份，孙雨薇在书房收到了一笔稿费，这笔稿费是通过什么方式通知她的？",
@@ -3181,7 +3693,51 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "6月份，孙雨薇在家中哪个具体位置与撰稿同行宋文进行了线上交流？",
+    "options": [
+      {
+        "option": "A",
+        "content": "客厅"
+      },
+      {
+        "option": "B",
+        "content": "书房"
+      },
+      {
+        "option": "C",
+        "content": "卧室"
+      },
+      {
+        "option": "D",
+        "content": "阳台"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2140",
+        "event_name": "与撰稿同行宋文线上简短交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": "996"
+      },
+      {
+        "type": "photo",
+        "id": "1638"
+      },
+      {
+        "type": "note",
+        "id": "41"
+      }
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在5月，当我遇到情感或职业困惑时，我最常向谁倾诉？",
@@ -3197,7 +3753,7 @@
       "1741",
       "1797"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "sms",
@@ -3258,7 +3814,7 @@
       "482",
       "495"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3316,6 +3872,73 @@
     "ask_time": "2025-08"
   },
   {
+    "question": "孙雨薇在8月4日规划新学期日程时，特意在周三和周六下午预留了瑜伽时间。这最可能是基于前一天（8月3日）哪项活动带来的直接经验教训？",
+    "options": [
+      {
+        "option": "A",
+        "content": "在咖啡馆与编辑沟通采风计划，获得了新的写作灵感。"
+      },
+      {
+        "option": "B",
+        "content": "撰写饮食随笔时过于投入，导致熬夜到很晚，影响了正常作息。"
+      },
+      {
+        "option": "C",
+        "content": "与父母在小区散步，交流了家庭琐事和健康话题。"
+      },
+      {
+        "option": "D",
+        "content": "设置基金定投并记录手账，开始了新的理财计划。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3018",
+      "3012",
+      "3014"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 450
+      },
+      {
+        "type": "photo",
+        "id": 959
+      },
+      {
+        "type": "push",
+        "id": 1536
+      },
+      {
+        "type": "photo",
+        "id": 958
+      },
+      {
+        "type": "note",
+        "id": "159"
+      },
+      {
+        "type": "calendar",
+        "id": "100"
+      },
+      {
+        "type": "calendar",
+        "id": "101"
+      },
+      {
+        "type": "note",
+        "id": "185"
+      },
+      {
+        "type": "calendar",
+        "id": "115"
+      }
+    ],
+    "ask_time": "2025-08"
+  },
+  {
     "question": "孙雨薇在3月规划了周末翠湖快走，她第一次执行是在规划后的第几天？",
     "answer": "7天后",
     "score_points": [
@@ -3332,7 +3955,7 @@
       "916",
       "1017"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -3366,52 +3989,6 @@
     "ask_time": "2025-08"
   },
   {
-    "question": "孙雨薇在3月初放弃ASMR助眠后，主要尝试了哪两种新的助眠方式？",
-    "answer": "睡前阅读、正念冥想与固定轻音乐组合",
-    "score_points": [
-      {
-        "description": "指出一种新的助眠方式：睡前阅读。",
-        "score": 5
-      },
-      {
-        "description": "指出另一种新的助眠方式：正念冥想与固定轻音乐组合。",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "827",
-      "919"
-    ],
-    "question_type": "mutihop",
-    "evidence": [
-      {
-        "type": "push",
-        "id": 390
-      },
-      {
-        "type": "agent_chat",
-        "id": 120
-      },
-      {
-        "type": "photo",
-        "id": 238
-      },
-      {
-        "type": "push",
-        "id": 427
-      },
-      {
-        "type": "push",
-        "id": "2691"
-      },
-      {
-        "type": "calendar",
-        "id": "92"
-      }
-    ],
-    "ask_time": "2025-08"
-  },
-  {
     "question": "孙雨薇在5月10日和5月12日分别收到两笔收入后，是如何进行分配的？",
     "answer": "1. 5月10日收到4500元稿费：将2000元转入‘文化旅行基金’储蓄账户，预留1500元作为写作相关开销，剩余1000元存入‘自我奖励基金’。2. 5月12日收到父亲5万元毕业启动资金：将3万元存入一年期定期存款，1.5万元购买低风险货币基金，5000元留在活期账户备用。",
     "score_points": [
@@ -3430,7 +4007,7 @@
       "1831",
       "1853"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -3476,124 +4053,9 @@
     "ask_time": "2025-08"
   },
   {
-    "question": "孙雨薇在5月上旬完成的《书店光影》专栏文章，从开始筹备到稿件被录用，共经历了几个关键步骤（请按顺序简述核心事件）？",
-    "answer": "汇总资料并细化文章大纲、与编辑徐明远沟通选题、撰写《书店光影》初稿、修改《书店光影》初稿、文章最终润色、提交《书店光影》稿件、收到稿件录用通知。",
-    "score_points": [
-      {
-        "description": "准确列举从“汇总资料并细化文章大纲”到“提交稿件”的核心步骤（至少包含大纲、初稿、修改、润色、提交）。",
-        "score": 5
-      },
-      {
-        "description": "包含最终结果步骤：收到录用通知。",
-        "score": 5
-      }
-    ],
-    "required_events_id": [
-      "1667",
-      "1673",
-      "1685",
-      "1706",
-      "1720",
-      "1736",
-      "1779"
-    ],
-    "question_type": "mutihop",
-    "evidence": [
-      {
-        "type": "agent_chat",
-        "id": 234
-      },
-      {
-        "type": "sms",
-        "id": 468
-      },
-      {
-        "type": "sms",
-        "id": 469
-      },
-      {
-        "type": "sms",
-        "id": 470
-      },
-      {
-        "type": "sms",
-        "id": 471
-      },
-      {
-        "type": "agent_chat",
-        "id": 236
-      },
-      {
-        "type": "agent_chat",
-        "id": 237
-      },
-      {
-        "type": "call",
-        "id": 292
-      },
-      {
-        "type": "photo",
-        "id": 485
-      },
-      {
-        "type": "sms",
-        "id": 486
-      },
-      {
-        "type": "agent_chat",
-        "id": 242
-      },
-      {
-        "type": "sms",
-        "id": 494
-      },
-      {
-        "type": "sms",
-        "id": 495
-      },
-      {
-        "type": "sms",
-        "id": 496
-      },
-      {
-        "type": "agent_chat",
-        "id": 247
-      },
-      {
-        "type": "note",
-        "id": "198"
-      },
-      {
-        "type": "sms",
-        "id": "1973"
-      },
-      {
-        "type": "push",
-        "id": "2708"
-      },
-      {
-        "type": "note",
-        "id": "219"
-      },
-      {
-        "type": "push",
-        "id": "2715"
-      },
-      {
-        "type": "sms",
-        "id": "1981"
-      },
-      {
-        "type": "note",
-        "id": "230"
-      }
-    ],
-    "ask_time": "2025-08"
-  },
-  {
     "question": "在2025年5月4日下午14:55至16:10孙雨薇参加声乐课时，她的朋友张静正在做什么具体活动？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -3602,7 +4064,7 @@
   {
     "question": "孙雨薇在2025-07-21晚上22:00是否收到了编辑徐明远的回复邮件？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -3648,7 +4110,7 @@
         "id": "1697"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，孙雨薇在微信聊天中得知，她的撰稿同行宋文最近因为什么事情而感到特别沮丧？",
@@ -3686,7 +4148,53 @@
         "id": "1707"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年9月，孙雨薇在与大学室友周琳的聊天中，透露了自己最近在音乐品味上的一个新偏好，她最近更倾向于听哪种类型的音乐来辅助写作和放松？",
+    "options": [
+      {
+        "option": "A",
+        "content": "节奏感强的电子音乐或嘻哈音乐"
+      },
+      {
+        "option": "B",
+        "content": "带有自然白噪音（如雨声、篝火声）的纯音乐或氛围音乐"
+      },
+      {
+        "option": "C",
+        "content": "经典华语流行老歌"
+      },
+      {
+        "option": "D",
+        "content": "激昂的交响乐或电影原声"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1814"
+      },
+      {
+        "type": "sms",
+        "id": "1815"
+      },
+      {
+        "type": "sms",
+        "id": "1816"
+      },
+      {
+        "type": "sms",
+        "id": "1817"
+      },
+      {
+        "type": "sms",
+        "id": "1818"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在3月份的线上正念饮食烹饪课上，孙雨薇跟随导师学习制作的主题菜品是什么？",
@@ -3714,7 +4222,7 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，孙雨薇在与闺蜜张静的聊天中，得知了她们共同的高中同学李浩然最近遇到了什么个人生活上的困扰？",
@@ -3756,7 +4264,7 @@
         "id": "1868"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月初，我在家中设立了一个什么基金，并设置了每月多少元的自动转账？",
@@ -3788,7 +4296,170 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年4月，孙雨薇在和撰稿同行宋文的交流中，提到自己最近在写作时，对哪种类型的背景音乐产生了特别的偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "节奏感强的电子音乐"
+      },
+      {
+        "option": "B",
+        "content": "无人声的古典钢琴曲"
+      },
+      {
+        "option": "C",
+        "content": "带有自然白噪音的轻音乐"
+      },
+      {
+        "option": "D",
+        "content": "八九十年代的华语流行老歌"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1878"
+      },
+      {
+        "type": "sms",
+        "id": "1879"
+      },
+      {
+        "type": "sms",
+        "id": "1880"
+      },
+      {
+        "type": "sms",
+        "id": "1881"
+      },
+      {
+        "type": "sms",
+        "id": "1882"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "从6月份我与宋文、张静、苏蔓等人的互动来看，可以推断我偏好的社交模式更接近以下哪种？",
+    "options": [
+      {
+        "option": "A",
+        "content": "大型派对和广泛结交新朋友"
+      },
+      {
+        "option": "B",
+        "content": "一对一或小范围的深度交流与互助"
+      },
+      {
+        "option": "C",
+        "content": "仅限于家庭成员之间的互动"
+      },
+      {
+        "option": "D",
+        "content": "完全依赖于线上匿名社群交流"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2303",
+      "2461",
+      "2205",
+      "2256",
+      "2351"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "38"
+      },
+      {
+        "type": "call",
+        "id": "998"
+      },
+      {
+        "type": "note",
+        "id": "62"
+      },
+      {
+        "type": "sms",
+        "id": "1852"
+      },
+      {
+        "type": "call",
+        "id": 443
+      },
+      {
+        "type": "agent_chat",
+        "id": 321
+      },
+      {
+        "type": "photo",
+        "id": 649
+      },
+      {
+        "type": "photo",
+        "id": 650
+      },
+      {
+        "type": "push",
+        "id": 1092
+      },
+      {
+        "type": "sms",
+        "id": 673
+      },
+      {
+        "type": "photo",
+        "id": 670
+      },
+      {
+        "type": "photo",
+        "id": 671
+      },
+      {
+        "type": "push",
+        "id": 1126
+      },
+      {
+        "type": "push",
+        "id": 1178
+      },
+      {
+        "type": "sms",
+        "id": 737
+      },
+      {
+        "type": "note",
+        "id": "102"
+      },
+      {
+        "type": "sms",
+        "id": "1952"
+      },
+      {
+        "type": "calendar",
+        "id": "66"
+      },
+      {
+        "type": "note",
+        "id": "108"
+      },
+      {
+        "type": "note",
+        "id": "124"
+      },
+      {
+        "type": "photo",
+        "id": "1657"
+      }
+    ],
+    "ask_time": "2025-08"
   },
   {
     "question": "孙雨薇在首次参加徒步摄影活动后的第二天，在自己的手账中为相关记录做了什么？",
@@ -3811,7 +4482,7 @@
       "1890",
       "1903"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -3857,7 +4528,7 @@
       "2839",
       "2861"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3908,7 +4579,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在2月份兑现运动奖励时，孙雨薇在嘉华饼屋购买了哪两种食物？",
@@ -3944,7 +4615,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "9月2日，我在校园的哪个地点用笔记本电脑整理了会议要点？",
@@ -3976,7 +4647,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "1月份，孙雨薇在线上写作工作坊中分享了父亲日记中的哪些具体片段？",
@@ -4020,7 +4691,95 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "孙雨薇在7月份于书店撰写专栏样稿时，为文章暂定的标题是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《翠湖微澜：一座城市公园的呼吸》"
+      },
+      {
+        "option": "B",
+        "content": "《无声手账｜夏日的阅读痕迹与山间光影》"
+      },
+      {
+        "option": "C",
+        "content": "《雨隙间的老街》"
+      },
+      {
+        "option": "D",
+        "content": "《春城步迹》"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "2735",
+        "event_name": "在书店撰写翠湖专栏样稿"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 403
+      },
+      {
+        "type": "call",
+        "id": 507
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "孙雨薇在4月份收到专栏预付稿费后，初步规划将稿费的百分之多少存入定期作为“创作基金”？",
+    "options": [
+      {
+        "option": "A",
+        "content": "40%"
+      },
+      {
+        "option": "B",
+        "content": "50%"
+      },
+      {
+        "option": "C",
+        "content": "60%"
+      },
+      {
+        "option": "D",
+        "content": "70%"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "1359",
+        "event_name": "稿费到账确认与财务规划"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2658"
+      },
+      {
+        "type": "note",
+        "id": "49"
+      },
+      {
+        "type": "calendar",
+        "id": "27"
+      },
+      {
+        "type": "sms",
+        "id": "1774"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月份，孙雨薇在翠湖公园长椅上记录当天经历时，如何定义这一天？",
@@ -4056,7 +4815,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年5月，孙雨薇在与表姐沈薇的微信聊天中，得知表姐最近在杭州遇到了哪位共同认识的朋友，并得知这位朋友正在经历什么与工作相关的变动？",
@@ -4094,7 +4853,7 @@
         "id": "1897"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在6月份，孙雨薇参加了一场书店观影会，讨论围绕电影《海街日记》展开。观影后，书友杨晓向她推荐了哪一主题的书籍？",
@@ -4126,7 +4885,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年7月，孙雨薇在短信中与闺蜜张静谈论了另一位共同好友王欣然最近遇到的职业困境。根据她们的对话，王欣然具体遇到了什么工作上的挑战？",
@@ -4168,7 +4927,7 @@
         "id": "1928"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在9月4日、9月8日和9月22日，我分别完成了哪些与撰稿相关的核心工作？",
@@ -4195,7 +4954,7 @@
       "3666",
       "3662"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4265,6 +5024,166 @@
     "ask_time": "2025-09"
   },
   {
+    "question": "在7月11日体验了Livehouse后，孙雨薇通过反思确认了自己在社交活动中更偏好哪种环境？",
+    "options": [
+      {
+        "option": "A",
+        "content": "Livehouse、演唱会等高感官刺激场所"
+      },
+      {
+        "option": "B",
+        "content": "独立书店、安静咖啡馆等沉浸式文化空间"
+      },
+      {
+        "option": "C",
+        "content": "瑜伽馆、健身房等运动场所"
+      },
+      {
+        "option": "D",
+        "content": "共享办公空间、讲座会场等职业发展场所"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2695",
+      "2697",
+      "2700"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 396
+      },
+      {
+        "type": "push",
+        "id": 1373
+      },
+      {
+        "type": "push",
+        "id": 1374
+      },
+      {
+        "type": "photo",
+        "id": 821
+      },
+      {
+        "type": "photo",
+        "id": 822
+      },
+      {
+        "type": "push",
+        "id": 1375
+      },
+      {
+        "type": "photo",
+        "id": 824
+      },
+      {
+        "type": "push",
+        "id": 1376
+      },
+      {
+        "type": "note",
+        "id": "103"
+      },
+      {
+        "type": "calendar",
+        "id": "63"
+      }
+    ],
+    "ask_time": "2025-09"
+  },
+  {
+    "question": "在经历了笔记本电脑损坏的职业危机后，孙雨薇在6月中下旬主要形成了哪些新的、具体的个人管理习惯或规划？",
+    "options": [
+      {
+        "option": "A",
+        "content": "每天进行高强度健身以释放压力"
+      },
+      {
+        "option": "B",
+        "content": "建立了定期的数据备份计划和更细致的财务预算"
+      },
+      {
+        "option": "C",
+        "content": "决定彻底放弃写作，寻找稳定工作"
+      },
+      {
+        "option": "D",
+        "content": "减少了所有社交活动以专注工作"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2294",
+      "2303",
+      "2326",
+      "2448",
+      "2498"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 342
+      },
+      {
+        "type": "photo",
+        "id": 690
+      },
+      {
+        "type": "calendar",
+        "id": "38"
+      },
+      {
+        "type": "call",
+        "id": "998"
+      },
+      {
+        "type": "note",
+        "id": "62"
+      },
+      {
+        "type": "sms",
+        "id": "1852"
+      },
+      {
+        "type": "agent_chat",
+        "id": 366
+      },
+      {
+        "type": "photo",
+        "id": 745
+      },
+      {
+        "type": "sms",
+        "id": 770
+      },
+      {
+        "type": "photo",
+        "id": 767
+      },
+      {
+        "type": "push",
+        "id": 1262
+      },
+      {
+        "type": "push",
+        "id": 1263
+      },
+      {
+        "type": "note",
+        "id": "76"
+      },
+      {
+        "type": "calendar",
+        "id": "47"
+      }
+    ],
+    "ask_time": "2025-09"
+  },
+  {
     "question": "孙雨薇在脚踝扭伤后的恢复期内，完成了一项重要的学术或创作任务。请问这项任务是什么？",
     "answer": "她完成了散文集核心章节《城市记忆的褶皱》的初稿整合与修改，并向导师提交。",
     "score_points": [
@@ -4277,7 +5196,7 @@
       "3683",
       "3721"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4319,7 +5238,7 @@
       "427",
       "448"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4376,7 +5295,7 @@
       "3135",
       "3142"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4459,7 +5378,7 @@
       "174",
       "new_event_1"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4520,7 +5439,7 @@
     "required_events_id": [
       "4006"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4553,7 +5472,7 @@
     "required_events_id": [
       "3785"
     ],
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -4595,7 +5514,7 @@
       "1462",
       "1485"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4657,7 +5576,7 @@
       "2646",
       "2622"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -4733,7 +5652,7 @@
       "2479",
       "2482"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4877,11 +5796,70 @@
   {
     "question": "在2025年9月29日早餐期间，孙雨薇的父亲孙明远说了什么话？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
     "ask_time": "2025-10"
+  },
+  {
+    "question": "在2025年9月20日（星期六）这天，孙雨薇为了维护健康或缓解身体不适，所进行的下列活动中，哪一项最可能是主要目的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "为了增强心肺功能和身体柔韧性"
+      },
+      {
+        "option": "B",
+        "content": "为了缓解久坐和伏案工作引起的肩颈酸胀"
+      },
+      {
+        "option": "C",
+        "content": "为了通过社交活动放松心情和释放压力"
+      },
+      {
+        "option": "D",
+        "content": "为了通过户外步行活动身体并接触自然"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3624",
+      "3625",
+      "3631",
+      "3640"
+    ],
+    "required_events_date": [
+      "2025-09-20"
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": 1165
+      },
+      {
+        "type": "photo",
+        "id": 1161
+      },
+      {
+        "type": "push",
+        "id": 1877
+      },
+      {
+        "type": "push",
+        "id": 1880
+      },
+      {
+        "type": "agent_chat",
+        "id": 562
+      },
+      {
+        "type": "call",
+        "id": 718
+      }
+    ]
   },
   {
     "question": "8月初，孙雨薇在花鸟市场购买了哪些花材？",
@@ -4925,7 +5903,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，孙雨薇在与闺蜜张静的聊天中，提到了另一位闺蜜王欣然最近在深圳遇到了什么让她感到困扰但又不算严重的事情？",
@@ -4967,7 +5945,7 @@
         "id": "1718"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年9月，我的闺蜜张静在微信上告诉我，她的同事李老师最近遇到了什么家庭变故？",
@@ -5005,7 +5983,7 @@
         "id": "1737"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，孙雨薇在与闺蜜张静的聊天中，谈论到她们共同的高中同学李浩然最近发生了一件什么事情？这件事对孙雨薇的日常生活有直接影响吗？",
@@ -5043,7 +6021,7 @@
         "id": "1746"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月3日，孙雨薇在撰写策展阐述中途短暂休息时，与母亲在阳台做了什么？",
@@ -5083,7 +6061,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在10月份的《民间文学概论》课上，孙雨薇听到哪个概念时联想到了之前的访谈内容，并认为可以融入未来的论文分析？",
@@ -5115,7 +6093,147 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "1月份，孙雨薇在导师办公室会面后，导师推荐了哪些书籍给她？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《非虚构写作的艺术》和《写我人生诗》"
+      },
+      {
+        "option": "B",
+        "content": "《故事如何真实》和《人间草木》"
+      },
+      {
+        "option": "C",
+        "content": "《夜晚的潜水艇》和《滇池》杂志"
+      },
+      {
+        "option": "D",
+        "content": "《昆明街巷志异》和《红楼梦》"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "150",
+        "event_name": "与导师会面并获得指导"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "7"
+      },
+      {
+        "type": "note",
+        "id": "19"
+      },
+      {
+        "type": "sms",
+        "id": "1684"
+      },
+      {
+        "type": "push",
+        "id": "2634"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在1月份与导师的面谈中，导师为孙雨薇的散文集构想推荐了哪两本书？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《田野调查与口述史方法》和《散文的技艺》"
+      },
+      {
+        "option": "B",
+        "content": "《你是你吃出来的》和《人间草木》"
+      },
+      {
+        "option": "C",
+        "content": "《书店风景》和《沈从文的后半生》"
+      },
+      {
+        "option": "D",
+        "content": "《今天也要好好过》和《根脉》"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "207",
+        "event_name": "与导师吴明远教授面谈散文集构想"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": 114
+      },
+      {
+        "type": "sms",
+        "id": 44
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月份，孙雨薇在完成个税汇算清缴后，通过网上银行支付了多少钱？",
+    "options": [
+      {
+        "option": "A",
+        "content": "约1000元"
+      },
+      {
+        "option": "B",
+        "content": "约1200元"
+      },
+      {
+        "option": "C",
+        "content": "约1500元"
+      },
+      {
+        "option": "D",
+        "content": "约2000元"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2592",
+        "event_name": "集中处理个税汇算清缴"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 382
+      },
+      {
+        "type": "call",
+        "id": 470
+      },
+      {
+        "type": "photo",
+        "id": 784
+      },
+      {
+        "type": "push",
+        "id": 1306
+      },
+      {
+        "type": "push",
+        "id": 1307
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在5月份的一次翠湖公园晨练中，孙雨薇除了观察湖面晨光，还偶遇了谁并进行了简短交谈？",
@@ -5147,7 +6265,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年7月，孙雨薇在与闺蜜张静的聊天中，提到了另一位朋友王欣然最近遇到的一件烦心事。这件烦心事是什么？",
@@ -5189,7 +6307,7 @@
         "id": "1918"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "到目前为止，你参与老街巷口述历史志愿者项目一共去过哪些地方？",
@@ -5215,7 +6333,7 @@
       "2025-10-11"
     ],
     "ask_time": "2025-10",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5284,7 +6402,7 @@
       "3554",
       "3517"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -5338,6 +6456,55 @@
     "ask_time": "2025-10"
   },
   {
+    "question": "5月2日，孙雨薇在明远书屋与编辑徐明远沟通后，主要围绕哪篇文章的创作进行了讨论？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《春城絮语》"
+      },
+      {
+        "option": "B",
+        "content": "《昆明老街巷志》"
+      },
+      {
+        "option": "C",
+        "content": "《书店光影》"
+      },
+      {
+        "option": "D",
+        "content": "《时光的旅人》"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1673"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 234
+      },
+      {
+        "type": "sms",
+        "id": 468
+      },
+      {
+        "type": "sms",
+        "id": 469
+      },
+      {
+        "type": "sms",
+        "id": 470
+      },
+      {
+        "type": "sms",
+        "id": 471
+      }
+    ],
+    "ask_time": "2025-10"
+  },
+  {
     "question": "孙雨薇在9月围绕“昆明城市记忆与地方感书写”这一主题，完成了哪些核心的学术与创作准备工作？",
     "answer": "她确定了学年论文选题方向，系统检索并整理了相关文献资料，进行了老工业区实地探访，并完成了散文集首个核心章节《城市记忆的褶皱》的初稿。",
     "score_points": [
@@ -5365,7 +6532,7 @@
       "3454",
       "3683"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -5450,7 +6617,7 @@
     "required_events_id": [
       "3725"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5472,6 +6639,76 @@
     "ask_time": "2025-11"
   },
   {
+    "question": "孙雨薇与母亲发生激烈争吵后，次日早餐时双方关系有所缓和，导致关系缓和最直接的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "孙雨薇在争吵当晚向闺蜜张静倾诉并反思，情绪得到疏解，态度软化。"
+      },
+      {
+        "option": "B",
+        "content": "父亲孙明远在母女之间进行了调和，说服了母亲。"
+      },
+      {
+        "option": "C",
+        "content": "孙雨薇在次日清晨坚持了晨间快走，向母亲展示了自律。"
+      },
+      {
+        "option": "D",
+        "content": "母女双方都主动尝试缓和气氛，孙雨薇帮忙准备早餐，母亲语气缓和关心她。"
+      }
+    ],
+    "answer": "D",
+    "required_events_id": [
+      "1727",
+      "1732"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 240
+      },
+      {
+        "type": "call",
+        "id": 296
+      },
+      {
+        "type": "call",
+        "id": "1003"
+      },
+      {
+        "type": "sms",
+        "id": "1970"
+      },
+      {
+        "type": "push",
+        "id": "2703"
+      },
+      {
+        "type": "sms",
+        "id": "1971"
+      },
+      {
+        "type": "photo",
+        "id": "1664"
+      },
+      {
+        "type": "note",
+        "id": "235"
+      },
+      {
+        "type": "sms",
+        "id": "1983"
+      },
+      {
+        "type": "photo",
+        "id": "1673"
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
     "question": "我最终确定照片打印装裱供应商并正式下单，是在哪一天？",
     "answer": "2025年10月30日。",
     "score_points": [
@@ -5483,7 +6720,7 @@
     "required_events_id": [
       "4158"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -5500,6 +6737,126 @@
       {
         "type": "sms",
         "id": 1352
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
+    "question": "孙雨薇在4月9日下午的瑜伽课上感到专注度下降，最可能的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "因收到预付稿费消息过于兴奋，影响了课堂状态。"
+      },
+      {
+        "option": "B",
+        "content": "近期多任务处理（如写作、整理、插花等）导致精力分散。"
+      },
+      {
+        "option": "C",
+        "content": "前一天晚上熬夜记录散文思路，导致当日疲劳。"
+      },
+      {
+        "option": "D",
+        "content": "春季花粉过敏症状干扰了呼吸和专注。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1347",
+      "1341",
+      "1342",
+      "1344",
+      "1345",
+      "1346",
+      "1349",
+      "1353"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 184
+      },
+      {
+        "type": "calendar",
+        "id": "72"
+      },
+      {
+        "type": "note",
+        "id": "118"
+      },
+      {
+        "type": "push",
+        "id": 665
+      },
+      {
+        "type": "push",
+        "id": 666
+      },
+      {
+        "type": "sms",
+        "id": 341
+      },
+      {
+        "type": "agent_chat",
+        "id": 182
+      },
+      {
+        "type": "push",
+        "id": 660
+      },
+      {
+        "type": "sms",
+        "id": 339
+      },
+      {
+        "type": "agent_chat",
+        "id": 183
+      },
+      {
+        "type": "call",
+        "id": 212
+      },
+      {
+        "type": "push",
+        "id": 661
+      },
+      {
+        "type": "photo",
+        "id": 375
+      },
+      {
+        "type": "push",
+        "id": 662
+      },
+      {
+        "type": "photo",
+        "id": 376
+      },
+      {
+        "type": "push",
+        "id": 663
+      },
+      {
+        "type": "push",
+        "id": 664
+      },
+      {
+        "type": "sms",
+        "id": 340
+      },
+      {
+        "type": "push",
+        "id": 667
+      },
+      {
+        "type": "photo",
+        "id": 379
+      },
+      {
+        "type": "push",
+        "id": 668
       }
     ],
     "ask_time": "2025-11"
@@ -5525,7 +6882,7 @@
       "2965",
       "2972"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5598,7 +6955,7 @@
       "2448",
       "2498"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -5677,7 +7034,7 @@
       "2479",
       "2482"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5863,7 +7220,7 @@
       "4377",
       "4378"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -5903,7 +7260,7 @@
   {
     "question": "2025年10月8日，在孙雨薇与表姐沈薇进行视频通话期间，沈薇当时正在处理的具体工作任务是什么？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -5927,7 +7284,7 @@
       "2025-10-18"
     ],
     "ask_time": "2025-11",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5958,6 +7315,52 @@
         "id": 1304
       }
     ]
+  },
+  {
+    "question": "2025年1月，在与闺蜜张静的聊天中，孙雨薇提到自己最近在音乐品味上的一个新偏好是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "开始循环播放一个叫“卧轨的星星”的国内独立乐队的专辑，特别喜欢其中一首叫《滇池西路》的歌。"
+      },
+      {
+        "option": "B",
+        "content": "沉迷于一个叫“白皮书”的后摇乐队，觉得他们的纯音乐非常适合在写作和做手账时听。"
+      },
+      {
+        "option": "C",
+        "content": "重新爱上了王菲的老歌，尤其是《浮躁》那张专辑，觉得里面的编曲现在听依然很先锋。"
+      },
+      {
+        "option": "D",
+        "content": "发现了一个叫“还潮”的宁波方言乐队，虽然听不懂歌词，但被那种潮湿、怀旧的氛围感深深吸引。"
+      }
+    ],
+    "answer": "D",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1708"
+      },
+      {
+        "type": "sms",
+        "id": "1709"
+      },
+      {
+        "type": "sms",
+        "id": "1710"
+      },
+      {
+        "type": "sms",
+        "id": "1711"
+      },
+      {
+        "type": "sms",
+        "id": "1712"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在书店向老板请教后，孙雨薇为她的双轨项目购买了哪三本参考书？",
@@ -6005,7 +7408,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在9月份的一次电脑送修过程中，工程师检测出的具体问题是什么？",
@@ -6045,7 +7448,59 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "10月份，孙雨薇在书店购买并阅读了哪一本关于食物与文化的散文集？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《地方感与文学书写》"
+      },
+      {
+        "option": "B",
+        "content": "《味的道》"
+      },
+      {
+        "option": "C",
+        "content": "《影像叙事与城市空间》"
+      },
+      {
+        "option": "D",
+        "content": "《湘行散记》"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3981",
+        "event_name": "书店购书、阅读与灵感沉淀"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1288
+      },
+      {
+        "type": "photo",
+        "id": 1289
+      },
+      {
+        "type": "push",
+        "id": 2066
+      },
+      {
+        "type": "sms",
+        "id": 1298
+      },
+      {
+        "type": "sms",
+        "id": 1299
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月份，孙雨薇与闺蜜在咖啡馆聚会时，她们约定了要一起参加什么活动？",
@@ -6077,7 +7532,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "1月份，孙雨薇在翠湖公园散步时，为了写作素材观察并记录了哪些景象？",
@@ -6121,7 +7576,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，孙雨薇在与闺蜜张静的聊天中，得知了另一位高中闺蜜王欣然最近遇到了什么工作上的具体挑战？",
@@ -6159,7 +7614,51 @@
         "id": "1823"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "11月，孙雨薇在与编辑的线上会议中，对方重点推荐了哪个选题？",
+    "options": [
+      {
+        "option": "A",
+        "content": "关于“寻根文学”的学术评论"
+      },
+      {
+        "option": "B",
+        "content": "“城市记忆”摄影展的随笔"
+      },
+      {
+        "option": "C",
+        "content": "大理静修的心路历程"
+      },
+      {
+        "option": "D",
+        "content": "个人财务规划的纪实文章"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4241",
+        "event_name": "会前准备、线上选题会及初步细化"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "14"
+      },
+      {
+        "type": "note",
+        "id": "32"
+      },
+      {
+        "type": "sms",
+        "id": "1691"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月份，孙雨薇在昆明一家咖啡馆填写市集摊位申请表时，为她的摊位起了什么名字？",
@@ -6195,7 +7694,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，孙雨薇在与大学同学林悦的视频通话中，谈论了另一位共同认识的同学的近况。这位同学最近在个人生活中遇到了什么具体问题？",
@@ -6237,7 +7736,7 @@
         "id": "1833"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，孙雨薇在与闺蜜张静的聊天中，谈到了她们共同的高中同学李浩然最近发生的一件事。这件事是什么？",
@@ -6279,7 +7778,51 @@
         "id": "1843"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "4月份，雨薇在书店构思家族散文时，其框架主要围绕哪两个具体事物展开？",
+    "options": [
+      {
+        "option": "A",
+        "content": "“外婆的米线摊”和“父亲的老自行车”"
+      },
+      {
+        "option": "B",
+        "content": "“母亲的厨房”和“父亲的藏书”"
+      },
+      {
+        "option": "C",
+        "content": "“老屋的门槛”和“家族的合影”"
+      },
+      {
+        "option": "D",
+        "content": "“外公的自行车”和“老屋的门楣”"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "1423",
+        "event_name": "书店阅读与构思之旅"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 194
+      },
+      {
+        "type": "push",
+        "id": 704
+      },
+      {
+        "type": "sms",
+        "id": 369
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，孙雨薇在与闺蜜张静的聊天中，得知了她们共同的高中同学李浩然最近遇到了什么事情？",
@@ -6317,7 +7860,7 @@
         "id": "1887"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "6月份，孙雨薇在书店与老板交流写作瓶颈时，老板推荐了哪两本书？",
@@ -6353,7 +7896,53 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年9月，孙雨薇在与编辑徐明远的短信交流中，谈论了自己近期在散文写作中对特定叙事视角的偏好。她明确表示自己目前更偏爱使用以下哪种视角进行创作？",
+    "options": [
+      {
+        "option": "A",
+        "content": "全知全能视角，便于宏观展现昆明城市变迁"
+      },
+      {
+        "option": "B",
+        "content": "第一人称限知视角，强化个人体验与内心独白"
+      },
+      {
+        "option": "C",
+        "content": "第二人称视角，营造与读者的直接对话感"
+      },
+      {
+        "option": "D",
+        "content": "多人物交替视角，展现不同阶层的生活图景"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1929"
+      },
+      {
+        "type": "sms",
+        "id": "1930"
+      },
+      {
+        "type": "sms",
+        "id": "1931"
+      },
+      {
+        "type": "sms",
+        "id": "1932"
+      },
+      {
+        "type": "sms",
+        "id": "1933"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "我通常在什么时间进行晨跑？",
@@ -6378,7 +7967,7 @@
       "3495",
       "3660"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6416,6 +8005,123 @@
     "ask_time": "2025-11"
   },
   {
+    "question": "根据孙雨薇在4月8日和4月15日参与的主要活动，可以推断她对什么领域有浓厚兴趣？",
+    "options": [
+      {
+        "option": "A",
+        "content": "科学技术"
+      },
+      {
+        "option": "B",
+        "content": "金融经济"
+      },
+      {
+        "option": "C",
+        "content": "传统文化与城市记忆"
+      },
+      {
+        "option": "D",
+        "content": "体育运动"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1327",
+      "1433",
+      "1435",
+      "1441"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 179
+      },
+      {
+        "type": "photo",
+        "id": 368
+      },
+      {
+        "type": "photo",
+        "id": 369
+      },
+      {
+        "type": "photo",
+        "id": 370
+      },
+      {
+        "type": "agent_chat",
+        "id": 195
+      },
+      {
+        "type": "sms",
+        "id": 382
+      },
+      {
+        "type": "sms",
+        "id": 383
+      },
+      {
+        "type": "sms",
+        "id": 384
+      },
+      {
+        "type": "calendar",
+        "id": "73"
+      },
+      {
+        "type": "push",
+        "id": "2677"
+      },
+      {
+        "type": "photo",
+        "id": "1656"
+      },
+      {
+        "type": "note",
+        "id": "119"
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
+    "question": "在10月7日晚的阳台赏月活动中，与我交流老昆明习俗的男性亲属是谁？",
+    "options": [
+      {
+        "option": "A",
+        "content": "家人"
+      },
+      {
+        "option": "B",
+        "content": "同事"
+      },
+      {
+        "option": "C",
+        "content": "朋友"
+      },
+      {
+        "option": "D",
+        "content": "导师"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "3853"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "call",
+        "id": "999"
+      },
+      {
+        "type": "note",
+        "id": "88"
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
     "question": "孙雨薇与书店老板秦明远在12月21日的正式会谈中，除了总结项目经验，还探讨了什么未来的具体合作可能性？",
     "answer": "探讨了邀请孙雨薇作为书店的“特邀文化观察员”，参与策划明年的系列文化活动的可能性。",
     "score_points": [
@@ -6427,7 +8133,7 @@
     "required_events_id": [
       "4904"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6460,7 +8166,7 @@
     "required_events_id": [
       "4716"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -6502,7 +8208,7 @@
       "3549",
       "3566"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6555,7 +8261,7 @@
     "required_events_id": [
       "3004"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -6593,7 +8299,7 @@
       "852",
       "854"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -6647,7 +8353,7 @@
       "1341",
       "1374"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6689,7 +8395,7 @@
       "1304",
       "1341"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6732,7 +8438,7 @@
       "1327",
       "1330"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -6794,7 +8500,7 @@
       "2673",
       "2766"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "photo",
@@ -6864,7 +8570,7 @@
       "2586",
       "2537"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -6950,7 +8656,7 @@
       "4325",
       "4603"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -7019,7 +8725,7 @@
       "4276",
       "4318"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -7089,6 +8795,56 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "孙雨薇在11月4日晚失眠，其最直接的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "她开始规划晨跑与身心觉察，对执行新计划感到焦虑。"
+      },
+      {
+        "option": "B",
+        "content": "在整理个人财务记录时，她发现了某平台一笔已逾期数日的稿费。"
+      },
+      {
+        "option": "C",
+        "content": "与编辑的月度选题会为她指明了新方向，导致她思绪纷乱。"
+      },
+      {
+        "option": "D",
+        "content": "首次正念晨跑体验带来的清晰思绪使她晚上难以平静。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4237",
+      "4242"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 647
+      },
+      {
+        "type": "sms",
+        "id": 1374
+      },
+      {
+        "type": "photo",
+        "id": 1370
+      },
+      {
+        "type": "push",
+        "id": "2697"
+      },
+      {
+        "type": "note",
+        "id": "171"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "孙雨薇在11月4日和5日早晨的活动中，如何将正念与观察结合来捕捉创作灵感？",
     "answer": "她在晨跑中专注于呼吸与步伐，并主动观察、拍摄和记录具有故事感的画面作为创作素材。",
     "score_points": [
@@ -7105,7 +8861,7 @@
       "4231",
       "4245"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -7172,7 +8928,7 @@
       "4386",
       "4546"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -7329,7 +9085,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "吴明远老师在2025年5月推荐孙雨薇去的实习机构是哪里？",
@@ -7351,7 +9107,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "方晴在2025年7月推荐的那个音乐节上，她最期待的乐队是哪个？",
@@ -7373,7 +9129,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙明远在2025年6月中旬参加的老同学聚会地点在哪里？",
@@ -7395,7 +9151,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙雨薇在2月份听编辑提到的那位文笔‘毒舌’的年轻作家具体叫什么名字？",
@@ -7425,7 +9181,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙雨薇的大学室友周琳在3月提到的那个‘非去不可’的展览，具体在哪个城市举办？",
@@ -7455,7 +9211,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙雨薇的导师在5月推荐的那本‘必读’的冷门散文集，作者是谁？",
@@ -7485,7 +9241,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙雨薇的插花同好苏蔓在6月提到要去学习的‘顶级花道课程’，是由哪位日本大师主导的？",
@@ -7515,7 +9271,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "书友杨晓在8月感叹‘再也看不到更新’的那个突然停更的线上专栏叫什么名字？",
@@ -7545,7 +9301,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙雨薇父亲孙明远1月提到的周末家庭聚餐的具体地点是哪家餐厅？",
@@ -7567,7 +9323,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "撰稿同行宋文在4月和5月各推荐了一部电影，请说出这两部电影的名字。",
@@ -7589,7 +9345,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "编辑徐明远2月和3月提到的两篇重要稿件，其共同主题关键词是什么？",
@@ -7611,7 +9367,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "书店老板秦明远7月和8月为孙雨薇预留的书籍，其作者分别是哪两位？",
@@ -7633,7 +9389,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙雨薇表姐沈薇在9月提到的年底要参与的婚礼，新郎是孙雨薇认识的人吗？如果是，是谁？",
@@ -7655,7 +9411,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "闺蜜张静在6月和11月各提到了一个值得关注的展览，其主办单位或地点分别是哪里？",
@@ -7677,7 +9433,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "姐姐孙雨桐在2025年4月10日说要给孙雨薇寄的东西是什么？",
@@ -7699,7 +9455,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "闺蜜张静在2025年5月20日提到的‘过几天’要去参加的书店活动具体是哪一天？",
@@ -7721,7 +9477,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "编辑徐明远在2025年7月和8月总共向孙雨薇推荐了几本关于云南文化的书？",
@@ -7743,7 +9499,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "闺蜜王欣然在2025年9月5日提到给孙雨薇买的礼物具体是什么？",
@@ -7765,7 +9521,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "父亲孙明远在2025年9月下旬提到的‘中秋之后’要去拜访的老同事具体是哪天？",
@@ -7787,7 +9543,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "撰稿同行宋文在2025年10月和11月总共向孙雨薇分享了几个新的写作投稿平台？",
@@ -7809,7 +9565,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "孙雨薇在2025年6月28日首次公开分享其摄影作品并获得积极反馈，到2025年12月6日她的个人摄影展正式开幕，中间间隔了多少个月？",
@@ -7834,7 +9590,7 @@
       "2025-12-06"
     ],
     "ask_time": "2025-12",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "note",
@@ -7891,6 +9647,98 @@
     ]
   },
   {
+    "question": "孙雨薇在2月份与撰稿同行宋文进行微信语音交流时，宋文针对她遇到的创作瓶颈给出了什么建议？",
+    "options": [
+      {
+        "option": "A",
+        "content": "以“时代的信物”连接大小历史"
+      },
+      {
+        "option": "B",
+        "content": "加强个人叙事的比重"
+      },
+      {
+        "option": "C",
+        "content": "专注于历史材料的梳理"
+      },
+      {
+        "option": "D",
+        "content": "采用多线并行的叙事结构"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "683",
+        "event_name": "下午深度工作与交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 86
+      },
+      {
+        "type": "sms",
+        "id": 148
+      },
+      {
+        "type": "sms",
+        "id": 149
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在9月份的徒步活动中，孙雨薇扭伤脚踝后，同伴们首先采取了哪项紧急处理措施？",
+    "options": [
+      {
+        "option": "A",
+        "content": "立即进行按摩"
+      },
+      {
+        "option": "B",
+        "content": "立即用冰袋冷敷"
+      },
+      {
+        "option": "C",
+        "content": "立即用热水热敷"
+      },
+      {
+        "option": "D",
+        "content": "立即用绷带包扎"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3566",
+        "event_name": "徒步登山、观景、路餐、扭伤与救助"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 546
+      },
+      {
+        "type": "call",
+        "id": 699
+      },
+      {
+        "type": "photo",
+        "id": 1149
+      },
+      {
+        "type": "push",
+        "id": 1842
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Nondeclarative"
+  },
+  {
     "question": "2025年1月，孙雨薇在与闺蜜张静的聊天中，谈论到另一位闺蜜王欣然最近在工作上遇到了什么具体困扰？",
     "answer": "王欣然最近在负责一个关于“AI生成内容版权界定”的新项目，她对这个项目涉及的伦理问题感到困惑和压力。",
     "score_points": [
@@ -7926,7 +9774,7 @@
         "id": "1756"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月5日，孙雨薇在翠湖公园晨跑时获得了什么写作灵感，并记录了什么内容？",
@@ -7962,7 +9810,59 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "12月份，孙雨薇在斗南花卉市场采购花材时，一位相熟的摊主阿姨给了她什么建议？",
+    "options": [
+      {
+        "option": "A",
+        "content": "如何搭配不同花材的颜色"
+      },
+      {
+        "option": "B",
+        "content": "如何养护松枝"
+      },
+      {
+        "option": "C",
+        "content": "如何延长腊梅的保鲜期"
+      },
+      {
+        "option": "D",
+        "content": "如何修剪冬青果"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4726",
+        "event_name": "斗南花市采购冬季花材"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 719
+      },
+      {
+        "type": "photo",
+        "id": 1530
+      },
+      {
+        "type": "photo",
+        "id": 1531
+      },
+      {
+        "type": "photo",
+        "id": 1532
+      },
+      {
+        "type": "push",
+        "id": 2469
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月，孙雨薇在书店购买了一本新书，这本书的书名是什么？",
@@ -7990,7 +9890,43 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "12月份，孙雨薇为两位闺蜜准备的年末礼物分别是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "汪曾祺《人间草木》给张静，李娟《冬牧场》给陈思思"
+      },
+      {
+        "option": "B",
+        "content": "李娟《冬牧场》给张静，汪曾祺《人间草木》给陈思思"
+      },
+      {
+        "option": "C",
+        "content": "《城市记忆与空间叙事》给张静，《南方的细节》给陈思思"
+      },
+      {
+        "option": "D",
+        "content": "《山茶》杂志给张静，散文集《苍洱絮语，父辈的群山》给陈思思"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "4791",
+        "event_name": "精心准备闺蜜年末礼物"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 734
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，孙雨薇在与表姐沈薇的聊天中，得知表姐的同事最近遇到了什么与家庭相关的具体困境？",
@@ -8032,7 +9968,7 @@
         "id": "1802"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年8月，孙雨薇在与闺蜜张静的聊天中，提到了另一位闺蜜王欣然最近遇到了什么与工作相关的困扰？",
@@ -8070,7 +10006,7 @@
         "id": "1813"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月份，孙雨薇在家中书房进行手作价签与灵感速记时，为摄影展记录下的一个灵感短句是什么？",
@@ -8102,7 +10038,55 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在11月份参加手账市集时，我结识了一位同样喜爱池坊流插花的女孩并互加了微信。这位女孩的名字是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "林薇"
+      },
+      {
+        "option": "B",
+        "content": "张静"
+      },
+      {
+        "option": "C",
+        "content": "陈思思"
+      },
+      {
+        "option": "D",
+        "content": "赵晓雯"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "4393",
+        "event_name": "手账市集参与及同好交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 671
+      },
+      {
+        "type": "call",
+        "id": 882
+      },
+      {
+        "type": "photo",
+        "id": 1415
+      },
+      {
+        "type": "photo",
+        "id": 1416
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月份，孙雨薇在书房集中撰写论文时，其核心章节主要分析了哪两个部分的对应关系？",
@@ -8138,7 +10122,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在12月，孙雨薇通常在哪里进行晨跑？",
@@ -8157,7 +10141,7 @@
       "4674",
       "4690"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -8179,6 +10163,60 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "12月8日，孙雨薇在采购花材后，她所去的那个市场最可能以什么闻名？",
+    "options": [
+      {
+        "option": "A",
+        "content": "花卉"
+      },
+      {
+        "option": "B",
+        "content": "古董"
+      },
+      {
+        "option": "C",
+        "content": "电子产品"
+      },
+      {
+        "option": "D",
+        "content": "海鲜"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "4725",
+      "4726"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "push",
+        "id": 2468
+      },
+      {
+        "type": "agent_chat",
+        "id": 719
+      },
+      {
+        "type": "photo",
+        "id": 1530
+      },
+      {
+        "type": "photo",
+        "id": 1531
+      },
+      {
+        "type": "photo",
+        "id": 1532
+      },
+      {
+        "type": "push",
+        "id": 2469
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "我在12月底完成并发送了哪部作品的初稿？",
     "answer": "散文集《苍洱絮语，父辈的群山》",
     "score_points": [
@@ -8195,7 +10233,7 @@
       "5021",
       "5022"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -8238,7 +10276,7 @@
       "4648",
       "4652"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -8284,6 +10322,145 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "孙明远是我的谁？",
+    "options": [
+      {
+        "option": "A",
+        "content": "导师"
+      },
+      {
+        "option": "B",
+        "content": "父亲"
+      },
+      {
+        "option": "C",
+        "content": "编辑"
+      },
+      {
+        "option": "D",
+        "content": "书店老板"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4708",
+      "4709",
+      "4715",
+      "4716",
+      "4801"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1522
+      },
+      {
+        "type": "push",
+        "id": 2459
+      },
+      {
+        "type": "calendar",
+        "id": "18"
+      },
+      {
+        "type": "note",
+        "id": "37"
+      },
+      {
+        "type": "photo",
+        "id": "1635"
+      },
+      {
+        "type": "sms",
+        "id": "1713"
+      },
+      {
+        "type": "sms",
+        "id": 1553
+      },
+      {
+        "type": "agent_chat",
+        "id": 737
+      },
+      {
+        "type": "photo",
+        "id": 1553
+      },
+      {
+        "type": "sms",
+        "id": 1592
+      },
+      {
+        "type": "note",
+        "id": "69"
+      },
+      {
+        "type": "calendar",
+        "id": "44"
+      },
+      {
+        "type": "photo",
+        "id": "1647"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
+    "question": "我9月参加固定团体课程（瑜伽）的日期分别是哪几天？",
+    "options": [
+      {
+        "option": "A",
+        "content": "9月3日、9月18日、9月24日"
+      },
+      {
+        "option": "B",
+        "content": "9月3日、9月10日、9月24日"
+      },
+      {
+        "option": "C",
+        "content": "9月3日、9月18日、9月25日"
+      },
+      {
+        "option": "D",
+        "content": "9月4日、9月18日、9月24日"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "3419",
+      "3688"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 520
+      },
+      {
+        "type": "push",
+        "id": 1765
+      },
+      {
+        "type": "sms",
+        "id": 1074
+      },
+      {
+        "type": "calendar",
+        "id": "42"
+      },
+      {
+        "type": "sms",
+        "id": "1934"
+      },
+      {
+        "type": "note",
+        "id": "66"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "在7月，当孙雨薇因创作瓶颈或压力感到焦虑时，她通常会采取哪些具体的行动来应对？",
     "answer": "她会向家人（父亲、姐姐）或朋友（闺蜜张静）寻求帮助与倾诉，通过瑜伽或运动（如参加瑜伽课、居家拉伸）来缓解身心不适，并通过记录和梳理（如写手账）进行内省和反思。",
     "score_points": [
@@ -8314,7 +10491,7 @@
       "2573",
       "2776"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -8420,7 +10597,7 @@
       "2214",
       "2225"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -8488,7 +10665,7 @@
       "2176",
       "2274"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -8538,6 +10715,85 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "根据孙雨薇在8月中旬撰写并投稿的一篇饮食文化随笔，以及她在8月下旬为家人精心烹制的一道创新素食菜肴，可以推断她最可能认同自己以下哪种身份？",
+    "options": [
+      {
+        "option": "A",
+        "content": "专业美食评论家"
+      },
+      {
+        "option": "B",
+        "content": "严格的健康饮食践行者"
+      },
+      {
+        "option": "C",
+        "content": "文化观察者与生活记录者"
+      },
+      {
+        "option": "D",
+        "content": "素食主义推广者"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "3154",
+      "3261",
+      "3263"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 469
+      },
+      {
+        "type": "push",
+        "id": 1618
+      },
+      {
+        "type": "push",
+        "id": 1619
+      },
+      {
+        "type": "sms",
+        "id": 973
+      },
+      {
+        "type": "sms",
+        "id": 974
+      },
+      {
+        "type": "sms",
+        "id": 976
+      },
+      {
+        "type": "photo",
+        "id": 1049
+      },
+      {
+        "type": "push",
+        "id": 1678
+      },
+      {
+        "type": "agent_chat",
+        "id": 493
+      },
+      {
+        "type": "photo",
+        "id": 1051
+      },
+      {
+        "type": "note",
+        "id": "75"
+      },
+      {
+        "type": "sms",
+        "id": "1938"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "在2月份，我设定了每周的哪几天为“无肉日”？",
     "answer": "周一和周四",
     "score_points": [
@@ -8549,7 +10805,7 @@
     "required_events_id": [
       "437"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",

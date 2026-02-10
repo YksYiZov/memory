@@ -1,5 +1,64 @@
 [
   {
+    "question": "宋雅静在1月12日早上开始晨间快走计划的直接原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "为了应对店铺盘点工作导致的肩颈酸痛，恢复身体状态。"
+      },
+      {
+        "option": "B",
+        "content": "听从了1月8日年度体检后医生给出的每周至少进行150分钟中等强度运动的建议。"
+      },
+      {
+        "option": "C",
+        "content": "为了实现与丈夫讨论的“三年内带家人进行一次海外旅行”的长期目标。"
+      },
+      {
+        "option": "D",
+        "content": "因为她在1月9日调整饮食后感到饥饿，需要通过运动来控制体重。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "96",
+      "103",
+      "159"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 11
+      },
+      {
+        "type": "call",
+        "id": 15
+      },
+      {
+        "type": "push",
+        "id": 58
+      },
+      {
+        "type": "agent_chat",
+        "id": 12
+      },
+      {
+        "type": "push",
+        "id": 60
+      },
+      {
+        "type": "push",
+        "id": 61
+      },
+      {
+        "type": "push",
+        "id": 70
+      }
+    ],
+    "ask_time": "2025-01"
+  },
+  {
     "question": "宋雅静在2025年12月9日为自己规划了怎样的新学习内容与时间安排？",
     "answer": "她报名了《服装设计基础》和《常见面料特性与应用》两门课程，并计划每天利用午休和晚上的时间进行学习。",
     "score_points": [
@@ -20,7 +79,7 @@
       "2025-12-09"
     ],
     "ask_time": "2025-01",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -54,7 +113,7 @@
       "381",
       "389"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -108,7 +167,7 @@
       "542",
       "558"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -155,7 +214,7 @@
       "139",
       "165"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -228,7 +287,44 @@
         "id": "275"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在2025年3月4日，宋雅静与李美玲交流时，她们主要讨论了什么话题？",
+    "options": [
+      {
+        "option": "A",
+        "content": "店铺经营和客户维护"
+      },
+      {
+        "option": "B",
+        "content": "儿童英语启蒙和APP推荐"
+      },
+      {
+        "option": "C",
+        "content": "家庭晚餐准备和食谱"
+      },
+      {
+        "option": "D",
+        "content": "社区垃圾分类和互动"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "869"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 108
+      },
+      {
+        "type": "push",
+        "id": 329
+      }
+    ],
+    "ask_time": "2025-03"
   },
   {
     "question": "在2月，我通常在什么时间进行晨间体育锻炼？",
@@ -247,7 +343,7 @@
       "578",
       "590"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -312,7 +408,7 @@
         "id": "25"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，宋雅静和女儿乐萱在家制作灵感板时，使用了哪些材料？",
@@ -352,7 +448,66 @@
       }
     ],
     "ask_time": "2025-04",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在1月4日店铺营业期间，与宋雅静共同工作的同事是谁？",
+    "options": [
+      {
+        "option": "A",
+        "content": "邻居"
+      },
+      {
+        "option": "B",
+        "content": "店员"
+      },
+      {
+        "option": "C",
+        "content": "供应商"
+      },
+      {
+        "option": "D",
+        "content": "教友"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "49",
+      "50",
+      "51"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "57"
+      },
+      {
+        "type": "sms",
+        "id": "284"
+      },
+      {
+        "type": "note",
+        "id": "219"
+      },
+      {
+        "type": "note",
+        "id": "237"
+      },
+      {
+        "type": "calendar",
+        "id": "72"
+      },
+      {
+        "type": "push",
+        "id": "2584"
+      },
+      {
+        "type": "note",
+        "id": "281"
+      }
+    ],
+    "ask_time": "2025-04"
   },
   {
     "question": "陈志强是在哪一天晚上，开始秘密筹划为妻子宋雅静庆祝生日，并记录下贺卡、蛋糕和晚餐想法的？",
@@ -370,7 +525,7 @@
     "required_events_id": [
       "1699"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -383,6 +538,56 @@
       {
         "type": "note",
         "id": "327"
+      }
+    ],
+    "ask_time": "2025-05"
+  },
+  {
+    "question": "宋雅静在1月6日上午最终决定报名线上时尚课程的直接原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "为了完成她“一年内学会制作更复杂的法式甜点”的个人目标。"
+      },
+      {
+        "option": "B",
+        "content": "为了实现她在年度复盘时设定的2025年具体营业额和利润目标。"
+      },
+      {
+        "option": "C",
+        "content": "因为她想通过学习来缓解对父母健康状况的担忧和焦虑。"
+      },
+      {
+        "option": "D",
+        "content": "受到闺蜜王佳从深圳发来的春季时尚资讯链接的启发。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "39",
+      "72"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "365"
+      },
+      {
+        "type": "calendar",
+        "id": "165"
+      },
+      {
+        "type": "sms",
+        "id": "350"
+      },
+      {
+        "type": "note",
+        "id": "394"
+      },
+      {
+        "type": "calendar",
+        "id": "181"
       }
     ],
     "ask_time": "2025-05"
@@ -416,7 +621,7 @@
       "1480",
       "1514"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -474,6 +679,62 @@
     "ask_time": "2025-05"
   },
   {
+    "question": "3月，宋雅静操作个税汇算的电子流程时，最可能在哪里？",
+    "options": [
+      {
+        "option": "A",
+        "content": "家中书房"
+      },
+      {
+        "option": "B",
+        "content": "自己经营的店铺内"
+      },
+      {
+        "option": "C",
+        "content": "税务局"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "1029"
+    ],
+    "required_events_date": [
+      "2025-03-15"
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "475"
+      },
+      {
+        "type": "push",
+        "id": "2667"
+      },
+      {
+        "type": "sms",
+        "id": "439"
+      },
+      {
+        "type": "calendar",
+        "id": "237"
+      },
+      {
+        "type": "photo",
+        "id": "80"
+      },
+      {
+        "type": "sms",
+        "id": "443"
+      }
+    ]
+  },
+  {
     "question": "在宋雅静的复活节合唱排练经历中，林秀英参与了哪些关键活动？",
     "answer": "林秀英在2025年3月26日首次合唱排练中引荐宋雅静加入；在2025年4月2日的定期周三排练中一起参加；在2025年4月16日的复活节前彩排中分享自制饼干并参与交流。",
     "score_points": [
@@ -501,7 +762,7 @@
       "2025-04-16"
     ],
     "ask_time": "2025-05",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -555,7 +816,7 @@
       "112",
       "119"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -634,7 +895,7 @@
       "1348",
       "1493"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -709,7 +970,7 @@
       "2025-05-05"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -738,6 +999,60 @@
     ]
   },
   {
+    "question": "在5月处理车辆年度事务期间，我最后完成的是哪项行动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "车辆年检预约与准备"
+      },
+      {
+        "option": "B",
+        "content": "与丈夫沟通费用支出"
+      },
+      {
+        "option": "C",
+        "content": "整理并归档相关票据"
+      },
+      {
+        "option": "D",
+        "content": "对比并续保车辆商业险"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1754",
+      "1772"
+    ],
+    "required_events_date": [
+      "2025-05-05",
+      "2025-05-06"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "478"
+      },
+      {
+        "type": "push",
+        "id": "2669"
+      },
+      {
+        "type": "calendar",
+        "id": "235"
+      },
+      {
+        "type": "sms",
+        "id": "441"
+      },
+      {
+        "type": "agent_chat",
+        "id": 256
+      }
+    ]
+  },
+  {
     "question": "宋雅静在开始系统学习服装发展史（如《西方服装发展简史》线上课程）后，第一次运用所学知识（如新古典主义风格）为熟客提供专业穿搭建议是在学习启动后的第几个月？",
     "answer": "第三个月初（4月）",
     "score_points": [
@@ -759,7 +1074,7 @@
       "2025-04-25"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -801,7 +1116,7 @@
       "2025-05-25"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -853,7 +1168,7 @@
       "2025-05-26"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -882,6 +1197,64 @@
       {
         "type": "calendar",
         "id": "248"
+      }
+    ]
+  },
+  {
+    "question": "在我集中帮助父母适应厦门新环境的那一周（3月24日至28日），是否发生了我带女儿进行亲子绘本阅读的角色扮演活动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "是，在此期间发生了该活动。"
+      },
+      {
+        "option": "B",
+        "content": "否，该活动发生在此时间段之前。"
+      },
+      {
+        "option": "C",
+        "content": "否，该活动发生在此时间段之后。"
+      },
+      {
+        "option": "D",
+        "content": "无法确定，事件信息中没有相关时间记录。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1146",
+      "1868"
+    ],
+    "required_events_date": [
+      "2025-03-24",
+      "2025-05-12"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 149
+      },
+      {
+        "type": "push",
+        "id": 470
+      },
+      {
+        "type": "agent_chat",
+        "id": 270
+      },
+      {
+        "type": "calendar",
+        "id": "261"
+      },
+      {
+        "type": "note",
+        "id": "509"
+      },
+      {
+        "type": "photo",
+        "id": "90"
       }
     ]
   },
@@ -919,7 +1292,55 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "3月份，宋雅静在协助父母进行搬迁物品分类时，最终将物品分成了哪四类？",
+    "options": [
+      {
+        "option": "A",
+        "content": "带厦门、捐赠、回收、丢弃"
+      },
+      {
+        "option": "B",
+        "content": "带走、送人、卖掉、扔掉"
+      },
+      {
+        "option": "C",
+        "content": "必需品、纪念品、可捐赠品、废品"
+      },
+      {
+        "option": "D",
+        "content": "随身物品、家具、电器、杂物"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "1113",
+        "event_name": "物品分类与筛选"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "35"
+      },
+      {
+        "type": "push",
+        "id": "2543"
+      },
+      {
+        "type": "sms",
+        "id": "108"
+      },
+      {
+        "type": "note",
+        "id": "192"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在2025年3月，宋雅静与闺蜜李美玲谈论了另一位发小王佳最近遇到的什么事情？这件事对宋雅静自己的生活有直接影响吗？",
@@ -957,7 +1378,53 @@
         "id": "244"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年4月，宋雅静在与丈夫陈志强讨论为女儿选择兴趣班时，她明确表示自己更倾向于让女儿学习以下哪项艺术课程？",
+    "options": [
+      {
+        "option": "A",
+        "content": "钢琴"
+      },
+      {
+        "option": "B",
+        "content": "芭蕾舞"
+      },
+      {
+        "option": "C",
+        "content": "儿童绘画"
+      },
+      {
+        "option": "D",
+        "content": "书法"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "276"
+      },
+      {
+        "type": "sms",
+        "id": "277"
+      },
+      {
+        "type": "sms",
+        "id": "278"
+      },
+      {
+        "type": "sms",
+        "id": "279"
+      },
+      {
+        "type": "sms",
+        "id": "280"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
   },
   {
     "question": "宋雅静在报名法式甜点课程后，立即向哪位同好分享了消息并讨论了学习马卡龙的期待？",
@@ -975,7 +1442,7 @@
     "required_events_id": [
       "2196"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -1033,7 +1500,7 @@
       "1374",
       "1453"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -1079,7 +1546,7 @@
       "1169",
       "1170"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1121,7 +1588,7 @@
       "851",
       "885"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1168,7 +1635,7 @@
       "2025-06-20"
     ],
     "ask_time": "2025-07",
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -1222,7 +1689,7 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，宋雅静在与闺蜜李美玲的聊天中，谈论了她们共同的朋友王佳最近遇到了什么个人生活上的事情？这件事对宋雅静本人的生活有直接影响吗？",
@@ -1260,7 +1727,7 @@
         "id": "168"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月21日，宋雅静在店铺晨会后，针对客流稀少的情况，重点对哪些区域进行了陈列调整？具体调整内容是什么？",
@@ -1296,7 +1763,53 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年6月，宋雅静在与烘焙同好刘太太的交流中，分享了自己近期在制作哪一类甜点时，对糖分比例有了新的偏好调整？",
+    "options": [
+      {
+        "option": "A",
+        "content": "制作法式马卡龙时，减少了内馅的糖分"
+      },
+      {
+        "option": "B",
+        "content": "制作提拉米苏时，减少了手指饼浸泡咖啡的糖浆浓度"
+      },
+      {
+        "option": "C",
+        "content": "制作水果挞时，减少了卡仕达酱的糖量，更突出水果本身的酸甜"
+      },
+      {
+        "option": "D",
+        "content": "制作磅蛋糕时，减少了面糊中的砂糖用量"
+      }
+    ],
+    "answer": "C",
+    "ask_time": "2025-07",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "191"
+      },
+      {
+        "type": "sms",
+        "id": "192"
+      },
+      {
+        "type": "sms",
+        "id": "193"
+      },
+      {
+        "type": "sms",
+        "id": "194"
+      },
+      {
+        "type": "sms",
+        "id": "195"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月份，宋雅静在筼筜湖晨跑时，为了改善生活平衡，她决定采取哪两项具体措施？",
@@ -1332,7 +1845,7 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年3月，宋雅静在与闺蜜李美玲的聊天中，谈论到另一位发小王佳最近发生了一件什么事情？这件事对宋雅静本人的生活有直接影响吗？",
@@ -1370,7 +1883,7 @@
         "id": "213"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "宋雅静在6月初为准备社区旧衣改造课堂，外出采购了哪些具体物料？",
@@ -1422,7 +1935,7 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在2025年2月，宋雅静与闺蜜李美玲聊天时，得知了她们共同的朋友王佳最近遇到了什么个人生活上的变化？",
@@ -1460,7 +1973,7 @@
         "id": "254"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2月9日午餐时，宋雅静接到了谁的电话，通话内容主要是什么？",
@@ -1496,7 +2009,7 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2月份，宋雅静与供应商苏珊在哪个餐厅共进午餐并交流市场趋势？",
@@ -1528,7 +2041,75 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在6月份，当宋雅静需要学习与店铺经营或烘焙相关的专业知识或技能时，她最常采用哪种方式？",
+    "options": [
+      {
+        "option": "A",
+        "content": "参加线下培训班"
+      },
+      {
+        "option": "B",
+        "content": "通过线上课程或平台自学"
+      },
+      {
+        "option": "C",
+        "content": "阅读专业书籍"
+      },
+      {
+        "option": "D",
+        "content": "向身边朋友请教"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2149",
+      "2178",
+      "2192",
+      "2389"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 524
+      },
+      {
+        "type": "agent_chat",
+        "id": 313
+      },
+      {
+        "type": "push",
+        "id": 953
+      },
+      {
+        "type": "agent_chat",
+        "id": 316
+      },
+      {
+        "type": "push",
+        "id": 964
+      },
+      {
+        "type": "push",
+        "id": 1075
+      },
+      {
+        "type": "note",
+        "id": "221"
+      },
+      {
+        "type": "push",
+        "id": "2558"
+      },
+      {
+        "type": "calendar",
+        "id": "59"
+      }
+    ],
+    "ask_time": "2025-07"
   },
   {
     "question": "宋雅静与丈夫陈志强就父母养老规划达成初步共识是在哪次约会中？",
@@ -1546,7 +2127,7 @@
     "required_events_id": [
       "636"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -1584,7 +2165,7 @@
       "2196",
       "2206"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "note",
@@ -1658,7 +2239,7 @@
       "3018",
       "3213"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -1688,7 +2269,7 @@
       "2566",
       "2625"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -1742,7 +2323,7 @@
       "2817",
       "2864"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1780,7 +2361,7 @@
       "1698",
       "1763"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -1810,6 +2391,60 @@
     "ask_time": "2025-08"
   },
   {
+    "question": "4月3日晚，宋雅静调整了原定的家庭活动安排。她做出这一调整的直接原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "需要临时加班处理店铺账目中的疏漏。"
+      },
+      {
+        "option": "B",
+        "content": "为了优先参加线上税务培训课程的学习。"
+      },
+      {
+        "option": "C",
+        "content": "需要与泉州父母视频沟通体检事宜。"
+      },
+      {
+        "option": "D",
+        "content": "为清明节家庭团聚进行食材采购。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1323",
+      "1324"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 177
+      },
+      {
+        "type": "call",
+        "id": 300
+      },
+      {
+        "type": "call",
+        "id": 301
+      },
+      {
+        "type": "calendar",
+        "id": "203"
+      },
+      {
+        "type": "note",
+        "id": "428"
+      },
+      {
+        "type": "sms",
+        "id": "370"
+      }
+    ],
+    "ask_time": "2025-08"
+  },
+  {
     "question": "在泉州处理父母老宅物品时，宋雅静的丈夫负责联系外部人员处理哪一类物品？",
     "answer": "可回收物（变卖或回收的旧报纸、纸箱和废电器）。",
     "score_points": [
@@ -1826,7 +2461,7 @@
       "1113",
       "1115"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -1866,7 +2501,7 @@
   {
     "question": "2025年11月27日晚上22:30，在乘渡轮返回的途中，宋雅静看到船舱外鹭江江面上有多少只海鸥在飞翔？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -1875,7 +2510,7 @@
   {
     "question": "在2025年6月6日午休时，店员小美对宋雅静说的第一句话的具体内容是什么？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -1903,7 +2538,7 @@
       "2025-06-29"
     ],
     "ask_time": "2025-08",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1957,7 +2592,7 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，宋雅静在与闺蜜李美玲的聊天中，谈论了另一位共同好友王佳最近发生的一件与工作相关的事情。这件事是什么？",
@@ -1999,7 +2634,135 @@
         "id": "35"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "3月份，宋雅静在护肤中心接受咨询后，当场购买了哪几类家用护肤产品？",
+    "options": [
+      {
+        "option": "A",
+        "content": "抗衰老精华、高效保湿面霜、温和洁面乳"
+      },
+      {
+        "option": "B",
+        "content": "深层清洁面膜、保湿喷雾、防晒乳"
+      },
+      {
+        "option": "C",
+        "content": "抗衰老精华、高效保湿面霜、防晒乳"
+      },
+      {
+        "option": "D",
+        "content": "温和洁面乳、保湿面膜、抗衰老眼霜"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "845",
+        "event_name": "专业皮肤检测、护理与护肤方案定制"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 101
+      },
+      {
+        "type": "push",
+        "id": 319
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月份，宋雅静在银行咨询家庭应急储备金方案时，客户经理推荐了什么组合方案？",
+    "options": [
+      {
+        "option": "A",
+        "content": "活期存款与货币基金组合"
+      },
+      {
+        "option": "B",
+        "content": "活期理财与短期定存组合"
+      },
+      {
+        "option": "C",
+        "content": "大额存单与国债组合"
+      },
+      {
+        "option": "D",
+        "content": "定期存款与理财产品组合"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2864",
+        "event_name": "前往银行咨询家庭应急储备金方案"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 422
+      },
+      {
+        "type": "push",
+        "id": 1318
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2月份，宋雅静一家在厦门科技馆参观后，前往了哪家餐厅享用家庭晚餐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "伍湛记广州老字号"
+      },
+      {
+        "option": "B",
+        "content": "耍牛满牛肉火锅店"
+      },
+      {
+        "option": "C",
+        "content": "港吉冰室港式茶餐厅"
+      },
+      {
+        "option": "D",
+        "content": "浅原咖啡"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "755",
+        "event_name": "温馨家庭晚餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "46"
+      },
+      {
+        "type": "note",
+        "id": "203"
+      },
+      {
+        "type": "photo",
+        "id": "19"
+      },
+      {
+        "type": "push",
+        "id": "2550"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "根据我在6月初报名参加的烘焙课程类型，以及随后为准备该课程而采购的特色原料，可以推断我可能对哪个国家的饮食文化有特别的兴趣？",
@@ -2022,7 +2785,7 @@
       "2196",
       "2244"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -2087,7 +2850,7 @@
       "2025-08-30"
     ],
     "ask_time": "2025-08-31",
-    "question_type": "updating",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2140,7 +2903,7 @@
       "526",
       "535"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -2182,7 +2945,7 @@
       "576",
       "578"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2220,7 +2983,7 @@
       "2199",
       "2334"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2267,7 +3030,7 @@
       "3282",
       "3378"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2337,7 +3100,7 @@
       "2575",
       "2675"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -2392,7 +3155,7 @@
       "1700",
       "1726"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2452,7 +3215,7 @@
       "3697",
       "3727"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -2514,6 +3277,54 @@
     "ask_time": "2025-09"
   },
   {
+    "question": "我在续约谈判准备期间咨询闺蜜，最主要的目的是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "获取关于店铺未来经营方向的商业建议"
+      },
+      {
+        "option": "B",
+        "content": "获得关于如何与房东有效沟通的技巧建议"
+      },
+      {
+        "option": "C",
+        "content": "请她帮忙分析步行街改造的官方文件"
+      },
+      {
+        "option": "D",
+        "content": "讨论家庭财务状况以支持谈判"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3306"
+    ],
+    "required_events_date": [
+      "2025-08-22"
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 503
+      },
+      {
+        "type": "call",
+        "id": 836
+      },
+      {
+        "type": "push",
+        "id": 1547
+      },
+      {
+        "type": "push",
+        "id": 1548
+      }
+    ]
+  },
+  {
     "question": "从首次因线上转型筹备而主动联系供应商，到秋季新品全部上架销售，这期间大约经历了多长时间？",
     "answer": "约48天（从2025年6月25日到2025年8月12日）。",
     "score_points": [
@@ -2535,7 +3346,7 @@
       "2025-08-12"
     ],
     "ask_time": "2025-09",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "note",
@@ -2576,6 +3387,50 @@
     ]
   },
   {
+    "question": "在3月7日外出采购时，宋雅静为父母迁居购买了哪些物品？",
+    "options": [
+      {
+        "option": "A",
+        "content": "电饭煲、保温壶、棉拖鞋、清洁工具、防滑垫、收纳箱"
+      },
+      {
+        "option": "B",
+        "content": "电饭煲、保温壶、棉拖鞋、清洁工具、防滑垫、收纳箱、晾衣架"
+      },
+      {
+        "option": "C",
+        "content": "电饭煲、保温壶、棉拖鞋、清洁工具、防滑垫、收纳箱、热金桔柠檬茶"
+      },
+      {
+        "option": "D",
+        "content": "电饭煲、保温壶、棉拖鞋、清洁工具、防滑垫、收纳箱、牙刷、牙膏、毛巾、洗发水"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "913",
+        "event_name": "外出集中采购父母迁居用品"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 116
+      },
+      {
+        "type": "push",
+        "id": 354
+      },
+      {
+        "type": "push",
+        "id": 355
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "宋雅静在3月份绘制春季橱窗草图时，其设计灵感主要来源于哪两个方面？",
     "answer": "线上课程所学的‘色彩情绪’和广州订货会的见闻。",
     "score_points": [
@@ -2613,7 +3468,91 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "9月份，我在店铺工作间隙，通过手机采购了哪些用于女儿学习角的物品？",
+    "options": [
+      {
+        "option": "A",
+        "content": "儿童书桌、护眼台灯、卡通收纳盒、拼音挂图"
+      },
+      {
+        "option": "B",
+        "content": "可调节儿童书桌、护眼台灯、收纳架、墙贴"
+      },
+      {
+        "option": "C",
+        "content": "儿童书桌、护眼台灯、文具套装、绘本架"
+      },
+      {
+        "option": "D",
+        "content": "学习桌椅套装、护眼灯、书包、地球仪"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3485",
+        "event_name": "接待顾客与采购学习角物品"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2512"
+      },
+      {
+        "type": "push",
+        "id": "2513"
+      },
+      {
+        "type": "note",
+        "id": "154"
+      },
+      {
+        "type": "calendar",
+        "id": "4"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "9月份，宋雅静在店铺与熟客交流时，对方推荐了什么活动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "社区旧衣改造课堂"
+      },
+      {
+        "option": "B",
+        "content": "沙坡尾的独立服装店主沙龙"
+      },
+      {
+        "option": "C",
+        "content": "社区羽毛球女子双打比赛"
+      },
+      {
+        "option": "D",
+        "content": "南湖公园的亲子晨跑活动"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3726",
+        "event_name": "店铺上午运营与熟客交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 576
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，宋雅静在店铺休息区完成并分享了哪门课程的作业？她在作业中为春季新品橱窗推荐了哪些具体的色彩搭配方案？",
@@ -2653,7 +3592,53 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年3月，宋雅静在与烘焙同好刘太太交流时，表达了自己近期在制作蛋糕时，对哪种特定口味的奶油霜产生了特别的偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "香草朗姆酒风味奶油霜"
+      },
+      {
+        "option": "B",
+        "content": "海盐焦糖风味奶油霜"
+      },
+      {
+        "option": "C",
+        "content": "伯爵茶柠檬风味奶油霜"
+      },
+      {
+        "option": "D",
+        "content": "咖啡巧克力风味奶油霜"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "266"
+      },
+      {
+        "type": "sms",
+        "id": "267"
+      },
+      {
+        "type": "sms",
+        "id": "268"
+      },
+      {
+        "type": "sms",
+        "id": "269"
+      },
+      {
+        "type": "sms",
+        "id": "270"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "宋雅静在8月期间，针对低糖水果茶蛋糕的两次尝试，分别经历了怎样的结果？",
@@ -2672,7 +3657,7 @@
       "3027",
       "3145"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2737,7 +3722,7 @@
       "4206",
       "4333"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2799,7 +3784,7 @@
       "934",
       "998"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -2829,6 +3814,64 @@
     "ask_time": "2025-10"
   },
   {
+    "question": "9月决定告别持续多年的阅读习惯，最核心的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "该习惯每周需投入数小时，但获得的情感收益极低"
+      },
+      {
+        "option": "B",
+        "content": "在最后一次阅读时，感到强烈的疲惫感和脱离感"
+      },
+      {
+        "option": "C",
+        "content": "店铺转型、陪伴家人等其他事务更紧迫且长期收益更高"
+      },
+      {
+        "option": "D",
+        "content": "所读小说的情节和价值观已与当前阅历及生活重心脱节"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3657",
+      "3674"
+    ],
+    "required_events_date": [
+      "2025-09-15",
+      "2025-09-16"
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "push",
+        "id": 1735
+      },
+      {
+        "type": "agent_chat",
+        "id": 564
+      },
+      {
+        "type": "note",
+        "id": 85
+      },
+      {
+        "type": "push",
+        "id": "2668"
+      },
+      {
+        "type": "note",
+        "id": "476"
+      },
+      {
+        "type": "calendar",
+        "id": "233"
+      }
+    ]
+  },
+  {
     "question": "我在8月因压力导致睡眠问题后，主动尝试了多种非药物调节方法。这些早期的探索和记录，是如何具体影响并促成了我在9月做出购买电动泡脚桶这一消费决策的？",
     "answer": "8月的尝试让她确认了泡脚对放松和助眠有效，并通过记录看到了持续实践的价值，从而为9月购买设备以固定和提升这一习惯提供了直接依据。",
     "score_points": [
@@ -2854,7 +3897,7 @@
       "2025-09-14"
     ],
     "ask_time": "2025-10",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2883,6 +3926,90 @@
       {
         "type": "note",
         "id": "488"
+      }
+    ]
+  },
+  {
+    "question": "在中秋节促销活动正式启动（9月25日）前，宋雅静完成了多少项不同的、具体的准备工作？",
+    "options": [
+      {
+        "option": "A",
+        "content": "5项"
+      },
+      {
+        "option": "B",
+        "content": "7项"
+      },
+      {
+        "option": "C",
+        "content": "8项"
+      },
+      {
+        "option": "D",
+        "content": "10项"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3726",
+      "3747",
+      "3754",
+      "3756",
+      "3772",
+      "3784",
+      "3786"
+    ],
+    "required_events_date": [
+      "2025-09-20",
+      "2025-09-21",
+      "2025-09-22",
+      "2025-09-22",
+      "2025-09-23",
+      "2025-09-24",
+      "2025-09-24"
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 576
+      },
+      {
+        "type": "call",
+        "id": 951
+      },
+      {
+        "type": "push",
+        "id": 1787
+      },
+      {
+        "type": "push",
+        "id": 1796
+      },
+      {
+        "type": "call",
+        "id": 966
+      },
+      {
+        "type": "note",
+        "id": "506"
+      },
+      {
+        "type": "photo",
+        "id": "88"
+      },
+      {
+        "type": "calendar",
+        "id": "258"
+      },
+      {
+        "type": "push",
+        "id": "2688"
+      },
+      {
+        "type": "sms",
+        "id": "457"
       }
     ]
   },
@@ -2930,7 +4057,7 @@
         "id": "78"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "8月16日，宋雅静在咖啡馆梳理线上转型方案时，点的是什么饮品？",
@@ -2966,7 +4093,53 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年10月，宋雅静在与烘焙同好刘太太的聊天中，分享了自己最近在挑选家用烤箱时，最看重哪两个具体的功能或特性？",
+    "options": [
+      {
+        "option": "A",
+        "content": "品牌知名度高和外观设计时尚"
+      },
+      {
+        "option": "B",
+        "content": "温控精准和带有蒸汽功能"
+      },
+      {
+        "option": "C",
+        "content": "价格便宜和容量超大"
+      },
+      {
+        "option": "D",
+        "content": "智能联网和快速预热"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "103"
+      },
+      {
+        "type": "sms",
+        "id": "104"
+      },
+      {
+        "type": "sms",
+        "id": "105"
+      },
+      {
+        "type": "sms",
+        "id": "106"
+      },
+      {
+        "type": "sms",
+        "id": "107"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，宋雅静在与闺蜜李美玲的聊天中，得知了她们共同的朋友王佳最近在深圳发生了一件什么事情？这件事对宋雅静本人的生活有直接影响吗？",
@@ -3004,7 +4177,47 @@
         "id": "114"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在9月份，我向姐姐雅雯和同学赵敏咨询了哪方面的经验？",
+    "options": [
+      {
+        "option": "A",
+        "content": "线上店铺运营"
+      },
+      {
+        "option": "B",
+        "content": "购买保险"
+      },
+      {
+        "option": "C",
+        "content": "钢琴学习"
+      },
+      {
+        "option": "D",
+        "content": "旧衣改造"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3591",
+        "event_name": "休息与启动亲友咨询"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2530"
+      },
+      {
+        "type": "sms",
+        "id": "16"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年1月，宋雅静在微信上与闺蜜李美玲聊天时，谈论到另一位闺蜜王佳最近在深圳发生了一件什么事情？这件事对宋雅静本人的生活有直接影响吗？",
@@ -3046,7 +4259,53 @@
         "id": "136"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，宋雅静在与烘焙同好刘太太的聊天中，分享了自己近期在挑选家庭日常饮用红酒时，最看重哪两个具体的品味偏好？（单选）",
+    "options": [
+      {
+        "option": "A",
+        "content": "A. 品牌知名度高，最好是法国波尔多产区的；单宁感强烈，有陈年潜力。"
+      },
+      {
+        "option": "B",
+        "content": "B. 口感柔和顺滑，不酸不涩；最好是甜型或半甜型，适合配甜点。"
+      },
+      {
+        "option": "C",
+        "content": "C. 果香浓郁，尤其是樱桃、莓果类香气；价格适中，性价比高。"
+      },
+      {
+        "option": "D",
+        "content": "D. 包装精美，适合送礼；酒精度数高，喝起来有劲。"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "137"
+      },
+      {
+        "type": "sms",
+        "id": "138"
+      },
+      {
+        "type": "sms",
+        "id": "139"
+      },
+      {
+        "type": "sms",
+        "id": "140"
+      },
+      {
+        "type": "sms",
+        "id": "141"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在4月份处理顾客王女士的尺码投诉时，宋雅静除了提供免费调换外，还额外赠送了什么作为补偿？",
@@ -3078,7 +4337,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在5月，宋雅静通常在一天中的哪个时间段进行健走活动？",
@@ -3112,7 +4371,7 @@
       "2043",
       "2127"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3187,7 +4446,7 @@
       "204",
       "217"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -3233,6 +4492,74 @@
     "ask_time": "2025-10"
   },
   {
+    "question": "根据宋雅静10月份的工作记录，她这个月投入精力最多的核心项目是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "店铺日常运营与销售"
+      },
+      {
+        "option": "B",
+        "content": "微信小程序商城的筹备与上线"
+      },
+      {
+        "option": "C",
+        "content": "家庭事务与子女教育"
+      },
+      {
+        "option": "D",
+        "content": "个人健康管理"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "3995",
+      "4190",
+      "4203",
+      "4271"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 621
+      },
+      {
+        "type": "call",
+        "id": 1019
+      },
+      {
+        "type": "note",
+        "id": 97
+      },
+      {
+        "type": "agent_chat",
+        "id": 649
+      },
+      {
+        "type": "push",
+        "id": 2012
+      },
+      {
+        "type": "agent_chat",
+        "id": 661
+      },
+      {
+        "type": "push",
+        "id": 2041
+      },
+      {
+        "type": "sms",
+        "id": "282"
+      },
+      {
+        "type": "note",
+        "id": "214"
+      }
+    ],
+    "ask_time": "2025-10"
+  },
+  {
     "question": "宋雅静在7月1日上午与哪位供应商沟通后，于当晚预订了7月3日前往广州的差旅？",
     "answer": "与供应商苏珊沟通后，预订了7月3日前往广州的差旅。",
     "score_points": [
@@ -3249,7 +4576,7 @@
       "2565",
       "2573"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -3291,7 +4618,7 @@
       "4430",
       "4626"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -3345,7 +4672,7 @@
       "4532",
       "4565"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3412,7 +4739,7 @@
       "1715",
       "1789"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -3478,7 +4805,7 @@
       "426",
       "439"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -3519,7 +4846,7 @@
     "required_events_id": [
       "3522"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3568,7 +4895,7 @@
       "4253",
       "4334"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3660,7 +4987,7 @@
       "2025-10-19"
     ],
     "ask_time": "2025-11",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -3732,7 +5059,53 @@
         "id": "58"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年5月，宋雅静在与烘焙同好刘太太交流时，分享了自己最近在制作提拉米苏蛋糕时，对其中哪种原料的产地和品质有了新的、更具体的偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "马斯卡彭奶酪，她开始偏好意大利特定产区（如伦巴第）的，认为风味更醇厚。"
+      },
+      {
+        "option": "B",
+        "content": "手指饼干，她开始偏好使用自己烤制的，而不是购买成品，以控制甜度和硬度。"
+      },
+      {
+        "option": "C",
+        "content": "咖啡液，她开始偏好使用深度烘焙的意式浓缩咖啡，并强调必须现磨现萃。"
+      },
+      {
+        "option": "D",
+        "content": "可可粉，她开始偏好使用荷兰产的高品质无糖可可粉，认为颜色和香气更佳。"
+      }
+    ],
+    "answer": "D",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "59"
+      },
+      {
+        "type": "sms",
+        "id": "60"
+      },
+      {
+        "type": "sms",
+        "id": "61"
+      },
+      {
+        "type": "sms",
+        "id": "62"
+      },
+      {
+        "type": "sms",
+        "id": "63"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在10月份与闺蜜的下午茶聚会中，宋雅静点了什么饮品和甜点？",
@@ -3772,7 +5145,51 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "10月份，我与银行客户经理林晓峰面谈时，主要咨询了哪方面的规划？",
+    "options": [
+      {
+        "option": "A",
+        "content": "店铺贷款"
+      },
+      {
+        "option": "B",
+        "content": "理财规划"
+      },
+      {
+        "option": "C",
+        "content": "信用卡申请"
+      },
+      {
+        "option": "D",
+        "content": "外汇兑换"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4070",
+        "event_name": "电话预约银行理财咨询"
+      },
+      {
+        "event_id": "4084",
+        "event_name": "银行理财咨询面谈"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 629
+      },
+      {
+        "type": "push",
+        "id": 1945
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，宋雅静在与烘焙同好刘太太的聊天中，得知刘太太的丈夫最近在事业上遇到了什么具体挑战？",
@@ -3810,7 +5227,51 @@
         "id": "159"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在5月份与供应商苏珊的视频会议中，宋雅静敲定的秋季首批服饰订单包含多少款？",
+    "options": [
+      {
+        "option": "A",
+        "content": "3款"
+      },
+      {
+        "option": "B",
+        "content": "5款"
+      },
+      {
+        "option": "C",
+        "content": "8款"
+      },
+      {
+        "option": "D",
+        "content": "10款"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1863",
+        "event_name": "核心工作：与供应商敲定秋季订单"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 267
+      },
+      {
+        "type": "call",
+        "id": 448
+      },
+      {
+        "type": "push",
+        "id": 809
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "我在1月8日体检后，根据医生的建议，规划并开始了一项新的日常活动。这项活动是什么？",
@@ -3834,7 +5295,7 @@
       "103",
       "159"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3890,7 +5351,7 @@
       "3502",
       "3712"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3961,7 +5422,7 @@
       "3814",
       "3876"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -4034,7 +5495,7 @@
     "required_events_id": [
       "1416"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4064,7 +5525,7 @@
       "2196",
       "2287"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -4130,7 +5591,7 @@
       "2349",
       "2363"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -4171,7 +5632,7 @@
     "required_events_id": [
       "3046"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4210,7 +5671,7 @@
       "2984",
       "2990"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4275,7 +5736,7 @@
       "4430",
       "4448"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -4377,7 +5838,7 @@
       "3459",
       "3605"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4431,7 +5892,7 @@
       "3449",
       "3454"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -4475,7 +5936,7 @@
       "3715",
       "3716"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4537,7 +5998,7 @@
       "4737",
       "4938"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4575,7 +6036,7 @@
       "4843",
       "4859"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4605,6 +6066,76 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "宋雅静在12月9日主动发起家庭保单检视预约，最直接的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "她在12月8日与闺蜜李美玲聊天中提及肩颈健康问题，从而联想到家庭整体保障的重要性。"
+      },
+      {
+        "option": "B",
+        "content": "她在12月7日家庭户外活动后，意识到需要为女儿增加户外运动意外险。"
+      },
+      {
+        "option": "C",
+        "content": "她在12月4日出差时，供应商苏珊提醒她关注企业经营风险。"
+      },
+      {
+        "option": "D",
+        "content": "她在12月2日晚与丈夫沟通财务规划时，丈夫陈志强建议立刻检视保单。"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "4830",
+      "4844"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "162"
+      },
+      {
+        "type": "calendar",
+        "id": "12"
+      },
+      {
+        "type": "sms",
+        "id": "8"
+      },
+      {
+        "type": "sms",
+        "id": "9"
+      },
+      {
+        "type": "call",
+        "id": 1224
+      },
+      {
+        "type": "sms",
+        "id": "372"
+      },
+      {
+        "type": "note",
+        "id": "438"
+      },
+      {
+        "type": "sms",
+        "id": "382"
+      },
+      {
+        "type": "note",
+        "id": "465"
+      },
+      {
+        "type": "calendar",
+        "id": "226"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "宋雅静在12月促销活动开始前，为确保发货环节顺畅，具体做了哪些准备工作？",
     "answer": "她联系快递公司确认了活动期间的取件频次和运费优惠，并检查了包装物料库存，在发现气泡膜不足后立即采购补充，同时细化了包含发货任务在内的每日工作流程表，并在活动开始前与店员进行了动员与最终检查。",
     "score_points": [
@@ -4622,7 +6153,7 @@
       "4755",
       "4772"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -4660,6 +6191,60 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "10月31日晚，宋雅静查看月度运动报告并分享喜悦，其月度报告中最能让她感到自豪并直接触发分享行为的个人成就是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "她完成了十次晨跑，并且配速稳定。"
+      },
+      {
+        "option": "B",
+        "content": "她在10月23日成功突破了5公里跑，为月度报告增添了亮点。"
+      },
+      {
+        "option": "C",
+        "content": "静修营归来后，她更关注健康数据的积极变化。"
+      },
+      {
+        "option": "D",
+        "content": "她的丈夫陈志强催促她查看并分享家庭健康成果。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4333",
+      "4206"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 651
+      },
+      {
+        "type": "push",
+        "id": 2014
+      },
+      {
+        "type": "push",
+        "id": 2015
+      },
+      {
+        "type": "photo",
+        "id": "63"
+      },
+      {
+        "type": "push",
+        "id": "2639"
+      },
+      {
+        "type": "note",
+        "id": "391"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "在为期约两个月的成人钢琴启蒙班学习期间，宋雅静具体学会了完整弹奏哪些曲目？",
     "answer": "她学会了完整弹奏《小星星》和《欢乐颂》。",
     "score_points": [
@@ -4683,7 +6268,7 @@
       "4215",
       "4221"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4749,7 +6334,7 @@
       "948",
       "954"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -4846,7 +6431,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "烘焙老师陈师傅三月份提到的那个新开的周末课程具体名称是什么？",
@@ -4868,7 +6453,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "丈夫陈志强在三月底提到出差回来要带的‘那个东西’，具体是在哪个城市的机场买的？",
@@ -4890,7 +6475,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "王神父在春季提到的教堂新来帮忙的志愿者，到了三月份时，其具体人数变成了多少？",
@@ -4912,7 +6497,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "姐姐宋雅雯六月初给宋雅静推荐的海外旅行目的地中，排在第二个的是哪里？",
@@ -4934,7 +6519,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静在2025年3月12日提到的，想和李美玲、王佳一起去打卡的“那家新开的法式甜品店”叫什么名字？",
@@ -4960,7 +6545,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静在2025年4月8日提到之前在陈师傅那里试吃的“那个新品”是什么口味？",
@@ -4982,7 +6567,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静的店铺在2025年5月6日提到需要“紧急补货”的那款连衣裙，是在哪一天到货的？",
@@ -5008,7 +6593,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静在2025年6月18日分享给刘太太的那个烘焙视频里，提到需要用到一种特殊的工具叫什么？",
@@ -5030,7 +6615,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "李美玲在2025年7月总共推荐给宋雅静几首她最近单曲循环的英文歌？",
@@ -5056,7 +6641,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "供应商苏珊在2025年8月初向宋雅静推荐的那个“适合夏末秋初的、垂感很好”的新面料具体是什么？",
@@ -5078,7 +6663,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静在2025年7月咨询供应商后，她提到的那个位于浙江的服装工厂具体在哪个城市？",
@@ -5100,7 +6685,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静的父亲宋明辉在2025年中秋节前说的泉州古玩店，具体淘到了什么纪念品？",
@@ -5126,7 +6711,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静的丈夫陈志强计划在2025年车检后购买的那款汽车配件具体是什么？",
@@ -5148,7 +6733,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "从年初到六月份，宋雅静为了精进烘焙手艺，已经尝试制作了哪几款法式甜点？",
@@ -5170,7 +6755,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静在5月和8月分别计划与哪两位发小闺蜜进行聚会？",
@@ -5192,7 +6777,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "宋雅静计划为哪个家庭纪念日向王神父预约感恩祭？具体是在哪个月份？",
@@ -5214,7 +6799,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "11月20日，宋雅静在店铺休息区为接待供应商苏珊准备了哪些材料？",
@@ -5254,7 +6839,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，宋雅静在与闺蜜李美玲的聊天中，提到了另一位闺蜜王佳最近遇到了什么让她感到困扰的事情？",
@@ -5292,7 +6877,7 @@
         "id": "48"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月份，宋雅静在店铺休息区与谁进行了约半小时的微信语音通话，分享静修归来的实践？",
@@ -5324,7 +6909,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，宋雅静在与闺蜜李美玲的聊天中，得知了另一位共同好友王佳最近在工作上遇到了什么具体困扰？",
@@ -5366,7 +6951,125 @@
         "id": "68"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，宋雅静在与烘焙同好刘太太的聊天中，分享了自己对于制作不同口味提拉米苏的偏好。她认为，在尝试过的几种风味中，哪一种是她个人最不喜欢的，原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "抹茶味提拉米苏，因为她觉得抹茶的微苦感与马斯卡彭奶酪的醇厚结合后，口感略显突兀，不够融合。"
+      },
+      {
+        "option": "B",
+        "content": "草莓味提拉米苏，因为她认为新鲜草莓的水分会影响手指饼干的吸收度，导致整体口感变得湿软，失去了层次感。"
+      },
+      {
+        "option": "C",
+        "content": "百香果味提拉米苏，因为她感觉百香果的酸度过于尖锐，完全掩盖了咖啡酒和可可粉的经典风味，失去了提拉米苏的灵魂。"
+      },
+      {
+        "option": "D",
+        "content": "巧克力味提拉米苏（指额外添加巧克力碎或巧克力酱的版本），因为她觉得巧克力味过重，吃起来太甜腻，而且和顶层的可可粉风味重复。"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "69"
+      },
+      {
+        "type": "sms",
+        "id": "70"
+      },
+      {
+        "type": "sms",
+        "id": "71"
+      },
+      {
+        "type": "sms",
+        "id": "72"
+      },
+      {
+        "type": "sms",
+        "id": "73"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年8月，宋雅静在店铺工作时，因看到什么消息而感到焦虑？",
+    "options": [
+      {
+        "option": "A",
+        "content": "看到步行街可能改造的消息"
+      },
+      {
+        "option": "B",
+        "content": "看到店铺营业额大幅下滑的消息"
+      },
+      {
+        "option": "C",
+        "content": "看到供应商无法按时供货的消息"
+      },
+      {
+        "option": "D",
+        "content": "看到女儿在幼儿园不适的消息"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3064",
+        "event_name": "下午营业、情绪波动与应对焦虑"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 455
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "8月份，宋雅静在教堂公告栏看到并产生浓厚兴趣的活动主题是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "春季海边静修营"
+      },
+      {
+        "option": "B",
+        "content": "秋季海边静修营"
+      },
+      {
+        "option": "C",
+        "content": "夏季海边静修营"
+      },
+      {
+        "option": "D",
+        "content": "冬季海边静修营"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3235",
+        "event_name": "参加主日弥撒及交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 490
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年9月，宋雅静在与闺蜜李美玲的聊天中，得知了她们共同的朋友刘芳最近遇到了什么让她感到困扰和压力的事情？",
@@ -5404,7 +7107,7 @@
         "id": "92"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年9月，宋雅静在与闺蜜李美玲的聊天中，谈论到另一位闺蜜王佳最近遇到了什么与工作相关的具体事情？",
@@ -5442,7 +7145,7 @@
         "id": "102"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，宋雅静在和李美玲的聊天中，提到了另一位闺蜜王佳最近发生的一件与工作相关但对她自己生活没有直接影响的事情是什么？",
@@ -5488,7 +7191,7 @@
         "id": "125"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "9月份，我在社区活动中心与邻居商讨的课堂方案具体名称是什么？",
@@ -5516,7 +7219,55 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在9月份参观鼓浪屿钢琴博物馆时，女儿对哪种类型的钢琴展品表现出特别的兴趣？",
+    "options": [
+      {
+        "option": "A",
+        "content": "古钢琴"
+      },
+      {
+        "option": "B",
+        "content": "自动演奏钢琴"
+      },
+      {
+        "option": "C",
+        "content": "钢琴乐谱"
+      },
+      {
+        "option": "D",
+        "content": "钢琴家画像"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3632",
+        "event_name": "家庭文化休闲：参观钢琴博物馆"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "190"
+      },
+      {
+        "type": "photo",
+        "id": "15"
+      },
+      {
+        "type": "calendar",
+        "id": "33"
+      },
+      {
+        "type": "sms",
+        "id": "86"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月份，宋雅静在社区旧衣改造课堂活动后，与张阿姨在小区花园向谁口头提出了将活动季度化的建议？",
@@ -5548,7 +7299,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，宋雅静在与闺蜜李美玲的聊天中，谈论到她们共同的好友王佳最近发生了一件什么事情？这件事对王佳的生活有什么具体影响？",
@@ -5590,7 +7341,7 @@
         "id": "180"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，宋雅静在与闺蜜李美玲的聊天中，得知了她们共同的朋友王佳最近遇到了什么个人生活上的困扰？",
@@ -5628,7 +7379,7 @@
         "id": "190"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月份，宋雅静在SM城市广场为父母采购了哪些客房用品？",
@@ -5668,7 +7419,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，宋雅静在短信中与闺蜜李美玲谈论了另一位发小王佳最近发生的什么事情？这件事对宋雅静本人的生活有直接影响吗？",
@@ -5710,7 +7461,7 @@
         "id": "201"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月，宋雅静在与闺蜜的下午茶聚会中倾诉了哪些方面的压力？",
@@ -5750,7 +7501,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年3月，宋雅静在与闺蜜李美玲的聊天中，得知了另一位发小王佳最近遇到了什么与工作相关的困扰？",
@@ -5788,7 +7539,7 @@
         "id": "224"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，宋雅静在与闺蜜李美玲的聊天中，谈论到她们共同的朋友王佳最近在深圳遇到了什么让她感到困扰但又与宋雅静自身生活无直接关联的事情？",
@@ -5830,7 +7581,7 @@
         "id": "234"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在6月份，我通过手机银行APP支付了哪项家庭财务项目的首期保费？",
@@ -5870,7 +7621,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "你最近一次做推拿理疗是和谁一起讨论体验感受的？",
@@ -5892,7 +7643,7 @@
       "2025-12-10"
     ],
     "ask_time": "2025-12",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5917,7 +7668,7 @@
       "4746",
       "4938"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5979,7 +7730,7 @@
       "4775",
       "5048"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6021,6 +7772,95 @@
     "ask_time": "2025-12"
   },
   {
+    "question": "在11月的周末，我通常会与家人一起进行哪项固定的家庭活动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "逛街购物"
+      },
+      {
+        "option": "B",
+        "content": "去教堂参加主日弥撒"
+      },
+      {
+        "option": "C",
+        "content": "在店铺加班"
+      },
+      {
+        "option": "D",
+        "content": "拜访父母"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4352",
+      "4459",
+      "4542",
+      "4640",
+      "4718"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "164"
+      },
+      {
+        "type": "push",
+        "id": "2525"
+      },
+      {
+        "type": "calendar",
+        "id": "13"
+      },
+      {
+        "type": "agent_chat",
+        "id": 708
+      },
+      {
+        "type": "call",
+        "id": 1152
+      },
+      {
+        "type": "push",
+        "id": 2183
+      },
+      {
+        "type": "agent_chat",
+        "id": 735
+      },
+      {
+        "type": "push",
+        "id": 2276
+      },
+      {
+        "type": "calendar",
+        "id": "64"
+      },
+      {
+        "type": "note",
+        "id": "228"
+      },
+      {
+        "type": "calendar",
+        "id": "81"
+      },
+      {
+        "type": "photo",
+        "id": "27"
+      },
+      {
+        "type": "calendar",
+        "id": "92"
+      },
+      {
+        "type": "sms",
+        "id": "304"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "在11月上旬，我计划并最终完成了一件需要父母从泉州前来配合的家庭大事。根据地理常识和事件信息，我为什么选择将这件事的主要进行地点定在厦门？",
     "answer": "因为我定居在厦门，而父母住在泉州，两地同属福建省且距离较近，交通便利。同时，我需要承担活动的主要组织和费用，在我所在的城市进行便于安排和协调。",
     "score_points": [
@@ -6047,7 +7887,7 @@
       "4448",
       "4419"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6126,7 +7966,7 @@
       "2706",
       "2699"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6170,5 +8010,144 @@
       }
     ],
     "ask_time": "2025-12"
+  },
+  {
+    "question": "在4月上旬，我学习财税课程的主要动机或目标是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "为了获得一份会计工作"
+      },
+      {
+        "option": "B",
+        "content": "为了通过考试获取证书"
+      },
+      {
+        "option": "C",
+        "content": "为了规范自己店铺的经营和财务管理"
+      },
+      {
+        "option": "D",
+        "content": "为了帮助丈夫处理其公司的税务"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1323",
+      "1324",
+      "1382",
+      "1405",
+      "1418"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 177
+      },
+      {
+        "type": "call",
+        "id": 300
+      },
+      {
+        "type": "call",
+        "id": 301
+      },
+      {
+        "type": "call",
+        "id": 321
+      },
+      {
+        "type": "call",
+        "id": 322
+      },
+      {
+        "type": "agent_chat",
+        "id": 192
+      },
+      {
+        "type": "push",
+        "id": 602
+      },
+      {
+        "type": "note",
+        "id": "213"
+      },
+      {
+        "type": "calendar",
+        "id": "51"
+      },
+      {
+        "type": "call",
+        "id": "1323"
+      },
+      {
+        "type": "note",
+        "id": "223"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
+    "question": "在12月的财务规划中，设立女儿教育基金和家庭旅行基金的最直接前导决策活动是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "与保险顾问的线上保单检视会议"
+      },
+      {
+        "option": "B",
+        "content": "与丈夫的初步沟通确定议题"
+      },
+      {
+        "option": "C",
+        "content": "夫妻年度财务规划正式会议"
+      },
+      {
+        "option": "D",
+        "content": "与银行经理咨询储蓄方案"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4922",
+      "4938"
+    ],
+    "required_events_date": [
+      "2025-12-14",
+      "2025-12-15"
+    ],
+    "ask_time": "2026-03",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 770
+      },
+      {
+        "type": "note",
+        "id": "191"
+      },
+      {
+        "type": "note",
+        "id": "407"
+      },
+      {
+        "type": "push",
+        "id": "2542"
+      },
+      {
+        "type": "calendar",
+        "id": "34"
+      },
+      {
+        "type": "sms",
+        "id": "87"
+      },
+      {
+        "type": "sms",
+        "id": "365"
+      }
+    ]
   }
 ]

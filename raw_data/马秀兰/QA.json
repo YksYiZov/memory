@@ -1,5 +1,49 @@
 [
   {
+    "question": "在1月份的某次家庭采购中，马秀兰在蔬菜市场购买白菜和土豆时，光顾了哪位摊主的摊位？",
+    "options": [
+      {
+        "option": "A",
+        "content": "王桂兰摊位"
+      },
+      {
+        "option": "B",
+        "content": "张淑芬摊位"
+      },
+      {
+        "option": "C",
+        "content": "孙阿姨摊位"
+      },
+      {
+        "option": "D",
+        "content": "郑秀英摊位"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "37",
+        "event_name": "市场与超市综合采购"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 25
+      },
+      {
+        "type": "push",
+        "id": 62
+      },
+      {
+        "type": "push",
+        "id": 63
+      }
+    ],
+    "ask_time": "2025-01",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "在1月份，马秀兰为丈夫编织汽车钥匙扣上的平安结时，使用了哪两种颜色的丝线？",
     "answer": "藏青色和墨绿色",
     "score_points": [
@@ -41,7 +85,51 @@
       }
     ],
     "ask_time": "2025-01",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "1月份，马秀兰在与发小茶话会时，向对方敞开心扉谈论了哪两方面的个人感受或担忧？",
+    "options": [
+      {
+        "option": "A",
+        "content": "对丈夫跑运输安全的担忧和对社区手工角教学的感受"
+      },
+      {
+        "option": "B",
+        "content": "对二儿子学习成绩的担忧和对家庭经济状况的感受"
+      },
+      {
+        "option": "C",
+        "content": "担任社区手工角辅导员的感受和对大儿子升学的担心"
+      },
+      {
+        "option": "D",
+        "content": "对个人健康问题的担忧和对刺绣作品销路的感受"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "139",
+        "event_name": "与发小茶话会及送别"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 33
+      },
+      {
+        "type": "agent_chat",
+        "id": 17
+      },
+      {
+        "type": "sms",
+        "id": 48
+      }
+    ],
+    "ask_time": "2025-01",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "2025年1月，马秀兰在与发小刘春梅聊天时，谈论到另一位共同认识的人（非亲属）最近发生了一件什么事？请简要概括这件事。",
@@ -83,7 +171,107 @@
         "id": "1980"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，马秀兰在与手工艺友周秀芹交流时，提到自己最近在刺绣配色上有了新的偏好。她目前最喜欢将哪种主色调与哪种辅色调搭配使用？",
+    "options": [
+      {
+        "option": "A",
+        "content": "主色调：靛蓝色，辅色调：鹅黄色"
+      },
+      {
+        "option": "B",
+        "content": "主色调：墨绿色，辅色调：藕粉色"
+      },
+      {
+        "option": "C",
+        "content": "主色调：枣红色，辅色调：米白色"
+      },
+      {
+        "option": "D",
+        "content": "主色调：藏青色，辅色调：浅灰色"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1981"
+      },
+      {
+        "type": "sms",
+        "id": "1982"
+      },
+      {
+        "type": "sms",
+        "id": "1983"
+      },
+      {
+        "type": "sms",
+        "id": "1984"
+      },
+      {
+        "type": "sms",
+        "id": "1985"
+      }
+    ],
+    "ask_time": "2025-02",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在2月份的一次家长会交流中，韩老师指出了马明轩语文学习哪两个方面的具体薄弱环节？",
+    "options": [
+      {
+        "option": "A",
+        "content": "文言文翻译和古诗词默写"
+      },
+      {
+        "option": "B",
+        "content": "阅读理解的信息提取整合和作文的逻辑与词汇"
+      },
+      {
+        "option": "C",
+        "content": "拼音拼写和错别字纠正"
+      },
+      {
+        "option": "D",
+        "content": "口语表达和课堂发言"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "638",
+        "event_name": "参加长子家长会及与老师、家长交流"
+      }
+    ],
+    "score_points": [
+      {
+        "description": "答案中包含“阅读理解的信息提取整合”。",
+        "score": 5
+      },
+      {
+        "description": "答案中包含“作文的逻辑与词汇”。",
+        "score": 5
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "22"
+      },
+      {
+        "type": "sms",
+        "id": "2009"
+      },
+      {
+        "type": "note",
+        "id": "26"
+      }
+    ],
+    "ask_time": "2025-02",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，马秀兰在和姐姐李秀云视频聊天时，听姐姐提到了姐夫最近遇到的一件烦心事，这件事是什么？",
@@ -133,7 +321,7 @@
         "id": "2156"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "马秀兰在社区手工角教学后，与几位学员约定一起参与什么活动？她们是否后续执行了这一约定？",
@@ -157,7 +345,7 @@
       "873",
       "874"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -275,6 +463,228 @@
     "ask_time": "2025-03"
   },
   {
+    "question": "在长子马明轩中考备考周期内，我为其所做的第一项具体的财务准备行动是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "重新核算并压缩家庭月度预算。"
+      },
+      {
+        "option": "B",
+        "content": "与丈夫一同前往银行开设专用储蓄账户。"
+      },
+      {
+        "option": "C",
+        "content": "主动联系社区网格员寻找更多手工零工机会。"
+      },
+      {
+        "option": "D",
+        "content": "在家庭会议上决定设立中考备用金并规划来源。"
+      }
+    ],
+    "answer": "D",
+    "required_events_id": [
+      "169"
+    ],
+    "required_events_date": [
+      "2025-01-12"
+    ],
+    "ask_time": "2025-03",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 42
+      },
+      {
+        "type": "agent_chat",
+        "id": 22
+      },
+      {
+        "type": "push",
+        "id": 113
+      }
+    ]
+  },
+  {
+    "question": "3月17日，马秀兰在查看自家菜园时，除了发现生菜嫩芽，还注意到什么需要修理的安全隐患？",
+    "options": [
+      {
+        "option": "A",
+        "content": "菜园土壤过于干燥"
+      },
+      {
+        "option": "B",
+        "content": "木质栅栏严重松动、锈蚀"
+      },
+      {
+        "option": "C",
+        "content": "有流浪猫狗在菜园附近徘徊"
+      },
+      {
+        "option": "D",
+        "content": "菜园附近有未清理的建筑垃圾"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1136",
+        "event_name": "查看菜园与发现安全隐患"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": "1617"
+      },
+      {
+        "type": "sms",
+        "id": "2053"
+      },
+      {
+        "type": "note",
+        "id": "31"
+      }
+    ],
+    "ask_time": "2025-03",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "我2月份在积极打理家庭小菜园，主要是为了推进哪个长期生活目标？",
+    "options": [
+      {
+        "option": "A",
+        "content": "带全家去北京旅游"
+      },
+      {
+        "option": "B",
+        "content": "为家庭攒下教育备用金"
+      },
+      {
+        "option": "C",
+        "content": "将庭院打理成小花园"
+      },
+      {
+        "option": "D",
+        "content": "提升手工艺技能"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "481",
+      "494",
+      "592",
+      "727"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 176
+      },
+      {
+        "type": "photo",
+        "id": 177
+      },
+      {
+        "type": "push",
+        "id": 246
+      },
+      {
+        "type": "agent_chat",
+        "id": 86
+      },
+      {
+        "type": "photo",
+        "id": 219
+      },
+      {
+        "type": "push",
+        "id": 294
+      },
+      {
+        "type": "photo",
+        "id": "1626"
+      },
+      {
+        "type": "note",
+        "id": "67"
+      },
+      {
+        "type": "photo",
+        "id": "1630"
+      },
+      {
+        "type": "note",
+        "id": "87"
+      },
+      {
+        "type": "calendar",
+        "id": "56"
+      }
+    ],
+    "ask_time": "2025-03"
+  },
+  {
+    "question": "马秀兰得知社区组织春季大扫除通知的时间，是在整个大扫除活动流程的哪个阶段？",
+    "options": [
+      {
+        "option": "A",
+        "content": "活动前"
+      },
+      {
+        "option": "B",
+        "content": "活动中"
+      },
+      {
+        "option": "C",
+        "content": "活动后"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "1167",
+      "1202"
+    ],
+    "required_events_date": [
+      "2025-03-20",
+      "2025-03-22"
+    ],
+    "ask_time": "2025-04",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "28"
+      },
+      {
+        "type": "photo",
+        "id": "1619"
+      },
+      {
+        "type": "note",
+        "id": "36"
+      },
+      {
+        "type": "sms",
+        "id": "2141"
+      },
+      {
+        "type": "call",
+        "id": 256
+      },
+      {
+        "type": "photo",
+        "id": 413
+      }
+    ]
+  },
+  {
     "question": "马秀兰在3月份通过社区公告栏获悉春季大扫除通知的具体地点是哪里？",
     "answer": "天津市静海区瑞和道静海中南君悦府小区主入口公告栏",
     "score_points": [
@@ -308,7 +718,49 @@
       }
     ],
     "ask_time": "2025-04",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年5月，马秀兰在微信群里和手工艺友吴阿姨聊天时，表达了自己对哪种新式刺绣针法的看法？",
+    "options": [
+      {
+        "option": "A",
+        "content": "认为“乱针绣”虽然好看，但太费时费力，不适合自己这种要兼顾家庭的爱好者。"
+      },
+      {
+        "option": "B",
+        "content": "觉得“立体珠绣”太花哨，不符合传统天津绣品的审美，自己不会尝试。"
+      },
+      {
+        "option": "C",
+        "content": "认为“数码印花辅助刺绣”失去了手工的灵魂，自己更喜欢一针一线的纯粹手工感。"
+      },
+      {
+        "option": "D",
+        "content": "觉得“法式结粒绣”点缀小物件很精致，打算学习用在香囊和荷包上。"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2168"
+      },
+      {
+        "type": "sms",
+        "id": "2169"
+      },
+      {
+        "type": "sms",
+        "id": "2170"
+      },
+      {
+        "type": "sms",
+        "id": "2171"
+      }
+    ],
+    "ask_time": "2025-04",
+    "question_type": "Information Extraction"
   },
   {
     "question": "基于马秀兰在四月份陪同母亲就医和准备社区展览的行为，推断她未来在社区社交或兴趣发展方面可能有什么新的动向？",
@@ -334,7 +786,7 @@
       "1743",
       "1773"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -400,7 +852,7 @@
       "1811",
       "1882"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -460,7 +912,7 @@
       "608",
       "529"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -542,7 +994,7 @@
       "284",
       "285"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -574,6 +1026,50 @@
       }
     ],
     "ask_time": "2025-05"
+  },
+  {
+    "question": "1月份，马秀兰与丈夫前往银行，为长子开设了哪种类型的专项储蓄账户？",
+    "options": [
+      {
+        "option": "A",
+        "content": "三年期教育储蓄账户"
+      },
+      {
+        "option": "B",
+        "content": "一年期定期账户（中考备用金）"
+      },
+      {
+        "option": "C",
+        "content": "中考备用金专项储蓄账户"
+      },
+      {
+        "option": "D",
+        "content": "教育基金专项账户"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "238",
+        "event_name": "前往银行开设中考备用金专项账户"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 31
+      },
+      {
+        "type": "push",
+        "id": 138
+      },
+      {
+        "type": "push",
+        "id": 139
+      }
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，马秀兰在与邻居王桂兰的聊天中，得知了王桂兰的妹妹家最近发生了什么事情？",
@@ -611,7 +1107,53 @@
         "id": "2047"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年3月，马秀兰在与手工艺友周秀芹的聊天中，表达了自己对哪种新刺绣图案风格的偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "复杂华丽的传统龙凤图案"
+      },
+      {
+        "option": "B",
+        "content": "清新简约的现代几何图案"
+      },
+      {
+        "option": "C",
+        "content": "生动活泼的花鸟鱼虫小动物图案"
+      },
+      {
+        "option": "D",
+        "content": "庄重严肃的山水风景图案"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2178"
+      },
+      {
+        "type": "sms",
+        "id": "2179"
+      },
+      {
+        "type": "sms",
+        "id": "2180"
+      },
+      {
+        "type": "sms",
+        "id": "2181"
+      },
+      {
+        "type": "sms",
+        "id": "2182"
+      }
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Information Extraction"
   },
   {
     "question": "马秀兰在四月份为长子布置学习空间时，亲自购置或布置了哪些主要物品？",
@@ -628,7 +1170,7 @@
       "1695",
       "1697"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -680,7 +1222,7 @@
   {
     "question": "马秀兰的丈夫马志强在2025年4月20日上午的工作时间，是否参加了一场关于安全生产的培训会议？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -708,7 +1250,7 @@
       "2025-04-07"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -766,7 +1308,7 @@
       "2025-04-25"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -820,7 +1362,7 @@
       "2025-03-22"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -872,7 +1414,7 @@
       "2025-01-09"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -885,6 +1427,60 @@
       {
         "type": "note",
         "id": "81"
+      }
+    ]
+  },
+  {
+    "question": "我与邻居约定分享食物后，第一次实际交换食物发生在约定后的第几天？",
+    "options": [
+      {
+        "option": "A",
+        "content": "当天（第0天）"
+      },
+      {
+        "option": "B",
+        "content": "第1天"
+      },
+      {
+        "option": "C",
+        "content": "第15天"
+      },
+      {
+        "option": "D",
+        "content": "第17天"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2236",
+      "2246"
+    ],
+    "required_events_date": [
+      "2025-05-29",
+      "2025-05-30"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": 794
+      },
+      {
+        "type": "call",
+        "id": 482
+      },
+      {
+        "type": "call",
+        "id": 483
+      },
+      {
+        "type": "photo",
+        "id": 733
+      },
+      {
+        "type": "push",
+        "id": 1058
       }
     ]
   },
@@ -906,7 +1502,7 @@
       "2025-03-20"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "sms",
@@ -948,7 +1544,7 @@
       "2025-05-08"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -1010,7 +1606,7 @@
       "2025-06-01"
     ],
     "ask_time": "2025-06",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -1092,7 +1688,7 @@
       "2025-04-20"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1109,6 +1705,76 @@
       {
         "type": "sms",
         "id": 572
+      }
+    ]
+  },
+  {
+    "question": "马秀兰在4月制作天然防虫剂（辣椒大蒜水）来防治菜园害虫，这最能体现她参加了哪项社区活动后，将所学知识应用于家庭实践？",
+    "options": [
+      {
+        "option": "A",
+        "content": "邻居王桂兰的当面建议"
+      },
+      {
+        "option": "B",
+        "content": "3月参加的蔬菜种植技术培训"
+      },
+      {
+        "option": "C",
+        "content": "自己早年的务农经验"
+      },
+      {
+        "option": "D",
+        "content": "从网上自学的新方法"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1048",
+      "1391"
+    ],
+    "required_events_date": [
+      "2025-03-12",
+      "2025-04-03"
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 156
+      },
+      {
+        "type": "photo",
+        "id": 359
+      },
+      {
+        "type": "photo",
+        "id": 360
+      },
+      {
+        "type": "push",
+        "id": 502
+      },
+      {
+        "type": "push",
+        "id": 663
+      },
+      {
+        "type": "calendar",
+        "id": "155"
+      },
+      {
+        "type": "note",
+        "id": "259"
+      },
+      {
+        "type": "photo",
+        "id": "1678"
+      },
+      {
+        "type": "note",
+        "id": "260"
       }
     ]
   },
@@ -1134,7 +1800,7 @@
       "2025-04-15"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1216,7 +1882,7 @@
       "2025-05-18"
     ],
     "ask_time": "2025-06",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1278,7 +1944,7 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在5月份绣制好友订制的手工订单时，马秀兰曾通过微信与好友确认了关于图案的什么问题？",
@@ -1310,7 +1976,7 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，马秀兰在与邻居王桂兰的聊天中，得知了王桂兰的女儿最近遇到了什么与工作相关的事情？",
@@ -1356,7 +2022,7 @@
         "id": "2177"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月，当我遇到生活或健康上的困惑时，最常向哪位邻居请教或倾诉？",
@@ -1372,7 +2038,7 @@
       "2036",
       "2236"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -1410,7 +2076,7 @@
       "471",
       "575"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -1455,7 +2121,7 @@
     "required_events_id": [
       "2068"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -1497,7 +2163,7 @@
       "1787",
       "1847"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -1554,7 +2220,7 @@
       "872",
       "874"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1652,7 +2318,7 @@
       "2316",
       "2477"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -1686,7 +2352,7 @@
       "2573",
       "2635"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1743,7 +2409,7 @@
       "127",
       "152"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1822,7 +2488,7 @@
       "2025-06-18"
     ],
     "ask_time": "2025-07",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -1876,7 +2542,7 @@
       "2025-06-16"
     ],
     "ask_time": "2025-07",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -1899,6 +2565,52 @@
         "id": "2339"
       }
     ]
+  },
+  {
+    "question": "2025年1月，马秀兰在与妹妹马秀芬的短信聊天中，分享了自己最近在刺绣配色上的一个新偏好。她目前最喜欢将哪种主色调与哪种点缀色搭配使用？",
+    "options": [
+      {
+        "option": "A",
+        "content": "主色调：靛蓝色，点缀色：鹅黄色"
+      },
+      {
+        "option": "B",
+        "content": "主色调：墨绿色，点缀色：银白色"
+      },
+      {
+        "option": "C",
+        "content": "主色调：藕荷色（淡紫色），点缀色：豆沙粉"
+      },
+      {
+        "option": "D",
+        "content": "主色调：枣红色，点缀色：金线"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1971"
+      },
+      {
+        "type": "sms",
+        "id": "1972"
+      },
+      {
+        "type": "sms",
+        "id": "1973"
+      },
+      {
+        "type": "sms",
+        "id": "1974"
+      },
+      {
+        "type": "sms",
+        "id": "1975"
+      }
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，马秀兰在与妹妹马秀芬聊天时，得知了她们共同认识的初中同学陈玉兰最近遇到了什么麻烦事？",
@@ -1944,7 +2656,7 @@
         "id": "2038"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月19日早晨，马秀兰为家人准备的早餐包括哪些食物？",
@@ -1980,7 +2692,7 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年5月，马秀兰在微信群里听手工艺友吴阿姨聊起她儿子最近遇到了什么麻烦事？",
@@ -2018,7 +2730,47 @@
         "id": "2059"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月份，马秀兰完成刺绣订单后，将获得的手工费存入了哪里？",
+    "options": [
+      {
+        "option": "A",
+        "content": "家庭日常开销信封"
+      },
+      {
+        "option": "B",
+        "content": "家庭风险备用金信封"
+      },
+      {
+        "option": "C",
+        "content": "儿子教育基金信封"
+      },
+      {
+        "option": "D",
+        "content": "北京旅游基金信封"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2786",
+        "event_name": "包装刺绣枕套并交付手工订单"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 614
+      },
+      {
+        "type": "agent_chat",
+        "id": 416
+      }
+    ],
+    "ask_time": "2025-07",
+    "question_type": "Information Extraction"
   },
   {
     "question": "马秀兰在三月份第一次不是因为节日而晚于平常时间入睡，发生在哪一天？",
@@ -2033,7 +2785,7 @@
       "905",
       "992"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2066,7 +2818,7 @@
       "2065",
       "2257"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "push",
@@ -2155,7 +2907,7 @@
     "required_events_id": [
       "321"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -2195,11 +2947,55 @@
   {
     "question": "2025年7月17日下午，马秀兰的小女儿马雨欣送给她的画作上描绘的具体主题是什么？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
     "ask_time": "2025-08"
+  },
+  {
+    "question": "我们一家五口的北京圆梦之旅最终能够成行，最核心的促成原因是以下哪一项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "长子马明轩中考结束，全家有了共同的空闲时间。"
+      },
+      {
+        "option": "B",
+        "content": "姐姐李秀云在北京的热情邀请和全程支持（包括住宿和行程建议）。"
+      },
+      {
+        "option": "C",
+        "content": "我和丈夫马志强提前做好了详细的行程规划和预算。"
+      },
+      {
+        "option": "D",
+        "content": "为了开阔孩子们的眼界，丰富家庭记忆。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2776"
+    ],
+    "required_events_date": [
+      "2025-07-03"
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 612
+      },
+      {
+        "type": "agent_chat",
+        "id": 414
+      },
+      {
+        "type": "photo",
+        "id": 876
+      }
+    ]
   },
   {
     "question": "7月，我因为社区工程带来的生活不便，带孩子们去我父母家处理个人卫生和家务。这次访问直接解决了哪两个具体的用水难题？",
@@ -2222,7 +3018,7 @@
       "2025-07-08"
     ],
     "ask_time": "2025-08",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -2239,6 +3035,74 @@
       {
         "type": "push",
         "id": "2640"
+      }
+    ]
+  },
+  {
+    "question": "在储水之后，我是否先去了父母家才与邻居交流？",
+    "options": [
+      {
+        "option": "A",
+        "content": "是"
+      },
+      {
+        "option": "B",
+        "content": "否"
+      },
+      {
+        "option": "C",
+        "content": "同时"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "2837",
+      "2854",
+      "2858"
+    ],
+    "required_events_date": [
+      "2025-07-07",
+      "2025-07-08",
+      "2025-07-08"
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 624
+      },
+      {
+        "type": "call",
+        "id": 625
+      },
+      {
+        "type": "photo",
+        "id": 903
+      },
+      {
+        "type": "photo",
+        "id": "1680"
+      },
+      {
+        "type": "push",
+        "id": "2643"
+      },
+      {
+        "type": "call",
+        "id": "1193"
+      },
+      {
+        "type": "note",
+        "id": "264"
+      },
+      {
+        "type": "calendar",
+        "id": "159"
       }
     ]
   },
@@ -2264,7 +3128,7 @@
       "2025-08-04"
     ],
     "ask_time": "2025-08",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -2275,6 +3139,106 @@
         "id": 494
       }
     ]
+  },
+  {
+    "question": "马秀兰成功收到首次网购的物品（卫生纸和洗衣液）并验货支付后，接下来她立即做了什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "通过微信向妹妹分享成功体验"
+      },
+      {
+        "option": "B",
+        "content": "将物品整理收纳到储物柜"
+      },
+      {
+        "option": "C",
+        "content": "开始浏览电商平台计划下一次购买"
+      },
+      {
+        "option": "D",
+        "content": "去楼下的超市比较价格"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "2946"
+    ],
+    "required_events_date": [
+      "2025-07-14"
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 931
+      },
+      {
+        "type": "push",
+        "id": "2645"
+      },
+      {
+        "type": "call",
+        "id": "1194"
+      },
+      {
+        "type": "photo",
+        "id": "1682"
+      },
+      {
+        "type": "note",
+        "id": "271"
+      }
+    ]
+  },
+  {
+    "question": "6月份，马秀兰接到一个刺绣急单，客户要求完成的作品主题是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "福"
+      },
+      {
+        "option": "B",
+        "content": "家和万事兴"
+      },
+      {
+        "option": "C",
+        "content": "平安喜乐"
+      },
+      {
+        "option": "D",
+        "content": "花开富贵"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2628",
+        "event_name": "接到手工刺绣急单并构思准备材料"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 392
+      },
+      {
+        "type": "sms",
+        "id": 911
+      },
+      {
+        "type": "push",
+        "id": 1247
+      },
+      {
+        "type": "push",
+        "id": 1248
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在1月份的一次家庭午餐中，马秀兰控制食量时心里所想的体重数值是多少？",
@@ -2306,7 +3270,155 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在5月份，马秀兰前往社区医院咨询疫苗补种时，工作人员告知她需要做什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "立即进行补种"
+      },
+      {
+        "option": "B",
+        "content": "无需预约，直接办理"
+      },
+      {
+        "option": "C",
+        "content": "需要先进行预约"
+      },
+      {
+        "option": "D",
+        "content": "疫苗已过期，无法补种"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "2084",
+        "event_name": "咨询疫苗事宜"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 457
+      },
+      {
+        "type": "call",
+        "id": 458
+      },
+      {
+        "type": "push",
+        "id": 985
+      },
+      {
+        "type": "push",
+        "id": 991
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年5月，马秀兰在和朋友聊天时提到，她最近在追看一部电视剧，她最喜欢剧中哪个角色的性格？",
+    "options": [
+      {
+        "option": "A",
+        "content": "坚韧不拔、独自抚养孩子的单亲妈妈"
+      },
+      {
+        "option": "B",
+        "content": "精明能干、在职场打拼的女强人"
+      },
+      {
+        "option": "C",
+        "content": "温柔贤惠、把家庭打理得井井有条的全职太太"
+      },
+      {
+        "option": "D",
+        "content": "乐观开朗、总是给身边人带来欢乐的社区大姐"
+      }
+    ],
+    "answer": "C",
+    "ask_time": "2025-08",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2060"
+      },
+      {
+        "type": "sms",
+        "id": "2061"
+      },
+      {
+        "type": "sms",
+        "id": "2062"
+      },
+      {
+        "type": "sms",
+        "id": "2063"
+      },
+      {
+        "type": "sms",
+        "id": "2064"
+      }
+    ],
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年6月，马秀兰在与手工艺友周秀芹聊天时，表达了自己对于目前流行的几种刺绣线材（如棉线、丝线、混纺线、金银线）的具体偏好是什么？",
+    "answer": "B",
+    "options": [
+      {
+        "option": "A",
+        "content": "最喜欢丝线，因为光泽好、显档次；其次喜欢金银线，适合做装饰；最不喜欢混纺线，觉得质感粗糙。"
+      },
+      {
+        "option": "B",
+        "content": "最喜欢棉线，因为手感实在、颜色正、价格实惠；其次喜欢混纺线，因为它结实耐用；最不喜欢金银线，觉得它华而不实、价格贵、还容易勾丝。"
+      },
+      {
+        "option": "C",
+        "content": "最喜欢混纺线，因为它综合性能最好、最省心；其次喜欢棉线，因为传统；最不喜欢丝线，觉得它太娇气、不好打理。"
+      },
+      {
+        "option": "D",
+        "content": "没有特别偏好，觉得每种线材都有其用处，根据作品需要来选择，自己都能接受。"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2071"
+      },
+      {
+        "type": "sms",
+        "id": "2072"
+      },
+      {
+        "type": "sms",
+        "id": "2073"
+      },
+      {
+        "type": "sms",
+        "id": "2074"
+      },
+      {
+        "type": "sms",
+        "id": "2075"
+      },
+      {
+        "type": "sms",
+        "id": "2076"
+      },
+      {
+        "type": "sms",
+        "id": "2077"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，马秀兰在微信群里和手工艺友吴阿姨、周秀芹聊天时，谈论到吴阿姨的哪个亲戚最近发生了什么事情？这件事对马秀兰的日常生活有直接影响吗？",
@@ -2348,7 +3460,57 @@
         "id": "2104"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，马秀兰在和发小刘春梅聊天时，提到自己最近在电视上看到并比较喜欢看哪一类节目？",
+    "options": [
+      {
+        "option": "A",
+        "content": "古装历史剧"
+      },
+      {
+        "option": "B",
+        "content": "家庭生活调解类节目"
+      },
+      {
+        "option": "C",
+        "content": "美食烹饪教学节目"
+      },
+      {
+        "option": "D",
+        "content": "养生保健讲座"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2105"
+      },
+      {
+        "type": "sms",
+        "id": "2106"
+      },
+      {
+        "type": "sms",
+        "id": "2107"
+      },
+      {
+        "type": "sms",
+        "id": "2108"
+      },
+      {
+        "type": "sms",
+        "id": "2109"
+      },
+      {
+        "type": "sms",
+        "id": "2110"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "马秀兰在2月份成功完成社区手工角教学后，网格员郑秀英通过什么方式联系她并提出了新的工作邀约？",
@@ -2380,7 +3542,147 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在2月份，马秀兰为了缓解肩颈疲劳，初次尝试学习了一项健身活动，这项活动是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "广场舞"
+      },
+      {
+        "option": "B",
+        "content": "太极拳"
+      },
+      {
+        "option": "C",
+        "content": "八段锦"
+      },
+      {
+        "option": "D",
+        "content": "瑜伽"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "569",
+        "event_name": "收拾茶叙现场、备菜并初次学习八段锦"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 209
+      },
+      {
+        "type": "push",
+        "id": 284
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "马秀兰在探望父母时，向他们转达了从菜市场孙阿姨处听来的什么消息，并邀请他们一同参加？",
+    "options": [
+      {
+        "option": "A",
+        "content": "社区组织的免费蔬菜种植培训班"
+      },
+      {
+        "option": "B",
+        "content": "社区元宵节晚上在静文路社区活动中心有灯谜和小节目的活动"
+      },
+      {
+        "option": "C",
+        "content": "社区将在周末举办手工艺市集"
+      },
+      {
+        "option": "D",
+        "content": "社区活动中心要开设新的手工角"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "763",
+        "event_name": "前往菜市场及日常采购与信息交流"
+      },
+      {
+        "event_id": "769",
+        "event_name": "探望父母、陪伴聊天与协助家务"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "35"
+      },
+      {
+        "type": "calendar",
+        "id": "27"
+      },
+      {
+        "type": "sms",
+        "id": "2078"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月份，马秀兰一家在紫光园烤鸭店吃午餐时，除了烤鸭和炒时蔬，还点了哪两道菜？",
+    "options": [
+      {
+        "option": "A",
+        "content": "炸酱面和乾隆白菜"
+      },
+      {
+        "option": "B",
+        "content": "炸酱面和麻婆豆腐"
+      },
+      {
+        "option": "C",
+        "content": "乾隆白菜和宫保鸡丁"
+      },
+      {
+        "option": "D",
+        "content": "宫保鸡丁和麻婆豆腐"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3036",
+        "event_name": "步行前往并享用北京烤鸭午餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "29"
+      },
+      {
+        "type": "push",
+        "id": "2565"
+      },
+      {
+        "type": "photo",
+        "id": "1620"
+      },
+      {
+        "type": "sms",
+        "id": "2183"
+      },
+      {
+        "type": "note",
+        "id": "37"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "马秀兰从在小区公告栏看到缴费通知并开始规划，到最终完成缴费，中间间隔了几天？",
@@ -2395,7 +3697,7 @@
       "3258",
       "3348"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -2433,6 +3735,181 @@
     "ask_time": "2025-09"
   },
   {
+    "question": "马秀兰在三月尝试晨练八段锦，其最直接的触发原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "因整理家庭账目感到经济焦虑，需要锻炼缓解压力。"
+      },
+      {
+        "option": "B",
+        "content": "在社区健康宣传栏看到图解后，产生了尝试的念头。"
+      },
+      {
+        "option": "C",
+        "content": "为给生活注入新意，主动尝试新的健康习惯。"
+      },
+      {
+        "option": "D",
+        "content": "受参加手工艺研讨会的朋友影响，开始注重养生。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "881",
+      "898",
+      "1135"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 130
+      },
+      {
+        "type": "photo",
+        "id": "1633"
+      },
+      {
+        "type": "note",
+        "id": "97"
+      },
+      {
+        "type": "sms",
+        "id": 341
+      },
+      {
+        "type": "agent_chat",
+        "id": 132
+      },
+      {
+        "type": "photo",
+        "id": 310
+      },
+      {
+        "type": "push",
+        "id": 431
+      },
+      {
+        "type": "agent_chat",
+        "id": 168
+      },
+      {
+        "type": "push",
+        "id": 538
+      },
+      {
+        "type": "note",
+        "id": "142"
+      },
+      {
+        "type": "push",
+        "id": "2599"
+      },
+      {
+        "type": "note",
+        "id": "200"
+      },
+      {
+        "type": "calendar",
+        "id": "127"
+      },
+      {
+        "type": "sms",
+        "id": "2261"
+      }
+    ],
+    "ask_time": "2025-09"
+  },
+  {
+    "question": "马秀兰在6月24日办理家庭大额定期存款的最主要原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "丈夫交通事故后，家庭风险意识增强，决定加强储蓄以备不时之需。"
+      },
+      {
+        "option": "B",
+        "content": "参加社区理财讲座后，认识到通货膨胀和储蓄的重要性，并与丈夫商讨后决定行动。"
+      },
+      {
+        "option": "C",
+        "content": "为长子未来的大学教育和次子、女儿的教育基金进行长期储备。"
+      },
+      {
+        "option": "D",
+        "content": "手工艺订单收入趋于稳定，希望将这部分额外收入进行保值增值。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "2525",
+      "2533",
+      "2549",
+      "2621"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 374
+      },
+      {
+        "type": "photo",
+        "id": 808
+      },
+      {
+        "type": "photo",
+        "id": 809
+      },
+      {
+        "type": "call",
+        "id": 555
+      },
+      {
+        "type": "sms",
+        "id": 887
+      },
+      {
+        "type": "photo",
+        "id": 817
+      },
+      {
+        "type": "push",
+        "id": 1210
+      },
+      {
+        "type": "call",
+        "id": 573
+      },
+      {
+        "type": "photo",
+        "id": 826
+      },
+      {
+        "type": "push",
+        "id": 1244
+      },
+      {
+        "type": "note",
+        "id": "163"
+      },
+      {
+        "type": "calendar",
+        "id": "109"
+      },
+      {
+        "type": "note",
+        "id": "179"
+      },
+      {
+        "type": "sms",
+        "id": "2252"
+      }
+    ],
+    "ask_time": "2025-09"
+  },
+  {
     "question": "马秀兰在1月2日和1月4日，为即将到来的社区手工角辅导员角色，分别做了哪些具体的准备工作？",
     "answer": "1月2日：搜索并学习了锁链绣和十字绣的新手教程，用笔记本画走针示意图，并拿出碎布头和绣线练习锁链绣，通过微信视频向发小刘春梅请教转弯技巧，晚间继续练习并绣出了一小段连续整齐的锁链图案。1月4日：在客厅茶几上挑选并描摹了适合教学的“福”字和小鲤鱼手工花样作为教学样稿。",
     "score_points": [
@@ -2450,7 +3927,7 @@
       "18",
       "40"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -2554,7 +4031,7 @@
       "3747",
       "3757"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -2632,7 +4109,7 @@
       "3800",
       "3802"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2774,6 +4251,60 @@
     "ask_time": "2025-09"
   },
   {
+    "question": "在邻居登门道谢并分享趣闻之后，我紧接着进行的与猫咪相关的亲子活动是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "与女儿再次去邻居家探望‘大黄’。"
+      },
+      {
+        "option": "B",
+        "content": "向全家人讲述照顾猫咪的经历。"
+      },
+      {
+        "option": "C",
+        "content": "和女儿一起看猫咪视频并制作布艺小猫挂件。"
+      },
+      {
+        "option": "D",
+        "content": "接受邻居赠送的蔬菜并讨论未来养宠可能。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "3375",
+      "3384"
+    ],
+    "required_events_date": [
+      "2025-08-12",
+      "2025-08-13"
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": 1167
+      },
+      {
+        "type": "push",
+        "id": 1588
+      },
+      {
+        "type": "call",
+        "id": 751
+      },
+      {
+        "type": "agent_chat",
+        "id": 516
+      },
+      {
+        "type": "photo",
+        "id": 1068
+      }
+    ]
+  },
+  {
     "question": "在处理8月的年度固定支出时，我在实际缴费前一天具体安排了什么事项？",
     "answer": "从家庭应急现金盒中取出600元现金，并从五斗柜中找出房产证和户口本，用牛皮纸文件袋装好放在客厅电视柜显眼位置。",
     "score_points": [
@@ -2793,7 +4324,7 @@
       "2025-08-10"
     ],
     "ask_time": "2025-09",
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -2843,7 +4374,7 @@
       "2025-08-11"
     ],
     "ask_time": "2025-09",
-    "question_type": "question_answer",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -2909,7 +4440,7 @@
       "2025-08-15"
     ],
     "ask_time": "2025-09",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -2951,7 +4482,7 @@
       "2025-08-30"
     ],
     "ask_time": "2025-09",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3023,7 +4554,55 @@
         "id": "1948"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在9月份的线上家长会上，班主任韩老师指出马秀兰的长子马明轩在哪个具体方面需要加强？",
+    "options": [
+      {
+        "option": "A",
+        "content": "语文阅读"
+      },
+      {
+        "option": "B",
+        "content": "英语听力"
+      },
+      {
+        "option": "C",
+        "content": "数学几何"
+      },
+      {
+        "option": "D",
+        "content": "物理实验"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "3938",
+        "event_name": "家长会准备与参加"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 884
+      },
+      {
+        "type": "agent_chat",
+        "id": 623
+      },
+      {
+        "type": "sms",
+        "id": 1363
+      },
+      {
+        "type": "push",
+        "id": 1871
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年10月，马秀兰在和发小刘春梅聊天时，得知刘春梅的丈夫最近遇到了什么工作上的麻烦事？",
@@ -3065,7 +4644,97 @@
         "id": "1992"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "4月份，马秀兰与父亲商定的母亲艾灸理疗频率是怎样的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "每天一次"
+      },
+      {
+        "option": "B",
+        "content": "每隔一天一次"
+      },
+      {
+        "option": "C",
+        "content": "每周两次"
+      },
+      {
+        "option": "D",
+        "content": "每周一次"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1455",
+        "event_name": "在父母家准备午餐、商量后续照料并休息"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "6"
+      },
+      {
+        "type": "sms",
+        "id": "1938"
+      },
+      {
+        "type": "note",
+        "id": "11"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年5月，马秀兰在与发小刘春梅聊天时，提到自己最近在追看哪部电视剧，并认为剧中哪个角色最像自己生活中的某位亲人？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《人世间》；剧中坚韧的母亲角色像自己的母亲李秀英。"
+      },
+      {
+        "option": "B",
+        "content": "《父母爱情》；剧中任劳任怨的妻子角色像自己的丈夫马志强。"
+      },
+      {
+        "option": "C",
+        "content": "《小欢喜》；剧中为孩子学业操心的妈妈角色像自己的姐姐李秀云。"
+      },
+      {
+        "option": "D",
+        "content": "《山海情》；剧中踏实肯干的农村妇女角色像自己的邻居王桂兰。"
+      }
+    ],
+    "answer": "A",
+    "ask_time": "2025-09",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2048"
+      },
+      {
+        "type": "sms",
+        "id": "2049"
+      },
+      {
+        "type": "sms",
+        "id": "2050"
+      },
+      {
+        "type": "sms",
+        "id": "2051"
+      },
+      {
+        "type": "sms",
+        "id": "2052"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月19日，马秀兰在小区门口遇到邻居王桂兰，与她分享了什么喜讯？",
@@ -3089,7 +4758,53 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在感到压力或情绪低落时，马秀兰最常采用的缓解方式是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "与朋友聚会倾诉"
+      },
+      {
+        "option": "B",
+        "content": "打理自家小菜园"
+      },
+      {
+        "option": "C",
+        "content": "晚间散步"
+      },
+      {
+        "option": "D",
+        "content": "看电视放松"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "3733",
+      "3745"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 579
+      },
+      {
+        "type": "sms",
+        "id": 1286
+      },
+      {
+        "type": "agent_chat",
+        "id": 582
+      },
+      {
+        "type": "push",
+        "id": 1763
+      }
+    ],
+    "ask_time": "2025-09"
   },
   {
     "question": "在九月份，我学习烹饪课程通常安排在什么时间？我的学习进程有什么特点？",
@@ -3110,7 +4825,7 @@
       "3785",
       "3964"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -3192,7 +4907,7 @@
       "2731",
       "2748"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "sms",
@@ -3218,6 +4933,90 @@
     "ask_time": "2025-09"
   },
   {
+    "question": "八月下旬，马秀兰将晨练从完整的八段锦调整为简短快走或拉伸，主要原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "她发现八段锦对身体关节负担过大，决定更换运动方式。"
+      },
+      {
+        "option": "B",
+        "content": "天气持续炎热，她认为快走在清晨更舒适。"
+      },
+      {
+        "option": "C",
+        "content": "父亲的健康危机需要她投入大量时间和精力进行照料。"
+      },
+      {
+        "option": "D",
+        "content": "她对手工艺新订单构思投入过度，挤占了锻炼时间。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "3346",
+      "3400",
+      "3487",
+      "3491"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "14"
+      },
+      {
+        "type": "note",
+        "id": "18"
+      },
+      {
+        "type": "push",
+        "id": "2556"
+      },
+      {
+        "type": "sms",
+        "id": 1207
+      },
+      {
+        "type": "call",
+        "id": 776
+      },
+      {
+        "type": "calendar",
+        "id": "91"
+      },
+      {
+        "type": "sms",
+        "id": "2239"
+      },
+      {
+        "type": "note",
+        "id": "137"
+      },
+      {
+        "type": "sms",
+        "id": "2260"
+      },
+      {
+        "type": "note",
+        "id": "195"
+      },
+      {
+        "type": "calendar",
+        "id": "124"
+      },
+      {
+        "type": "note",
+        "id": "216"
+      },
+      {
+        "type": "calendar",
+        "id": "132"
+      }
+    ],
+    "ask_time": "2025-10"
+  },
+  {
     "question": "马秀兰在收到绣品尾款后，用这笔钱和家里的零钱凑成了一笔整数，去银行办理了第一张个人定期存单。请问这张存单的具体存入金额是多少，开户日期是哪一天？",
     "answer": "存入金额为500元，开户日期是2025年6月4日。",
     "score_points": [
@@ -3235,7 +5034,7 @@
       "2325",
       "2326"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3296,7 +5095,7 @@
       "2568",
       "2571"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -3431,7 +5230,7 @@
       "4513",
       "4532"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -3481,6 +5280,76 @@
     "ask_time": "2025-10"
   },
   {
+    "question": "马秀兰在四月下旬感到腰背不适的直接原因最可能是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "连续多日清晨练习八段锦时动作幅度过大"
+      },
+      {
+        "option": "B",
+        "content": "在菜园长时间弯腰进行间苗和喷洒防虫剂"
+      },
+      {
+        "option": "C",
+        "content": "帮助邻居王桂兰搬运和修理老式缝纫机"
+      },
+      {
+        "option": "D",
+        "content": "熬夜赶制手工刺绣订单导致休息不足"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1480",
+      "1545"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 215
+      },
+      {
+        "type": "sms",
+        "id": 524
+      },
+      {
+        "type": "calendar",
+        "id": "20"
+      },
+      {
+        "type": "note",
+        "id": "24"
+      },
+      {
+        "type": "sms",
+        "id": "1986"
+      },
+      {
+        "type": "calendar",
+        "id": "107"
+      },
+      {
+        "type": "note",
+        "id": "159"
+      },
+      {
+        "type": "note",
+        "id": "215"
+      },
+      {
+        "type": "photo",
+        "id": "1664"
+      },
+      {
+        "type": "push",
+        "id": "2625"
+      }
+    ],
+    "ask_time": "2025-10"
+  },
+  {
     "question": "马秀兰在四月上旬于家庭小菜园播种了哪些蔬菜品种，并分别在何时首次观察到它们的生长成果（出苗或可采摘）？",
     "answer": "播种了番茄、黄瓜、生菜和油麦菜。番茄和黄瓜在4月9日被观察到幼苗破土；生菜和油麦菜在4月17日首次被采摘。",
     "score_points": [
@@ -3499,7 +5368,7 @@
       "1467",
       "1588"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -3565,7 +5434,7 @@
       "3777",
       "3796"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -3623,7 +5492,7 @@
       "3802",
       "3803"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3762,7 +5631,7 @@
       "2025-10-10"
     ],
     "ask_time": "2025-10",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -3812,7 +5681,51 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "6月份，马秀兰在社区活动中心参加了一场由邮政储蓄银行理财经理主讲的讲座，该讲座的主题是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "家庭资产配置"
+      },
+      {
+        "option": "B",
+        "content": "理财知识的启蒙"
+      },
+      {
+        "option": "C",
+        "content": "股票投资入门"
+      },
+      {
+        "option": "D",
+        "content": "保险规划策略"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2525",
+        "event_name": "理财知识学习与咨询"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 374
+      },
+      {
+        "type": "photo",
+        "id": 808
+      },
+      {
+        "type": "photo",
+        "id": 809
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，马秀兰在与发小刘春梅的聊天中，谈论了另一位手工艺友周秀芹最近遇到的什么事？这件事对马秀兰的日常生活有直接影响吗？",
@@ -3850,7 +5763,7 @@
         "id": "1970"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在9月初，马秀兰因身体不适前往社区医院就诊，中医诊断其为何种证型？",
@@ -3886,7 +5799,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年10月，马秀兰在和发小刘春梅聊天时，提到邻居王桂兰的儿子最近遇到了什么让她操心的事情？",
@@ -3924,7 +5837,7 @@
         "id": "2002"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "10月3日早晨，马秀兰在客厅练习八段锦时，是通过什么方式学习的？",
@@ -3956,7 +5869,99 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "10月份，马秀兰在社区医院取体检报告时，医生指出了她哪两项健康问题？",
+    "options": [
+      {
+        "option": "A",
+        "content": "高血压和颈椎劳损"
+      },
+      {
+        "option": "B",
+        "content": "贫血倾向和颈椎劳损"
+      },
+      {
+        "option": "C",
+        "content": "贫血倾向和视力下降"
+      },
+      {
+        "option": "D",
+        "content": "高血压和轻度脂肪肝"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4286",
+        "event_name": "取体检报告并咨询医生"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 682
+      },
+      {
+        "type": "photo",
+        "id": 1289
+      },
+      {
+        "type": "push",
+        "id": 2033
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "5月份，马秀兰为参加社区手工艺作品展，准备了哪两幅绣品？",
+    "options": [
+      {
+        "option": "A",
+        "content": "《家和万事兴》与《运河春色》"
+      },
+      {
+        "option": "B",
+        "content": "《家和万事兴》与《静海运河春晓》"
+      },
+      {
+        "option": "C",
+        "content": "《静海运河春晓》与《运河春色》"
+      },
+      {
+        "option": "D",
+        "content": "《家和万事兴》与《喜鹊登梅》"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1805",
+        "event_name": "为手工艺展览做最后准备"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "13"
+      },
+      {
+        "type": "photo",
+        "id": "1610"
+      },
+      {
+        "type": "calendar",
+        "id": "9"
+      },
+      {
+        "type": "push",
+        "id": "2554"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，马秀兰在与姐姐李秀云聊天时，得知姐姐家最近发生了一件什么与孩子教育相关的、不影响马秀兰自己生活的事情？",
@@ -4002,7 +6007,7 @@
         "id": "2070"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "8月份，马秀兰在准备早餐时，心里想着要弥补什么？",
@@ -4034,7 +6039,51 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "8月份，我陪同父亲在医院检查后，医生给出的初步诊断是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "慢性支气管炎"
+      },
+      {
+        "option": "B",
+        "content": "慢性阻塞性肺疾病急性加重"
+      },
+      {
+        "option": "C",
+        "content": "肺炎"
+      },
+      {
+        "option": "D",
+        "content": "哮喘"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3522",
+        "event_name": "等待并听取医生初步诊断"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 787
+      },
+      {
+        "type": "agent_chat",
+        "id": 540
+      },
+      {
+        "type": "photo",
+        "id": 1106
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月份，马秀兰在完成刺绣订单后，是如何与客户确认交付细节的？",
@@ -4086,7 +6135,57 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年10月，马秀兰在与妹妹马秀芬聊天时，表达了自己对于孩子未来就读的大学类型有什么样的看法或偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "希望孩子能去北京、上海等一线城市的名牌大学，开阔眼界。"
+      },
+      {
+        "option": "B",
+        "content": "倾向于让孩子报考天津本地的大学，比如天津大学或南开大学，离家近方便照顾。"
+      },
+      {
+        "option": "C",
+        "content": "认为孩子应该选择学费便宜、容易就业的职业技术类院校，减轻家庭负担。"
+      },
+      {
+        "option": "D",
+        "content": "觉得只要是公办的、正规的大学就行，最重要的是学校风气好、管理严格，让孩子学点真本事。"
+      }
+    ],
+    "answer": "D",
+    "ask_time": "2025-10",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2190"
+      },
+      {
+        "type": "sms",
+        "id": "2191"
+      },
+      {
+        "type": "sms",
+        "id": "2192"
+      },
+      {
+        "type": "sms",
+        "id": "2193"
+      },
+      {
+        "type": "sms",
+        "id": "2194"
+      },
+      {
+        "type": "sms",
+        "id": "2195"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "你学习津菜课程的第二课具体是在哪天？",
@@ -4104,7 +6203,7 @@
       "2025-09-06"
     ],
     "ask_time": "2025-10",
-    "question_type": "updating",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4146,7 +6245,7 @@
       "2025-09-10"
     ],
     "ask_time": "2025-10",
-    "question_type": "updating",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -4205,7 +6304,7 @@
       "4489",
       "4532"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -4304,7 +6403,7 @@
       "4233",
       "4429"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -4346,6 +6445,76 @@
     "ask_time": "2025-10"
   },
   {
+    "question": "8月27日，马秀兰在收到邻居关于现代简约风格杯垫的咨询后，为何没有立即给出详细答复，而是请求推迟到9月初再沟通？",
+    "options": [
+      {
+        "option": "A",
+        "content": "她对现代简约风格不擅长，需要时间学习新技法。"
+      },
+      {
+        "option": "B",
+        "content": "她正忙于长子住校的准备和送行事务。"
+      },
+      {
+        "option": "C",
+        "content": "家庭已进入照料父亲的“应急状态”，她需要评估自己的精力与时间。"
+      },
+      {
+        "option": "D",
+        "content": "她在等待手工艺友周秀芹对设计方案的最终确认。"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "3584",
+      "3546"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 803
+      },
+      {
+        "type": "agent_chat",
+        "id": 552
+      },
+      {
+        "type": "sms",
+        "id": 1232
+      },
+      {
+        "type": "sms",
+        "id": 1233
+      },
+      {
+        "type": "sms",
+        "id": 1234
+      },
+      {
+        "type": "agent_chat",
+        "id": 544
+      },
+      {
+        "type": "photo",
+        "id": 1110
+      },
+      {
+        "type": "photo",
+        "id": 1111
+      },
+      {
+        "type": "sms",
+        "id": 1218
+      },
+      {
+        "type": "sms",
+        "id": 1219
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
     "question": "马秀兰完成刺绣婴儿小帽的时间是在8月2日之前吗？",
     "answer": "否，她是在8月2日之后才开始并完成小帽刺绣的。",
     "score_points": [
@@ -4362,7 +6531,7 @@
       "3261",
       "3289"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -4402,7 +6571,7 @@
       "3319",
       "3367"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4468,7 +6637,7 @@
       "4576",
       "4760"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -4510,7 +6679,7 @@
       "4548",
       "4656"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4570,7 +6739,7 @@
       "2800",
       "2840"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4632,7 +6801,7 @@
       "1787",
       "1963"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -4670,7 +6839,7 @@
       "517",
       "539"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "photo",
@@ -4708,7 +6877,7 @@
       "517",
       "535"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -4753,7 +6922,7 @@
     "required_events_id": [
       "4424"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4791,7 +6960,7 @@
       "365",
       "366"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -4863,7 +7032,7 @@
   {
     "question": "在2025年6月25日，马秀兰的配偶工作的具体单位名称是什么？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -4887,7 +7056,7 @@
       "2025-10-01"
     ],
     "ask_time": "2025-11",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -4941,7 +7110,7 @@
       "2025-10-25"
     ],
     "ask_time": "2025-11",
-    "question_type": "reasoning",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -4978,6 +7147,72 @@
     ]
   },
   {
+    "question": "马秀兰在2025年10月16日体检后，为了遵循医生关于颈椎劳损的建议，她在当天晚上做了什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "散步放松"
+      },
+      {
+        "option": "B",
+        "content": "进行肩颈拉伸"
+      },
+      {
+        "option": "C",
+        "content": "练习八段锦"
+      },
+      {
+        "option": "D",
+        "content": "调整饮食计划"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4286",
+      "4298"
+    ],
+    "required_events_date": [
+      "2025-10-16",
+      "2025-10-16"
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 682
+      },
+      {
+        "type": "photo",
+        "id": 1289
+      },
+      {
+        "type": "push",
+        "id": 2033
+      },
+      {
+        "type": "call",
+        "id": 954
+      },
+      {
+        "type": "calendar",
+        "id": "157"
+      },
+      {
+        "type": "call",
+        "id": "1191"
+      },
+      {
+        "type": "note",
+        "id": "262"
+      },
+      {
+        "type": "push",
+        "id": "2641"
+      }
+    ]
+  },
+  {
     "question": "从接到社区重阳节茶话会的志愿者邀请，到与手工艺友周秀芹分享活动喜悦，中间间隔了多少天？",
     "answer": "12天",
     "score_points": [
@@ -4999,7 +7234,7 @@
       "2025-10-22"
     ],
     "ask_time": "2025-11",
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "call",
@@ -5034,6 +7269,192 @@
         "id": "2352"
       }
     ]
+  },
+  {
+    "question": "2025年9月，马秀兰在和手工艺友周秀芹聊天时，表达了自己对哪种传统天津小吃在口味上的具体偏好？",
+    "answer": "B",
+    "options": [
+      {
+        "option": "A",
+        "content": "她更喜欢新式、皮薄、汤汁多、馅料鲜甜的天津包子。"
+      },
+      {
+        "option": "B",
+        "content": "她更喜欢老式、皮厚、馅料扎实、汤汁不那么油腻的天津包子。"
+      },
+      {
+        "option": "C",
+        "content": "她更喜欢半发面、皮有嚼劲、馅料肥瘦均匀、带点甜口的天津包子。"
+      },
+      {
+        "option": "D",
+        "content": "她更喜欢死面、皮薄如纸、馅料纯瘦、汤汁清亮的天津包子。"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1959"
+      },
+      {
+        "type": "sms",
+        "id": "1960"
+      },
+      {
+        "type": "sms",
+        "id": "1961"
+      },
+      {
+        "type": "sms",
+        "id": "1962"
+      },
+      {
+        "type": "sms",
+        "id": "1963"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在9月份探望父亲时，除了父亲和母亲，病房里还有谁在场？",
+    "options": [
+      {
+        "option": "A",
+        "content": "李护工"
+      },
+      {
+        "option": "B",
+        "content": "张老板"
+      },
+      {
+        "option": "C",
+        "content": "周秀芹"
+      },
+      {
+        "option": "D",
+        "content": "刘春梅"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3680",
+        "event_name": "探望父亲"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 820
+      },
+      {
+        "type": "photo",
+        "id": 1149
+      },
+      {
+        "type": "push",
+        "id": 1731
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年11月，马秀兰在和手工艺友周秀芹聊天时，表达了她对哪种新尝试的刺绣针法特别感兴趣，并认为它适合做什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "对“乱针绣”感兴趣，认为它适合绣制风景画，能表现出朦胧的意境。"
+      },
+      {
+        "option": "B",
+        "content": "对“打籽绣”感兴趣，认为它适合做小孩衣服上的装饰，结实又可爱。"
+      },
+      {
+        "option": "C",
+        "content": "对“盘金绣”感兴趣，认为它适合做婚庆用品或节日装饰，显得富贵喜庆。"
+      },
+      {
+        "option": "D",
+        "content": "对“贴布绣”感兴趣，认为它适合做靠垫或书包，省时又出效果。"
+      }
+    ],
+    "answer": "B",
+    "ask_time": "2025-11",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1993"
+      },
+      {
+        "type": "sms",
+        "id": "1994"
+      },
+      {
+        "type": "sms",
+        "id": "1995"
+      },
+      {
+        "type": "sms",
+        "id": "1996"
+      },
+      {
+        "type": "sms",
+        "id": "1997"
+      }
+    ],
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年11月，马秀兰在和妹妹马秀芬聊天时，提到自己最近在尝试学习哪种传统津菜，并特别提到了这道菜的哪个关键步骤或配料是她觉得最需要掌握的？",
+    "answer": "C",
+    "options": [
+      {
+        "option": "A",
+        "content": "“八珍豆腐”，关键是需要掌握多种海鲜和豆腐的搭配与火候。"
+      },
+      {
+        "option": "B",
+        "content": "“锅塌里脊”，关键是需要掌握蛋皮的包裹技巧和煎制的火候。"
+      },
+      {
+        "option": "C",
+        "content": "“罾蹦鲤鱼”，关键是需要掌握“炸”的步骤，把鱼炸得外酥里嫩、骨酥肉烂且形整。"
+      },
+      {
+        "option": "D",
+        "content": "“老爆三”，关键是需要掌握腰花、肝尖、肉片三种食材的滑炒顺序和调味。"
+      }
+    ],
+    "ask_time": "2025-11",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2003"
+      },
+      {
+        "type": "sms",
+        "id": "2004"
+      },
+      {
+        "type": "sms",
+        "id": "2005"
+      },
+      {
+        "type": "sms",
+        "id": "2006"
+      },
+      {
+        "type": "sms",
+        "id": "2007"
+      },
+      {
+        "type": "sms",
+        "id": "2008"
+      }
+    ],
+    "question_type": "Nondeclarative"
   },
   {
     "question": "重阳节期间，马秀兰在社区活动中表演了什么才艺，并将作品赠与了谁？",
@@ -5073,7 +7494,93 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "10月份，马秀兰在父母家为父亲铺好厚被褥后，父亲对此有何反应？",
+    "options": [
+      {
+        "option": "A",
+        "content": "父亲说“被子太厚了，不舒服”。"
+      },
+      {
+        "option": "B",
+        "content": "父亲脸上露出舒心的笑容，连说“好，好，这下暖和了”。"
+      },
+      {
+        "option": "C",
+        "content": "父亲没有发表意见，直接躺下休息了。"
+      },
+      {
+        "option": "D",
+        "content": "父亲觉得被子不够软，让马秀兰再换一床。"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4382",
+        "event_name": "为父亲铺好厚被褥并得到认可"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 701
+      },
+      {
+        "type": "photo",
+        "id": 1312
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，马秀兰在微信群里和手工艺友们聊天，提到她最近对手工刺绣的配色有了新的偏好。她目前最喜欢用哪两种颜色作为主色调进行搭配，并认为这种搭配能传递出什么感觉？",
+    "options": [
+      {
+        "option": "A",
+        "content": "红色和金色；传递出喜庆吉祥、富贵华丽的感觉"
+      },
+      {
+        "option": "B",
+        "content": "蓝色和白色；传递出清新淡雅、宁静致远的感觉"
+      },
+      {
+        "option": "C",
+        "content": "墨绿色和米白色；传递出沉稳雅致、温暖安宁的感觉"
+      },
+      {
+        "option": "D",
+        "content": "紫色和银色；传递出神秘高贵、浪漫梦幻的感觉"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2019"
+      },
+      {
+        "type": "sms",
+        "id": "2020"
+      },
+      {
+        "type": "sms",
+        "id": "2021"
+      },
+      {
+        "type": "sms",
+        "id": "2022"
+      },
+      {
+        "type": "sms",
+        "id": "2023"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，马秀兰在细化春季衣物采购清单时，为丈夫计划购买什么物品？",
@@ -5105,7 +7612,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，马秀兰在社区小公园凉亭与朋友会面时，通过微信收到了多少手工费？",
@@ -5141,7 +7648,143 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "4月份，马秀兰在邻居家购买二手家具时，通过微信支付了多少钱？",
+    "options": [
+      {
+        "option": "A",
+        "content": "120元"
+      },
+      {
+        "option": "B",
+        "content": "150元"
+      },
+      {
+        "option": "C",
+        "content": "180元"
+      },
+      {
+        "option": "D",
+        "content": "200元"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1679",
+        "event_name": "购买二手书桌台灯"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 548
+      },
+      {
+        "type": "push",
+        "id": 808
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在5月份，马秀兰前往社区卫生服务中心为父母开药，她总共花费了大约多少钱？",
+    "options": [
+      {
+        "option": "A",
+        "content": "约150元"
+      },
+      {
+        "option": "B",
+        "content": "约180元"
+      },
+      {
+        "option": "C",
+        "content": "约220元"
+      },
+      {
+        "option": "D",
+        "content": "约250元"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "1992",
+        "event_name": "外出办事：关注招生政策与为父母购药"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": 434
+      },
+      {
+        "type": "agent_chat",
+        "id": 286
+      },
+      {
+        "type": "photo",
+        "id": 644
+      },
+      {
+        "type": "sms",
+        "id": 724
+      },
+      {
+        "type": "push",
+        "id": 938
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在8月份的一个早晨，马秀兰准备早餐时收到了谁的微信消息，该消息的主要内容是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "郑秀英；关于手工绣活交接时间的确认"
+      },
+      {
+        "option": "B",
+        "content": "刘春梅；因故取消聚会的道歉"
+      },
+      {
+        "option": "C",
+        "content": "周秀芹；转达客户对婴儿肚兜和帽子的积极反馈及尾款转账"
+      },
+      {
+        "option": "D",
+        "content": "吴姨；在手工艺群中分享作品"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "3417",
+        "event_name": "准备全家早餐并查看微信订单反馈"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "2563"
+      },
+      {
+        "type": "sms",
+        "id": "2013"
+      },
+      {
+        "type": "note",
+        "id": "30"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年9月，马秀兰在和发小刘春梅聊天时，听说了她们共同认识的一位小学同学最近遇到了什么家庭变故？这位同学是谁？",
@@ -5179,7 +7822,7 @@
         "id": "2115"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月20日，马秀兰在做家务时，通过微信与谁交流了中年烦恼，并重点讨论了什么问题？",
@@ -5211,7 +7854,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，马秀兰在与手工艺友周秀芹的聊天中，谈论到她们共同认识的网友吴阿姨最近发生了一件什么事？这件事对吴阿姨的生活有什么影响？",
@@ -5249,7 +7892,53 @@
         "id": "2135"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "马秀兰在7月中旬咨询了驾校并顺利通过了一项考试，她接下来最可能做什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "应聘交警"
+      },
+      {
+        "option": "B",
+        "content": "购买汽车"
+      },
+      {
+        "option": "C",
+        "content": "学习驾驶"
+      },
+      {
+        "option": "D",
+        "content": "撰写交通论文"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "2961",
+      "3021"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 648
+      },
+      {
+        "type": "agent_chat",
+        "id": 443
+      },
+      {
+        "type": "sms",
+        "id": 1053
+      },
+      {
+        "type": "push",
+        "id": 1414
+      }
+    ],
+    "ask_time": "2025-11"
   },
   {
     "question": "马秀兰在7月下旬的家庭旅行中，游览了哪个国家的首都？",
@@ -5270,7 +7959,7 @@
       "3034",
       "3035"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -5320,6 +8009,103 @@
     "ask_time": "2025-11"
   },
   {
+    "question": "在10月，我与朋友交流时，最常涉及哪两个主题？",
+    "options": [
+      {
+        "option": "A",
+        "content": "手工"
+      },
+      {
+        "option": "B",
+        "content": "育儿"
+      },
+      {
+        "option": "C",
+        "content": "健康养生"
+      },
+      {
+        "option": "D",
+        "content": "家庭财务"
+      }
+    ],
+    "answer": "A, C",
+    "required_events_id": [
+      "4087",
+      "4123",
+      "4159",
+      "4203",
+      "4513"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 651
+      },
+      {
+        "type": "sms",
+        "id": 1442
+      },
+      {
+        "type": "sms",
+        "id": 1443
+      },
+      {
+        "type": "sms",
+        "id": 1444
+      },
+      {
+        "type": "push",
+        "id": 1938
+      },
+      {
+        "type": "call",
+        "id": 917
+      },
+      {
+        "type": "agent_chat",
+        "id": 659
+      },
+      {
+        "type": "push",
+        "id": 1961
+      },
+      {
+        "type": "call",
+        "id": 926
+      },
+      {
+        "type": "agent_chat",
+        "id": 667
+      },
+      {
+        "type": "sms",
+        "id": 1482
+      },
+      {
+        "type": "sms",
+        "id": 1483
+      },
+      {
+        "type": "sms",
+        "id": 1484
+      },
+      {
+        "type": "push",
+        "id": 1995
+      },
+      {
+        "type": "call",
+        "id": 1004
+      },
+      {
+        "type": "agent_chat",
+        "id": 720
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
     "question": "基于马秀兰近期在驾校的活动以及她的家庭目标，可以推断她未来可能更偏好哪种出行方式？",
     "answer": "自驾出行/自己开车。",
     "score_points": [
@@ -5340,7 +8126,7 @@
       "3429",
       "3612"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -5398,7 +8184,7 @@
       "933",
       "1048"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5463,7 +8249,7 @@
       "959",
       "1012"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5572,7 +8358,7 @@
     "required_events_id": [
       "3268"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5597,7 +8383,7 @@
     "required_events_id": [
       "4756"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -5636,7 +8422,7 @@
       "4893",
       "4895"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5715,7 +8501,7 @@
       "4792",
       "4797"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -5785,7 +8571,7 @@
       "1082",
       "1099"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -5843,7 +8629,7 @@
       "1317",
       "new_event_20250319"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "agent_chat",
@@ -5890,7 +8676,7 @@
       "5130",
       "5139"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -5956,7 +8742,7 @@
       "5050",
       "5041"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -6018,7 +8804,7 @@
       "4473",
       "4523"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -6128,7 +8914,7 @@
       "4529",
       "4530"
     ],
-    "question_type": "mutihop",
+    "question_type": "Information Extraction",
     "evidence": [
       {
         "type": "agent_chat",
@@ -6293,7 +9079,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰的妹妹马秀芬在2025年1月提到的想去逛庙会的‘那个地方’具体是天津的哪个景点？",
@@ -6319,7 +9105,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在2025年6月和7月短信中总共提到了哪几类她喜欢看的电视剧？",
@@ -6341,7 +9127,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在2025年8月短信中提到的‘上周’在菜市场遇到孙阿姨，具体是指2025年8月的哪一周？",
@@ -6367,7 +9153,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在10月初提到正在为母亲生日制作的礼物具体是什么物品？",
@@ -6389,7 +9175,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在9月和丈夫聊天中提到想去旅游的‘那边’具体指的是哪个城市？",
@@ -6411,7 +9197,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在8月底和9月初总共从母亲李秀英那里拿了多少钱用于给孩子零花钱？",
@@ -6433,7 +9219,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在3月托邻居王桂兰购买的用于制作杯垫的绣线具体有哪些颜色？",
@@ -6455,7 +9241,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在7月向刘建国师傅描述的家里又出现的‘上次那种情况’具体是指什么问题？",
@@ -6477,7 +9263,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在2025年1月向吴阿姨请教的菜园问题最终是因为什么原因没有得到详细解答？",
@@ -6507,7 +9293,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰在2025年3月为儿子购买学习台灯时，最终选择的品牌是什么？",
@@ -6537,7 +9323,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰的姐姐李秀云在2025年5月提到的“最近压力大”可能与当时北京推行的什么政策有关？",
@@ -6567,7 +9353,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "马秀兰在2025年7月与周秀芹讨论的，新闻中提到的濒危传统绣品“津门百子图”最有可能在哪个博物馆看到？",
@@ -6597,7 +9383,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "马秀兰的妹妹马秀芬在2025年11月计划回静海团聚，具体打算在哪一天到家？",
@@ -6627,7 +9413,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "在年终家庭盘点时，丈夫马志强特别肯定了我的手工艺带来的改善，这种肯定最可能与之前哪件具体的事情直接相关？",
@@ -6651,7 +9437,7 @@
       "2025-12-31"
     ],
     "ask_time": "2025-12",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "call",
@@ -6696,6 +9482,202 @@
     ]
   },
   {
+    "question": "基于马秀兰的经历，社区网格员郑秀英决定将新年纪念品订单交给她制作，最主要的原因是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "马秀兰主动向她推销了自己的手艺"
+      },
+      {
+        "option": "B",
+        "content": "马秀兰之前为她个人定制过礼物"
+      },
+      {
+        "option": "C",
+        "content": "马秀兰在之前的社区手工艺展览和完成的社区订单中展现了可靠手艺"
+      },
+      {
+        "option": "D",
+        "content": "周秀芹向她强烈推荐了马秀兰"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1811",
+      "4589",
+      "5026"
+    ],
+    "required_events_date": [
+      "2025-05-02",
+      "2025-11-05",
+      "2025-12-05"
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 256
+      },
+      {
+        "type": "photo",
+        "id": 597
+      },
+      {
+        "type": "photo",
+        "id": 598
+      },
+      {
+        "type": "call",
+        "id": "1178"
+      },
+      {
+        "type": "photo",
+        "id": "1606"
+      },
+      {
+        "type": "note",
+        "id": "3"
+      },
+      {
+        "type": "sms",
+        "id": "1932"
+      },
+      {
+        "type": "agent_chat",
+        "id": 807
+      },
+      {
+        "type": "sms",
+        "id": 1765
+      },
+      {
+        "type": "sms",
+        "id": 1766
+      },
+      {
+        "type": "push",
+        "id": 2366
+      }
+    ]
+  },
+  {
+    "question": "马秀兰带母亲出游的日期与她为出游做最后准备的日期之间相隔多少天？",
+    "options": [
+      {
+        "option": "A",
+        "content": "0天（同一天）"
+      },
+      {
+        "option": "B",
+        "content": "1天"
+      },
+      {
+        "option": "C",
+        "content": "2天"
+      },
+      {
+        "option": "D",
+        "content": "3天"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4799",
+      "4808"
+    ],
+    "required_events_date": [
+      "2025-11-17",
+      "2025-11-18"
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Temporal and Knowledge Updating",
+    "evidence": [
+      {
+        "type": "call",
+        "id": 1057
+      },
+      {
+        "type": "agent_chat",
+        "id": 768
+      },
+      {
+        "type": "call",
+        "id": 1059
+      },
+      {
+        "type": "agent_chat",
+        "id": 770
+      },
+      {
+        "type": "photo",
+        "id": 1454
+      },
+      {
+        "type": "sms",
+        "id": 1706
+      }
+    ]
+  },
+  {
+    "question": "马秀兰首次尝试染发所使用的染发剂，最可能是通过以下哪种方式获得的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "根据邻居张淑芬的建议，自行在便民超市购买。"
+      },
+      {
+        "option": "B",
+        "content": "采纳母亲李秀英的经验，自行选购。"
+      },
+      {
+        "option": "C",
+        "content": "通过妹妹马秀芬的线上推荐和沟通，自行网购获得。"
+      },
+      {
+        "option": "D",
+        "content": "直接收到了他人寄送的成品。"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "4852",
+      "4896"
+    ],
+    "required_events_date": [
+      "2025-11-22",
+      "2025-11-25"
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 778
+      },
+      {
+        "type": "push",
+        "id": 2286
+      },
+      {
+        "type": "agent_chat",
+        "id": 789
+      },
+      {
+        "type": "photo",
+        "id": 1481
+      },
+      {
+        "type": "sms",
+        "id": 1719
+      },
+      {
+        "type": "push",
+        "id": 2306
+      }
+    ]
+  },
+  {
     "question": "在2025年11月26日，马秀兰关于染发维护做出了什么决定？",
     "answer": "她决定将染发作为一项周期性的自我维护内容。",
     "score_points": [
@@ -6716,7 +9698,7 @@
       "2025-11-26"
     ],
     "ask_time": "2025-12",
-    "question_type": "reasoning",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -6737,6 +9719,80 @@
       {
         "type": "calendar",
         "id": "160"
+      }
+    ]
+  },
+  {
+    "question": "关于长子周末手机使用的新规则，其正式作为长期家庭规范固定下来，是在哪次家庭活动中确定的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "在家庭晚餐时协商新规"
+      },
+      {
+        "option": "B",
+        "content": "规则试行首日执行与观察"
+      },
+      {
+        "option": "C",
+        "content": "试行期中期回顾"
+      },
+      {
+        "option": "D",
+        "content": "两周试行期结束家庭总结"
+      }
+    ],
+    "answer": "D",
+    "required_events_id": [
+      "4760",
+      "4779",
+      "4869",
+      "4959"
+    ],
+    "required_events_date": [
+      "2025-11-15",
+      "2025-11-16",
+      "2025-11-22",
+      "2025-11-29"
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 761
+      },
+      {
+        "type": "calendar",
+        "id": "173"
+      },
+      {
+        "type": "photo",
+        "id": "1691"
+      },
+      {
+        "type": "note",
+        "id": "286"
+      },
+      {
+        "type": "sms",
+        "id": "2361"
+      },
+      {
+        "type": "sms",
+        "id": "2362"
+      },
+      {
+        "type": "agent_chat",
+        "id": 783
+      },
+      {
+        "type": "call",
+        "id": 1101
+      },
+      {
+        "type": "agent_chat",
+        "id": 797
       }
     ]
   },
@@ -6786,7 +9842,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在重阳节茶话会的筹备会议上，马秀兰负责哪个环节，并提出了什么具体活动方案？",
@@ -6822,7 +9878,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，马秀兰在与发小春梅聊天时，提到她最近看了一部关于什么的电视剧，并觉得这部剧里哪个角色的经历让她特别有共鸣？",
@@ -6860,7 +9916,7 @@
         "id": "2018"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，马秀兰在与手工艺友周秀芹的聊天中，谈论了另一位手工艺友吴阿姨最近发生的一件什么事情？这件事对吴阿姨的生活有何具体影响？",
@@ -6898,7 +9954,7 @@
         "id": "2028"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在5月份，马秀兰在哪一天与邻居王桂兰一起练习了八段锦？",
@@ -6930,7 +9986,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月份，马秀兰在菜市场采购时，特意为次日的什么活动准备了什么物品？",
@@ -6970,7 +10026,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月2日，马秀兰在探望父母时，与父母讨论了哪些具体事务？",
@@ -7010,7 +10066,55 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "12月份，马秀兰在交付手工订单后，向社区网格员咨询了什么活动？",
+    "options": [
+      {
+        "option": "A",
+        "content": "社区文艺汇演"
+      },
+      {
+        "option": "B",
+        "content": "社区手工艺市集"
+      },
+      {
+        "option": "C",
+        "content": "社区刺绣培训班"
+      },
+      {
+        "option": "D",
+        "content": "社区春节庙会"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "5026",
+        "event_name": "交付手工订单并咨询社区市集"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 807
+      },
+      {
+        "type": "sms",
+        "id": 1765
+      },
+      {
+        "type": "sms",
+        "id": 1766
+      },
+      {
+        "type": "push",
+        "id": 2366
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月14日早餐约会时，马秀兰和丈夫畅聊了哪些关于未来的话题？",
@@ -7054,7 +10158,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月份，马秀兰在手工艺友来访时，主要教了她哪些智能手机应用功能？",
@@ -7094,7 +10198,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，马秀兰在与发小刘春梅聊天时，听说了她们共同的小学同学赵晓红最近遇到了什么麻烦事？",
@@ -7132,7 +10236,7 @@
         "id": "2083"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，马秀兰在和姐姐李秀云视频聊天时，聊到了姐姐在北京超市工作的一位同事，这位同事最近遇到了什么事情？",
@@ -7170,7 +10274,7 @@
         "id": "2093"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "8月初，马秀兰在小区晨练时偶遇了哪位邻居，并接收了对方赠送的什么物品？",
@@ -7210,7 +10314,51 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "8月份，我在社区卫生服务中心缴纳物业费与卫生费时，支付了多少现金？",
+    "options": [
+      {
+        "option": "A",
+        "content": "2980元"
+      },
+      {
+        "option": "B",
+        "content": "600元"
+      },
+      {
+        "option": "C",
+        "content": "500元"
+      },
+      {
+        "option": "D",
+        "content": "800元"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3348",
+        "event_name": "步行缴费与采购"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 512
+      },
+      {
+        "type": "sms",
+        "id": 1157
+      },
+      {
+        "type": "push",
+        "id": 1572
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月初，马秀兰在社区党群服务中心与谁洽谈并确认了刺绣订单？订单的总价是多少？",
@@ -7254,7 +10402,69 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "11月份，马秀兰与发小春梅在家中一边做手工一边交流了哪些方面的经验？",
+    "options": [
+      {
+        "option": "A",
+        "content": "孩子的教育问题"
+      },
+      {
+        "option": "B",
+        "content": "刺绣订单的技巧"
+      },
+      {
+        "option": "C",
+        "content": "照顾老人的经验"
+      },
+      {
+        "option": "D",
+        "content": "双十一购物攻略"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "4658",
+        "event_name": "与发小交流家庭护理心得"
+      }
+    ],
+    "score_points": [
+      {
+        "description": "答出核心话题是“照顾老人的经验”。",
+        "score": 4
+      },
+      {
+        "description": "答出具体内容之一“腿部按摩”。",
+        "score": 2
+      },
+      {
+        "description": "答出具体内容之一“饮食控制”。",
+        "score": 2
+      },
+      {
+        "description": "答出具体内容之一“防跌倒技巧”。",
+        "score": 2
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "17"
+      },
+      {
+        "type": "note",
+        "id": "21"
+      },
+      {
+        "type": "sms",
+        "id": "1964"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，马秀兰在与手工艺友周秀芹的聊天中，得知了另一位手工艺友吴阿姨最近遇到了什么烦心事？",
@@ -7300,7 +10510,7 @@
         "id": "2125"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，马秀兰在与发小刘春梅聊天时，听说了她们共同认识的一位小学同学最近发生了一件什么事？",
@@ -7342,7 +10552,53 @@
         "id": "2146"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年3月，马秀兰在与手工艺友周秀芹交流时，提到自己最近在刺绣配色上有什么新的个人偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "喜欢用饱和度高的对比色，显得喜庆热闹"
+      },
+      {
+        "option": "B",
+        "content": "偏爱用邻近的柔和色系，比如藕荷色配淡青色"
+      },
+      {
+        "option": "C",
+        "content": "开始尝试在传统图案中加入少量亮片或金线"
+      },
+      {
+        "option": "D",
+        "content": "觉得纯色（如纯红、纯蓝）的底布配上白色绣线最经典"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "2147"
+      },
+      {
+        "type": "sms",
+        "id": "2148"
+      },
+      {
+        "type": "sms",
+        "id": "2149"
+      },
+      {
+        "type": "sms",
+        "id": "2150"
+      },
+      {
+        "type": "sms",
+        "id": "2151"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，马秀兰在与发小刘春梅聊天时，得知了另一位小学同学赵晓红的什么近况？",
@@ -7384,7 +10640,7 @@
         "id": "2167"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月份，马秀兰在买菜后于小区公告栏看到了什么通知？",
@@ -7428,7 +10684,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月份，马秀兰向邻居请教治理蚜虫时，邻居推荐了哪两种土法？",
@@ -7468,7 +10724,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "你最近学习制作电子相册时，主要使用了哪类照片？",
@@ -7492,7 +10748,7 @@
       "2025-11-03"
     ],
     "ask_time": "2025-12",
-    "question_type": "updating",
+    "question_type": "Information Extraction",
     "evidence": [
       {
         "type": "call",
@@ -7521,6 +10777,69 @@
     ]
   },
   {
+    "question": "在5月2日社区展览获得积极反馈后，马秀兰在5月7日与周秀芹沟通并确定了什么具体事项？结合5月30日收到的后续消息，这标志着她的手工艺活动进入了什么阶段？",
+    "options": [
+      {
+        "option": "A",
+        "content": "纯粹的业余爱好"
+      },
+      {
+        "option": "B",
+        "content": "尝试从爱好向小型商业化合作转变"
+      },
+      {
+        "option": "C",
+        "content": "已获得稳定的订单和收入来源"
+      },
+      {
+        "option": "D",
+        "content": "因家庭事务繁忙已暂时搁置"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "1811",
+      "1882",
+      "2254"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "agent_chat",
+        "id": 256
+      },
+      {
+        "type": "photo",
+        "id": 597
+      },
+      {
+        "type": "photo",
+        "id": 598
+      },
+      {
+        "type": "agent_chat",
+        "id": 265
+      },
+      {
+        "type": "sms",
+        "id": 675
+      },
+      {
+        "type": "sms",
+        "id": 676
+      },
+      {
+        "type": "push",
+        "id": 891
+      },
+      {
+        "type": "agent_chat",
+        "id": 325
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
     "question": "在5月，我通常在清晨进行哪两项健康活动？这两项活动通常以什么顺序进行？",
     "answer": "晨间散步和八段锦练习。通常先散步，后进行八段锦练习。",
     "score_points": [
@@ -7543,7 +10862,7 @@
       "2006",
       "2257"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Information Extraction",
     "evidence": [
       {
         "type": "push",
@@ -7596,7 +10915,7 @@
       "5115",
       "5257"
     ],
-    "question_type": "open_domain",
+    "question_type": "Information Extraction",
     "evidence": [
       {
         "type": "call",
@@ -7681,7 +11000,7 @@
       "5332",
       "5345"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Information Extraction",
     "evidence": [
       {
         "type": "agent_chat",
@@ -7805,7 +11124,7 @@
       "2431",
       "2439"
     ],
-    "question_type": "open_domain",
+    "question_type": "Information Extraction",
     "evidence": [
       {
         "type": "photo",
@@ -7939,7 +11258,7 @@
       "1024",
       "1092"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -7977,7 +11296,7 @@
       "2763",
       "2773"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "sms",
@@ -8035,7 +11354,7 @@
       "1360",
       "1467"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "photo",
@@ -8082,7 +11401,7 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "马秀兰在收到妹妹赠送的新手机后，过了多少天才接受了妹妹的系统性手机使用教学？",
@@ -8101,7 +11420,7 @@
       "1017",
       "1193"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "agent_chat",
@@ -8145,5 +11464,166 @@
       }
     ],
     "ask_time": "2025-09"
+  },
+  {
+    "question": "在2025年国庆节当天，马秀兰教小女儿剪五角星的手工教学活动，发生在全家享用丰盛午餐之前还是之后？",
+    "options": [
+      {
+        "option": "A",
+        "content": "之前"
+      },
+      {
+        "option": "B",
+        "content": "之后"
+      },
+      {
+        "option": "C",
+        "content": "同时"
+      },
+      {
+        "option": "D",
+        "content": "无法确定"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4059",
+      "4062"
+    ],
+    "required_events_date": [
+      "2025-10-01",
+      "2025-10-01"
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "photo",
+        "id": 1233
+      },
+      {
+        "type": "photo",
+        "id": 1234
+      }
+    ]
+  },
+  {
+    "question": "8月份，马秀兰在菜市场买菜时，向摊主孙阿姨咨询了什么信息？",
+    "options": [
+      {
+        "option": "A",
+        "content": "冰箱选购信息"
+      },
+      {
+        "option": "B",
+        "content": "驾校教练推荐"
+      },
+      {
+        "option": "C",
+        "content": "孩子暑假作业辅导"
+      },
+      {
+        "option": "D",
+        "content": "刺绣针法技巧"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3239",
+        "event_name": "菜市场采购食材"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "1933"
+      },
+      {
+        "type": "note",
+        "id": "4"
+      },
+      {
+        "type": "calendar",
+        "id": "2"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在2025年6月25日，马秀兰的长子马建国的具体活动是以下哪一项？",
+    "options": [
+      {
+        "option": "A",
+        "content": "在学校的体育馆参加篮球比赛"
+      },
+      {
+        "option": "B",
+        "content": "在家中的书房里复习期末考试"
+      },
+      {
+        "option": "C",
+        "content": "在同学家中参与小组学习项目"
+      },
+      {
+        "option": "D",
+        "content": "无法回答"
+      }
+    ],
+    "answer": "D",
+    "type": "multiple_choice",
+    "question_type": "Unanswerable",
+    "ask_time": "2025-09"
+  },
+  {
+    "question": "2025年7月17日，马秀兰为手工角活动准备的手工材料箱中，以下哪种颜色的绣线是她肯定没有准备的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "湖蓝色"
+      },
+      {
+        "option": "B",
+        "content": "枣红色"
+      },
+      {
+        "option": "C",
+        "content": "嫩绿色"
+      },
+      {
+        "option": "D",
+        "content": "无法回答"
+      }
+    ],
+    "answer": "D",
+    "type": "multiple_choice",
+    "question_type": "Unanswerable",
+    "ask_time": "2025-09"
+  },
+  {
+    "question": "2025年4月20日白天，当马秀兰在家中忙碌时，她的长子在学校的体育课上是否跑了800米？",
+    "options": [
+      {
+        "option": "A",
+        "content": "是，完成了800米跑步"
+      },
+      {
+        "option": "B",
+        "content": "否，因为请假没有上体育课"
+      },
+      {
+        "option": "C",
+        "content": "否，体育课进行了篮球活动"
+      },
+      {
+        "option": "D",
+        "content": "无法回答"
+      }
+    ],
+    "answer": "D",
+    "type": "multiple_choice",
+    "question_type": "Unanswerable",
+    "ask_time": "2025-11"
   }
 ]

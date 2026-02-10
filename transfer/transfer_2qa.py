@@ -40,7 +40,11 @@ def process_json(input_file, output_file):
         
         processed_questions.append(new_question)
 
-        category_dict = {"single_hop": "0", "mutihop": "1", "reasoning": "2", "temporal": "3", "user_modeling": "4", "unanswerable": "5", "updating": "3", "multiple_choice": "2", "open_domain": "2", "question_answer": "2"}
+        category_dict = {"Information Extraction": "0",
+                         "Multi-hop reasoning": "1",
+                         "Nondeclarative": "2",
+                         "Temporal and Knowledge Updating": "3",
+                         "Unanswerable": "4"}
 
         if 'question_type' in question:
             new_question["category"] = category_dict[question["question_type"]]

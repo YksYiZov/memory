@@ -16,7 +16,7 @@
       "166",
       "290"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -62,7 +62,7 @@
       "167",
       "174"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -109,7 +109,7 @@
       "189",
       "299"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -171,7 +171,7 @@
       "655",
       "769"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -290,7 +290,7 @@
       "739",
       "740"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -401,7 +401,53 @@
       }
     ],
     "ask_time": "2025-03",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年3月，陆明强在和朋友聊天时，表达了自己对海口市哪家职业技术学校的电工培训课程最感兴趣？",
+    "options": [
+      {
+        "option": "A",
+        "content": "海口市第一职业技术学校"
+      },
+      {
+        "option": "B",
+        "content": "海南省技师学院"
+      },
+      {
+        "option": "C",
+        "content": "海口市高级技工学校"
+      },
+      {
+        "option": "D",
+        "content": "海南职业技术学院"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "239"
+      },
+      {
+        "type": "sms",
+        "id": "240"
+      },
+      {
+        "type": "sms",
+        "id": "241"
+      },
+      {
+        "type": "sms",
+        "id": "242"
+      },
+      {
+        "type": "sms",
+        "id": "243"
+      }
+    ],
+    "ask_time": "2025-03",
+    "question_type": "Information Extraction"
   },
   {
     "question": "陆明强在三亚出差期间，在哪一天首次执行了从社区医院学习的腰部康复练习？",
@@ -416,7 +462,7 @@
       "1113",
       "1133"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "photo",
@@ -458,7 +504,7 @@
       "946",
       "950"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -527,7 +573,7 @@
         "id": "164"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月份，陆明强在午休时通过电话向师父请教了备考中的哪个理论难题？",
@@ -559,7 +605,7 @@
       }
     ],
     "ask_time": "2025-04",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在1月6日至9日期间，我因哪个项目而特别忙碌，并因此出现了什么身体反应？",
@@ -583,7 +629,7 @@
       "64",
       "102"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -637,6 +683,71 @@
     "ask_time": "2025-04"
   },
   {
+    "question": "陆明强在2月下旬开始进行系统化的腰部康复训练，最直接的触发因素是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "因为他在一次紧急抢修任务中腰部受伤，医生建议进行康复训练。"
+      },
+      {
+        "option": "B",
+        "content": "因为他新下载的运动健康APP中推荐了相关课程，且他在近期高强度工作后反复感到腰部不适。"
+      },
+      {
+        "option": "C",
+        "content": "因为他的妻子王丽娟为了他的健康，强制要求他每天必须进行腰部锻炼。"
+      },
+      {
+        "option": "D",
+        "content": "因为他在一次同学聚会上听说了腰部保健的重要性，于是立即开始行动。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "502",
+      "509",
+      "510",
+      "528",
+      "731"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "8"
+      },
+      {
+        "type": "sms",
+        "id": "7"
+      },
+      {
+        "type": "push",
+        "id": "5"
+      },
+      {
+        "type": "note",
+        "id": "247"
+      },
+      {
+        "type": "push",
+        "id": "149"
+      },
+      {
+        "type": "push",
+        "id": "150"
+      },
+      {
+        "type": "call",
+        "id": "39"
+      },
+      {
+        "type": "push",
+        "id": "180"
+      }
+    ],
+    "ask_time": "2025-05"
+  },
+  {
     "question": "在五月底，陆明强因家庭经济压力学习了一项新技能。这项技能是什么？其直接诱因是当月新增的哪项固定支出？",
     "answer": "他学习了线上理财入门课程。直接诱因是办理了新车贷款，月供约1300元。",
     "score_points": [
@@ -653,7 +764,7 @@
       "2104",
       "2016"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -707,6 +818,98 @@
     "ask_time": "2025-05"
   },
   {
+    "question": "在1月份的班组晨会上，陆明强复盘老旧小区抢修时，针对长时间跪地作业导致腰部不适，提出了什么具体的改进建议？",
+    "options": [
+      {
+        "option": "A",
+        "content": "建议使用更轻便的工具"
+      },
+      {
+        "option": "B",
+        "content": "建议备便携小马扎或加厚护膝"
+      },
+      {
+        "option": "C",
+        "content": "建议缩短单次作业时间"
+      },
+      {
+        "option": "D",
+        "content": "建议增加作业人员轮换频率"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "179",
+        "event_name": "班组晨会与昨日抢修复盘"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "note",
+        "id": "56"
+      },
+      {
+        "type": "push",
+        "id": "31"
+      },
+      {
+        "type": "calendar",
+        "id": "47"
+      }
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "4月份，陆明强在午休期间通过电话咨询并决定报名参加公司内部的哪项竞赛？",
+    "options": [
+      {
+        "option": "A",
+        "content": "电工高级技师考试"
+      },
+      {
+        "option": "B",
+        "content": "电力工匠杯技能竞赛"
+      },
+      {
+        "option": "C",
+        "content": "班组长任职资格考核"
+      },
+      {
+        "option": "D",
+        "content": "配电室年度预防性试验"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "1493",
+        "event_name": "午餐、休息与决定报名技能竞赛"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": "14"
+      },
+      {
+        "type": "note",
+        "id": "67"
+      },
+      {
+        "type": "calendar",
+        "id": "57"
+      },
+      {
+        "type": "sms",
+        "id": "44"
+      }
+    ],
+    "ask_time": "2025-05",
+    "question_type": "Information Extraction"
+  },
+  {
     "question": "2025年5月，陆明强在与发小王海视频聊天时，听王海讲述了他的一位同事最近遇到了什么家庭变故，以及王海对此事的看法是什么？",
     "answer": "王海的一位同事最近离婚了，原因是夫妻长期异地，感情变淡。王海认为，如果为了多挣点钱而长期分居，导致家庭散了，那就不值得。",
     "score_points": [
@@ -742,7 +945,61 @@
         "id": "216"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "1月22日，陆明强在完成一项户外作业后，腰部出现了什么具体的感受，从而促使他在几天后决定在原有运动基础上增加针对腰部的核心力量锻炼？",
+    "options": [
+      {
+        "option": "A",
+        "content": "体检报告显示他体重超标、血脂临界。"
+      },
+      {
+        "option": "B",
+        "content": "在1月22日更换变压器作业时，腰部初次出现明显酸胀和僵硬感。"
+      },
+      {
+        "option": "C",
+        "content": "妻子王丽娟强烈建议他重视腰部健康。"
+      },
+      {
+        "option": "D",
+        "content": "工友陈建国分享了自己缓解腰部疲劳的“土办法”。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "293",
+      "356"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "231"
+      },
+      {
+        "type": "note",
+        "id": "309"
+      },
+      {
+        "type": "sms",
+        "id": "411"
+      },
+      {
+        "type": "calendar",
+        "id": "258"
+      },
+      {
+        "type": "note",
+        "id": "349"
+      },
+      {
+        "type": "push",
+        "id": "196"
+      }
+    ],
+    "ask_time": "2025-06"
   },
   {
     "question": "在三月的备考学习中，陆明强如何将工作与学习相结合？",
@@ -766,7 +1023,7 @@
       "1015",
       "1143"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -843,7 +1100,7 @@
       "1104",
       "new_event_1"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -919,7 +1176,7 @@
       "1397",
       "1402"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -986,7 +1243,59 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2月份，陆明强在向荣路某老旧小区3单元楼道内工作时，发现并处理了一处什么问题？",
+    "options": [
+      {
+        "option": "A",
+        "content": "断路器型号错误"
+      },
+      {
+        "option": "B",
+        "content": "图纸外的隐蔽故障"
+      },
+      {
+        "option": "C",
+        "content": "电缆长度不足"
+      },
+      {
+        "option": "D",
+        "content": "电表箱安装位置不当"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "518",
+        "event_name": "上午项目攻坚：逐层更换设备与排查隐蔽故障"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "24"
+      },
+      {
+        "type": "photo",
+        "id": "12"
+      },
+      {
+        "type": "note",
+        "id": "26"
+      },
+      {
+        "type": "sms",
+        "id": "19"
+      },
+      {
+        "type": "push",
+        "id": "16"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，陆明强在与发小王海视频聊天时，得知王海最近因为什么事情而情绪低落，且这件事对陆明强本人的生活没有直接影响？",
@@ -1024,7 +1333,7 @@
         "id": "152"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "1月初，陆明强在家中进行维修时，发现并更换了什么具体部件？",
@@ -1060,7 +1369,111 @@
       }
     ],
     "ask_time": "2025-06",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在3月份的一次家庭规划中，为了解决大儿子的上学交通问题，陆明强和王丽娟采取了什么具体措施？",
+    "options": [
+      {
+        "option": "A",
+        "content": "由陆明强骑电动车接送"
+      },
+      {
+        "option": "B",
+        "content": "由王丽娟调整兼职时间接送"
+      },
+      {
+        "option": "C",
+        "content": "联系同学小宇的妈妈顺路接送"
+      },
+      {
+        "option": "D",
+        "content": "乘坐校车上学"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "975",
+        "event_name": "规划无车期通勤方案与解决孩子上学交通"
+      }
+    ],
+    "score_points": [
+      {
+        "description": "答案中明确指出是王丽娟采取了行动。",
+        "score": 3
+      },
+      {
+        "description": "答案中明确指出联系的对象是“大儿子陆子轩的同学小宇的妈妈”。",
+        "score": 4
+      },
+      {
+        "description": "答案中明确指出采取的措施是“顺路接送陆子轩上学”。",
+        "score": 3
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "40"
+      },
+      {
+        "type": "sms",
+        "id": "35"
+      },
+      {
+        "type": "note",
+        "id": "47"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年5月，陆明强在和酒瓶收藏同好老陈聊天时，提到自己最近在收藏哪种特定类型的白酒瓶时，感觉最有成就感？",
+    "options": [
+      {
+        "option": "A",
+        "content": "上世纪80-90年代生产的、带有地方国营酒厂标识的海南本地米酒瓶。"
+      },
+      {
+        "option": "B",
+        "content": "近年来各大酒厂推出的、造型独特的生肖纪念版酱香型白酒瓶。"
+      },
+      {
+        "option": "C",
+        "content": "瓶身印有“为人民服务”等红色标语、产于六七十年代的“老八大”名酒玻璃瓶。"
+      },
+      {
+        "option": "D",
+        "content": "容量为500ml、采用景德镇陶瓷工艺烧制的青花瓷风格高档白酒瓶。"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "229"
+      },
+      {
+        "type": "sms",
+        "id": "230"
+      },
+      {
+        "type": "sms",
+        "id": "231"
+      },
+      {
+        "type": "sms",
+        "id": "232"
+      },
+      {
+        "type": "sms",
+        "id": "233"
+      }
+    ],
+    "ask_time": "2025-06",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在四月的家庭财务紧缩计划中，陆明强采取了哪些具体的“开源”和“节流”措施？",
@@ -1092,7 +1505,7 @@
       "1498",
       "1499"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -1243,7 +1656,7 @@
       "1369",
       "1596"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -1319,7 +1732,7 @@
       "1472",
       "1337"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -1403,7 +1816,7 @@
       "698",
       "644"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -1504,7 +1917,7 @@
         "id": "71"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月8日，陆明强在驾车前往恩师家途中，特意停车为大儿子购买了哪些文具？",
@@ -1548,7 +1961,7 @@
       }
     ],
     "ask_time": "2025-07",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年5月，陆明强在短信中与朋友谈论起另一位朋友（陈杰）最近遇到的一件麻烦事，这件事是什么？",
@@ -1590,7 +2003,61 @@
         "id": "197"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在5月份与李师傅的两次互动中，李师傅主要扮演了什么角色？",
+    "options": [
+      {
+        "option": "A",
+        "content": "提供腰部康复建议和职业发展鼓励的师父"
+      },
+      {
+        "option": "B",
+        "content": "一起进行紧急抢修的工友"
+      },
+      {
+        "option": "C",
+        "content": "赠送康复手册的邻居"
+      },
+      {
+        "option": "D",
+        "content": "请教创业经验的客户"
+      }
+    ],
+    "answer": "A",
+    "required_events_id": [
+      "1812",
+      "2051"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "140"
+      },
+      {
+        "type": "sms",
+        "id": "323"
+      },
+      {
+        "type": "calendar",
+        "id": "116"
+      },
+      {
+        "type": "call",
+        "id": "25"
+      },
+      {
+        "type": "note",
+        "id": "165"
+      },
+      {
+        "type": "calendar",
+        "id": "129"
+      }
+    ],
+    "ask_time": "2025-07"
   },
   {
     "question": "陆明强在八月初因健康考虑决定调整饮食习惯，其直接诱因是什么？",
@@ -1610,7 +2077,7 @@
       "3120",
       "3121"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -1683,7 +2150,7 @@
       "1103",
       "1160"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -1769,7 +2236,7 @@
       "1812",
       "1818"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -1797,7 +2264,7 @@
   {
     "question": "2025年3月22日晚，在协助孩子准备睡前故事时，陆明强的长子陆子轩听完故事后询问了关于哪种海洋生物的问题？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -1837,7 +2304,7 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2月20日午餐后，陆明强在小区内致电父亲，主要请教了哪方面的技巧？",
@@ -1877,7 +2344,53 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年1月，陆明强在与酒瓶收藏同好老陈聊天时，分享了自己近期在白酒口味上的一个新偏好。根据对话，陆明强现在更喜欢哪种特定香型或风格的白酒？",
+    "options": [
+      {
+        "option": "A",
+        "content": "浓香型白酒，觉得香气浓郁，口感醇厚"
+      },
+      {
+        "option": "B",
+        "content": "酱香型白酒，尤其是茅台镇产的，觉得回味悠长"
+      },
+      {
+        "option": "C",
+        "content": "米香型或豉香型白酒，觉得口感更清爽柔和"
+      },
+      {
+        "option": "D",
+        "content": "兼香型或馥郁香型白酒，觉得层次更丰富，没那么冲"
+      }
+    ],
+    "answer": "D",
+    "ask_time": "2025-08",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "165"
+      },
+      {
+        "type": "sms",
+        "id": "166"
+      },
+      {
+        "type": "sms",
+        "id": "167"
+      },
+      {
+        "type": "sms",
+        "id": "168"
+      },
+      {
+        "type": "sms",
+        "id": "169"
+      }
+    ],
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年6月，陆明强在微信上听工友陈建国聊起另一位工友赵强最近遇到了什么个人生活上的麻烦事？",
@@ -1915,7 +2428,7 @@
         "id": "187"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在4月份，陆明强在工作现场的午休时间，独自思考了什么具体问题？",
@@ -1947,7 +2460,57 @@
       }
     ],
     "ask_time": "2025-08",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年7月，陆明强在与酒瓶收藏同好陈建国聊天时，提到自己最近在收藏白酒瓶方面，口味偏好发生了什么具体变化？",
+    "options": [
+      {
+        "option": "A",
+        "content": "从收藏各种香型的瓶子，转向只收藏酱香型白酒的瓶子。"
+      },
+      {
+        "option": "B",
+        "content": "从收藏新上市的酒瓶，转向专门收藏80、90年代的老酒瓶。"
+      },
+      {
+        "option": "C",
+        "content": "从收藏全国各地的酒瓶，转向只收藏海南本地酒厂生产的酒瓶。"
+      },
+      {
+        "option": "D",
+        "content": "从收藏玻璃瓶，转向开始尝试收藏一些造型独特的陶瓷酒瓶。"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "217"
+      },
+      {
+        "type": "sms",
+        "id": "218"
+      },
+      {
+        "type": "sms",
+        "id": "219"
+      },
+      {
+        "type": "sms",
+        "id": "220"
+      },
+      {
+        "type": "sms",
+        "id": "221"
+      },
+      {
+        "type": "sms",
+        "id": "222"
+      }
+    ],
+    "ask_time": "2025-08",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，陆明强在与工友陈建国喝老爸茶时，谈论起另一位朋友王海最近遇到的一件麻烦事。这件麻烦事是什么？",
@@ -1985,7 +2548,7 @@
         "id": "248"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "从父亲和师父在1月赠予我的物品来看，可以推断我在职业学习上重视什么？",
@@ -2008,7 +2571,7 @@
       "339",
       "246"
     ],
-    "question_type": "open_domain",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "photo",
@@ -2049,7 +2612,7 @@
       "2249",
       "2569"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -2138,7 +2701,7 @@
       "727",
       "731"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -2220,6 +2783,141 @@
     "ask_time": "2025-08"
   },
   {
+    "question": "在8月的多个周五晚上，我最常见的活动模式是以下哪一种？",
+    "options": [
+      {
+        "option": "A",
+        "content": "与工友进行烤鱼啤酒聚会"
+      },
+      {
+        "option": "B",
+        "content": "进行居家核心训练"
+      },
+      {
+        "option": "C",
+        "content": "与家人共度时光（如展示成果、家庭影院）"
+      },
+      {
+        "option": "D",
+        "content": "熬夜复习备考内容"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "3108",
+      "3111",
+      "3211",
+      "3300"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "123"
+      },
+      {
+        "type": "sms",
+        "id": "333"
+      },
+      {
+        "type": "note",
+        "id": "155"
+      },
+      {
+        "type": "calendar",
+        "id": "167"
+      },
+      {
+        "type": "push",
+        "id": "135"
+      },
+      {
+        "type": "note",
+        "id": "225"
+      },
+      {
+        "type": "note",
+        "id": "254"
+      },
+      {
+        "type": "calendar",
+        "id": "189"
+      },
+      {
+        "type": "push",
+        "id": "154"
+      }
+    ],
+    "ask_time": "2025-08"
+  },
+  {
+    "question": "在5月份，我和家人进行户外休闲活动时，最常选择以下哪个地点？",
+    "options": [
+      {
+        "option": "A",
+        "content": "白沙门公园"
+      },
+      {
+        "option": "B",
+        "content": "小区花园"
+      },
+      {
+        "option": "C",
+        "content": "万绿园"
+      },
+      {
+        "option": "D",
+        "content": "秀英区海边"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "1762",
+      "1957",
+      "2156"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "131"
+      },
+      {
+        "type": "photo",
+        "id": "55"
+      },
+      {
+        "type": "note",
+        "id": "167"
+      },
+      {
+        "type": "push",
+        "id": "155"
+      },
+      {
+        "type": "photo",
+        "id": "83"
+      },
+      {
+        "type": "calendar",
+        "id": "190"
+      },
+      {
+        "type": "calendar",
+        "id": "199"
+      },
+      {
+        "type": "photo",
+        "id": "91"
+      },
+      {
+        "type": "note",
+        "id": "270"
+      }
+    ],
+    "ask_time": "2025-08"
+  },
+  {
     "question": "陆明强在八月下旬一次系统整理备考资料时，纠正了自己旧笔记中的一个错误。这个错误是关于哪个知识点的？",
     "answer": "是关于变压器并联运行条件的计算公式。",
     "score_points": [
@@ -2231,7 +2929,7 @@
     "required_events_id": [
       "3466"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -2265,7 +2963,7 @@
       "3174",
       "3110"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -2334,7 +3032,7 @@
       "3708",
       "3756"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -2404,7 +3102,7 @@
       "882",
       "1300"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -2463,7 +3161,7 @@
       "2339",
       "2364"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -2545,7 +3243,7 @@
       "2686",
       "2837"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -2608,7 +3306,55 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "6月，陆明强驾车送妻子就诊，最终到达了哪个地点？",
+    "options": [
+      {
+        "option": "A",
+        "content": "龙华区中心医院"
+      },
+      {
+        "option": "B",
+        "content": "金宇街道社区卫生服务中心"
+      },
+      {
+        "option": "C",
+        "content": "美兰区人民医院"
+      },
+      {
+        "option": "D",
+        "content": "海口市第一人民医院"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2303",
+        "event_name": "驾车送孩子上学和送妻子就诊"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "28"
+      },
+      {
+        "type": "note",
+        "id": "31"
+      },
+      {
+        "type": "sms",
+        "id": "23"
+      },
+      {
+        "type": "push",
+        "id": "19"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月下旬，陆明强在书房研读了哪本专业书籍？",
@@ -2644,7 +3390,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年8月，陆明强在与朋友聊天时，提到了他哥哥陆明华最近遇到的一件与工作相关的具体事情是什么？",
@@ -2682,7 +3428,7 @@
         "id": "110"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，陆明强在与酒瓶收藏同好陈建国聊天时，得知陈建国最近在收藏上遇到了什么烦心事？",
@@ -2720,7 +3466,7 @@
         "id": "238"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "8月初，陆明强在陪伴孩子时，通过手机主动搜索了哪些方面的健康信息？",
@@ -2760,7 +3506,51 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "8月份，陆明强在师父家请教备考问题时，主要解决了哪个技术难点，并从师父那里获得了什么资料？",
+    "options": [
+      {
+        "option": "A",
+        "content": "高压开关柜调试；借阅了《电气设备安装与调试》教材"
+      },
+      {
+        "option": "B",
+        "content": "继电保护调试与整定；复印了师父的工作笔记"
+      },
+      {
+        "option": "C",
+        "content": "电机保护案例；获得了师父的实操视频"
+      },
+      {
+        "option": "D",
+        "content": "电工工具选购；拿到了工具采购清单"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "3147",
+        "event_name": "向师父请教备考问题并借阅笔记"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "9"
+      },
+      {
+        "type": "push",
+        "id": "7"
+      },
+      {
+        "type": "note",
+        "id": "11"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "8月14日早晨，陆明强在早餐店听到其他食客议论了什么，让他产生了紧迫感？",
@@ -2796,7 +3586,7 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "9月份，陆明强在万绿园进行家庭户外活动时，在放风筝环节，他除了组装风筝和讲解风向，还具体指导了谁进行控线？",
@@ -2836,7 +3626,51 @@
       }
     ],
     "ask_time": "2025-09",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "9月份，陆明强在哪个地点向父亲请教了继电保护调试难题？",
+    "options": [
+      {
+        "option": "A",
+        "content": "海南省卫生厅宿舍家中阳台"
+      },
+      {
+        "option": "B",
+        "content": "龙华法院住宅小区家中书房"
+      },
+      {
+        "option": "C",
+        "content": "海南省建设职业技能岗位培训中心教室"
+      },
+      {
+        "option": "D",
+        "content": "海甸岛老旧小区物业办公室"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "3742",
+        "event_name": "拜访父母：技术请教与家庭聚餐"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "58"
+      },
+      {
+        "type": "note",
+        "id": "68"
+      },
+      {
+        "type": "photo",
+        "id": "28"
+      }
+    ],
+    "ask_time": "2025-09",
+    "question_type": "Information Extraction"
   },
   {
     "question": "陆明强在四月处理了哪些因雨季天气导致的电力故障抢修？这些抢修主要发生在海口市的哪些区域？",
@@ -2857,7 +3691,7 @@
       "1509",
       "1583"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -2927,7 +3761,7 @@
       "258",
       "425"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -2977,7 +3811,7 @@
       "30",
       "229"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "push",
@@ -3019,7 +3853,7 @@
       "3550",
       "3708"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -3064,7 +3898,7 @@
       "1688",
       "1714"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "call",
@@ -3180,7 +4014,7 @@
       "2283",
       "2518"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -3298,7 +4132,7 @@
       "662",
       "675"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -3343,7 +4177,7 @@
     "required_events_id": [
       "3008"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -3374,7 +4208,7 @@
       "1977",
       "2111"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -3406,7 +4240,7 @@
   {
     "question": "在2025-08-27，陆明强的妻子王丽娟在兼职家政工作中是否清洁了位于海口市美兰区的某处住宅？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": "无法回答",
     "score_points": [],
     "required_events": [],
@@ -3450,7 +4284,103 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "10月份，我在查询职业技能鉴定成绩后，师父对我的叮嘱是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "再接再厉，争取更高分"
+      },
+      {
+        "option": "B",
+        "content": "戒骄戒躁，技术永无止境"
+      },
+      {
+        "option": "C",
+        "content": "注意休息，劳逸结合"
+      },
+      {
+        "option": "D",
+        "content": "多带徒弟，传授经验"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4342",
+        "event_name": "查询与分享职业技能鉴定考试成功喜悦"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "push",
+        "id": "37"
+      },
+      {
+        "type": "call",
+        "id": "13"
+      },
+      {
+        "type": "note",
+        "id": "64"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "在2月份的家庭公园活动中，陆明强主要拍摄了谁与风筝互动的照片，并将其设置为什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "拍摄了小儿子陆子涵玩吹泡泡，设置为手机壁纸"
+      },
+      {
+        "option": "B",
+        "content": "拍摄了妻子王丽娟抱着小儿子助威，设置为电脑桌面"
+      },
+      {
+        "option": "C",
+        "content": "拍摄了大儿子陆子轩指向风筝的灿烂笑容，设置为手机屏保"
+      },
+      {
+        "option": "D",
+        "content": "拍摄了全家在草坪上的合影，设置为社交平台头像"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "768",
+        "event_name": "家庭公园野餐、放风筝与主题摄影"
+      },
+      {
+        "event_id": "769",
+        "event_name": "返程途中挑选并设置手机屏保"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "photo",
+        "id": "31"
+      },
+      {
+        "type": "note",
+        "id": "84"
+      },
+      {
+        "type": "push",
+        "id": "51"
+      },
+      {
+        "type": "calendar",
+        "id": "68"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，陆明强在与发小王海的视频通话中，得知王海在深圳遇到了什么与工作相关的烦心事？",
@@ -3496,7 +4426,7 @@
         "id": "142"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，陆明强在与酒瓶收藏同好陈建国交流时，得知陈建国最近在收藏方面遇到了什么具体的新情况？",
@@ -3534,7 +4464,53 @@
         "id": "174"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年5月，陆明强在与收藏酒瓶的同好老陈交流时，提到自己最近对哪种特定香型的白酒瓶设计产生了特别的收藏兴趣？",
+    "options": [
+      {
+        "option": "A",
+        "content": "酱香型白酒的复古陶瓷瓶"
+      },
+      {
+        "option": "B",
+        "content": "清香型白酒的简约玻璃方瓶"
+      },
+      {
+        "option": "C",
+        "content": "浓香型白酒的仿古青铜器造型瓶"
+      },
+      {
+        "option": "D",
+        "content": "米香型白酒的本地特色椰雕瓶"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "258"
+      },
+      {
+        "type": "sms",
+        "id": "259"
+      },
+      {
+        "type": "sms",
+        "id": "260"
+      },
+      {
+        "type": "sms",
+        "id": "261"
+      },
+      {
+        "type": "sms",
+        "id": "262"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "9月，我在博爱南路为制作沙燕风筝采购材料时，具体在哪家店铺选购了毛竹等物品？",
@@ -3570,7 +4546,7 @@
       }
     ],
     "ask_time": "2025-10",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年10月，我在和工友陈建国聊天时，谈到我哥哥陆明华最近遇到的一件烦心事，这件事是什么？",
@@ -3624,7 +4600,57 @@
         "id": "268"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年10月，我在和酒瓶收藏同好陈建国聊天时，提到我现在收藏白酒瓶最看重哪个方面？",
+    "options": [
+      {
+        "option": "A",
+        "content": "瓶身的造型设计和工艺复杂度"
+      },
+      {
+        "option": "B",
+        "content": "酒瓶所代表的品牌历史和文化故事"
+      },
+      {
+        "option": "C",
+        "content": "瓶体材质的独特性和釉色质感"
+      },
+      {
+        "option": "D",
+        "content": "酒瓶本身的稀有度和市场价值"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "269"
+      },
+      {
+        "type": "sms",
+        "id": "270"
+      },
+      {
+        "type": "sms",
+        "id": "271"
+      },
+      {
+        "type": "sms",
+        "id": "272"
+      },
+      {
+        "type": "sms",
+        "id": "273"
+      },
+      {
+        "type": "sms",
+        "id": "274"
+      }
+    ],
+    "ask_time": "2025-10",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在2月的一个周末，陆明强一家探望长辈时，除了与父母共进午餐，还去探望了哪位亲戚？在这次探望中，这位亲戚对陆明强说了什么鼓励的话？",
@@ -3645,7 +4671,7 @@
       "550",
       "551"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -3684,7 +4710,7 @@
       "4128",
       "4218"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -3734,7 +4760,7 @@
       "247",
       "337"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -3751,6 +4777,65 @@
       {
         "type": "note",
         "id": "457"
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
+    "question": "陆明强在10月17日（考试前一天）拒绝陈建国宵夜邀请时给出的核心理由，主要是由哪几项在此前已记录的行为或状态共同促成的？",
+    "options": [
+      {
+        "option": "A",
+        "content": "备考冲刺压力大、手腕需要训练、项目工作繁重。"
+      },
+      {
+        "option": "B",
+        "content": "饮食调整计划、腰伤康复需求、次日考试需早睡。"
+      },
+      {
+        "option": "C",
+        "content": "刚完成高强度复习、与家人有约、需要进行肩颈拉伸。"
+      },
+      {
+        "option": "D",
+        "content": "天气不佳影响出行、正在控制体重、工友关系疏远。"
+      }
+    ],
+    "answer": "B",
+    "required_events_id": [
+      "4278",
+      "4285",
+      "4235"
+    ],
+    "question_type": "Multi-hop reasoning",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "408"
+      },
+      {
+        "type": "note",
+        "id": "301"
+      },
+      {
+        "type": "calendar",
+        "id": "242"
+      },
+      {
+        "type": "sms",
+        "id": "414"
+      },
+      {
+        "type": "sms",
+        "id": "446"
+      },
+      {
+        "type": "calendar",
+        "id": "299"
+      },
+      {
+        "type": "note",
+        "id": "407"
       }
     ],
     "ask_time": "2025-11"
@@ -3777,7 +4862,7 @@
       "4128",
       "4201"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -3874,7 +4959,7 @@
     "required_events_id": [
       "1732"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -3890,11 +4975,103 @@
   {
     "question": "2025年9月28日，陆明强在巡检设备间时，发现的具体异常设备数量是多少？",
     "type": "question_answer",
-    "question_type": "unanswerable",
+    "question_type": "Unanswerable",
     "answer": " 无法回答",
     "score_points": [],
     "required_events": [],
     "ask_time": "2025-11"
+  },
+  {
+    "question": "2025年1月，陆明强在与收藏同好老陈的聊天中，表达了自己对哪种特定类型或风格的白酒瓶收藏品有特别的偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "造型奇特、充满现代设计感的艺术酒瓶"
+      },
+      {
+        "option": "B",
+        "content": "带有海南本地黎族、苗族等少数民族图腾纹饰的酒瓶"
+      },
+      {
+        "option": "C",
+        "content": "八九十年代生产的、带有浓厚国营工厂时期印记的经典老酒瓶"
+      },
+      {
+        "option": "D",
+        "content": "瓶身印有完整历史人物故事或诗词歌赋的文化酒瓶"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "51"
+      },
+      {
+        "type": "sms",
+        "id": "52"
+      },
+      {
+        "type": "sms",
+        "id": "53"
+      },
+      {
+        "type": "sms",
+        "id": "54"
+      },
+      {
+        "type": "sms",
+        "id": "55"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，陆明强在与工友陈建国聊天时，表达了自己对哪种类型的工业摄影作品最感兴趣？",
+    "answer": "D",
+    "options": [
+      {
+        "option": "A",
+        "content": "记录大型电力工程施工全过程的纪实照片"
+      },
+      {
+        "option": "B",
+        "content": "将老旧变电站与自然风光结合的艺术风景照"
+      },
+      {
+        "option": "C",
+        "content": "以电力工人为主角，展现劳动场景的人物肖像照"
+      },
+      {
+        "option": "D",
+        "content": "展现电力设备内部精密结构和光线质感的特写照片"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "61"
+      },
+      {
+        "type": "sms",
+        "id": "62"
+      },
+      {
+        "type": "sms",
+        "id": "63"
+      },
+      {
+        "type": "sms",
+        "id": "64"
+      },
+      {
+        "type": "sms",
+        "id": "65"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "6月20日，陆明强在驾车前往公司的途中与谁进行了电话沟通，沟通的主题是什么？",
@@ -3930,7 +5107,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "7月份，陆明强在午休时与工友交流，他主要向工友询问了关于未来哪方面的可能性？",
@@ -3962,7 +5139,97 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月份，陆明强在公司例会上收到了客户送来的什么形式的表扬？",
+    "options": [
+      {
+        "option": "A",
+        "content": "锦旗"
+      },
+      {
+        "option": "B",
+        "content": "感谢信"
+      },
+      {
+        "option": "C",
+        "content": "口头表扬"
+      },
+      {
+        "option": "D",
+        "content": "奖状"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2872",
+        "event_name": "公司例会与接受客户书面表扬"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "43"
+      },
+      {
+        "type": "push",
+        "id": "28"
+      },
+      {
+        "type": "note",
+        "id": "50"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年4月，陆明强在与酒瓶收藏同好老陈喝茶时，聊到自己最近在白酒口味上的一个新偏好是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "开始偏爱酱香型白酒，觉得回味更悠长"
+      },
+      {
+        "option": "B",
+        "content": "越来越喜欢低度数的米香型白酒，觉得更顺口不刺激"
+      },
+      {
+        "option": "C",
+        "content": "对带有明显花果香气的兼香型白酒产生了兴趣"
+      },
+      {
+        "option": "D",
+        "content": "重新喜欢上了本地传统的、酒体醇厚的米酒"
+      }
+    ],
+    "answer": "C",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "153"
+      },
+      {
+        "type": "sms",
+        "id": "154"
+      },
+      {
+        "type": "sms",
+        "id": "155"
+      },
+      {
+        "type": "sms",
+        "id": "156"
+      },
+      {
+        "type": "sms",
+        "id": "157"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "3月份，陆明强与工友陈建国喝茶聊天的茶店具体位于哪个地址？",
@@ -4014,7 +5281,49 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年1月，陆明强在和朋友聊天时，分享了自己对于目前市面上流行的几款白酒的品味偏好。他明确表示自己最喜欢喝的是哪一种？",
+    "options": [
+      {
+        "option": "A",
+        "content": "酱香型的茅台王子酒"
+      },
+      {
+        "option": "B",
+        "content": "浓香型的五粮液"
+      },
+      {
+        "option": "C",
+        "content": "清香型的汾酒"
+      },
+      {
+        "option": "D",
+        "content": "米香型的桂林三花酒"
+      }
+    ],
+    "answer": "A",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "249"
+      },
+      {
+        "type": "sms",
+        "id": "250"
+      },
+      {
+        "type": "sms",
+        "id": "251"
+      },
+      {
+        "type": "sms",
+        "id": "252"
+      }
+    ],
+    "ask_time": "2025-11",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月，陆明强在与发小王海视频聊天时，听说了他们共同认识的一位初中同学最近发生了什么与工作相关的重大变故？",
@@ -4052,7 +5361,7 @@
         "id": "257"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月份，陆明强在家中阳台整理工具箱时，发现并修复了什么工具的什么问题？",
@@ -4092,7 +5401,7 @@
       }
     ],
     "ask_time": "2025-11",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "在11月，陆明强在周末清晨进行的跑步锻炼，通常与谁一起？他们最常在哪个地点进行？",
@@ -4112,7 +5421,7 @@
       "4655",
       "4833"
     ],
-    "question_type": "user_modeling",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -4158,6 +5467,135 @@
     "ask_time": "2025-11"
   },
   {
+    "question": "从我在11月与朋友们的社交活动来看，这些活动主要围绕什么主题展开？",
+    "options": [
+      {
+        "option": "A",
+        "content": "深入的技术探讨与经验分享"
+      },
+      {
+        "option": "B",
+        "content": "频繁的家庭聚会与亲子活动"
+      },
+      {
+        "option": "C",
+        "content": "共同参与体育运动与锻炼"
+      },
+      {
+        "option": "D",
+        "content": "纯粹的休闲娱乐与聚餐"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "4555",
+      "4556",
+      "4565",
+      "4614",
+      "4616",
+      "4655",
+      "4656",
+      "4665",
+      "4708"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "97"
+      },
+      {
+        "type": "push",
+        "id": "69"
+      },
+      {
+        "type": "note",
+        "id": "118"
+      },
+      {
+        "type": "calendar",
+        "id": "143"
+      },
+      {
+        "type": "sms",
+        "id": "352"
+      },
+      {
+        "type": "photo",
+        "id": "60"
+      },
+      {
+        "type": "calendar",
+        "id": "162"
+      },
+      {
+        "type": "note",
+        "id": "216"
+      },
+      {
+        "type": "calendar",
+        "id": "174"
+      },
+      {
+        "type": "photo",
+        "id": "76"
+      },
+      {
+        "type": "note",
+        "id": "232"
+      },
+      {
+        "type": "sms",
+        "id": "380"
+      },
+      {
+        "type": "calendar",
+        "id": "186"
+      },
+      {
+        "type": "photo",
+        "id": "80"
+      },
+      {
+        "type": "calendar",
+        "id": "198"
+      },
+      {
+        "type": "sms",
+        "id": "388"
+      },
+      {
+        "type": "push",
+        "id": "164"
+      },
+      {
+        "type": "calendar",
+        "id": "205"
+      },
+      {
+        "type": "sms",
+        "id": "392"
+      },
+      {
+        "type": "note",
+        "id": "275"
+      },
+      {
+        "type": "sms",
+        "id": "395"
+      },
+      {
+        "type": "calendar",
+        "id": "210"
+      },
+      {
+        "type": "photo",
+        "id": "94"
+      }
+    ],
+    "ask_time": "2025-11"
+  },
+  {
     "question": "陆明强在9月底收到一笔项目奖金后，与妻子商量了怎样的家庭财务规划？",
     "answer": "将1500元奖金中的800元存入为家庭环岛游准备的强制储蓄账户，700元作为家庭近期的备用金。",
     "score_points": [
@@ -4178,7 +5616,7 @@
       "3991",
       "3993"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "sms",
@@ -4234,7 +5672,7 @@
       "3734",
       "3986"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -4312,7 +5750,7 @@
       "4027",
       "4074"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -4356,7 +5794,7 @@
       "4089",
       "4093"
     ],
-    "question_type": "temporal",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -4416,7 +5854,7 @@
       "4333",
       "4356"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -4494,7 +5932,7 @@
       "2832",
       "2974"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "note",
@@ -4578,7 +6016,7 @@
       "2835",
       "3024"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -4729,7 +6167,7 @@
       "5031",
       "5114"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "push",
@@ -4792,7 +6230,7 @@
       "4944",
       "4978"
     ],
-    "question_type": "mutihop",
+    "question_type": "Multi-hop reasoning",
     "evidence": [
       {
         "type": "calendar",
@@ -4877,7 +6315,7 @@
       "5044",
       "5154"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "calendar",
@@ -4951,7 +6389,7 @@
       "4971",
       "5135"
     ],
-    "question_type": "temporal",
+    "question_type": "Temporal and Knowledge Updating",
     "evidence": [
       {
         "type": "calendar",
@@ -5006,7 +6444,7 @@
       "5267",
       "5293"
     ],
-    "question_type": "mutihop",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "note",
@@ -5155,7 +6593,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强和朋友陈杰原定于2025年4月12日去放风筝，后来改期到哪天了？",
@@ -5185,7 +6623,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强的工友陈建国在2025年8月因何受伤？",
@@ -5215,7 +6653,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强的朋友陈杰在2025年9月和10月总共推荐了几部战争电影？",
@@ -5245,7 +6683,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强在2025年1月10日与工友陈建国约着见面的\"老地方\"具体是哪里？",
@@ -5275,7 +6713,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "风筝友陈杰在2025年4月提到改良传统风筝的一个技术关键点是什么？",
@@ -5305,7 +6743,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强的长子陆子轩在2025年暑假期间最想看什么类型的动画电影？",
@@ -5335,7 +6773,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强在2025年5月浏览电工论坛时，看到有人描述的一个老旧小区电路故障的典型特征是什么？",
@@ -5365,7 +6803,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强在2025年3月一次壁球活动中，听球友林峰提起的海南某体育赛事具体将在几月举办？",
@@ -5395,7 +6833,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强4月初请教工友陈建国的那个老旧配电柜断路器频繁跳闸问题，后来是在哪里找到的类似故障案例作为参考？",
@@ -5417,7 +6855,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "妻弟陈志强9月底说国庆回海口要带的深圳特产，具体指的是哪两样点心？",
@@ -5443,7 +6881,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "邻居王叔6月初向陆明强打听的那个造型独特的80年代“椰岛大曲”酒瓶，后来陆明强是在哪个网站上帮他找到相关信息的？",
@@ -5473,7 +6911,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "同学吴刚7月中旬说周末想去尝尝的那家有名的烧烤店，具体叫什么名字？",
@@ -5503,7 +6941,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强的工友陈建国在2025年6月5日提到的公司技能比赛中赢得的奖品具体是什么？",
@@ -5525,7 +6963,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "陆明强的姨妈在2025年8月25日家庭聚会时带来的、让陆明强回忆起童年味道的传统点心具体叫什么名字？",
@@ -5547,7 +6985,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "mutihop"
+    "question_type": "Multi-hop reasoning"
   },
   {
     "question": "10月份，陆明强与工友陈建国在秀英区一家茶店喝茶，他们交流了哪些具体内容？",
@@ -5587,7 +7025,59 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "10月份，陆明强在五金店购买了什么东西，其用途是什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "暖白色LED灯条和螺丝，用于酒柜照明"
+      },
+      {
+        "option": "B",
+        "content": "电工胶带和记号笔，用于复习标记"
+      },
+      {
+        "option": "C",
+        "content": "LED灯条和螺丝，用于书房照明"
+      },
+      {
+        "option": "D",
+        "content": "汽车空调滤芯和螺丝，用于车辆维护"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "4042",
+        "event_name": "五金店购物及取快递"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "5"
+      },
+      {
+        "type": "sms",
+        "id": "3"
+      },
+      {
+        "type": "sms",
+        "id": "4"
+      },
+      {
+        "type": "photo",
+        "id": "2"
+      },
+      {
+        "type": "note",
+        "id": "4"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在10月份处理工地技术难题时，我通过电话向谁咨询并获得了过渡方案？",
@@ -5619,7 +7109,95 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "6月，陆明强与老同学吴刚在哪个地点喝茶聊天？",
+    "options": [
+      {
+        "option": "A",
+        "content": "白沙门公园内的茶座"
+      },
+      {
+        "option": "B",
+        "content": "海口小巷茶店"
+      },
+      {
+        "option": "C",
+        "content": "向荣路大排档"
+      },
+      {
+        "option": "D",
+        "content": "家中书房"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "2464",
+        "event_name": "前往茶店与老同学喝茶聊天"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "56"
+      },
+      {
+        "type": "sms",
+        "id": "43"
+      },
+      {
+        "type": "photo",
+        "id": "27"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "7月12日，陆明强与陈斌晨跑后，在哪里共进早餐？",
+    "options": [
+      {
+        "option": "A",
+        "content": "老海口快餐"
+      },
+      {
+        "option": "B",
+        "content": "向荣路大排档"
+      },
+      {
+        "option": "C",
+        "content": "老码头茶餐厅"
+      },
+      {
+        "option": "D",
+        "content": "必胜客"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "2783",
+        "event_name": "早餐与交流"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "28"
+      },
+      {
+        "type": "photo",
+        "id": "19"
+      },
+      {
+        "type": "push",
+        "id": "23"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "12月份，陆明强在万绿园晨跑时，与谁相遇并简单交流？",
@@ -5655,7 +7233,95 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "12月份，陆明强在向客户李老板交付配电柜时，向对方演示了什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "散热风扇的安装技巧"
+      },
+      {
+        "option": "B",
+        "content": "操作流程和注意事项"
+      },
+      {
+        "option": "C",
+        "content": "红外测温仪的使用方法"
+      },
+      {
+        "option": "D",
+        "content": "继电保护整定计算"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4931",
+        "event_name": "配电柜最终测试、演示与交付"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "22"
+      },
+      {
+        "type": "sms",
+        "id": "16"
+      },
+      {
+        "type": "note",
+        "id": "23"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "12月份，陆明强在南方电网小区配电间进行月度巡检时，使用什么仪器检测关键节点温度？",
+    "options": [
+      {
+        "option": "A",
+        "content": "万用表"
+      },
+      {
+        "option": "B",
+        "content": "绝缘电阻测试仪"
+      },
+      {
+        "option": "C",
+        "content": "红外测温仪"
+      },
+      {
+        "option": "D",
+        "content": "钳形电流表"
+      }
+    ],
+    "answer": "C",
+    "required_events": [
+      {
+        "event_id": "5006",
+        "event_name": "小区配电箱月度例行巡检"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "37"
+      },
+      {
+        "type": "sms",
+        "id": "33"
+      },
+      {
+        "type": "note",
+        "id": "44"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Nondeclarative"
   },
   {
     "question": "12月份，我参加的班组聚餐庆祝是在哪里举行的？",
@@ -5699,7 +7365,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，陆明强在微信上与酒瓶收藏同好陈建国聊天时，得知陈建国最近遇到了一件什么让他有点烦心但又觉得好笑的事情？",
@@ -5741,7 +7407,7 @@
         "id": "121"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年1月，陆明强在和工友陈建国喝老爸茶时，聊起另一位工友赵强回湖南老家后的近况。赵强回去后具体在做什么工作？",
@@ -5779,7 +7445,7 @@
         "id": "131"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "5月份，陆明强在家中进行康复训练后，为了提升职业技能，通过手机学习了哪方面的专业知识？",
@@ -5811,7 +7477,53 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
+  },
+  {
+    "question": "2025年6月，陆明强在和朋友陈杰聊天时，提到自己最近在收藏白酒瓶方面，对哪个特定产地的瓶子产生了特别的兴趣？",
+    "options": [
+      {
+        "option": "A",
+        "content": "四川宜宾的五粮液酒瓶"
+      },
+      {
+        "option": "B",
+        "content": "贵州仁怀的茅台镇一些小酒厂的酒瓶"
+      },
+      {
+        "option": "C",
+        "content": "山西汾阳的汾酒老瓶子"
+      },
+      {
+        "option": "D",
+        "content": "江苏宿迁的洋河酒瓶"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "188"
+      },
+      {
+        "type": "sms",
+        "id": "189"
+      },
+      {
+        "type": "sms",
+        "id": "190"
+      },
+      {
+        "type": "sms",
+        "id": "191"
+      },
+      {
+        "type": "sms",
+        "id": "192"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "4月份，陆明强为准备职业晋升考试，在线购买了哪些备考资料？",
@@ -5851,7 +7563,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，陆明强在与工友陈建国喝茶聊天时，谈论到他们共同认识的哪位朋友最近发生了一件与职业发展相关的具体事情？这件事是什么？",
@@ -5889,7 +7601,55 @@
         "id": "206"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "3月份，陆明强在送儿子上学途中车辆发生故障，故障点位于哪个路口附近？",
+    "options": [
+      {
+        "option": "A",
+        "content": "南沙路与金垦路交叉口"
+      },
+      {
+        "option": "B",
+        "content": "海秀中路与金垦路交叉口"
+      },
+      {
+        "option": "C",
+        "content": "金宇东路与南沙路交叉口"
+      },
+      {
+        "option": "D",
+        "content": "海盛路与向荣路交叉口"
+      }
+    ],
+    "answer": "A",
+    "required_events": [
+      {
+        "event_id": "882",
+        "event_name": "送学途中车辆突发故障"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "call",
+        "id": "6"
+      },
+      {
+        "type": "sms",
+        "id": "21"
+      },
+      {
+        "type": "photo",
+        "id": "15"
+      },
+      {
+        "type": "note",
+        "id": "29"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年3月13日，陆明强在午餐休息时通过微信联系了哪位朋友，咨询了什么事情？",
@@ -5925,7 +7685,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年4月，陆明强在与发小王海的微信聊天中，得知王海最近因为什么事情而感到特别烦恼？",
@@ -5975,7 +7735,7 @@
         "id": "228"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Nondeclarative"
   },
   {
     "question": "在9月份，我与工友在午餐时商议了关于下个月慢跑比赛的哪些具体内容？",
@@ -6019,7 +7779,55 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年11月，陆明强一家在万绿园进行亲子活动时，他教孩子们放的是什么类型的风筝？",
+    "options": [
+      {
+        "option": "A",
+        "content": "老鹰风筝"
+      },
+      {
+        "option": "B",
+        "content": "沙燕风筝"
+      },
+      {
+        "option": "C",
+        "content": "蝴蝶风筝"
+      },
+      {
+        "option": "D",
+        "content": "金鱼风筝"
+      }
+    ],
+    "answer": "B",
+    "required_events": [
+      {
+        "event_id": "4545",
+        "event_name": "驱车前往万绿园并放风筝亲子活动"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "calendar",
+        "id": "46"
+      },
+      {
+        "type": "sms",
+        "id": "39"
+      },
+      {
+        "type": "photo",
+        "id": "25"
+      },
+      {
+        "type": "note",
+        "id": "54"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月13日上午工间休息时，陆明强在“电工之家”论坛发布的帖子获得了什么反响？",
@@ -6059,7 +7867,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "11月份，陆明强在班组周例会上因哪篇技术文章获得了现金奖励？",
@@ -6095,7 +7903,7 @@
       }
     ],
     "ask_time": "2025-12",
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
   },
   {
     "question": "2025年11月，陆明强在微信聊天中得知，他的发小王海最近遇到了什么与工作相关的具体困扰？",
@@ -6133,7 +7941,49 @@
         "id": "301"
       }
     ],
-    "question_type": "single_hop"
+    "question_type": "Information Extraction"
+  },
+  {
+    "question": "2025年11月，陆明强在与酒瓶藏友陈建国的聊天中，表达了自己对哪种特定香型白酒的收藏偏好？",
+    "options": [
+      {
+        "option": "A",
+        "content": "浓香型白酒"
+      },
+      {
+        "option": "B",
+        "content": "酱香型白酒"
+      },
+      {
+        "option": "C",
+        "content": "清香型白酒"
+      },
+      {
+        "option": "D",
+        "content": "米香型白酒"
+      }
+    ],
+    "answer": "B",
+    "evidence": [
+      {
+        "type": "sms",
+        "id": "302"
+      },
+      {
+        "type": "sms",
+        "id": "303"
+      },
+      {
+        "type": "sms",
+        "id": "304"
+      },
+      {
+        "type": "sms",
+        "id": "305"
+      }
+    ],
+    "ask_time": "2025-12",
+    "question_type": "Information Extraction"
   },
   {
     "question": "在12月中旬，我主动为邻居、朋友或客户提供了至少三次职责外的维修帮助。从这些行为中可以推断出我具有哪两项突出的个人品质？",
@@ -6158,7 +8008,7 @@
       "5133",
       "5046"
     ],
-    "question_type": "open_domain",
+    "question_type": "Nondeclarative",
     "evidence": [
       {
         "type": "sms",
@@ -6207,6 +8057,105 @@
       {
         "type": "note",
         "id": "241"
+      }
+    ],
+    "ask_time": "2025-12"
+  },
+  {
+    "question": "陆明强在技术论坛匿名发布文章后，他的哪些经历和感受最能体现他在职业发展上最看重什么？",
+    "options": [
+      {
+        "option": "A",
+        "content": "获得即时的物质回报与奖金"
+      },
+      {
+        "option": "B",
+        "content": "单纯追求个人技术的极致精进"
+      },
+      {
+        "option": "C",
+        "content": "获得行业内的专业认同与实现知识传承"
+      },
+      {
+        "option": "D",
+        "content": "满足公司布置的硬性工作任务"
+      }
+    ],
+    "answer": "C",
+    "required_events_id": [
+      "4451",
+      "4583",
+      "4590",
+      "4592",
+      "4600",
+      "4642",
+      "4651"
+    ],
+    "question_type": "Nondeclarative",
+    "evidence": [
+      {
+        "type": "note",
+        "id": "71"
+      },
+      {
+        "type": "push",
+        "id": "41"
+      },
+      {
+        "type": "note",
+        "id": "124"
+      },
+      {
+        "type": "calendar",
+        "id": "102"
+      },
+      {
+        "type": "push",
+        "id": "72"
+      },
+      {
+        "type": "note",
+        "id": "148"
+      },
+      {
+        "type": "calendar",
+        "id": "121"
+      },
+      {
+        "type": "push",
+        "id": "104"
+      },
+      {
+        "type": "note",
+        "id": "172"
+      },
+      {
+        "type": "photo",
+        "id": "66"
+      },
+      {
+        "type": "note",
+        "id": "203"
+      },
+      {
+        "type": "push",
+        "id": "146"
+      },
+      {
+        "type": "photo",
+        "id": "79"
+      },
+      {
+        "type": "note",
+        "id": "244"
+      },
+      {
+        "type": "push",
+        "id": "159"
+      },
+      {
+        "type": "note",
+        "id": "260"
       }
     ],
     "ask_time": "2025-12"
